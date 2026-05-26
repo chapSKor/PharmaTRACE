@@ -1,11 +1,11 @@
-# PharmaTrace
+# PharmaTRACE
 
 ---
-**PharmaTrace** is an interactive R Shiny application for exploring, visualizing, comparing, clustering, and forecasting Canadian pharmaceutical trade flows.
+**PharmaTRACE** is an interactive R Shiny application for exploring, visualizing, comparing, clustering, and forecasting Canadian pharmaceutical trade flows.
 
 The application was developed to support exploratory analysis of Canadian pharmaceutical supply chains, with emphasis on pharmaceutical imports and exports across provinces, origin/destination countries, U.S. states, commodity classes, units of measurement, trade value, and quantity.
 
-PharmaTrace is designed as both a research tool and a decision-support dashboard for users interested in pharmaceutical trade resilience, supply chain structure, border-policy analysis, and data-driven hypothesis generation.
+PharmaTRACE is designed as both a research tool and a decision-support dashboard for users interested in pharmaceutical trade resilience, supply chain structure, border-policy analysis, and data-driven hypothesis generation.
 
 ---
 
@@ -32,14 +32,14 @@ PharmaTrace is designed as both a research tool and a decision-support dashboard
 ## 🧪 Quick Start
 
 ```r
-setwd("path/to/PharmaTrace")
+setwd("path/to/PharmaTRACE")
 shiny::runApp()
 
-PharmaTrace is organized into two main dashboard tabs:
+PharmaTRACE is organized into two main dashboard tabs:
 
 ### 1. Imports
 
-The **Imports** tab contains the original fully functional PharmaTrace dashboard for Canadian pharmaceutical import records.
+The **Imports** tab contains the original fully functional PharmaTRACE dashboard for Canadian pharmaceutical import records.
 
 Current import data structure:
 
@@ -121,7 +121,7 @@ Histogram options include:
 
 ### Geographic Heatmaps
 
-PharmaTrace includes geographic summaries linked to the active histogram filters.
+PharmaTRACE includes geographic summaries linked to the active histogram filters.
 
 Current map outputs include:
 
@@ -218,7 +218,7 @@ Forecasting is currently structured around annual series and is best developed f
 
 ### UMAP and t-SNE Clustering
 
-PharmaTrace includes an interactive clustering module for exploring high-dimensional trade structure.
+PharmaTRACE includes an interactive clustering module for exploring high-dimensional trade structure.
 
 Supported embedding methods:
 
