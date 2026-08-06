@@ -1,3 +1,4 @@
+# ---- Comparison helpers ----
 
 safe_num <- function(x) x[is.finite(x) & !is.na(x)]
 
@@ -429,8 +430,27 @@ tradeDashboardUI <- function(id, title = "Trade Dashboard") {
             
             hr(),
             h4("Forecasting (next 5 years)"),
+            helpText(
+              paste(
+                "Only province-commodity combinations with 20 consecutive complete annual",
+                "observations are available. The first 15 years fit the validation models and",
+                "the final five years are held out for comparison with a naive benchmark."
+              )
+            ),
+
+            radioButtons(
+              ns("fc_mode"),
+              "Forecast lines represent",
+              choices = c(
+                "Provinces (select commodities)" = "province_lines",
+                "Commodities (select provinces)" = "commodity_lines"
+              ),
+              selected = "province_lines"
+            ),
+
+            uiOutput(ns("fc_condition_ui")),
+            uiOutput(ns("fc_series_ui")),
             actionButton(ns("forecast_run"), "Run forecast", class = "btn-success"),
-            helpText("Uses all available years up to 2025. Drops Quantity=0 rows automatically."),
             
             h4("Forecast plot controls"),
             
@@ -454,7 +474,7 @@ tradeDashboardUI <- function(id, title = "Trade Dashboard") {
               min = 0.90, max = 1.00, value = 0.995, step = 0.001
             ),
             
-            checkboxInput(ns("fc_show_ci"), "Show confidence interval ribbons", value = TRUE)
+            checkboxInput(ns("fc_show_ci"), "Show ARIMA 95% prediction intervals", value = TRUE)
         ),
         
         div(class = "sidebar-section-2",
@@ -590,6 +610,9 @@ tradeDashboardUI <- function(id, title = "Trade Dashboard") {
         h3("Forecast (next 5 years)"),
         plotlyOutput(ns("forecast_plot"), height = "520px"),
         tableOutput(ns("forecast_table")),
+        h4("Five-year holdout validation"),
+        tableOutput(ns("forecast_validation_table")),
+        helpText("MASE values below 1 indicate lower holdout error than the naive last-value benchmark."),
         verbatimTextOutput(ns("forecast_status")),
         
         div(
@@ -618,25 +641,29 @@ tradeDashboardServer <- function(
     forecast_horizon_years = 5L
 ) {
   shiny::moduleServer(id, function(input, output, session) {
+    pq_path <- file.path(app_dir(), "data", parquet_file)
+    cache_path <- file.path(app_dir(), "sortedVars", sorted_vars_file)
+    # ---- Forecasting config ----
+    # FORECAST_MIN_YEAR <- if (!is.null(forecast_min_year)) {
+    #   as.integer(forecast_min_year)
+    # } else if (isTRUE(monthly)) {
+    #   2000L
+    # } else {
+    #   1988L
+    # }
+    # 
+    # FORECAST_LAST_YEAR <- if (!is.null(forecast_last_year)) {
+    #   as.integer(forecast_last_year)
+    # } else if (isTRUE(monthly)) {
+    #   2026L
+    # } else {
+    #   2026L
+    # }
     
     # ---- Forecasting config ----
-    FORECAST_MIN_YEAR <- if (!is.null(forecast_min_year)) {
-      as.integer(forecast_min_year)
-    } else if (isTRUE(monthly)) {
-      2000L
-    } else {
-      1988L
-    }
-    
-    FORECAST_LAST_YEAR <- if (!is.null(forecast_last_year)) {
-      as.integer(forecast_last_year)
-    } else if (isTRUE(monthly)) {
-      2026L
-    } else {
-      2025L
-    }
-    
+    # Forecast bounds are derived from the audited SortedVars cache below.
     FORECAST_HORIZON_YEARS <- as.integer(forecast_horizon_years)
+    
     
     con_current <- NULL
     session$onSessionEnded(function() {
@@ -654,16 +681,35 @@ tradeDashboardServer <- function(
     
     #raw_data <- reactiveVal(NULL)
     embedding_store <- reactiveVal(NULL)
+    forecast_eligible_pairs <- reactiveVal(NULL)
+    
+    # choices_cache <- reactiveValues(
+    #   years = NULL,
+    #   year_months = NULL,
+    #   provinces = NULL,
+    #   countries = NULL,
+    #   commodities = NULL,
+    #   states = NULL,
+    #   units = NULL
+    # )
     
     choices_cache <- reactiveValues(
       years = NULL,
       year_months = NULL,
+      first_period = NULL,
+      last_period = NULL,
+      first_year = NULL,
+      first_month = NULL,
+      last_year = NULL,
+      last_month = NULL,
       provinces = NULL,
       countries = NULL,
       commodities = NULL,
       states = NULL,
       units = NULL
     )
+    
+    sv <- readRDS(cache_path)
     
     con_rv <- reactiveVal(NULL)     # holds DBI connection
     trade_con <- reactive({ req(con_rv()); con_rv() })
@@ -673,7 +719,7 @@ tradeDashboardServer <- function(
       tryCatch({
         message("Startup [", data_label, "]: begin init()")
         
-        pq_path <- file.path(app_dir(), "data", parquet_file)
+        #pq_path <- file.path(app_dir(), "data", parquet_file)
         if (!file.exists(pq_path)) {
           showNotification(paste("Missing parquet file:", pq_path,
                                  "(run the appropriate build_parquet script locally and redeploy)"),
@@ -681,7 +727,7 @@ tradeDashboardServer <- function(
           stop("Missing parquet: ", pq_path)
         }
         
-        cache_path <- file.path(app_dir(), "sortedVars", sorted_vars_file)
+        #cache_path <- file.path(app_dir(), "sortedVars", sorted_vars_file)
         if (!file.exists(cache_path)) {
           showNotification(paste("Missing cache file:", cache_path,
                                  "(run the appropriate build_sorted_vars script locally and redeploy)"),
@@ -719,17 +765,95 @@ tradeDashboardServer <- function(
         
         # Load cached UI choices
         sv <- readRDS(cache_path)
-        needed <- c("years","provinces","countries","commodities","states","units")
-        miss <- setdiff(needed, names(sv))
-        if (length(miss) > 0) stop("sorted_vars.rds missing: ", paste(miss, collapse = ", "))
         
-        choices_cache$years       <- sv$years
-        choices_cache$year_months <- if ("year_months" %in% names(sv)) sv$year_months else NULL
-        choices_cache$provinces   <- sv$provinces
-        choices_cache$countries   <- sv$countries
-        choices_cache$commodities <- sv$commodities
-        choices_cache$states      <- sv$states
-        choices_cache$units       <- sv$units
+        # needed <- c("years","provinces","countries","commodities","states","units")
+        # miss <- setdiff(needed, names(sv))
+        # if (length(miss) > 0) stop("sorted_vars.rds missing: ", paste(miss, collapse = ", "))
+        # 
+        # choices_cache$years       <- sv$years
+        # choices_cache$year_months <- if ("year_months" %in% names(sv)) sv$year_months else NULL
+        # choices_cache$provinces   <- sv$provinces
+        # choices_cache$countries   <- sv$countries
+        # choices_cache$commodities <- sv$commodities
+        # choices_cache$states      <- sv$states
+        # choices_cache$units       <- sv$units
+        needed <- c(
+          "years", "year_months",
+          "first_period", "last_period",
+          "first_year", "first_month",
+          "last_year", "last_month",
+          "provinces", "countries", "commodities", "states", "units"
+        )
+        
+        miss <- setdiff(needed, names(sv))
+        
+        if (length(miss) > 0) {
+          stop(
+            "sorted_vars.rds missing: ",
+            paste(miss, collapse = ", ")
+          )
+        }
+        
+        choices_cache$years        <- sv$years
+        choices_cache$year_months  <- sv$year_months
+        choices_cache$first_period <- sv$first_period
+        choices_cache$last_period  <- sv$last_period
+        choices_cache$first_year   <- sv$first_year
+        choices_cache$first_month  <- sv$first_month
+        choices_cache$last_year    <- sv$last_year
+        choices_cache$last_month   <- sv$last_month
+        choices_cache$provinces    <- sv$provinces
+        choices_cache$countries    <- sv$countries
+        choices_cache$commodities  <- sv$commodities
+        choices_cache$states       <- sv$states
+        choices_cache$units        <- sv$units
+
+        # Pre-screen the dedicated forecast controls. An eligible atomic series
+        # has one annual total in every year of the most recent 20 complete-year
+        # window. This matches the 15-year training + five-year holdout design.
+        forecast_last_complete_year <- as.integer(sv$last_year)
+        if (as.integer(sv$last_month) < 12L) {
+          forecast_last_complete_year <- forecast_last_complete_year - 1L
+        }
+        forecast_first_eligible_year <- forecast_last_complete_year - 19L
+
+        eligible_sql <- sprintf(
+          paste(
+            "WITH annual_pairs AS (",
+            "  SELECT Province, Commodity, Year",
+            "  FROM trade",
+            "  WHERE Year BETWEEN %d AND %d",
+            "    AND Province IS NOT NULL AND trim(Province) <> ''",
+            "    AND Commodity IS NOT NULL AND trim(Commodity) <> ''",
+            "    AND value_dollars IS NOT NULL",
+            "    AND Quantity IS NOT NULL AND Quantity <> 0",
+            "  GROUP BY Province, Commodity, Year",
+            ")",
+            "SELECT Province, Commodity,",
+            "       MIN(Year) AS first_year, MAX(Year) AS last_year,",
+            "       COUNT(*) AS consecutive_years",
+            "FROM annual_pairs",
+            "GROUP BY Province, Commodity",
+            "HAVING COUNT(*) = 20",
+            "   AND MIN(Year) = %d",
+            "   AND MAX(Year) = %d",
+            "ORDER BY Commodity, Province"
+          ),
+          forecast_first_eligible_year,
+          forecast_last_complete_year,
+          forecast_first_eligible_year,
+          forecast_last_complete_year
+        )
+
+        eligible_pairs <- DBI::dbGetQuery(con, eligible_sql)
+        forecast_eligible_pairs(eligible_pairs)
+
+        message(
+          "Startup [", data_label, "]: ", nrow(eligible_pairs),
+          " forecast-eligible province-commodity pairs across ",
+          length(unique(eligible_pairs$Commodity)), " commodities (",
+          forecast_first_eligible_year, "-", forecast_last_complete_year, ")"
+        )
         
         message("Startup [", data_label, "]: init() complete")
         
@@ -746,6 +870,58 @@ tradeDashboardServer <- function(
         updateSelectizeInput(session, "cmp_origin_state", selected = character(0))
       }
     }, ignoreInit = TRUE)
+    
+    ###Aug 5th addition ###
+    
+    forecast_bounds <- reactive({
+      req(
+        choices_cache$first_year,
+        choices_cache$first_month,
+        choices_cache$last_year,
+        choices_cache$last_month
+      )
+      
+      # Use complete calendar years for annual forecasting.
+      default_first_year <- as.integer(choices_cache$first_year)
+      default_last_year  <- as.integer(choices_cache$last_year)
+      
+      if (as.integer(choices_cache$first_month) > 1L) {
+        default_first_year <- default_first_year + 1L
+      }
+      
+      if (as.integer(choices_cache$last_month) < 12L) {
+        default_last_year <- default_last_year - 1L
+      }
+      
+      year_min <- if (!is.null(forecast_min_year)) {
+        as.integer(forecast_min_year)
+      } else {
+        default_first_year
+      }
+      
+      year_max <- if (!is.null(forecast_last_year)) {
+        as.integer(forecast_last_year)
+      } else {
+        default_last_year
+      }
+      
+      shiny::validate(
+        shiny::need(
+          is.finite(year_min) &&
+            is.finite(year_max) &&
+            year_min <= year_max,
+          "The audited data do not contain a valid complete-year forecast period."
+        )
+      )
+      
+      list(
+        first_year = year_min,
+        last_year = year_max
+      )
+    })
+    
+    
+    #############
     
     
     
@@ -1728,6 +1904,10 @@ tradeDashboardServer <- function(
     ####### Forcasting Helpers ######
     
     # ---- Forecasting helpers (additive; does not touch existing features) ----
+
+    FORECAST_HOLDOUT_YEARS <- 5L
+    FORECAST_MIN_TRAIN_YEARS <- 15L
+    FORECAST_MIN_TOTAL_YEARS <- FORECAST_MIN_TRAIN_YEARS + FORECAST_HOLDOUT_YEARS
     
     # Safer log transform for annual totals; avoids eps decisions
     f_log1p <- function(x) log1p(pmax(x, 0))
@@ -1745,13 +1925,18 @@ tradeDashboardServer <- function(
       # y is numeric with possible NAs
       yy <- y
       ok <- is.finite(yy) & !is.na(yy)
-      if (sum(ok) < 6) stop("Too few non-missing years for ARIMA (need at least ~6).")
+      if (sum(ok) < FORECAST_MIN_TRAIN_YEARS) {
+        stop(sprintf(
+          "Too few complete years for ARIMA (need at least %d).",
+          FORECAST_MIN_TRAIN_YEARS
+        ))
+      }
       
       # Fit on non-missing segment only (but keep order)
       # We'll fit to the observed sequence after dropping NAs
       y_obs <- yy[ok]
       
-      # Simple auto-ish: try a couple candidates; pick by AIC
+      # Compact candidate set selected using small-sample corrected AIC (AICc).
       cand <- list(
         c(0,1,1),
         c(1,1,1),
@@ -1762,8 +1947,14 @@ tradeDashboardServer <- function(
       fits <- lapply(cand, function(ord) {
         try(stats::arima(y_obs, order = ord), silent = TRUE)
       })
-      aics <- vapply(fits, function(f) if (inherits(f, "try-error")) Inf else AIC(f), numeric(1))
-      best <- fits[[which.min(aics)]]
+      aiccs <- vapply(fits, function(f) {
+        if (inherits(f, "try-error")) return(Inf)
+        k <- length(stats::coef(f)) + 1L
+        n <- length(y_obs)
+        if (n <= k + 1L) return(Inf)
+        stats::AIC(f) + (2 * k * (k + 1)) / (n - k - 1)
+      }, numeric(1))
+      best <- fits[[which.min(aiccs)]]
       if (inherits(best, "try-error")) stop("ARIMA fitting failed for this series.")
       
       pr <- stats::predict(best, n.ahead = h)
@@ -1774,6 +1965,102 @@ tradeDashboardServer <- function(
       lo <- mu - z * se
       hi <- mu + z * se
       list(mean = mu, lo = lo, hi = hi)
+    }
+
+    # Recursive random-forest point forecast. Multi-step prediction intervals are
+    # intentionally not reported because a constant residual band does not account
+    # for uncertainty propagated through recursive forecasts.
+    make_rf_forecast <- function(y_raw, h) {
+      y <- f_log1p(y_raw)
+      df <- data.frame(
+        y = y,
+        lag1 = dplyr::lag(y, 1),
+        lag2 = dplyr::lag(y, 2),
+        lag3 = dplyr::lag(y, 3)
+      )
+      df <- df[
+        is.finite(df$y) & is.finite(df$lag1) &
+          is.finite(df$lag2) & is.finite(df$lag3),
+        , drop = FALSE
+      ]
+      if (length(y) < FORECAST_MIN_TRAIN_YEARS || nrow(df) < 8L) {
+        stop(sprintf(
+          "Too few complete years for RF (need at least %d).",
+          FORECAST_MIN_TRAIN_YEARS
+        ))
+      }
+
+      fit <- ranger::ranger(
+        y ~ lag1 + lag2 + lag3,
+        data = df,
+        num.trees = 400,
+        seed = 123
+      )
+
+      preds <- numeric(h)
+      cur_l1 <- y[length(y)]
+      cur_l2 <- y[length(y) - 1L]
+      cur_l3 <- y[length(y) - 2L]
+
+      for (i in seq_len(h)) {
+        nd <- data.frame(lag1 = cur_l1, lag2 = cur_l2, lag3 = cur_l3)
+        preds[i] <- as.numeric(predict(fit, data = nd)$predictions)
+        cur_l3 <- cur_l2
+        cur_l2 <- cur_l1
+        cur_l1 <- preds[i]
+      }
+
+      list(point = preds, lo = rep(NA_real_, h), hi = rep(NA_real_, h))
+    }
+
+    forecast_accuracy <- function(actual, predicted, training) {
+      mae <- mean(abs(actual - predicted))
+      rmse <- sqrt(mean((actual - predicted)^2))
+      naive_scale <- mean(abs(diff(training)))
+      mase <- if (is.finite(naive_scale) && naive_scale > 0) mae / naive_scale else NA_real_
+      c(MAE = mae, RMSE = rmse, MASE = mase)
+    }
+
+    validate_forecast_series <- function(y_raw, years, series_name, include_rf = TRUE) {
+      n <- length(y_raw)
+      train_end <- n - FORECAST_HOLDOUT_YEARS
+      train <- y_raw[seq_len(train_end)]
+      actual <- y_raw[(train_end + 1L):n]
+      holdout_years <- years[(train_end + 1L):n]
+
+      naive_pred <- rep(tail(train, 1L), FORECAST_HOLDOUT_YEARS)
+      arima_fit <- arima_forecast_base(
+        f_log1p(train), h = FORECAST_HOLDOUT_YEARS, level = 0.95
+      )
+      arima_pred <- f_expm1(arima_fit$mean)
+
+      rows <- list(
+        tibble::tibble(
+          series = series_name,
+          method = "Naive (last value)",
+          holdout = paste0(min(holdout_years), "-", max(holdout_years)),
+          !!!as.list(forecast_accuracy(actual, naive_pred, train))
+        ),
+        tibble::tibble(
+          series = series_name,
+          method = "ARIMA (univariate)",
+          holdout = paste0(min(holdout_years), "-", max(holdout_years)),
+          !!!as.list(forecast_accuracy(actual, arima_pred, train))
+        )
+      )
+
+      if (isTRUE(include_rf) && requireNamespace("ranger", quietly = TRUE)) {
+        rf_fit <- make_rf_forecast(train, h = FORECAST_HOLDOUT_YEARS)
+        rf_pred <- f_expm1(rf_fit$point)
+        rows[[length(rows) + 1L]] <- tibble::tibble(
+          series = series_name,
+          method = "Random Forest (lag features)",
+          holdout = paste0(min(holdout_years), "-", max(holdout_years)),
+          !!!as.list(forecast_accuracy(actual, rf_pred, train))
+        )
+      }
+
+      dplyr::bind_rows(rows)
     }
     
     # Factor-based "correlation method" (Method 2B):
@@ -2028,7 +2315,8 @@ tradeDashboardServer <- function(
         xmin = xmin,
         xmax = xmax,
         xlab = if (isTRUE(input$hist_log_value)) "Value (log CAD)" else "Value (CAD)",
-        ylab = if (isTRUE(input$hist_density)) "Density" else "Count"
+        #ylab = if (isTRUE(input$hist_density)) "Density" else "Count"
+        ylab = if (isTRUE(input$hist_density)) "Density" else "Number of trade records"
       )
     })
     
@@ -2306,6 +2594,22 @@ tradeDashboardServer <- function(
       sx <- summ_stats(x)
       sy <- summ_stats(y)
       
+      median_difference <- sx$median - sy$median
+      
+      median_ratio <- if (isTRUE(input$hist_log_value)) {
+        10^median_difference
+      } else if (is.finite(sy$median) && sy$median != 0) {
+        sx$median / sy$median
+      } else {
+        NA_real_
+      }
+      
+      median_ratio_label <- if (isTRUE(input$hist_log_value)) {
+        "Median ratio on original scale (10^(X - Y))"
+      } else {
+        "Median ratio (X / Y)"
+      }
+      
       # shared breaks for binned metrics (use hist_bins, consistent with histogram)
       allv <- c(safe_num(x), safe_num(y))
       # ensure enough spread
@@ -2341,7 +2645,7 @@ tradeDashboardServer <- function(
           "p75",
           "p90",
           "Δ median (X - Y)",
-          "ratio median (X / Y)",
+          median_ratio_label,
           "Δ mean (X - Y)",
           "Cliff's delta",
           "Wasserstein (1D)",
@@ -2352,8 +2656,10 @@ tradeDashboardServer <- function(
         ),
         X = c(
           sx$n, sx$mean, sx$median, sx$sd, sx$iqr, sx$p10, sx$p25, sx$p75, sx$p90,
-          sx$median - sy$median,
-          sx$median / sy$median,
+          median_difference,
+          median_ratio,
+          #sx$median - sy$median,
+          #sx$median / sy$median,
           sx$mean - sy$mean,
           cliffs_delta(x, y),
           wasserstein_1d(x, y),
@@ -2450,7 +2756,8 @@ tradeDashboardServer <- function(
         session$ns("cmp_trend_year_range"),
         "Trend year range",
         min = min(yrs), max = max(yrs),
-        value = c(max(min(yrs), 2020), min(max(yrs), 2025)),
+        #value = c(max(min(yrs), 2020), max(yrs)),
+        value = c(max(min(yrs), max(yrs) - 6L), max(yrs)),
         step = 1, sep = ""
       )
     })
@@ -2472,6 +2779,81 @@ tradeDashboardServer <- function(
         selected = NULL,
         multiple = TRUE,
         options = list(placeholder = "All commodities", maxOptions = 2000)
+      )
+    })
+
+    # Forecast selectors are independent of the custom-trend selectors. They
+    # expose only pre-screened atomic province-commodity pairs with 20
+    # consecutive annual observations.
+    output$fc_condition_ui <- renderUI({
+      pairs <- forecast_eligible_pairs()
+      req(!is.null(pairs))
+
+      if (identical(input$fc_mode, "province_lines")) {
+        choices <- sort(unique(pairs$Commodity))
+        label <- "Eligible commodity(ies)"
+        placeholder <- "Select 1+ commodities"
+      } else {
+        choices <- sort(unique(pairs$Province))
+        label <- "Eligible province(s)"
+        placeholder <- "Select 1+ provinces"
+      }
+
+      selectizeInput(
+        session$ns("fc_condition"),
+        label,
+        choices = choices,
+        selected = NULL,
+        multiple = TRUE,
+        options = list(placeholder = placeholder, maxOptions = 2000)
+      )
+    })
+
+    output$fc_series_ui <- renderUI({
+      pairs <- forecast_eligible_pairs()
+      req(!is.null(pairs))
+
+      selected_conditions <- input$fc_condition
+      if (is.null(selected_conditions) || length(selected_conditions) == 0L) {
+        choices <- character(0)
+      } else if (identical(input$fc_mode, "province_lines")) {
+        # Retain provinces eligible for every selected commodity.
+        choices <- pairs |>
+          dplyr::filter(Commodity %in% selected_conditions) |>
+          dplyr::group_by(Province) |>
+          dplyr::summarise(n_conditions = dplyr::n_distinct(Commodity), .groups = "drop") |>
+          dplyr::filter(n_conditions == length(unique(selected_conditions))) |>
+          dplyr::pull(Province) |>
+          sort()
+      } else {
+        # Retain commodities eligible for every selected province.
+        choices <- pairs |>
+          dplyr::filter(Province %in% selected_conditions) |>
+          dplyr::group_by(Commodity) |>
+          dplyr::summarise(n_conditions = dplyr::n_distinct(Province), .groups = "drop") |>
+          dplyr::filter(n_conditions == length(unique(selected_conditions))) |>
+          dplyr::pull(Commodity) |>
+          sort()
+      }
+
+      selectizeInput(
+        session$ns("fc_series"),
+        if (identical(input$fc_mode, "province_lines")) {
+          "Eligible province line(s)"
+        } else {
+          "Eligible commodity line(s)"
+        },
+        choices = choices,
+        selected = NULL,
+        multiple = TRUE,
+        options = list(
+          placeholder = if (length(choices) > 0L) {
+            "Select 1+ forecast lines"
+          } else {
+            "Select the condition above first"
+          },
+          maxOptions = 2000
+        )
       )
     })
     
@@ -2602,21 +2984,34 @@ tradeDashboardServer <- function(
       dplyr::bind_rows(fc)
     })
     
-    # ---- Forecasting compute (new button; uses ALL years up to 2025) ----
+    # ---- Forecasting compute (dedicated pre-screened 20-year series) ----
     forecast_results <- eventReactive(input$forecast_run, {
       req(con_rv())
       con <- con_rv()
-      
-      req(input$cmp_trend_enable)
-      req(input$cmp_trend_mode)
-      
-      year_min <- as.integer(FORECAST_MIN_YEAR)
-      year_max <- as.integer(FORECAST_LAST_YEAR)
+
+      req(input$fc_mode)
+      req(input$fc_condition)
+      req(input$fc_series)
+
+      pairs <- forecast_eligible_pairs()
+      req(!is.null(pairs), nrow(pairs) > 0L)
+
+      year_min <- unique(pairs$first_year)
+      year_max <- unique(pairs$last_year)
+      shiny::validate(
+        shiny::need(
+          length(year_min) == 1L && length(year_max) == 1L,
+          "Forecast eligibility metadata contain inconsistent year windows."
+        )
+      )
+      year_min <- as.integer(year_min)
+      year_max <- as.integer(year_max)
       h <- as.integer(FORECAST_HORIZON_YEARS)
+      
       future_years <- seq.int(year_max + 1L, year_max + h)
       
-      # Determine what "series" means based on trend mode + selections
-      mode <- input$cmp_trend_mode
+      # Determine what "series" means using forecast-only controls.
+      mode <- input$fc_mode
       
       # Filters: ALWAYS drop Quantity=0 for forecasting
       where <- c(
@@ -2625,36 +3020,29 @@ tradeDashboardServer <- function(
         "Quantity IS NOT NULL AND Quantity != 0"
       )
       
-      # In your trend UI:
       # - province_lines means: lines=Province, user selects commodities
       # - commodity_lines means: lines=Commodity, user selects provinces
       if (identical(mode, "province_lines")) {
-        req(!is.null(input$cmp_trend_commodities) && length(input$cmp_trend_commodities) > 0)
+        selected_commodities <- input$fc_condition
+        series_vals <- input$fc_series
+        req(length(selected_commodities) > 0L, length(series_vals) > 0L)
         where <- c(where, sprintf("Commodity IN (%s)",
-                                  paste(DBI::dbQuoteString(con, input$cmp_trend_commodities), collapse = ",")))
+                                  paste(DBI::dbQuoteString(con, selected_commodities), collapse = ",")))
         series_dim <- "Province"
-        series_vals <- input$cmp_trend_provinces
-        # If provinces not specified, allow “all provinces” BUT it can be huge;
-        # keep v1 safe: require at least one province if none selected
-        if (is.null(series_vals) || length(series_vals) == 0) {
-          stop("Forecasting: please select 1+ provinces (so we don’t forecast every province).")
-        }
         where <- c(where, sprintf("Province IN (%s)",
                                   paste(DBI::dbQuoteString(con, series_vals), collapse = ",")))
-        subtitle <- paste0("Commodities: ", paste(input$cmp_trend_commodities, collapse = ", "))
+        subtitle <- paste0("Commodities: ", paste(selected_commodities, collapse = ", "))
         
       } else {
-        req(!is.null(input$cmp_trend_provinces) && length(input$cmp_trend_provinces) > 0)
+        selected_provinces <- input$fc_condition
+        series_vals <- input$fc_series
+        req(length(selected_provinces) > 0L, length(series_vals) > 0L)
         where <- c(where, sprintf("Province IN (%s)",
-                                  paste(DBI::dbQuoteString(con, input$cmp_trend_provinces), collapse = ",")))
+                                  paste(DBI::dbQuoteString(con, selected_provinces), collapse = ",")))
         series_dim <- "Commodity"
-        series_vals <- input$cmp_trend_commodities
-        if (is.null(series_vals) || length(series_vals) == 0) {
-          stop("Forecasting: please select 1+ commodities (so we don’t forecast every commodity).")
-        }
         where <- c(where, sprintf("Commodity IN (%s)",
                                   paste(DBI::dbQuoteString(con, series_vals), collapse = ",")))
-        subtitle <- paste0("Provinces: ", paste(input$cmp_trend_provinces, collapse = ", "))
+        subtitle <- paste0("Provinces: ", paste(selected_provinces, collapse = ", "))
       }
       
       where_sql <- paste(where, collapse = " AND ")
@@ -2686,6 +3074,40 @@ tradeDashboardServer <- function(
       wide <- wide[order(wide$Year), , drop = FALSE]
       Ymat <- as.matrix(wide[, setdiff(names(wide), "Year"), drop = FALSE])
       colnames(Ymat) <- setdiff(names(wide), "Year")
+
+      shiny::validate(
+        shiny::need(
+          nrow(Ymat) >= FORECAST_MIN_TOTAL_YEARS,
+          sprintf(
+            paste(
+              "Forecasting requires at least %d complete annual observations:",
+              "%d training years plus a %d-year terminal holdout."
+            ),
+            FORECAST_MIN_TOTAL_YEARS,
+            FORECAST_MIN_TRAIN_YEARS,
+            FORECAST_HOLDOUT_YEARS
+          )
+        ),
+        shiny::need(
+          all(is.finite(Ymat) & !is.na(Ymat)),
+          paste(
+            "Forecasting requires consecutive annual observations for every selected series.",
+            "Choose a selection without missing annual totals."
+          )
+        )
+      )
+
+      # Concrete out-of-sample check: fit through year_max - 5 and evaluate
+      # against the final five observed years before refitting the full series.
+      validation_tbl <- lapply(colnames(Ymat), function(s) {
+        validate_forecast_series(
+          y_raw = Ymat[, s],
+          years = year_grid,
+          series_name = s,
+          include_rf = TRUE
+        )
+      }) |>
+        dplyr::bind_rows()
       
       # METHOD 1: ARIMA per series (on log1p(total_value))
       method1 <- lapply(colnames(Ymat), function(s) {
@@ -2741,57 +3163,9 @@ tradeDashboardServer <- function(
       # METHOD 3: Random Forest regression (optional; only if ranger is installed)
       m3_tbl <- NULL
       if (requireNamespace("ranger", quietly = TRUE)) {
-        # Simple supervised setup per series:
-        # features: lag1, lag2, lag3 of log1p(total_value)
-        make_rf_forecast <- function(y_raw) {
-          y <- f_log1p(y_raw)
-          # build training df
-          df <- data.frame(
-            Year = year_grid,
-            y = y,
-            lag1 = dplyr::lag(y, 1),
-            lag2 = dplyr::lag(y, 2),
-            lag3 = dplyr::lag(y, 3)
-          )
-          df <- df[is.finite(df$y) & is.finite(df$lag1) & is.finite(df$lag2), , drop = FALSE]
-          if (nrow(df) < 8) stop("Too few rows for RF (need >=8 after lagging).")
-          
-          fit <- ranger::ranger(y ~ lag1 + lag2 + lag3, data = df, num.trees = 400)
-          
-          # recursive forecasting
-          preds <- numeric(h)
-          # start from last observed (use last non-NA y)
-          y_last <- y
-          last_idx <- max(which(is.finite(y_last) & !is.na(y_last)))
-          cur <- y_last[last_idx]
-          cur_l1 <- y_last[last_idx]
-          cur_l2 <- y_last[last_idx - 1]
-          cur_l3 <- y_last[last_idx - 2]
-          
-          for (i in seq_len(h)) {
-            nd <- data.frame(lag1 = cur_l1, lag2 = cur_l2, lag3 = cur_l3)
-            pr <- predict(fit, data = nd)$predictions
-            preds[i] <- as.numeric(pr)
-            # shift lags
-            cur_l3 <- cur_l2
-            cur_l2 <- cur_l1
-            cur_l1 <- preds[i]
-          }
-          
-          # crude interval: use OOB prediction error sd as constant band (v1)
-          # (keeps things simple; better intervals later)
-          resid <- df$y - predict(fit, data = df)$predictions
-          s <- stats::sd(resid, na.rm = TRUE)
-          z <- stats::qnorm(0.975)
-          lo <- preds - z * s
-          hi <- preds + z * s
-          
-          list(point = preds, lo = lo, hi = hi)
-        }
-        
         m3_list <- lapply(colnames(Ymat), function(s) {
           y <- Ymat[, s]
-          rf <- make_rf_forecast(y)
+          rf <- make_rf_forecast(y, h = h)
           tibble::tibble(
             series = s,
             Year = future_years,
@@ -2822,6 +3196,7 @@ tradeDashboardServer <- function(
         subtitle = subtitle,
         actual_long = actual_long,
         forecast_tbl = fc_tbl,
+        validation_tbl = validation_tbl,
         year_min = year_min,
         year_max = year_max,
         future_years = future_years
@@ -3032,6 +3407,17 @@ tradeDashboardServer <- function(
       
       tbl
     }, striped = TRUE, bordered = TRUE, spacing = "s", width = "100%")
+
+    output$forecast_validation_table <- renderTable({
+      fr <- forecast_results()
+      fr$validation_tbl |>
+        dplyr::mutate(
+          MAE = round(MAE, 2),
+          RMSE = round(RMSE, 2),
+          MASE = round(MASE, 3)
+        ) |>
+        dplyr::arrange(series, method)
+    }, striped = TRUE, bordered = TRUE, spacing = "s", width = "100%")
     
     output$forecast_status <- renderPrint({
       if (is.null(input$forecast_run) || input$forecast_run == 0) {
@@ -3045,6 +3431,8 @@ tradeDashboardServer <- function(
       cat("Actual rows:", nrow(fr$actual_long), "\n")
       cat("Forecast rows:", nrow(fr$forecast_tbl), "\n")
       cat("Methods included:", paste(sort(unique(fr$forecast_tbl$method)), collapse = " | "), "\n")
+      cat("Validation: terminal", FORECAST_HOLDOUT_YEARS, "years held out; compared with naive last-value benchmark.\n")
+      cat("ARIMA intervals: model-based 95% prediction intervals. RF intervals: not reported.\n")
     })
     
     output$forecast_plot <- renderPlotly({
@@ -3148,7 +3536,8 @@ tradeDashboardServer <- function(
           dds <- ddm %>% dplyr::filter(series == s) %>% dplyr::arrange(Year)
           
           # CI ribbon (optional)
-          if (isTRUE(input$fc_show_ci)) {
+          has_interval <- all(is.finite(dds$lo_plot) & is.finite(dds$hi_plot))
+          if (isTRUE(input$fc_show_ci) && has_interval) {
             p <- p %>% plotly::add_ribbons(
               data = dds,
               x = ~Year,
@@ -3176,10 +3565,18 @@ tradeDashboardServer <- function(
               "<br>Method: ", method,
               "<br>Year: ", Year,
               "<br>Point $: ", round(point, 2),
-              "<br>CI $: [", round(lo, 2), ", ", round(hi, 2), "]",
+              ifelse(
+                is.finite(lo) & is.finite(hi),
+                paste0("<br>95% PI $: [", round(lo, 2), ", ", round(hi, 2), "]"),
+                "<br>95% PI: not reported for this method"
+              ),
               if (isTRUE(input$fc_log_y)) paste0(
                 "<br>Point log10: ", round(point_plot, 4),
-                "<br>CI log10: [", round(lo_plot, 4), ", ", round(hi_plot, 4), "]"
+                ifelse(
+                  is.finite(lo_plot) & is.finite(hi_plot),
+                  paste0("<br>95% PI log10: [", round(lo_plot, 4), ", ", round(hi_plot, 4), "]"),
+                  ""
+                )
               ) else ""
             )
           )
@@ -3224,4 +3621,3 @@ tradeDashboardServer <- function(
     
   })
 }
-
