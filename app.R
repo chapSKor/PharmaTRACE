@@ -124,7 +124,7 @@ load_trade_data_df <- function(df) {
 # ---------- UI ----------
 
 ui <- navbarPage(
-  title = "PharmaTrace",
+  title = "PharmaTRACE",
   
   header = tags$head(
     tags$style(HTML("
@@ -158,7 +158,7 @@ server <- function(input, output, session) {
   
   tradeDashboardServer(
     id = "imports",
-    parquet_file = "all_CADpharma_imports_1988_2025.parquet",
+    parquet_file = "all_CADpharma_imports_1988_2026.parquet",
     sorted_vars_file = "sorted_vars.rds",
     table_name = "trade_imports",
     monthly = FALSE,
@@ -167,7 +167,7 @@ server <- function(input, output, session) {
   
   tradeDashboardServer(
     id = "exports",
-    parquet_file = "all_CADpharma_exports_2000_2026_byMonth.parquet",
+    parquet_file = "all_CADpharma_exports_1988_2026_byMonth.parquet",
     sorted_vars_file = "sorted_vars_EXPORTS_2026.rds",
     table_name = "trade_exports",
     monthly = TRUE,
@@ -176,4 +176,3 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
-
