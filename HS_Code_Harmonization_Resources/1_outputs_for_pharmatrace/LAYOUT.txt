@@ -1,0 +1,15 @@
+SHIPPED NAME -> PATH IN THE REPOSITORY
+
+  imports_lookup.csv                         output/imports_lookup.csv
+  imports_commodity_journeys.csv             output/imports_commodity_journeys.csv
+  imports_lineage_timeline.csv               output/imports_lineage_timeline.csv
+  imports_provenance.csv                     output/imports_provenance.csv
+  exports_lookup.csv                         output/exports_lookup.csv
+  exports_commodity_journeys.csv             output/exports_commodity_journeys.csv
+  exports_lineage_timeline.csv               output/exports_lineage_timeline.csv
+  exports_provenance.csv                     output/exports_provenance.csv
+  v1_to_v2_identifiers_imports.csv           gate1/v1_to_v2_identifiers_imports.csv
+  v1_to_v2_identifiers_exports.csv           gate1/v1_to_v2_identifiers_exports.csv
+  gate2_tail_disclosure.csv                  gate1/gate2_tail_disclosure.csv
+  reuse_silence_disclosure.csv               gate1/reuse_silence_disclosure.csv
+  Crosswalk consumer notes.txt               manuscript/CROSSWALK_CONSUMER_NOTES.md

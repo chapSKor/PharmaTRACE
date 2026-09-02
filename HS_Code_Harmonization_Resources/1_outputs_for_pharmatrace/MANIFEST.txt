@@ -1,0 +1,17 @@
+MANIFEST: every file in this folder, with its size and md5 checksum
+
+  Crosswalk consumer notes.txt                             6,381   54ab6b4e9793a4cd4c59c22d4961a2f0
+  LAYOUT.txt                                               1,084   c864d4f9441b87b059f8f0ad4bfb1039
+  README.txt                                                 925   daab35a9a918d704a93539d4f8ea6c0a
+  exports_commodity_journeys.csv                          25,623   8469d2d32f9d4ea4cbb5deed05fbfb57
+  exports_lineage_timeline.csv                            39,741   972af5d1e6fda86a14ee1ae39acb74d7
+  exports_lookup.csv                                      45,734   762d55cff418ed33f5e184eaacdf1554
+  exports_provenance.csv                                  11,997   6187ec8b0be5fec2c83eb26089a404ed
+  gate2_tail_disclosure.csv                                6,495   b58f3358536f15f32f7af41023504f2f
+  imports_commodity_journeys.csv                         139,220   2fcf803ab64feb5c1e12d4a675c37f53
+  imports_lineage_timeline.csv                           283,310   721f3811c9ebdd5c97058374146edf6f
+  imports_lookup.csv                                     234,787   51ea4af04b9504a5c93e7cb57effc891
+  imports_provenance.csv                                  74,703   08a3bf3b11c6c28df82c0bc2754290b8
+  reuse_silence_disclosure.csv                             3,211   259020461511e3d19b6dd5c79b342c76
+  v1_to_v2_identifiers_exports.csv                        20,638   bccbb885ced135daced65ce72084cfaa
+  v1_to_v2_identifiers_imports.csv                       107,944   07d9e983912656808bcd6c530aa5403f

@@ -1,0 +1,94 @@
+# Reading the corrected crosswalk: notes for an application built against the released tables
+
+These notes are for the maintainer of an application that reads the released concordance
+tables. PharmaTRACE is the known reader. The corrected tables keep the released column names
+and order. Two columns were added, both at the end of their files. Everything a reader joins
+on keeps its meaning. What changed is listed below, smallest adjustment first.
+
+## The files
+
+Eight CSVs, four shapes per flow: `{imports,exports}_lookup.csv`,
+`{imports,exports}_commodity_journeys.csv`, `{imports,exports}_lineage_timeline.csv`,
+`{imports,exports}_provenance.csv`. All ASCII, UTF-8 safe, no byte-order mark, CRLF line
+endings, constant field counts. A 128-check contract vet covering parsing, joins, key
+integrity and vocabularies passes on all eight; the build behind them runs its verification
+suite in full and reproduces byte for byte across two full rebuilds.
+
+## What a reader does not need to change
+
+- The join. `orig_commodity` remains the full source commodity string with the code dotted:
+  `3001.10.00.10 - Animal glands, dried, powdered or not, for therapeutic uses
+  (Terminated 2006-12)`. Joining the monthly data's `Commodity` field against it works as
+  before. `latest_commodity` remains the terminal's string in the same form.
+- Column names and order. New columns are additions at the end: `v1_uid` and `v1_family_id`
+  on the lookup, `step_first_period` and `step_last_period` on the timeline.
+- One row per commodity string in the lookup, `uid` unique, every `uid` present in all four
+  shapes, `family_id` identical across them.
+- Descriptions arrive expanded through the 64-entry customs-abbreviation table, as released:
+  `nes` reads `not elsewhere specified`. The raw wording stays recoverable from the
+  commodity-string columns.
+
+## What a reader must change
+
+1. **Identifier formats.** Records are `IMR-3004500040-199801` and families
+   `IM-3004100011-198801`: flow prefix, code digits, first traded month. The released
+   counters (`IMR_0264`, `IM_0079`) no longer name rows. Any regex, sort or zero-pad
+   assumption on the old form breaks. The lookup's `v1_uid` and `v1_family_id` columns carry
+   the released identifiers per row, and `v1_to_v2_identifiers_{imports,exports}.csv` maps
+   both directions, so a stored citation resolves either way.
+2. **Status vocabularies.** `latest_status` and `final_status` read `active`, `left_chapter`
+   or `not_a_retirement`. `orig_status` and `step_status` add `succeeded`. The released
+   `ended_YYYY-MM` form is gone; it derives as `ended_` plus `step_last_period` wherever a
+   step is not `active`. Any parser matching `ended_` must switch to the vocabulary.
+   `orig_status` again describes the original commodity itself, so a chain that moved on
+   reads `succeeded` there while `final_status` reads the terminal's standing.
+3. **Row counts.** Exports grow from 78 to 97 commodity strings on 74 codes; the 19 new rows
+   predate 2000 and carry empty `v1_uid`. Imports stay 475. Anything pinned to 78 moves.
+4. **Reused code numbers.** Five codes appear twice in the lookup, once per life, in
+   different families: imports 3002.90.00.20 and 3004.50.99.30, exports 3002.90.10,
+   3003.31.00 and 3004.90.10. A reader keying a dictionary on the bare code keeps whichever
+   row it reads last. Key on `uid`, or on the code plus `orig_first_period`.
+5. **`imports_corrections_log.csv` is not reissued.** The rebuild carries provenance instead
+   of a correction history; `{flow}_provenance.csv` states what settled every chain.
+
+## The provenance table, column by column
+
+`{flow}_provenance.csv` has no released equivalent, so a reader meets its columns here first.
+
+| Column | What it holds |
+|---|---|
+| `uid` | the lookup's key. One row per commodity string |
+| `orig_hs_code` | the retiring code, dotted |
+| `family_id` | the family the chain ends in. Identical across all four shapes |
+| `resolution_source` | what settled the chain: `never_retired`, `official_record`, `analyst`, `delivery` |
+| `resolution_detail` | the same answer written out |
+| `official_adjudicated` | `yes`, `no`, or `not_applicable`. Whether the official record was asked |
+| `official_agrees` | `yes` or `no` where it was asked. Empty where it was not |
+| `boundary_crossed` | `yes`, `no`, or `not_applicable` where the commodity never retired |
+| `confidence_tier` | how the answer was reached: `approve`, `decided`, `second`, `reject_named`, `reject_none`, `no_termination_declared`. Empty where the commodity never retired |
+| `departure_from_official` | filled only where the build departs from the official record. Empty on every import row and on 93 of the 97 export rows |
+
+Two conventions decide whether a reader parses this table correctly.
+
+1. **`resolution_source` and `confidence_tier` hold more than one value, joined by a semicolon.**
+   A chain settled in more than one way names every source that settled it. Both
+   `analyst;official_record` and `analyst;delivery;official_record` occur. 103 of the 475 import
+   rows carry a semicolon in `resolution_source` and 108 carry one in `confidence_tier`. Split on
+   the semicolon before comparing. Testing `resolution_source == "analyst"` matches 109 rows and
+   misses 100 more that the analyst also settled.
+
+2. **Empty is a value here, not a gap in the data.** `confidence_tier` is empty on exactly the
+   rows whose `resolution_source` reads `never_retired`, which is 149 of 475 imports and 53 of 97
+   exports. Those are the same rows whose `boundary_crossed` reads `not_applicable`. The commodity
+   never retired, so nothing had to be settled and no tier was recorded. `official_agrees` is
+   empty wherever the official record was not asked, which is 244 import rows: the 149 that never
+   retired, and 95 settled without it. A reader who treats empty as `no` reports disagreement that
+   was never measured.
+
+## Values moved because the data is corrected
+
+Family memberships are the corrected ones: 118 import and 48 export families, with the
+human and veterinary 3004.10 lines in separate families as the CBSA concordance routes them.
+Eleven released families split; the identifier sidecar shows where every released row went.
+Dollar reconciliation, faithfulness and the concordance-audit results are in the response to
+reviewers and the supplementary information.
