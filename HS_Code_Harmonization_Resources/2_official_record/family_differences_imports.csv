@@ -1,0 +1,21 @@
+flow,kind,v1_family_id,v2_family_id,records,detail
+imports,v2 SPLIT this v1 family,IM_0001,IM-3001100010-198801;IM-3001200000-198801,3,one v1 family became 2 in v2
+imports,v2 SPLIT this v1 family,IM_0007,IM-3002101010-198801;IM-3002101022-198801,6,one v1 family became 2 in v2
+imports,v2 SPLIT this v1 family,IM_0008,IM-3002101021-198801;IM-3002101022-198801,5,one v1 family became 2 in v2
+imports,v2 SPLIT this v1 family,IM_0009,IM-3002101022-198801;IM-3002101023-199001,5,one v1 family became 2 in v2
+imports,v2 SPLIT this v1 family,IM_0017,IM-3002101022-198801;IM-3002102920-198801,3,one v1 family became 2 in v2
+imports,v2 SPLIT this v1 family,IM_0018,IM-3002490090-202201;IM-3002901020-198801,4,one v1 family became 2 in v2
+imports,v2 SPLIT this v1 family,IM_0047,IM-3002900020-202201;IM-3002901010-198801,5,one v1 family became 2 in v2
+imports,v2 SPLIT this v1 family,IM_0051,IM-3002901020-198801;IM-3002901040-198801,3,one v1 family became 2 in v2
+imports,v2 SPLIT this v1 family,IM_0064,IM-3003319900-198801;IM-3003391000-198801;IM-3003901000-198801,12,one v1 family became 3 in v2
+imports,v2 SPLIT this v1 family,IM_0140,IM-3004409019-198801;IM-3004409050-198801,5,one v1 family became 2 in v2
+imports,v2 SPLIT this v1 family,IM_0152,IM-3004501000-198801;IM-3004509921-198801,15,one v1 family became 2 in v2
+imports,v2 MERGED these v1 families,IM_0001;IM_0006,IM-3001100010-198801,5,2 v1 families became one in v2
+imports,v2 MERGED these v1 families,IM_0007;IM_0008;IM_0009;IM_0017,IM-3002101022-198801,8,4 v1 families became one in v2
+imports,v2 MERGED these v1 families,IM_0017;IM_0020,IM-3002102920-198801,4,2 v1 families became one in v2
+imports,v2 MERGED these v1 families,IM_0043;IM_0047,IM-3002901010-198801,8,2 v1 families became one in v2
+imports,v2 MERGED these v1 families,IM_0018;IM_0050;IM_0051,IM-3002901020-198801,16,3 v1 families became one in v2
+imports,v2 MERGED these v1 families,IM_0061;IM_0064,IM-3003319900-198801,6,2 v1 families became one in v2
+imports,v2 MERGED these v1 families,IM_0064;IM_0065,IM-3003391000-198801,7,2 v1 families became one in v2
+imports,v2 MERGED these v1 families,IM_0137;IM_0140,IM-3004409019-198801,18,2 v1 families became one in v2
+imports,v2 MERGED these v1 families,IM_0152;IM_0156,IM-3004509921-198801,8,2 v1 families became one in v2

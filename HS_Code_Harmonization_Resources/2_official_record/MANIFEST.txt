@@ -1,0 +1,69 @@
+MANIFEST: every file in this folder, with its size and md5 checksum
+
+  Gate 1 differences explained.txt                        17,898   badd4d4d2e7736daccbaacd9b26d10c3
+  LAYOUT.txt                                               6,656   865ccdc9dd084fe918e1081265ad1997
+  README.txt                                               5,581   dab0cd45c0fc471a9d4127aff89354ec
+  extracts/concordance_2011_2012_ch30.csv                  5,724   da673624125e16195f616dbb61a37b5c
+  extracts/concordance_2016_2017_ch30.csv                  2,199   38b2de484c0d57da2c2b9b7e8f097774
+  extracts/concordance_2017_2017_1_ch30.csv                   26   6c66e8d11176eb3afbb8b839130046d3
+  extracts/decision_dates.csv                             45,464   90e6f03ee11f905f81cea13227025043
+  extracts/sched_ch30_2005.csv                            21,288   66a0e0a60caa9e5e2cdfadb185eb2ca7
+  extracts/sched_ch30_2006.csv                            21,288   9e671a3bc9cfeba3ff5985cd3177342a
+  extracts/sched_ch30_2007.csv                            20,141   d26b7695d6d5861ea52b70639940212d
+  extracts/sched_ch30_2008.csv                            20,141   79b3b8e04e4666ada411dd87385368af
+  extracts/sched_ch30_2009.csv                            20,141   8603ed6d02bb44d35a4457d3bf1c9fe1
+  extracts/sched_ch30_2010.csv                            20,594   31cb2896e712ae4b6a7d430240098802
+  extracts/sched_ch30_2011.csv                            20,594   f509c090e867e4187f7159bb2dc15453
+  extracts/sched_ch30_2012.csv                            14,693   8d0f0ac8b36d86b9f4165b95ac888d1a
+  extracts/sched_ch30_2013-1.csv                          15,130   41934d3c6818d92474e31d0f08b1cc5a
+  extracts/sched_ch30_2013.csv                            13,929   4b210edfb8210e0fdeaeb3af135211ed
+  extracts/sched_ch30_2014-4.csv                          15,130   3c55246e0822b5d9f8aec9c9a9751dd4
+  extracts/sched_ch30_2015.csv                            14,694   3cf04977049f1b1ca41d1d68db208f93
+  extracts/sched_ch30_2016.csv                            14,694   764d343e19b9455431169da8ecf0feee
+  extracts/sched_ch30_2017.csv                            14,544   99f4f271ed031819805ae8846f269d02
+  extracts/sched_ch30_2018-3.csv                          14,358   fc08a259405cf4a7a6e3a969b066139e
+  extracts/sched_ch30_2019-4.csv                          14,358   cdd4bc62a6b40911a85b985e7a882e51
+  extracts/sched_ch30_2020-2.csv                          14,358   b599efc4c74ffdf2c97c5dce26a29e15
+  extracts/sched_ch30_2021-5.csv                          14,358   4fa9d6e1cf4e8f64f1f1f4faeac9ce39
+  extracts/sched_ch30_2022.csv                            14,317   795ff84cfb05b9723eb2d387167e3c70
+  extracts/sched_ch30_2023-7.csv                          14,777   47dee2c86f68708d3ada901021158164
+  extracts/sched_ch30_2024.csv                            14,317   8e877326acc9548d4ca333891fb1169e
+  extracts/sched_ch30_2025.csv                            14,317   bdcddffab9944bcd7df2b8045b3cee3e
+  extracts/sched_ch30_boundaries.csv                      13,747   d71340a010aace5aa50cfaf91613fe76
+  extracts/sched_ch30_census.csv                         191,735   0035f6a2a7b785b91f96acf518605509
+  extracts/sched_ch30_lifespan.csv                        25,366   bd4dba126d74a942654963a900aec19f
+  extracts/wto_ch30_pairs.csv                             39,320   d30238f0cdd256a72e223b3568eb958d
+  extracts/wto_ch30_statements.csv                           374   33825f281e14cf65af6fd0f5b08b0217
+  family_differences_exports.csv                             482   13825b22db6e96187298618526f5f442
+  family_differences_imports.csv                           2,318   ddc0d85c7000dff94679d24f9fe42874
+  source_documents/CBSA concordance 2011 to 2012.pdf   1,216,169   ede9f81dc807999693f967487ddcab07
+  source_documents/CBSA concordance 2016 to 2017.pdf   4,859,128   695d1912a371edf218187538f714eff6
+  source_documents/PS35-7-2015-eng (Chapter 30).pdf       32,265   e3cd5a500b365ffe700909935fcd84d7
+  source_documents/PS35-7-2016-eng (Chapter 30).pdf       30,526   5cc5e274604bb7aec0a01f312a8db832
+  source_documents/PS35-7-2017-eng (Chapter 30).pdf       33,933   e738a7d0b8ebdcb3f0006836a1b67cba
+  source_documents/PS35-7-2018-3-eng (Chapter 30).pdf     36,196   d26b652a6fdfa236dc1eb7bc9aea1557
+  source_documents/PS35-7-2019-4-eng (Chapter 30).pdf     79,699   cc803fb7200900e122d39123eb79415e
+  source_documents/PS35-7-2020-2-eng (Chapter 30).pdf    117,790   69c1d57ddf2abf824338b1c42d31a89b
+  source_documents/PS35-7-2021-5-eng (Chapter 30).pdf    117,952   8e3c754c8725a62fc98bef395a4bfa73
+  source_documents/PS35-7-2022-eng (Chapter 30).pdf      132,635   0ff7bb7a910d8259c1e45500b0f50170
+  source_documents/PS35-7-2023-7-eng (Chapter 30).pdf    131,158   a96661b4961f1586c465e5490b949b05
+  source_documents/PS35-7-2024-eng (Chapter 30).pdf      383,296   22244309a8d37f96484f0915fbccc75f
+  source_documents/PS35-7-2025-eng (Chapter 30).pdf      379,114   a04abc8670e365319f9417b6d7f6dc40
+  source_documents/PS36-1-2005E (Chapter 30).pdf          41,916   75b72d9c8c7e7d1bcc1468bc5406ff41
+  source_documents/PS36-1-2006E (Chapter 30).pdf          46,394   b67f9b68073c856ef90547200e37c4b2
+  source_documents/PS36-1-2007E (Chapter 30).pdf          48,382   62b2efdf7989f7d844ed609b49244b7e
+  source_documents/PS36-1-2008E (Chapter 30).pdf          42,943   4341c35bb0e1fbbfcccae6036ebd59ab
+  source_documents/PS36-1-2009E (Chapter 30).pdf         135,088   385cb950589af65a4cf2bb248e2a8de5
+  source_documents/PS36-1-2010-eng (Chapter 30).pdf      136,121   34252da76b5ed243eebc1cb554212815
+  source_documents/PS36-1-2011-eng (Chapter 30).pdf       45,896   34e7459ca304fcd6b49b13f90cd5cfb7
+  source_documents/PS36-1-2012-eng (Chapter 30).pdf       74,889   c7bae30e62198980478de7ce768776d9
+  source_documents/PS36-1-2013-1-eng (Chapter 30).pdf     26,179   753a5081b338534f47626130481da27a
+  source_documents/PS36-1-2013-eng (Chapter 30).pdf       26,218   84626428e6811c2e3aaf314ce6731f9a
+  source_documents/PS36-1-2014-4-eng (Chapter 30).pdf     84,716   c40b5605345886e39a352343902619f3
+  source_documents/WTO_HSCodes_1996_to_2002.pdf          174,384   0576c6cf418577e80eb00eb4202f6980
+  source_documents/WTO_HSCodes_2002_to_2007.pdf          171,151   0214849c17af5f3d5a49db4e9ed9011c
+  source_documents/WTO_HSCodes_2007_to_2012.pdf          113,642   977f4043d834c3f4a2b7505c776e879f
+  source_documents/WTO_HSCodes_2012_to_2017.pdf          181,119   2e358fc9bbec6757694b7fd7a296d38d
+  source_documents/WTO_HSCodes_2017_to_2022.pdf          537,780   d1c1e49274e1956363b4a158163f9872
+  transcription/derive_decision_dates.py                   6,096   208b4e76d7c0a0d30e211a1edea36e1e
+  transcription/extract_wto_pairs.py                      21,868   27a723ca6d194c4e066c2e77ff1b287b

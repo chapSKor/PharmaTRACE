@@ -1,0 +1,2741 @@
+year,hs10,tariff_item8,description,uom
+2005,3001.10.00.10,3001.10.00,Animal glands,KGM
+2005,3001.10.00.90,3001.10.00,Other,KGM
+2005,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2005,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2005,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2005,3001.90.00.90,3001.90.00,Other,KGM
+2005,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2005,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2005,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2005,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2005,3002.10.00.29,3002.10.00,Other,KGM
+2005,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2005,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2005,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2005,3002.10.00.49,3002.10.00,Other,KGM
+2005,3002.10.00.51,3002.10.00,For use in humans,KGM
+2005,3002.10.00.59,3002.10.00,Other,KGM
+2005,3002.10.00.60,3002.10.00,Modified immunological products,KGM
+2005,3002.20.00.10,3002.20.00,Against influenza virus,-
+2005,3002.20.00.20,3002.20.00,Against rubella (German measles),-
+2005,3002.20.00.30,3002.20.00,Against rabies,-
+2005,3002.20.00.90,3002.20.00,Other,-
+2005,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccine,-
+2005,3002.30.00.90,3002.30.00,Other,-
+2005,3002.90.00.11,3002.90.00,Ricin,-
+2005,3002.90.00.12,3002.90.00,Saxitoxin,-
+2005,3002.90.00.19,3002.90.00,Other,-
+2005,3002.90.00.20,3002.90.00,Butter-making ferment cultures,KGM
+2005,3002.90.00.30,3002.90.00,"Dried blood of animal origin, whether or not soluble",-
+2005,3002.90.00.91,3002.90.00,Bacteria culture inoculants for seeds,-
+2005,3002.90.00.92,3002.90.00,Whole human blood,-
+2005,3002.90.00.93,3002.90.00,Antiallergenic preparations of microbial origin,-
+2005,3002.90.00.99,3002.90.00,Other,-
+2005,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2005,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2005,3003.31.00.10,3003.31.00,Prepared for parenteral administration in humans,KGM
+2005,3003.31.00.90,3003.31.00,Other,KGM
+2005,3003.39.00.10,3003.39.00,"Epinephrine and its solutions, prepared for parenteral administration in humans",KGM
+2005,3003.39.00.90,3003.39.00,Other,KGM
+2005,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2005,3003.90.00.10,3003.90.00,"Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration",KGM
+2005,3003.90.00.20,3003.90.00,Containing more than 23% of absolute ethyl alcohol by volume,LTR
+2005,3003.90.00.91,3003.90.00,Containing acetaminophen,KGM
+2005,3003.90.00.99,3003.90.00,Other,KGM
+2005,3004.10.00.11,3004.10.00,Containing penicillin G sodium,-
+2005,3004.10.00.12,3004.10.00,Containing penicillin V,-
+2005,3004.10.00.13,3004.10.00,Containing amoxacillin,-
+2005,3004.10.00.19,3004.10.00,Other,-
+2005,3004.10.00.20,3004.10.00,"For human use, containing streptomycins or their derivatives",-
+2005,3004.10.00.31,3004.10.00,Containing penicillins or derivatives thereof,-
+2005,3004.10.00.32,3004.10.00,Containing streptomycins or derivatives thereof,-
+2005,3004.20.00.10,3004.20.00,"For human use, containing tetracyclines or their derivatives",-
+2005,3004.20.00.20,3004.20.00,"For human use, containing cephalosporins",-
+2005,3004.20.00.31,3004.20.00,Containing erythromycin,-
+2005,3004.20.00.39,3004.20.00,Other,-
+2005,3004.20.00.41,3004.20.00,Containing gentamycins,-
+2005,3004.20.00.49,3004.20.00,Other,-
+2005,3004.20.00.51,3004.20.00,Containing bacitracin,-
+2005,3004.20.00.59,3004.20.00,Other,-
+2005,3004.20.00.61,3004.20.00,Containing chloramphenicol,-
+2005,3004.20.00.62,3004.20.00,Containing mitomycin C,-
+2005,3004.20.00.63,3004.20.00,Containing vancomycin,-
+2005,3004.20.00.69,3004.20.00,Other,-
+2005,3004.20.00.71,3004.20.00,Containing ivermectin,-
+2005,3004.20.00.79,3004.20.00,Other,-
+2005,3004.31.00.10,3004.31.00,"Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration",-
+2005,3004.31.00.90,3004.31.00,Other,-
+2005,3004.32.00.11,3004.32.00,Containing hydrocortisone,-
+2005,3004.32.00.19,3004.32.00,Other,-
+2005,3004.32.00.20,3004.32.00,For veterinary use,-
+2005,3004.39.00.10,3004.39.00,"Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration",-
+2005,3004.39.00.81,3004.39.00,Containing anterior pituitary hormones,-
+2005,3004.39.00.82,3004.39.00,Containing posterior pituitary hormones,-
+2005,3004.39.00.83,3004.39.00,Containing unmixed single estrogens,-
+2005,3004.39.00.84,3004.39.00,Containing unmixed single progestational hormones,-
+2005,3004.39.00.85,3004.39.00,Containing other hormones,-
+2005,3004.39.00.90,3004.39.00,"Other, for veterinary use",-
+2005,3004.40.00.10,3004.40.00,Containing codeine or its derivatives,-
+2005,3004.40.00.20,3004.40.00,Containing vincristine,-
+2005,3004.40.00.30,3004.40.00,Containing theophylline,-
+2005,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2005,3004.40.00.50,3004.40.00,Containing aminophylline,-
+2005,3004.40.00.80,3004.40.00,Containing other narcotic vegetable alkaloids or their narcotic derivatives,-
+2005,3004.40.00.90,3004.40.00,Containing other non-narcotic vegetable alkaloids or their non-narcotic derivatives,-
+2005,3004.50.00.10,3004.50.00,"Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders",-
+2005,3004.50.00.20,3004.50.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2005,3004.50.00.31,3004.50.00,Containing vitamin C,-
+2005,3004.50.00.32,3004.50.00,Containing vitamin E,-
+2005,3004.50.00.39,3004.50.00,Other,-
+2005,3004.50.00.40,3004.50.00,"Other, for human use, containing a single vitamin mixed with other supplements",-
+2005,3004.50.00.50,3004.50.00,"Other, for human use, containing multivitamins not mixed with other supplements",-
+2005,3004.50.00.61,3004.50.00,Vitamin-iron preparations,-
+2005,3004.50.00.69,3004.50.00,Other,-
+2005,3004.50.00.70,3004.50.00,"Other, for veterinary use",-
+2005,3004.90.00.11,3004.90.00,Amino acids,-
+2005,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2005,3004.90.00.19,3004.90.00,Other,-
+2005,3004.90.00.20,3004.90.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2005,3004.90.00.31,3004.90.00,Analgesics,-
+2005,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2005,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2005,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2005,3004.90.00.35,3004.90.00,Other agents acting on the central nervous system,-
+2005,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2005,3004.90.00.39,3004.90.00,Other,-
+2005,3004.90.00.41,3004.90.00,Histamine H+2 receptor antagonist,-
+2005,3004.90.00.42,3004.90.00,Laxatives,-
+2005,3004.90.00.43,3004.90.00,Antacids,-
+2005,3004.90.00.49,3004.90.00,Other,-
+2005,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2005,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2005,3004.90.00.69,3004.90.00,Other,-
+2005,3004.90.00.71,3004.90.00,Haematological agents,-
+2005,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2005,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2005,3004.90.00.74,3004.90.00,"Other, primarily affecting the eyes, ears or respiratory system",-
+2005,3004.90.00.75,3004.90.00,Diuretics,-
+2005,3004.90.00.76,3004.90.00,"Other medicaments primarily affecting electrolytic, caloric or water balance",-
+2005,3004.90.00.77,3004.90.00,Dermatological agents,-
+2005,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2005,3004.90.00.79,3004.90.00,Other,-
+2005,3004.90.00.81,3004.90.00,Anaesthetics,-
+2005,3004.90.00.89,3004.90.00,Other,-
+2005,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2005,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2005,3005.10.00.99,3005.10.00,Other,-
+2005,3005.90.00.10,3005.90.00,"Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts",-
+2005,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2005,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2005,3005.90.00.40,3005.90.00,"Other, of woven fabrics other than woven fabrics solely of cotton; of knitted fabrics, nonwovens or felts",-
+2005,3005.90.00.50,3005.90.00,"Other, of woven fabrics solely of cotton",-
+2005,3005.90.00.60,3005.90.00,"Other, of paper",-
+2005,3005.90.00.90,3005.90.00,Other,-
+2005,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical woundclosure,-
+2005,3006.10.00.90,3006.10.00,Other,-
+2005,3006.20.00.10,3006.20.00,Of human origin,-
+2005,3006.20.00.20,3006.20.00,Of animal origin,-
+2005,3006.20.00.90,3006.20.00,Of other origin,-
+2005,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2005,3006.30.00.20,3006.30.00,Allergenics prepared for parenteral administration,-
+2005,3006.30.00.90,3006.30.00,Other,-
+2005,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2005,3006.40.00.20,3006.40.00,Points for filling dental root canals,-
+2005,3006.40.00.30,3006.40.00,"Dental fillings of composition metals, excluding those in powder or pellet form",-
+2005,3006.40.00.90,3006.40.00,Other dental fillings,-
+2005,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2005,3006.60.00.11,3006.60.00,Containing norethesterone acetate and ethinylestradiol,-
+2005,3006.60.00.19,3006.60.00,Other,-
+2005,3006.60.00.90,3006.60.00,Other than in measured doses,-
+2005,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2005,3006.70.90.00,3006.70.90,Other,-
+2005,3006.80.11.00,3006.80.11,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2005,3006.80.19.00,3006.80.19,Other,-
+2005,3006.80.90.10,3006.80.90,Of the goods of heading 30.01,-
+2005,3006.80.90.20,3006.80.90,Of the goods of heading 30.02,-
+2005,3006.80.90.30,3006.80.90,Of the goods of heading 30.03,-
+2005,3006.80.90.41,3006.80.90,Of the goods of subheadings 3004.10 to 3004.39,-
+2005,3006.80.90.42,3006.80.90,Of the goods of subheadings 3004.40 or 3004.50,-
+2005,3006.80.90.43,3006.80.90,Of the goods of subheading 3004.90,-
+2005,3006.80.90.50,3006.80.90,Of the goods of heading 30.05,-
+2005,3006.80.90.60,3006.80.90,Of the goods of heading 30.06,-
+2006,3001.10.00.10,3001.10.00,Animal glands,KGM
+2006,3001.10.00.90,3001.10.00,Other,KGM
+2006,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2006,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2006,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2006,3001.90.00.90,3001.90.00,Other,KGM
+2006,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2006,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2006,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2006,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2006,3002.10.00.29,3002.10.00,Other,KGM
+2006,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2006,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2006,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2006,3002.10.00.49,3002.10.00,Other,KGM
+2006,3002.10.00.51,3002.10.00,For use in humans,KGM
+2006,3002.10.00.59,3002.10.00,Other,KGM
+2006,3002.10.00.60,3002.10.00,Modified immunological products,KGM
+2006,3002.20.00.10,3002.20.00,Against influenza virus,-
+2006,3002.20.00.20,3002.20.00,Against rubella (German measles),-
+2006,3002.20.00.30,3002.20.00,Against rabies,-
+2006,3002.20.00.90,3002.20.00,Other,-
+2006,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccine,-
+2006,3002.30.00.90,3002.30.00,Other,-
+2006,3002.90.00.11,3002.90.00,Ricin,-
+2006,3002.90.00.12,3002.90.00,Saxitoxin,-
+2006,3002.90.00.19,3002.90.00,Other,-
+2006,3002.90.00.20,3002.90.00,Butter-making ferment cultures,KGM
+2006,3002.90.00.30,3002.90.00,"Dried blood of animal origin, whether or not soluble",-
+2006,3002.90.00.91,3002.90.00,Bacteria culture inoculants for seeds,-
+2006,3002.90.00.92,3002.90.00,Whole human blood,-
+2006,3002.90.00.93,3002.90.00,Antiallergenic preparations of microbial origin,-
+2006,3002.90.00.99,3002.90.00,Other,-
+2006,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2006,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2006,3003.31.00.10,3003.31.00,Prepared for parenteral administration in humans,KGM
+2006,3003.31.00.90,3003.31.00,Other,KGM
+2006,3003.39.00.10,3003.39.00,"Epinephrine and its solutions, prepared for parenteral administration in humans",KGM
+2006,3003.39.00.90,3003.39.00,Other,KGM
+2006,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2006,3003.90.00.10,3003.90.00,"Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration",KGM
+2006,3003.90.00.20,3003.90.00,Containing more than 23% of absolute ethyl alcohol by volume,LTR
+2006,3003.90.00.91,3003.90.00,Containing acetaminophen,KGM
+2006,3003.90.00.99,3003.90.00,Other,KGM
+2006,3004.10.00.11,3004.10.00,Containing penicillin G sodium,-
+2006,3004.10.00.12,3004.10.00,Containing penicillin V,-
+2006,3004.10.00.13,3004.10.00,Containing amoxacillin,-
+2006,3004.10.00.19,3004.10.00,Other,-
+2006,3004.10.00.20,3004.10.00,"For human use, containing streptomycins or their derivatives",-
+2006,3004.10.00.31,3004.10.00,Containing penicillins or derivatives thereof,-
+2006,3004.10.00.32,3004.10.00,Containing streptomycins or derivatives thereof,-
+2006,3004.20.00.10,3004.20.00,"For human use, containing tetracyclines or their derivatives",-
+2006,3004.20.00.20,3004.20.00,"For human use, containing cephalosporins",-
+2006,3004.20.00.31,3004.20.00,Containing erythromycin,-
+2006,3004.20.00.39,3004.20.00,Other,-
+2006,3004.20.00.41,3004.20.00,Containing gentamycins,-
+2006,3004.20.00.49,3004.20.00,Other,-
+2006,3004.20.00.51,3004.20.00,Containing bacitracin,-
+2006,3004.20.00.59,3004.20.00,Other,-
+2006,3004.20.00.61,3004.20.00,Containing chloramphenicol,-
+2006,3004.20.00.62,3004.20.00,Containing mitomycin C,-
+2006,3004.20.00.63,3004.20.00,Containing vancomycin,-
+2006,3004.20.00.69,3004.20.00,Other,-
+2006,3004.20.00.71,3004.20.00,Containing ivermectin,-
+2006,3004.20.00.79,3004.20.00,Other,-
+2006,3004.31.00.10,3004.31.00,"Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration",-
+2006,3004.31.00.90,3004.31.00,Other,-
+2006,3004.32.00.11,3004.32.00,Containing hydrocortisone,-
+2006,3004.32.00.19,3004.32.00,Other,-
+2006,3004.32.00.20,3004.32.00,For veterinary use,-
+2006,3004.39.00.10,3004.39.00,"Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration",-
+2006,3004.39.00.81,3004.39.00,Containing anterior pituitary hormones,-
+2006,3004.39.00.82,3004.39.00,Containing posterior pituitary hormones,-
+2006,3004.39.00.83,3004.39.00,Containing unmixed single estrogens,-
+2006,3004.39.00.84,3004.39.00,Containing unmixed single progestational hormones,-
+2006,3004.39.00.85,3004.39.00,Containing other hormones,-
+2006,3004.39.00.90,3004.39.00,"Other, for veterinary use",-
+2006,3004.40.00.10,3004.40.00,Containing codeine or its derivatives,-
+2006,3004.40.00.20,3004.40.00,Containing vincristine,-
+2006,3004.40.00.30,3004.40.00,Containing theophylline,-
+2006,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2006,3004.40.00.50,3004.40.00,Containing aminophylline,-
+2006,3004.40.00.80,3004.40.00,Containing other narcotic vegetable alkaloids or their narcotic derivatives,-
+2006,3004.40.00.90,3004.40.00,Containing other non-narcotic vegetable alkaloids or their non-narcotic derivatives,-
+2006,3004.50.00.10,3004.50.00,"Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders",-
+2006,3004.50.00.20,3004.50.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2006,3004.50.00.31,3004.50.00,Containing vitamin C,-
+2006,3004.50.00.32,3004.50.00,Containing vitamin E,-
+2006,3004.50.00.39,3004.50.00,Other,-
+2006,3004.50.00.40,3004.50.00,"Other, for human use, containing a single vitamin mixed with other supplements",-
+2006,3004.50.00.50,3004.50.00,"Other, for human use, containing multivitamins not mixed with other supplements",-
+2006,3004.50.00.61,3004.50.00,Vitamin-iron preparations,-
+2006,3004.50.00.69,3004.50.00,Other,-
+2006,3004.50.00.70,3004.50.00,"Other, for veterinary use",-
+2006,3004.90.00.11,3004.90.00,Amino acids,-
+2006,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2006,3004.90.00.19,3004.90.00,Other,-
+2006,3004.90.00.20,3004.90.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2006,3004.90.00.31,3004.90.00,Analgesics,-
+2006,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2006,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2006,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2006,3004.90.00.35,3004.90.00,Other agents acting on the central nervous system,-
+2006,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2006,3004.90.00.39,3004.90.00,Other,-
+2006,3004.90.00.41,3004.90.00,Histamine H+2 receptor antagonist,-
+2006,3004.90.00.42,3004.90.00,Laxatives,-
+2006,3004.90.00.43,3004.90.00,Antacids,-
+2006,3004.90.00.49,3004.90.00,Other,-
+2006,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2006,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2006,3004.90.00.69,3004.90.00,Other,-
+2006,3004.90.00.71,3004.90.00,Haematological agents,-
+2006,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2006,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2006,3004.90.00.74,3004.90.00,"Other, primarily affecting the eyes, ears or respiratory system",-
+2006,3004.90.00.75,3004.90.00,Diuretics,-
+2006,3004.90.00.76,3004.90.00,"Other medicaments primarily affecting electrolytic, caloric or water balance",-
+2006,3004.90.00.77,3004.90.00,Dermatological agents,-
+2006,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2006,3004.90.00.79,3004.90.00,Other,-
+2006,3004.90.00.81,3004.90.00,Anaesthetics,-
+2006,3004.90.00.89,3004.90.00,Other,-
+2006,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2006,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2006,3005.10.00.99,3005.10.00,Other,-
+2006,3005.90.00.10,3005.90.00,"Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts",-
+2006,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2006,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2006,3005.90.00.40,3005.90.00,"Other, of woven fabrics other than woven fabrics solely of cotton; of knitted fabrics, nonwovens or felts",-
+2006,3005.90.00.50,3005.90.00,"Other, of woven fabrics solely of cotton",-
+2006,3005.90.00.60,3005.90.00,"Other, of paper",-
+2006,3005.90.00.90,3005.90.00,Other,-
+2006,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical woundclosure,-
+2006,3006.10.00.90,3006.10.00,Other,-
+2006,3006.20.00.10,3006.20.00,Of human origin,-
+2006,3006.20.00.20,3006.20.00,Of animal origin,-
+2006,3006.20.00.90,3006.20.00,Of other origin,-
+2006,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2006,3006.30.00.20,3006.30.00,Allergenics prepared for parenteral administration,-
+2006,3006.30.00.90,3006.30.00,Other,-
+2006,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2006,3006.40.00.20,3006.40.00,Points for filling dental root canals,-
+2006,3006.40.00.30,3006.40.00,"Dental fillings of composition metals, excluding those in powder or pellet form",-
+2006,3006.40.00.90,3006.40.00,Other dental fillings,-
+2006,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2006,3006.60.00.11,3006.60.00,Containing norethesterone acetate and ethinylestradiol,-
+2006,3006.60.00.19,3006.60.00,Other,-
+2006,3006.60.00.90,3006.60.00,Other than in measured doses,-
+2006,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2006,3006.70.90.00,3006.70.90,Other,-
+2006,3006.80.11.00,3006.80.11,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2006,3006.80.19.00,3006.80.19,Other,-
+2006,3006.80.90.10,3006.80.90,Of the goods of heading 30.01,-
+2006,3006.80.90.20,3006.80.90,Of the goods of heading 30.02,-
+2006,3006.80.90.30,3006.80.90,Of the goods of heading 30.03,-
+2006,3006.80.90.41,3006.80.90,Of the goods of subheadings 3004.10 to 3004.39,-
+2006,3006.80.90.42,3006.80.90,Of the goods of subheadings 3004.40 or 3004.50,-
+2006,3006.80.90.43,3006.80.90,Of the goods of subheading 3004.90,-
+2006,3006.80.90.50,3006.80.90,Of the goods of heading 30.05,-
+2006,3006.80.90.60,3006.80.90,Of the goods of heading 30.06,-
+2007,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2007,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2007,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2007,3001.90.00.90,3001.90.00,Other,KGM
+2007,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2007,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2007,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2007,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2007,3002.10.00.29,3002.10.00,Other,KGM
+2007,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2007,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2007,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2007,3002.10.00.49,3002.10.00,Other,KGM
+2007,3002.10.00.51,3002.10.00,For use in humans,KGM
+2007,3002.10.00.59,3002.10.00,Other,KGM
+2007,3002.10.00.60,3002.10.00,Modified immunological products,KGM
+2007,3002.20.00.10,3002.20.00,Against influenza virus,-
+2007,3002.20.00.20,3002.20.00,Against rubella (German measles),-
+2007,3002.20.00.30,3002.20.00,Against rabies,-
+2007,3002.20.00.90,3002.20.00,Other,-
+2007,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccine,-
+2007,3002.30.00.90,3002.30.00,Other,-
+2007,3002.90.00.11,3002.90.00,Ricin,-
+2007,3002.90.00.12,3002.90.00,Saxitoxin,-
+2007,3002.90.00.19,3002.90.00,Other,-
+2007,3002.90.00.20,3002.90.00,Butter-making ferment cultures,KGM
+2007,3002.90.00.30,3002.90.00,"Dried blood of animal origin, whether or not soluble",-
+2007,3002.90.00.91,3002.90.00,Bacteria culture inoculants for seeds,-
+2007,3002.90.00.92,3002.90.00,Whole human blood,-
+2007,3002.90.00.93,3002.90.00,Antiallergenic preparations of microbial origin,-
+2007,3002.90.00.99,3002.90.00,Other,-
+2007,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2007,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2007,3003.31.00.10,3003.31.00,Prepared for parenteral administration in humans,KGM
+2007,3003.31.00.90,3003.31.00,Other,KGM
+2007,3003.39.00.10,3003.39.00,"Epinephrine and its solutions, prepared for parenteral administration in humans",KGM
+2007,3003.39.00.90,3003.39.00,Other,KGM
+2007,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2007,3003.90.00.10,3003.90.00,"Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration",KGM
+2007,3003.90.00.20,3003.90.00,Containing more than 23% of absolute ethyl alcohol by volume,LTR
+2007,3003.90.00.91,3003.90.00,Containing acetaminophen,KGM
+2007,3003.90.00.99,3003.90.00,Other,KGM
+2007,3004.10.00.11,3004.10.00,Containing penicillin G sodium,-
+2007,3004.10.00.12,3004.10.00,Containing penicillin V,-
+2007,3004.10.00.13,3004.10.00,Containing amoxacillin,-
+2007,3004.10.00.19,3004.10.00,Other,-
+2007,3004.10.00.20,3004.10.00,"For human use, containing streptomycins or their derivatives",-
+2007,3004.10.00.31,3004.10.00,Containing penicillins or derivatives thereof,-
+2007,3004.10.00.32,3004.10.00,Containing streptomycins or derivatives thereof,-
+2007,3004.20.00.10,3004.20.00,"For human use, containing tetracyclines or their derivatives",-
+2007,3004.20.00.20,3004.20.00,"For human use, containing cephalosporins",-
+2007,3004.20.00.31,3004.20.00,Containing erythromycin,-
+2007,3004.20.00.39,3004.20.00,Other,-
+2007,3004.20.00.41,3004.20.00,Containing gentamycins,-
+2007,3004.20.00.49,3004.20.00,Other,-
+2007,3004.20.00.51,3004.20.00,Containing bacitracin,-
+2007,3004.20.00.59,3004.20.00,Other,-
+2007,3004.20.00.61,3004.20.00,Containing chloramphenicol,-
+2007,3004.20.00.62,3004.20.00,Containing mitomycin C,-
+2007,3004.20.00.63,3004.20.00,Containing vancomycin,-
+2007,3004.20.00.69,3004.20.00,Other,-
+2007,3004.20.00.71,3004.20.00,Containing ivermectin,-
+2007,3004.20.00.79,3004.20.00,Other,-
+2007,3004.31.00.10,3004.31.00,"Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration",-
+2007,3004.31.00.90,3004.31.00,Other,-
+2007,3004.32.00.11,3004.32.00,Containing hydrocortisone,-
+2007,3004.32.00.19,3004.32.00,Other,-
+2007,3004.32.00.20,3004.32.00,For veterinary use,-
+2007,3004.39.00.10,3004.39.00,"Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration",-
+2007,3004.39.00.81,3004.39.00,Containing anterior pituitary hormones,-
+2007,3004.39.00.82,3004.39.00,Containing posterior pituitary hormones,-
+2007,3004.39.00.83,3004.39.00,Containing unmixed single estrogens,-
+2007,3004.39.00.84,3004.39.00,Containing unmixed single progestational hormones,-
+2007,3004.39.00.85,3004.39.00,Containing other hormones,-
+2007,3004.39.00.90,3004.39.00,"Other, for veterinary use",-
+2007,3004.40.00.10,3004.40.00,Containing codeine or its derivatives,-
+2007,3004.40.00.20,3004.40.00,Containing vincristine,-
+2007,3004.40.00.30,3004.40.00,Containing theophylline,-
+2007,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2007,3004.40.00.50,3004.40.00,Containing aminophylline,-
+2007,3004.40.00.80,3004.40.00,Containing other narcotic vegetable alkaloids or their narcotic derivatives,-
+2007,3004.40.00.90,3004.40.00,Containing other non-narcotic vegetable alkaloids or their non-narcotic derivatives,-
+2007,3004.50.00.10,3004.50.00,"Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders",-
+2007,3004.50.00.20,3004.50.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2007,3004.50.00.31,3004.50.00,Containing vitamin C,-
+2007,3004.50.00.32,3004.50.00,Containing vitamin E,-
+2007,3004.50.00.39,3004.50.00,Other,-
+2007,3004.50.00.40,3004.50.00,"Other, for human use, containing a single vitamin mixed with other supplements",-
+2007,3004.50.00.50,3004.50.00,"Other, for human use, containing multivitamins not mixed with other supplements",-
+2007,3004.50.00.61,3004.50.00,Vitamin-iron preparations,-
+2007,3004.50.00.69,3004.50.00,Other,-
+2007,3004.50.00.70,3004.50.00,"Other, for veterinary use",-
+2007,3004.90.00.11,3004.90.00,Amino acids,-
+2007,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2007,3004.90.00.19,3004.90.00,Other,-
+2007,3004.90.00.20,3004.90.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2007,3004.90.00.31,3004.90.00,Analgesics,-
+2007,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2007,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2007,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2007,3004.90.00.35,3004.90.00,Other agents acting on the central nervous system,-
+2007,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2007,3004.90.00.39,3004.90.00,Other,-
+2007,3004.90.00.41,3004.90.00,Histamine H+2 receptor antagonist,-
+2007,3004.90.00.42,3004.90.00,Laxatives,-
+2007,3004.90.00.43,3004.90.00,Antacids,-
+2007,3004.90.00.49,3004.90.00,Other,-
+2007,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2007,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2007,3004.90.00.69,3004.90.00,Other,-
+2007,3004.90.00.71,3004.90.00,Haematological agents,-
+2007,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2007,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2007,3004.90.00.74,3004.90.00,"Other, primarily affecting the eyes, ears or respiratory system",-
+2007,3004.90.00.75,3004.90.00,Diuretics,-
+2007,3004.90.00.76,3004.90.00,"Other medicaments primarily affecting electrolytic, caloric or water balance",-
+2007,3004.90.00.77,3004.90.00,Dermatological agents,-
+2007,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2007,3004.90.00.79,3004.90.00,Other,-
+2007,3004.90.00.81,3004.90.00,Anaesthetics,-
+2007,3004.90.00.89,3004.90.00,Other,-
+2007,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2007,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2007,3005.10.00.99,3005.10.00,Other,-
+2007,3005.90.00.10,3005.90.00,"Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts",-
+2007,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2007,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2007,3005.90.00.40,3005.90.00,"Other, of woven fabrics other than woven fabrics solely of cotton; of knitted fabrics, nonwovens or felts",-
+2007,3005.90.00.50,3005.90.00,"Other, of woven fabrics solely of cotton",-
+2007,3005.90.00.60,3005.90.00,"Other, of paper",-
+2007,3005.90.00.90,3005.90.00,Other,-
+2007,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical woundclosure,-
+2007,3006.10.00.90,3006.10.00,Other,-
+2007,3006.20.00.10,3006.20.00,Of human origin,-
+2007,3006.20.00.20,3006.20.00,Of animal origin,-
+2007,3006.20.00.90,3006.20.00,Of other origin,-
+2007,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2007,3006.30.00.20,3006.30.00,Allergenics prepared for parenteral administration,-
+2007,3006.30.00.90,3006.30.00,Other,-
+2007,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2007,3006.40.00.20,3006.40.00,Points for filling dental root canals,-
+2007,3006.40.00.30,3006.40.00,"Dental fillings of composition metals, excluding those in powder or pellet form",-
+2007,3006.40.00.90,3006.40.00,Other dental fillings,-
+2007,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2007,3006.60.00.11,3006.60.00,Containing norethesterone acetate and ethinylestradiol,-
+2007,3006.60.00.19,3006.60.00,Other,-
+2007,3006.60.00.90,3006.60.00,Other than in measured doses,-
+2007,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2007,3006.70.90.00,3006.70.90,Other,-
+2007,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2007,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2008,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2008,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2008,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2008,3001.90.00.90,3001.90.00,Other,KGM
+2008,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2008,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2008,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2008,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2008,3002.10.00.29,3002.10.00,Other,KGM
+2008,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2008,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2008,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2008,3002.10.00.49,3002.10.00,Other,KGM
+2008,3002.10.00.51,3002.10.00,For use in humans,KGM
+2008,3002.10.00.59,3002.10.00,Other,KGM
+2008,3002.10.00.60,3002.10.00,Modified immunological products,KGM
+2008,3002.20.00.10,3002.20.00,Against influenza virus,-
+2008,3002.20.00.20,3002.20.00,Against rubella (German measles),-
+2008,3002.20.00.30,3002.20.00,Against rabies,-
+2008,3002.20.00.90,3002.20.00,Other,-
+2008,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccine,-
+2008,3002.30.00.90,3002.30.00,Other,-
+2008,3002.90.00.11,3002.90.00,Ricin,-
+2008,3002.90.00.12,3002.90.00,Saxitoxin,-
+2008,3002.90.00.19,3002.90.00,Other,-
+2008,3002.90.00.20,3002.90.00,Butter-making ferment cultures,KGM
+2008,3002.90.00.30,3002.90.00,"Dried blood of animal origin, whether or not soluble",-
+2008,3002.90.00.91,3002.90.00,Bacteria culture inoculants for seeds,-
+2008,3002.90.00.92,3002.90.00,Whole human blood,-
+2008,3002.90.00.93,3002.90.00,Antiallergenic preparations of microbial origin,-
+2008,3002.90.00.99,3002.90.00,Other,-
+2008,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2008,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2008,3003.31.00.10,3003.31.00,Prepared for parenteral administration in humans,KGM
+2008,3003.31.00.90,3003.31.00,Other,KGM
+2008,3003.39.00.10,3003.39.00,"Epinephrine and its solutions, prepared for parenteral administration in humans",KGM
+2008,3003.39.00.90,3003.39.00,Other,KGM
+2008,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2008,3003.90.00.10,3003.90.00,"Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration",KGM
+2008,3003.90.00.20,3003.90.00,Containing more than 23% of absolute ethyl alcohol by volume,LTR
+2008,3003.90.00.91,3003.90.00,Containing acetaminophen,KGM
+2008,3003.90.00.99,3003.90.00,Other,KGM
+2008,3004.10.00.11,3004.10.00,Containing penicillin G sodium,-
+2008,3004.10.00.12,3004.10.00,Containing penicillin V,-
+2008,3004.10.00.13,3004.10.00,Containing amoxacillin,-
+2008,3004.10.00.19,3004.10.00,Other,-
+2008,3004.10.00.20,3004.10.00,"For human use, containing streptomycins or their derivatives",-
+2008,3004.10.00.31,3004.10.00,Containing penicillins or derivatives thereof,-
+2008,3004.10.00.32,3004.10.00,Containing streptomycins or derivatives thereof,-
+2008,3004.20.00.10,3004.20.00,"For human use, containing tetracyclines or their derivatives",-
+2008,3004.20.00.20,3004.20.00,"For human use, containing cephalosporins",-
+2008,3004.20.00.31,3004.20.00,Containing erythromycin,-
+2008,3004.20.00.39,3004.20.00,Other,-
+2008,3004.20.00.41,3004.20.00,Containing gentamycins,-
+2008,3004.20.00.49,3004.20.00,Other,-
+2008,3004.20.00.51,3004.20.00,Containing bacitracin,-
+2008,3004.20.00.59,3004.20.00,Other,-
+2008,3004.20.00.61,3004.20.00,Containing chloramphenicol,-
+2008,3004.20.00.62,3004.20.00,Containing mitomycin C,-
+2008,3004.20.00.63,3004.20.00,Containing vancomycin,-
+2008,3004.20.00.69,3004.20.00,Other,-
+2008,3004.20.00.71,3004.20.00,Containing ivermectin,-
+2008,3004.20.00.79,3004.20.00,Other,-
+2008,3004.31.00.10,3004.31.00,"Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration",-
+2008,3004.31.00.90,3004.31.00,Other,-
+2008,3004.32.00.11,3004.32.00,Containing hydrocortisone,-
+2008,3004.32.00.19,3004.32.00,Other,-
+2008,3004.32.00.20,3004.32.00,For veterinary use,-
+2008,3004.39.00.10,3004.39.00,"Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration",-
+2008,3004.39.00.81,3004.39.00,Containing anterior pituitary hormones,-
+2008,3004.39.00.82,3004.39.00,Containing posterior pituitary hormones,-
+2008,3004.39.00.83,3004.39.00,Containing unmixed single estrogens,-
+2008,3004.39.00.84,3004.39.00,Containing unmixed single progestational hormones,-
+2008,3004.39.00.85,3004.39.00,Containing other hormones,-
+2008,3004.39.00.90,3004.39.00,"Other, for veterinary use",-
+2008,3004.40.00.10,3004.40.00,Containing codeine or its derivatives,-
+2008,3004.40.00.20,3004.40.00,Containing vincristine,-
+2008,3004.40.00.30,3004.40.00,Containing theophylline,-
+2008,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2008,3004.40.00.50,3004.40.00,Containing aminophylline,-
+2008,3004.40.00.80,3004.40.00,Containing other narcotic vegetable alkaloids or their narcotic derivatives,-
+2008,3004.40.00.90,3004.40.00,Containing other non-narcotic vegetable alkaloids or their non-narcotic derivatives,-
+2008,3004.50.00.10,3004.50.00,"Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders",-
+2008,3004.50.00.20,3004.50.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2008,3004.50.00.31,3004.50.00,Containing vitamin C,-
+2008,3004.50.00.32,3004.50.00,Containing vitamin E,-
+2008,3004.50.00.39,3004.50.00,Other,-
+2008,3004.50.00.40,3004.50.00,"Other, for human use, containing a single vitamin mixed with other supplements",-
+2008,3004.50.00.50,3004.50.00,"Other, for human use, containing multivitamins not mixed with other supplements",-
+2008,3004.50.00.61,3004.50.00,Vitamin-iron preparations,-
+2008,3004.50.00.69,3004.50.00,Other,-
+2008,3004.50.00.70,3004.50.00,"Other, for veterinary use",-
+2008,3004.90.00.11,3004.90.00,Amino acids,-
+2008,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2008,3004.90.00.19,3004.90.00,Other,-
+2008,3004.90.00.20,3004.90.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2008,3004.90.00.31,3004.90.00,Analgesics,-
+2008,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2008,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2008,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2008,3004.90.00.35,3004.90.00,Other agents acting on the central nervous system,-
+2008,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2008,3004.90.00.39,3004.90.00,Other,-
+2008,3004.90.00.41,3004.90.00,Histamine H+2 receptor antagonist,-
+2008,3004.90.00.42,3004.90.00,Laxatives,-
+2008,3004.90.00.43,3004.90.00,Antacids,-
+2008,3004.90.00.49,3004.90.00,Other,-
+2008,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2008,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2008,3004.90.00.69,3004.90.00,Other,-
+2008,3004.90.00.71,3004.90.00,Haematological agents,-
+2008,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2008,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2008,3004.90.00.74,3004.90.00,"Other, primarily affecting the eyes, ears or respiratory system",-
+2008,3004.90.00.75,3004.90.00,Diuretics,-
+2008,3004.90.00.76,3004.90.00,"Other medicaments primarily affecting electrolytic, caloric or water balance",-
+2008,3004.90.00.77,3004.90.00,Dermatological agents,-
+2008,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2008,3004.90.00.79,3004.90.00,Other,-
+2008,3004.90.00.81,3004.90.00,Anaesthetics,-
+2008,3004.90.00.89,3004.90.00,Other,-
+2008,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2008,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2008,3005.10.00.99,3005.10.00,Other,-
+2008,3005.90.00.10,3005.90.00,"Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts",-
+2008,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2008,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2008,3005.90.00.40,3005.90.00,"Other, of woven fabrics other than woven fabrics solely of cotton; of knitted fabrics, nonwovens or felts",-
+2008,3005.90.00.50,3005.90.00,"Other, of woven fabrics solely of cotton",-
+2008,3005.90.00.60,3005.90.00,"Other, of paper",-
+2008,3005.90.00.90,3005.90.00,Other,-
+2008,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical woundclosure,-
+2008,3006.10.00.90,3006.10.00,Other,-
+2008,3006.20.00.10,3006.20.00,Of human origin,-
+2008,3006.20.00.20,3006.20.00,Of animal origin,-
+2008,3006.20.00.90,3006.20.00,Of other origin,-
+2008,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2008,3006.30.00.20,3006.30.00,Allergenics prepared for parenteral administration,-
+2008,3006.30.00.90,3006.30.00,Other,-
+2008,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2008,3006.40.00.20,3006.40.00,Points for filling dental root canals,-
+2008,3006.40.00.30,3006.40.00,"Dental fillings of composition metals, excluding those in powder or pellet form",-
+2008,3006.40.00.90,3006.40.00,Other dental fillings,-
+2008,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2008,3006.60.00.11,3006.60.00,Containing norethesterone acetate and ethinylestradiol,-
+2008,3006.60.00.19,3006.60.00,Other,-
+2008,3006.60.00.90,3006.60.00,Other than in measured doses,-
+2008,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2008,3006.70.90.00,3006.70.90,Other,-
+2008,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2008,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2009,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2009,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2009,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2009,3001.90.00.90,3001.90.00,Other,KGM
+2009,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2009,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2009,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2009,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2009,3002.10.00.29,3002.10.00,Other,KGM
+2009,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2009,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2009,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2009,3002.10.00.49,3002.10.00,Other,KGM
+2009,3002.10.00.51,3002.10.00,For use in humans,KGM
+2009,3002.10.00.59,3002.10.00,Other,KGM
+2009,3002.10.00.60,3002.10.00,Modified immunological products,KGM
+2009,3002.20.00.10,3002.20.00,Against influenza virus,-
+2009,3002.20.00.20,3002.20.00,Against rubella (German measles),-
+2009,3002.20.00.30,3002.20.00,Against rabies,-
+2009,3002.20.00.90,3002.20.00,Other,-
+2009,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccine,-
+2009,3002.30.00.90,3002.30.00,Other,-
+2009,3002.90.00.11,3002.90.00,Ricin,-
+2009,3002.90.00.12,3002.90.00,Saxitoxin,-
+2009,3002.90.00.19,3002.90.00,Other,-
+2009,3002.90.00.20,3002.90.00,Butter-making ferment cultures,KGM
+2009,3002.90.00.30,3002.90.00,"Dried blood of animal origin, whether or not soluble",-
+2009,3002.90.00.91,3002.90.00,Bacteria culture inoculants for seeds,-
+2009,3002.90.00.92,3002.90.00,Whole human blood,-
+2009,3002.90.00.93,3002.90.00,Antiallergenic preparations of microbial origin,-
+2009,3002.90.00.99,3002.90.00,Other,-
+2009,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2009,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2009,3003.31.00.10,3003.31.00,Prepared for parenteral administration in humans,KGM
+2009,3003.31.00.90,3003.31.00,Other,KGM
+2009,3003.39.00.10,3003.39.00,"Epinephrine and its solutions, prepared for parenteral administration in humans",KGM
+2009,3003.39.00.90,3003.39.00,Other,KGM
+2009,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2009,3003.90.00.10,3003.90.00,"Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration",KGM
+2009,3003.90.00.20,3003.90.00,Containing more than 23% of absolute ethyl alcohol by volume,LTR
+2009,3003.90.00.91,3003.90.00,Containing acetaminophen,KGM
+2009,3003.90.00.99,3003.90.00,Other,KGM
+2009,3004.10.00.11,3004.10.00,Containing penicillin G sodium,-
+2009,3004.10.00.12,3004.10.00,Containing penicillin V,-
+2009,3004.10.00.13,3004.10.00,Containing amoxacillin,-
+2009,3004.10.00.19,3004.10.00,Other,-
+2009,3004.10.00.20,3004.10.00,"For human use, containing streptomycins or their derivatives",-
+2009,3004.10.00.31,3004.10.00,Containing penicillins or derivatives thereof,-
+2009,3004.10.00.32,3004.10.00,Containing streptomycins or derivatives thereof,-
+2009,3004.20.00.10,3004.20.00,"For human use, containing tetracyclines or their derivatives",-
+2009,3004.20.00.20,3004.20.00,"For human use, containing cephalosporins",-
+2009,3004.20.00.31,3004.20.00,Containing erythromycin,-
+2009,3004.20.00.39,3004.20.00,Other,-
+2009,3004.20.00.41,3004.20.00,Containing gentamycins,-
+2009,3004.20.00.49,3004.20.00,Other,-
+2009,3004.20.00.51,3004.20.00,Containing bacitracin,-
+2009,3004.20.00.59,3004.20.00,Other,-
+2009,3004.20.00.61,3004.20.00,Containing chloramphenicol,-
+2009,3004.20.00.62,3004.20.00,Containing mitomycin C,-
+2009,3004.20.00.63,3004.20.00,Containing vancomycin,-
+2009,3004.20.00.69,3004.20.00,Other,-
+2009,3004.20.00.71,3004.20.00,Containing ivermectin,-
+2009,3004.20.00.79,3004.20.00,Other,-
+2009,3004.31.00.10,3004.31.00,"Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration",-
+2009,3004.31.00.90,3004.31.00,Other,-
+2009,3004.32.00.11,3004.32.00,Containing hydrocortisone,-
+2009,3004.32.00.19,3004.32.00,Other,-
+2009,3004.32.00.20,3004.32.00,For veterinary use,-
+2009,3004.39.00.10,3004.39.00,"Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration",-
+2009,3004.39.00.81,3004.39.00,Containing anterior pituitary hormones,-
+2009,3004.39.00.82,3004.39.00,Containing posterior pituitary hormones,-
+2009,3004.39.00.83,3004.39.00,Containing unmixed single estrogens,-
+2009,3004.39.00.84,3004.39.00,Containing unmixed single progestational hormones,-
+2009,3004.39.00.85,3004.39.00,Containing other hormones,-
+2009,3004.39.00.90,3004.39.00,"Other, for veterinary use",-
+2009,3004.40.00.10,3004.40.00,Containing codeine or its derivatives,-
+2009,3004.40.00.20,3004.40.00,Containing vincristine,-
+2009,3004.40.00.30,3004.40.00,Containing theophylline,-
+2009,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2009,3004.40.00.50,3004.40.00,Containing aminophylline,-
+2009,3004.40.00.80,3004.40.00,Containing other narcotic vegetable alkaloids or their narcotic derivatives,-
+2009,3004.40.00.90,3004.40.00,Containing other non-narcotic vegetable alkaloids or their non-narcotic derivatives,-
+2009,3004.50.00.10,3004.50.00,"Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders",-
+2009,3004.50.00.20,3004.50.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2009,3004.50.00.31,3004.50.00,Containing vitamin C,-
+2009,3004.50.00.32,3004.50.00,Containing vitamin E,-
+2009,3004.50.00.39,3004.50.00,Other,-
+2009,3004.50.00.40,3004.50.00,"Other, for human use, containing a single vitamin mixed with other supplements",-
+2009,3004.50.00.50,3004.50.00,"Other, for human use, containing multivitamins not mixed with other supplements",-
+2009,3004.50.00.61,3004.50.00,Vitamin-iron preparations,-
+2009,3004.50.00.69,3004.50.00,Other,-
+2009,3004.50.00.70,3004.50.00,"Other, for veterinary use",-
+2009,3004.90.00.11,3004.90.00,Amino acids,-
+2009,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2009,3004.90.00.19,3004.90.00,Other,-
+2009,3004.90.00.20,3004.90.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2009,3004.90.00.31,3004.90.00,Analgesics,-
+2009,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2009,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2009,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2009,3004.90.00.35,3004.90.00,Other agents acting on the central nervous system,-
+2009,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2009,3004.90.00.39,3004.90.00,Other,-
+2009,3004.90.00.41,3004.90.00,Histamine H+2 receptor antagonist,-
+2009,3004.90.00.42,3004.90.00,Laxatives,-
+2009,3004.90.00.43,3004.90.00,Antacids,-
+2009,3004.90.00.49,3004.90.00,Other,-
+2009,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2009,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2009,3004.90.00.69,3004.90.00,Other,-
+2009,3004.90.00.71,3004.90.00,Haematological agents,-
+2009,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2009,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2009,3004.90.00.74,3004.90.00,"Other, primarily affecting the eyes, ears or respiratory system",-
+2009,3004.90.00.75,3004.90.00,Diuretics,-
+2009,3004.90.00.76,3004.90.00,"Other medicaments primarily affecting electrolytic, caloric or water balance",-
+2009,3004.90.00.77,3004.90.00,Dermatological agents,-
+2009,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2009,3004.90.00.79,3004.90.00,Other,-
+2009,3004.90.00.81,3004.90.00,Anaesthetics,-
+2009,3004.90.00.89,3004.90.00,Other,-
+2009,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2009,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2009,3005.10.00.99,3005.10.00,Other,-
+2009,3005.90.00.10,3005.90.00,"Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts",-
+2009,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2009,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2009,3005.90.00.40,3005.90.00,"Other, of woven fabrics other than woven fabrics solely of cotton; of knitted fabrics, nonwovens or felts",-
+2009,3005.90.00.50,3005.90.00,"Other, of woven fabrics solely of cotton",-
+2009,3005.90.00.60,3005.90.00,"Other, of paper",-
+2009,3005.90.00.90,3005.90.00,Other,-
+2009,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical woundclosure,-
+2009,3006.10.00.90,3006.10.00,Other,-
+2009,3006.20.00.10,3006.20.00,Of human origin,-
+2009,3006.20.00.20,3006.20.00,Of animal origin,-
+2009,3006.20.00.90,3006.20.00,Of other origin,-
+2009,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2009,3006.30.00.20,3006.30.00,Allergenics prepared for parenteral administration,-
+2009,3006.30.00.90,3006.30.00,Other,-
+2009,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2009,3006.40.00.20,3006.40.00,Points for filling dental root canals,-
+2009,3006.40.00.30,3006.40.00,"Dental fillings of composition metals, excluding those in powder or pellet form",-
+2009,3006.40.00.90,3006.40.00,Other dental fillings,-
+2009,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2009,3006.60.00.11,3006.60.00,Containing norethesterone acetate and ethinylestradiol,-
+2009,3006.60.00.19,3006.60.00,Other,-
+2009,3006.60.00.90,3006.60.00,Other than in measured doses,-
+2009,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2009,3006.70.90.00,3006.70.90,Other,-
+2009,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2009,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2010,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2010,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2010,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2010,3001.90.00.90,3001.90.00,Other,KGM
+2010,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2010,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2010,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2010,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2010,3002.10.00.29,3002.10.00,Other,KGM
+2010,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2010,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2010,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2010,3002.10.00.49,3002.10.00,Other,KGM
+2010,3002.10.00.51,3002.10.00,For use in humans,KGM
+2010,3002.10.00.59,3002.10.00,Other,KGM
+2010,3002.10.00.60,3002.10.00,Modified immunological products,KGM
+2010,3002.20.00.10,3002.20.00,Against influenza virus,-
+2010,3002.20.00.20,3002.20.00,Against rubella (German measles),-
+2010,3002.20.00.30,3002.20.00,Against rabies,-
+2010,3002.20.00.90,3002.20.00,Other,-
+2010,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccine,-
+2010,3002.30.00.90,3002.30.00,Other,-
+2010,3002.90.00.11,3002.90.00,Ricin,-
+2010,3002.90.00.12,3002.90.00,Saxitoxin,-
+2010,3002.90.00.19,3002.90.00,Other,-
+2010,3002.90.00.20,3002.90.00,Butter-making ferment cultures,KGM
+2010,3002.90.00.30,3002.90.00,"Dried blood of animal origin, whether or not soluble",-
+2010,3002.90.00.91,3002.90.00,Bacteria culture inoculants for seeds,-
+2010,3002.90.00.92,3002.90.00,Whole human blood,-
+2010,3002.90.00.93,3002.90.00,Antiallergenic preparations of microbial origin,-
+2010,3002.90.00.99,3002.90.00,Other,-
+2010,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2010,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2010,3003.31.00.10,3003.31.00,Prepared for parenteral administration in humans,KGM
+2010,3003.31.00.90,3003.31.00,Other,KGM
+2010,3003.39.00.10,3003.39.00,"Epinephrine and its solutions, prepared for parenteral administration in humans",KGM
+2010,3003.39.00.90,3003.39.00,Other,KGM
+2010,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2010,3003.90.00.10,3003.90.00,"Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration",KGM
+2010,3003.90.00.20,3003.90.00,Containing more than 23% of absolute ethyl alcohol by volume,LTR
+2010,3003.90.00.91,3003.90.00,Containing acetaminophen,KGM
+2010,3003.90.00.99,3003.90.00,Other,KGM
+2010,3004.10.00.11,3004.10.00,Containing penicillin G sodium,-
+2010,3004.10.00.12,3004.10.00,Containing penicillin V,-
+2010,3004.10.00.13,3004.10.00,Containing amoxacillin,-
+2010,3004.10.00.19,3004.10.00,Other,-
+2010,3004.10.00.20,3004.10.00,"For human use, containing streptomycins or their derivatives",-
+2010,3004.10.00.31,3004.10.00,Containing penicillins or derivatives thereof,-
+2010,3004.10.00.32,3004.10.00,Containing streptomycins or derivatives thereof,-
+2010,3004.20.00.10,3004.20.00,"For human use, containing tetracyclines or their derivatives",-
+2010,3004.20.00.20,3004.20.00,"For human use, containing cephalosporins",-
+2010,3004.20.00.31,3004.20.00,Containing erythromycin,-
+2010,3004.20.00.39,3004.20.00,Other,-
+2010,3004.20.00.41,3004.20.00,Containing gentamycins,-
+2010,3004.20.00.49,3004.20.00,Other,-
+2010,3004.20.00.51,3004.20.00,Containing bacitracin,-
+2010,3004.20.00.59,3004.20.00,Other,-
+2010,3004.20.00.61,3004.20.00,Containing chloramphenicol,-
+2010,3004.20.00.62,3004.20.00,Containing mitomycin C,-
+2010,3004.20.00.63,3004.20.00,Containing vancomycin,-
+2010,3004.20.00.69,3004.20.00,Other,-
+2010,3004.20.00.71,3004.20.00,Containing ivermectin,-
+2010,3004.20.00.79,3004.20.00,Other,-
+2010,3004.31.00.10,3004.31.00,"Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration",-
+2010,3004.31.00.90,3004.31.00,Other,-
+2010,3004.32.00.11,3004.32.00,Containing hydrocortisone,-
+2010,3004.32.00.19,3004.32.00,Other,-
+2010,3004.32.00.20,3004.32.00,For veterinary use,-
+2010,3004.39.00.10,3004.39.00,"Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration",-
+2010,3004.39.00.81,3004.39.00,Containing anterior pituitary hormones,-
+2010,3004.39.00.82,3004.39.00,Containing posterior pituitary hormones,-
+2010,3004.39.00.83,3004.39.00,Containing unmixed single estrogens,-
+2010,3004.39.00.84,3004.39.00,Containing unmixed single progestational hormones,-
+2010,3004.39.00.85,3004.39.00,Containing other hormones,-
+2010,3004.39.00.90,3004.39.00,"Other, for veterinary use",-
+2010,3004.40.00.10,3004.40.00,Containing codeine or its derivatives,-
+2010,3004.40.00.20,3004.40.00,Containing vincristine,-
+2010,3004.40.00.30,3004.40.00,Containing theophylline,-
+2010,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2010,3004.40.00.50,3004.40.00,Containing aminophylline,-
+2010,3004.40.00.80,3004.40.00,Containing other narcotic vegetable alkaloids or their narcotic derivatives,-
+2010,3004.40.00.90,3004.40.00,Containing other non-narcotic vegetable alkaloids or their non-narcotic derivatives,-
+2010,3004.50.00.10,3004.50.00,"Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders",-
+2010,3004.50.00.20,3004.50.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2010,3004.50.00.31,3004.50.00,Containing vitamin C,-
+2010,3004.50.00.32,3004.50.00,Containing vitamin E,-
+2010,3004.50.00.39,3004.50.00,Other,-
+2010,3004.50.00.40,3004.50.00,"Other, for human use, containing a single vitamin mixed with other supplements",-
+2010,3004.50.00.50,3004.50.00,"Other, for human use, containing multivitamins not mixed with other supplements",-
+2010,3004.50.00.61,3004.50.00,Vitamin-iron preparations,-
+2010,3004.50.00.69,3004.50.00,Other,-
+2010,3004.50.00.70,3004.50.00,"Other, for veterinary use",-
+2010,3004.90.00.11,3004.90.00,Amino acids,-
+2010,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2010,3004.90.00.19,3004.90.00,Other,-
+2010,3004.90.00.20,3004.90.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2010,3004.90.00.31,3004.90.00,Analgesics,-
+2010,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2010,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2010,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2010,3004.90.00.35,3004.90.00,Other agents acting on the central nervous system,-
+2010,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2010,3004.90.00.39,3004.90.00,Other,-
+2010,3004.90.00.41,3004.90.00,Histamine H+2 receptor antagonist,-
+2010,3004.90.00.42,3004.90.00,Laxatives,-
+2010,3004.90.00.43,3004.90.00,Antacids,-
+2010,3004.90.00.49,3004.90.00,Other,-
+2010,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2010,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2010,3004.90.00.69,3004.90.00,Other,-
+2010,3004.90.00.71,3004.90.00,Haematological agents,-
+2010,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2010,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2010,3004.90.00.74,3004.90.00,"Other, primarily affecting the eyes, ears or respiratory system",-
+2010,3004.90.00.75,3004.90.00,Diuretics,-
+2010,3004.90.00.76,3004.90.00,"Other medicaments primarily affecting electrolytic, caloric or water balance",-
+2010,3004.90.00.77,3004.90.00,Dermatological agents,-
+2010,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2010,3004.90.00.79,3004.90.00,Other,-
+2010,3004.90.00.81,3004.90.00,Anaesthetics,-
+2010,3004.90.00.89,3004.90.00,Other,-
+2010,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2010,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2010,3005.10.00.99,3005.10.00,Other,-
+2010,3005.90.00.10,3005.90.00,"Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts",-
+2010,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2010,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2010,3005.90.00.40,3005.90.00,"Other, of woven fabrics other than woven fabrics solely of cotton; of knitted fabrics, nonwovens or felts",-
+2010,3005.90.00.50,3005.90.00,"Other, of woven fabrics solely of cotton",-
+2010,3005.90.00.60,3005.90.00,"Other, of paper",-
+2010,3005.90.00.90,3005.90.00,Other,-
+2010,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical woundclosure,-
+2010,3006.10.00.90,3006.10.00,Other,-
+2010,3006.20.00.10,3006.20.00,Of human origin,-
+2010,3006.20.00.20,3006.20.00,Of animal origin,-
+2010,3006.20.00.90,3006.20.00,Of other origin,-
+2010,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2010,3006.30.00.20,3006.30.00,Allergenics prepared for parenteral administration,-
+2010,3006.30.00.90,3006.30.00,Other,-
+2010,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2010,3006.40.00.20,3006.40.00,Points for filling dental root canals,-
+2010,3006.40.00.30,3006.40.00,"Dental fillings of composition metals, excluding those in powder or pellet form",-
+2010,3006.40.00.90,3006.40.00,Other dental fillings,-
+2010,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2010,3006.60.00.11,3006.60.00,Containing norethesterone acetate and ethinylestradiol,-
+2010,3006.60.00.19,3006.60.00,Other,-
+2010,3006.60.00.90,3006.60.00,Other than in measured doses,-
+2010,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2010,3006.70.90.00,3006.70.90,Other,-
+2010,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2010,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2011,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2011,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2011,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2011,3001.90.00.90,3001.90.00,Other,KGM
+2011,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2011,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2011,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2011,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2011,3002.10.00.29,3002.10.00,Other,KGM
+2011,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2011,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2011,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2011,3002.10.00.49,3002.10.00,Other,KGM
+2011,3002.10.00.51,3002.10.00,For use in humans,KGM
+2011,3002.10.00.59,3002.10.00,Other,KGM
+2011,3002.10.00.60,3002.10.00,Modified immunological products,KGM
+2011,3002.20.00.10,3002.20.00,Against influenza virus,-
+2011,3002.20.00.20,3002.20.00,Against rubella (German measles),-
+2011,3002.20.00.30,3002.20.00,Against rabies,-
+2011,3002.20.00.90,3002.20.00,Other,-
+2011,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccine,-
+2011,3002.30.00.90,3002.30.00,Other,-
+2011,3002.90.00.11,3002.90.00,Ricin,-
+2011,3002.90.00.12,3002.90.00,Saxitoxin,-
+2011,3002.90.00.19,3002.90.00,Other,-
+2011,3002.90.00.20,3002.90.00,Butter-making ferment cultures,KGM
+2011,3002.90.00.30,3002.90.00,"Dried blood of animal origin, whether or not soluble",-
+2011,3002.90.00.91,3002.90.00,Bacteria culture inoculants for seeds,-
+2011,3002.90.00.92,3002.90.00,Whole human blood,-
+2011,3002.90.00.93,3002.90.00,Antiallergenic preparations of microbial origin,-
+2011,3002.90.00.99,3002.90.00,Other,-
+2011,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2011,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2011,3003.31.00.10,3003.31.00,Prepared for parenteral administration in humans,KGM
+2011,3003.31.00.90,3003.31.00,Other,KGM
+2011,3003.39.00.10,3003.39.00,"Epinephrine and its solutions, prepared for parenteral administration in humans",KGM
+2011,3003.39.00.90,3003.39.00,Other,KGM
+2011,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2011,3003.90.00.10,3003.90.00,"Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration",KGM
+2011,3003.90.00.20,3003.90.00,Containing more than 23% of absolute ethyl alcohol by volume,LTR
+2011,3003.90.00.91,3003.90.00,Containing acetaminophen,KGM
+2011,3003.90.00.99,3003.90.00,Other,KGM
+2011,3004.10.00.11,3004.10.00,Containing penicillin G sodium,-
+2011,3004.10.00.12,3004.10.00,Containing penicillin V,-
+2011,3004.10.00.13,3004.10.00,Containing amoxacillin,-
+2011,3004.10.00.19,3004.10.00,Other,-
+2011,3004.10.00.20,3004.10.00,"For human use, containing streptomycins or their derivatives",-
+2011,3004.10.00.31,3004.10.00,Containing penicillins or derivatives thereof,-
+2011,3004.10.00.32,3004.10.00,Containing streptomycins or derivatives thereof,-
+2011,3004.20.00.10,3004.20.00,"For human use, containing tetracyclines or their derivatives",-
+2011,3004.20.00.20,3004.20.00,"For human use, containing cephalosporins",-
+2011,3004.20.00.31,3004.20.00,Containing erythromycin,-
+2011,3004.20.00.39,3004.20.00,Other,-
+2011,3004.20.00.41,3004.20.00,Containing gentamycins,-
+2011,3004.20.00.49,3004.20.00,Other,-
+2011,3004.20.00.51,3004.20.00,Containing bacitracin,-
+2011,3004.20.00.59,3004.20.00,Other,-
+2011,3004.20.00.61,3004.20.00,Containing chloramphenicol,-
+2011,3004.20.00.62,3004.20.00,Containing mitomycin C,-
+2011,3004.20.00.63,3004.20.00,Containing vancomycin,-
+2011,3004.20.00.69,3004.20.00,Other,-
+2011,3004.20.00.71,3004.20.00,Containing ivermectin,-
+2011,3004.20.00.79,3004.20.00,Other,-
+2011,3004.31.00.10,3004.31.00,"Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration",-
+2011,3004.31.00.90,3004.31.00,Other,-
+2011,3004.32.00.11,3004.32.00,Containing hydrocortisone,-
+2011,3004.32.00.19,3004.32.00,Other,-
+2011,3004.32.00.20,3004.32.00,For veterinary use,-
+2011,3004.39.00.10,3004.39.00,"Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration",-
+2011,3004.39.00.81,3004.39.00,Containing anterior pituitary hormones,-
+2011,3004.39.00.82,3004.39.00,Containing posterior pituitary hormones,-
+2011,3004.39.00.83,3004.39.00,Containing unmixed single estrogens,-
+2011,3004.39.00.84,3004.39.00,Containing unmixed single progestational hormones,-
+2011,3004.39.00.85,3004.39.00,Containing other hormones,-
+2011,3004.39.00.90,3004.39.00,"Other, for veterinary use",-
+2011,3004.40.00.10,3004.40.00,Containing codeine or its derivatives,-
+2011,3004.40.00.20,3004.40.00,Containing vincristine,-
+2011,3004.40.00.30,3004.40.00,Containing theophylline,-
+2011,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2011,3004.40.00.50,3004.40.00,Containing aminophylline,-
+2011,3004.40.00.80,3004.40.00,Containing other narcotic vegetable alkaloids or their narcotic derivatives,-
+2011,3004.40.00.90,3004.40.00,Containing other non-narcotic vegetable alkaloids or their non-narcotic derivatives,-
+2011,3004.50.00.10,3004.50.00,"Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders",-
+2011,3004.50.00.20,3004.50.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2011,3004.50.00.31,3004.50.00,Containing vitamin C,-
+2011,3004.50.00.32,3004.50.00,Containing vitamin E,-
+2011,3004.50.00.39,3004.50.00,Other,-
+2011,3004.50.00.40,3004.50.00,"Other, for human use, containing a single vitamin mixed with other supplements",-
+2011,3004.50.00.50,3004.50.00,"Other, for human use, containing multivitamins not mixed with other supplements",-
+2011,3004.50.00.61,3004.50.00,Vitamin-iron preparations,-
+2011,3004.50.00.69,3004.50.00,Other,-
+2011,3004.50.00.70,3004.50.00,"Other, for veterinary use",-
+2011,3004.90.00.11,3004.90.00,Amino acids,-
+2011,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2011,3004.90.00.19,3004.90.00,Other,-
+2011,3004.90.00.20,3004.90.00,"Other, containing more than 23% of absolute ethyl alcohol by volume",LTR
+2011,3004.90.00.31,3004.90.00,Analgesics,-
+2011,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2011,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2011,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2011,3004.90.00.35,3004.90.00,Other agents acting on the central nervous system,-
+2011,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2011,3004.90.00.39,3004.90.00,Other,-
+2011,3004.90.00.41,3004.90.00,Histamine H+2 receptor antagonist,-
+2011,3004.90.00.42,3004.90.00,Laxatives,-
+2011,3004.90.00.43,3004.90.00,Antacids,-
+2011,3004.90.00.49,3004.90.00,Other,-
+2011,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2011,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2011,3004.90.00.69,3004.90.00,Other,-
+2011,3004.90.00.71,3004.90.00,Haematological agents,-
+2011,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2011,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2011,3004.90.00.74,3004.90.00,"Other, primarily affecting the eyes, ears or respiratory system",-
+2011,3004.90.00.75,3004.90.00,Diuretics,-
+2011,3004.90.00.76,3004.90.00,"Other medicaments primarily affecting electrolytic, caloric or water balance",-
+2011,3004.90.00.77,3004.90.00,Dermatological agents,-
+2011,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2011,3004.90.00.79,3004.90.00,Other,-
+2011,3004.90.00.81,3004.90.00,Anaesthetics,-
+2011,3004.90.00.89,3004.90.00,Other,-
+2011,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2011,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2011,3005.10.00.99,3005.10.00,Other,-
+2011,3005.90.00.10,3005.90.00,"Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts",-
+2011,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2011,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2011,3005.90.00.40,3005.90.00,"Other, of woven fabrics other than woven fabrics solely of cotton; of knitted fabrics, nonwovens or felts",-
+2011,3005.90.00.50,3005.90.00,"Other, of woven fabrics solely of cotton",-
+2011,3005.90.00.60,3005.90.00,"Other, of paper",-
+2011,3005.90.00.90,3005.90.00,Other,-
+2011,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical woundclosure,-
+2011,3006.10.00.90,3006.10.00,Other,-
+2011,3006.20.00.10,3006.20.00,Of human origin,-
+2011,3006.20.00.20,3006.20.00,Of animal origin,-
+2011,3006.20.00.90,3006.20.00,Of other origin,-
+2011,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2011,3006.30.00.20,3006.30.00,Allergenics prepared for parenteral administration,-
+2011,3006.30.00.90,3006.30.00,Other,-
+2011,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2011,3006.40.00.20,3006.40.00,Points for filling dental root canals,-
+2011,3006.40.00.30,3006.40.00,"Dental fillings of composition metals, excluding those in powder or pellet form",-
+2011,3006.40.00.90,3006.40.00,Other dental fillings,-
+2011,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2011,3006.60.00.11,3006.60.00,Containing norethesterone acetate and ethinylestradiol,-
+2011,3006.60.00.19,3006.60.00,Other,-
+2011,3006.60.00.90,3006.60.00,Other than in measured doses,-
+2011,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2011,3006.70.90.00,3006.70.90,Other,-
+2011,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2011,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2012,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2012,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2012,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2012,3001.90.00.90,3001.90.00,Other,KGM
+2012,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2012,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2012,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2012,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2012,3002.10.00.29,3002.10.00,Other,KGM
+2012,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2012,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2012,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2012,3002.10.00.49,3002.10.00,Other,KGM
+2012,3002.10.00.51,3002.10.00,For use in humans,KGM
+2012,3002.10.00.59,3002.10.00,Other,KGM
+2012,3002.10.00.90,3002.10.00,Other,-
+2012,3002.20.00.10,3002.20.00,Against influenza virus,-
+2012,3002.20.00.90,3002.20.00,Other,-
+2012,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2012,3002.30.00.90,3002.30.00,Other,-
+2012,3002.90.00.11,3002.90.00,Ricin,-
+2012,3002.90.00.12,3002.90.00,Saxitoxin,-
+2012,3002.90.00.19,3002.90.00,Other,-
+2012,3002.90.00.20,3002.90.00,Butter making ferment cultures,KGM
+2012,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2012,3002.90.00.91,3002.90.00,"Bacteria culture inoculants, for seeds",-
+2012,3002.90.00.92,3002.90.00,Whole human blood,-
+2012,3002.90.00.93,3002.90.00,"Antiallergenic preparations, of microbial origin",-
+2012,3002.90.00.99,3002.90.00,Other,-
+2012,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2012,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2012,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2012,3003.39.00.00,3003.39.00,Other,KGM
+2012,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2012,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2012,3003.90.00.90,3003.90.00,Other,KGM
+2012,3004.10.00.10,3004.10.00,For human use,-
+2012,3004.10.00.90,3004.10.00,Other,-
+2012,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2012,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2012,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2012,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2012,3004.20.00.19,3004.20.00,Other,-
+2012,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2012,3004.20.00.90,3004.20.00,Other,-
+2012,3004.31.00.00,3004.31.00,Containing insulin,-
+2012,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2012,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2012,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2012,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2012,3004.39.00.19,3004.39.00,Other,-
+2012,3004.39.00.90,3004.39.00,Other,-
+2012,3004.40.00.30,3004.40.00,Containing theophylline,-
+2012,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2012,3004.40.00.90,3004.40.00,Other,-
+2012,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2012,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2012,3004.50.00.13,3004.50.00,"Containing multivitamins, not mixed with other supplements",-
+2012,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2012,3004.50.00.19,3004.50.00,Other,-
+2012,3004.50.00.90,3004.50.00,Other,-
+2012,3004.90.00.11,3004.90.00,Amino acids,-
+2012,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2012,3004.90.00.19,3004.90.00,Other,-
+2012,3004.90.00.31,3004.90.00,Analgesics,-
+2012,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2012,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2012,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2012,3004.90.00.35,3004.90.00,"Other agents, acting on the central nervous system",-
+2012,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2012,3004.90.00.39,3004.90.00,Other,-
+2012,3004.90.00.42,3004.90.00,Laxatives,-
+2012,3004.90.00.43,3004.90.00,Antacids,-
+2012,3004.90.00.49,3004.90.00,Other,-
+2012,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2012,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2012,3004.90.00.69,3004.90.00,Other,-
+2012,3004.90.00.71,3004.90.00,Haematological agents,-
+2012,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2012,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2012,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",-
+2012,3004.90.00.75,3004.90.00,Diuretics,-
+2012,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",-
+2012,3004.90.00.77,3004.90.00,Dermatological agents,-
+2012,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2012,3004.90.00.79,3004.90.00,Other,-
+2012,3004.90.00.90,3004.90.00,Other,-
+2012,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2012,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2012,3005.10.00.99,3005.10.00,Other,-
+2012,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2012,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2012,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2012,3005.90.00.90,3005.90.00,Other,-
+2012,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical woundclosure,-
+2012,3006.10.00.90,3006.10.00,Other,-
+2012,3006.20.00.20,3006.20.00,Of animal origin,-
+2012,3006.20.00.90,3006.20.00,Other,-
+2012,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2012,3006.30.00.90,3006.30.00,Other,-
+2012,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2012,3006.40.00.90,3006.40.00,Other,-
+2012,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2012,3006.60.00.10,3006.60.00,In measured doses,-
+2012,3006.60.00.90,3006.60.00,Other,-
+2012,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2012,3006.70.90.00,3006.70.90,Other,-
+2012,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2012,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2013,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2013,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2013,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2013,3001.90.00.90,3001.90.00,Other,KGM
+2013,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2013,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2013,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2013,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2013,3002.10.00.29,3002.10.00,Other,KGM
+2013,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2013,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2013,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2013,3002.10.00.49,3002.10.00,Other,KGM
+2013,3002.10.00.51,3002.10.00,For use in humans,KGM
+2013,3002.10.00.59,3002.10.00,Other,KGM
+2013,3002.10.00.90,3002.10.00,Other,-
+2013,3002.20.00.10,3002.20.00,Against influenza virus,-
+2013,3002.20.00.90,3002.20.00,Other,-
+2013,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2013,3002.30.00.90,3002.30.00,Other,-
+2013,3002.90.00.11,3002.90.00,Ricin,-
+2013,3002.90.00.12,3002.90.00,Saxitoxin,-
+2013,3002.90.00.19,3002.90.00,Other,-
+2013,3002.90.00.20,3002.90.00,Butter making ferment cultures,KGM
+2013,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2013,3002.90.00.91,3002.90.00,"Bacteria culture inoculants, for seeds",-
+2013,3002.90.00.92,3002.90.00,Whole human blood,-
+2013,3002.90.00.93,3002.90.00,"Antiallergenic preparations, of microbial origin",-
+2013,3002.90.00.99,3002.90.00,Other,-
+2013,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2013,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2013,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2013,3003.39.00.00,3003.39.00,Other,KGM
+2013,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2013,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2013,3003.90.00.90,3003.90.00,Other,KGM
+2013,3004.10.00.10,3004.10.00,For human use,-
+2013,3004.10.00.90,3004.10.00,Other,-
+2013,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2013,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2013,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2013,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2013,3004.20.00.19,3004.20.00,Other,-
+2013,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2013,3004.20.00.90,3004.20.00,Other,-
+2013,3004.31.00.00,3004.31.00,Containing insulin,-
+2013,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2013,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2013,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2013,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2013,3004.39.00.19,3004.39.00,Other,-
+2013,3004.39.00.90,3004.39.00,Other,-
+2013,3004.40.00.30,3004.40.00,Containing theophylline,-
+2013,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2013,3004.40.00.90,3004.40.00,Other,-
+2013,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2013,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2013,3004.50.00.13,3004.50.00,"Containing multivitamins, not mixed with other supplements",-
+2013,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2013,3004.50.00.19,3004.50.00,Other,-
+2013,3004.50.00.90,3004.50.00,Other,-
+2013,3004.90.00.11,3004.90.00,Amino acids,-
+2013,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2013,3004.90.00.19,3004.90.00,Other,-
+2013,3004.90.00.31,3004.90.00,Analgesics,-
+2013,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2013,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2013,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2013,3004.90.00.35,3004.90.00,"Other agents, acting on the central nervous system",-
+2013,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2013,3004.90.00.39,3004.90.00,Other,-
+2013,3004.90.00.42,3004.90.00,Laxatives,-
+2013,3004.90.00.43,3004.90.00,Antacids,-
+2013,3004.90.00.49,3004.90.00,Other,-
+2013,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2013,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2013,3004.90.00.69,3004.90.00,Other,-
+2013,3004.90.00.71,3004.90.00,Haematological agents,-
+2013,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2013,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2013,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",-
+2013,3004.90.00.75,3004.90.00,Diuretics,-
+2013,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",-
+2013,3004.90.00.77,3004.90.00,Dermatological agents,-
+2013,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2013,3004.90.00.79,3004.90.00,Other,-
+2013,3004.90.00.90,3004.90.00,Other,-
+2013,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2013,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2013,3005.10.00.99,3005.10.00,Other,-
+2013,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2013,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2013,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2013,3005.90.00.90,3005.90.00,Other,-
+2013,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2013,3006.10.00.90,3006.10.00,Other,-
+2013,3006.20.00.20,3006.20.00,Of animal origin,-
+2013,3006.20.00.90,3006.20.00,Other,-
+2013,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2013,3006.30.00.90,3006.30.00,Other,-
+2013,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2013,3006.40.00.90,3006.40.00,Other,-
+2013,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2013,3006.60.00.10,3006.60.00,In measured doses,-
+2013,3006.60.00.90,3006.60.00,Other,-
+2013,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2013,3006.70.90.00,3006.70.90,Other,-
+2013,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2013,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2013-1,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2013-1,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2013-1,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2013-1,3001.90.00.90,3001.90.00,Other,KGM
+2013-1,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2013-1,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2013-1,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2013-1,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2013-1,3002.10.00.29,3002.10.00,Other,KGM
+2013-1,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2013-1,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2013-1,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2013-1,3002.10.00.49,3002.10.00,Other,KGM
+2013-1,3002.10.00.51,3002.10.00,For use in humans,KGM
+2013-1,3002.10.00.59,3002.10.00,Other,KGM
+2013-1,3002.10.00.90,3002.10.00,Other,-
+2013-1,3002.20.00.10,3002.20.00,Against influenza virus,-
+2013-1,3002.20.00.90,3002.20.00,Other,-
+2013-1,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2013-1,3002.30.00.90,3002.30.00,Other,-
+2013-1,3002.90.00.11,3002.90.00,Ricin,-
+2013-1,3002.90.00.12,3002.90.00,Saxitoxin,-
+2013-1,3002.90.00.19,3002.90.00,Other,-
+2013-1,3002.90.00.20,3002.90.00,Butter making ferment cultures,KGM
+2013-1,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2013-1,3002.90.00.91,3002.90.00,"Bacteria culture inoculants, for seeds",-
+2013-1,3002.90.00.92,3002.90.00,Whole human blood,-
+2013-1,3002.90.00.93,3002.90.00,"Antiallergenic preparations, of microbial origin",-
+2013-1,3002.90.00.99,3002.90.00,Other,-
+2013-1,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2013-1,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2013-1,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2013-1,3003.39.00.00,3003.39.00,Other,KGM
+2013-1,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2013-1,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2013-1,3003.90.00.90,3003.90.00,Other,KGM
+2013-1,3004.10.00.10,3004.10.00,For human use,-
+2013-1,3004.10.00.90,3004.10.00,Other,-
+2013-1,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2013-1,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2013-1,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2013-1,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2013-1,3004.20.00.19,3004.20.00,Other,-
+2013-1,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2013-1,3004.20.00.90,3004.20.00,Other,-
+2013-1,3004.31.00.00,3004.31.00,Containing insulin,-
+2013-1,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2013-1,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2013-1,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2013-1,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2013-1,3004.39.00.19,3004.39.00,Other,-
+2013-1,3004.39.00.90,3004.39.00,Other,-
+2013-1,3004.40.00.30,3004.40.00,Containing theophylline,-
+2013-1,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2013-1,3004.40.00.90,3004.40.00,Other,-
+2013-1,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2013-1,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2013-1,3004.50.00.13,3004.50.00,"Containing multivitamins, not mixed with other supplements",-
+2013-1,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2013-1,3004.50.00.19,3004.50.00,Other,-
+2013-1,3004.50.00.90,3004.50.00,Other,-
+2013-1,3004.90.00.11,3004.90.00,Amino acids,-
+2013-1,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2013-1,3004.90.00.19,3004.90.00,Other,-
+2013-1,3004.90.00.31,3004.90.00,Analgesics,-
+2013-1,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2013-1,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2013-1,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2013-1,3004.90.00.35,3004.90.00,"Other agents, acting on the central nervous system",-
+2013-1,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2013-1,3004.90.00.39,3004.90.00,Other,-
+2013-1,3004.90.00.42,3004.90.00,Laxatives,-
+2013-1,3004.90.00.43,3004.90.00,Antacids,-
+2013-1,3004.90.00.49,3004.90.00,Other,-
+2013-1,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2013-1,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2013-1,3004.90.00.69,3004.90.00,Other,-
+2013-1,3004.90.00.71,3004.90.00,Haematological agents,-
+2013-1,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2013-1,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2013-1,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",-
+2013-1,3004.90.00.75,3004.90.00,Diuretics,-
+2013-1,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",-
+2013-1,3004.90.00.77,3004.90.00,Dermatological agents,-
+2013-1,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2013-1,3004.90.00.79,3004.90.00,Other,-
+2013-1,3004.90.00.90,3004.90.00,Other,-
+2013-1,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2013-1,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2013-1,3005.10.00.99,3005.10.00,Other,-
+2013-1,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2013-1,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2013-1,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2013-1,3005.90.00.90,3005.90.00,Other,-
+2013-1,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2013-1,3006.10.00.90,3006.10.00,Other,-
+2013-1,3006.20.00.20,3006.20.00,Of animal origin,-
+2013-1,3006.20.00.90,3006.20.00,Other,-
+2013-1,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2013-1,3006.30.00.90,3006.30.00,Other,-
+2013-1,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2013-1,3006.40.00.90,3006.40.00,Other,-
+2013-1,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2013-1,3006.60.00.10,3006.60.00,In measured doses,-
+2013-1,3006.60.00.90,3006.60.00,Other,-
+2013-1,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2013-1,3006.70.90.00,3006.70.90,Other,-
+2013-1,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2013-1,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2014-4,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2014-4,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2014-4,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2014-4,3001.90.00.90,3001.90.00,Other,KGM
+2014-4,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2014-4,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2014-4,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2014-4,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2014-4,3002.10.00.29,3002.10.00,Other,KGM
+2014-4,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2014-4,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2014-4,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2014-4,3002.10.00.49,3002.10.00,Other,KGM
+2014-4,3002.10.00.51,3002.10.00,For use in humans,KGM
+2014-4,3002.10.00.59,3002.10.00,Other,KGM
+2014-4,3002.10.00.90,3002.10.00,Other,-
+2014-4,3002.20.00.10,3002.20.00,Against influenza virus,-
+2014-4,3002.20.00.90,3002.20.00,Other,-
+2014-4,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2014-4,3002.30.00.90,3002.30.00,Other,-
+2014-4,3002.90.00.11,3002.90.00,Ricin,-
+2014-4,3002.90.00.12,3002.90.00,Saxitoxin,-
+2014-4,3002.90.00.19,3002.90.00,Other,-
+2014-4,3002.90.00.20,3002.90.00,Butter making ferment cultures,KGM
+2014-4,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2014-4,3002.90.00.91,3002.90.00,"Bacteria culture inoculants, for seeds",-
+2014-4,3002.90.00.92,3002.90.00,Whole human blood,-
+2014-4,3002.90.00.93,3002.90.00,"Antiallergenic preparations, of microbial origin",-
+2014-4,3002.90.00.99,3002.90.00,Other,-
+2014-4,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2014-4,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2014-4,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2014-4,3003.39.00.00,3003.39.00,Other,KGM
+2014-4,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2014-4,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2014-4,3003.90.00.90,3003.90.00,Other,KGM
+2014-4,3004.10.00.10,3004.10.00,For human use,-
+2014-4,3004.10.00.90,3004.10.00,Other,-
+2014-4,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2014-4,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2014-4,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2014-4,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2014-4,3004.20.00.19,3004.20.00,Other,-
+2014-4,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2014-4,3004.20.00.90,3004.20.00,Other,-
+2014-4,3004.31.00.00,3004.31.00,Containing insulin,-
+2014-4,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2014-4,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2014-4,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2014-4,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2014-4,3004.39.00.19,3004.39.00,Other,-
+2014-4,3004.39.00.90,3004.39.00,Other,-
+2014-4,3004.40.00.30,3004.40.00,Containing theophylline,-
+2014-4,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2014-4,3004.40.00.90,3004.40.00,Other,-
+2014-4,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2014-4,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2014-4,3004.50.00.13,3004.50.00,"Containing multivitamins, not mixed with other supplements",-
+2014-4,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2014-4,3004.50.00.19,3004.50.00,Other,-
+2014-4,3004.50.00.90,3004.50.00,Other,-
+2014-4,3004.90.00.11,3004.90.00,Amino acids,-
+2014-4,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2014-4,3004.90.00.19,3004.90.00,Other,-
+2014-4,3004.90.00.31,3004.90.00,Analgesics,-
+2014-4,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2014-4,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2014-4,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2014-4,3004.90.00.35,3004.90.00,"Other agents, acting on the central nervous system",-
+2014-4,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2014-4,3004.90.00.39,3004.90.00,Other,-
+2014-4,3004.90.00.42,3004.90.00,Laxatives,-
+2014-4,3004.90.00.43,3004.90.00,Antacids,-
+2014-4,3004.90.00.49,3004.90.00,Other,-
+2014-4,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2014-4,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2014-4,3004.90.00.69,3004.90.00,Other,-
+2014-4,3004.90.00.71,3004.90.00,Haematological agents,-
+2014-4,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2014-4,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2014-4,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",-
+2014-4,3004.90.00.75,3004.90.00,Diuretics,-
+2014-4,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",-
+2014-4,3004.90.00.77,3004.90.00,Dermatological agents,-
+2014-4,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2014-4,3004.90.00.79,3004.90.00,Other,-
+2014-4,3004.90.00.90,3004.90.00,Other,-
+2014-4,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2014-4,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2014-4,3005.10.00.99,3005.10.00,Other,-
+2014-4,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2014-4,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2014-4,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2014-4,3005.90.00.90,3005.90.00,Other,-
+2014-4,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2014-4,3006.10.00.90,3006.10.00,Other,-
+2014-4,3006.20.00.20,3006.20.00,Of animal origin,-
+2014-4,3006.20.00.90,3006.20.00,Other,-
+2014-4,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2014-4,3006.30.00.90,3006.30.00,Other,-
+2014-4,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2014-4,3006.40.00.90,3006.40.00,Other,-
+2014-4,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2014-4,3006.60.00.10,3006.60.00,In measured doses,-
+2014-4,3006.60.00.90,3006.60.00,Other,-
+2014-4,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2014-4,3006.70.90.00,3006.70.90,Other,-
+2014-4,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2014-4,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2015,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2015,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2015,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2015,3001.90.00.90,3001.90.00,Other,KGM
+2015,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2015,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2015,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2015,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2015,3002.10.00.29,3002.10.00,Other,KGM
+2015,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2015,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2015,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2015,3002.10.00.49,3002.10.00,Other,KGM
+2015,3002.10.00.51,3002.10.00,For use in humans,KGM
+2015,3002.10.00.59,3002.10.00,Other,KGM
+2015,3002.10.00.90,3002.10.00,Other,-
+2015,3002.20.00.10,3002.20.00,Against influenza virus,-
+2015,3002.20.00.90,3002.20.00,Other,-
+2015,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2015,3002.30.00.90,3002.30.00,Other,-
+2015,3002.90.00.11,3002.90.00,Ricin,-
+2015,3002.90.00.12,3002.90.00,Saxitoxin,-
+2015,3002.90.00.19,3002.90.00,Other,-
+2015,3002.90.00.20,3002.90.00,Butter making ferment cultures,KGM
+2015,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2015,3002.90.00.91,3002.90.00,"Bacteria culture inoculants, for seeds",-
+2015,3002.90.00.92,3002.90.00,Whole human blood,-
+2015,3002.90.00.93,3002.90.00,"Antiallergenic preparations, of microbial origin",-
+2015,3002.90.00.99,3002.90.00,Other,-
+2015,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2015,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2015,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2015,3003.39.00.00,3003.39.00,Other,KGM
+2015,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2015,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2015,3003.90.00.90,3003.90.00,Other,KGM
+2015,3004.10.00.10,3004.10.00,For human use,-
+2015,3004.10.00.90,3004.10.00,Other,-
+2015,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2015,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2015,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2015,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2015,3004.20.00.19,3004.20.00,Other,-
+2015,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2015,3004.20.00.90,3004.20.00,Other,-
+2015,3004.31.00.00,3004.31.00,Containing insulin,-
+2015,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2015,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2015,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2015,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2015,3004.39.00.19,3004.39.00,Other,-
+2015,3004.39.00.90,3004.39.00,Other,-
+2015,3004.40.00.30,3004.40.00,Containing theophylline,-
+2015,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2015,3004.40.00.90,3004.40.00,Other,-
+2015,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2015,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2015,3004.50.00.13,3004.50.00,"Containing multivitamins, not mixed with other supplements",-
+2015,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2015,3004.50.00.19,3004.50.00,Other,-
+2015,3004.50.00.90,3004.50.00,Other,-
+2015,3004.90.00.11,3004.90.00,Amino acids,-
+2015,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2015,3004.90.00.19,3004.90.00,Other,-
+2015,3004.90.00.31,3004.90.00,Analgesics,-
+2015,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2015,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2015,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2015,3004.90.00.35,3004.90.00,"Other agents, acting on the central nervous system",-
+2015,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2015,3004.90.00.39,3004.90.00,Other,-
+2015,3004.90.00.42,3004.90.00,Laxatives,-
+2015,3004.90.00.43,3004.90.00,Antacids,-
+2015,3004.90.00.49,3004.90.00,Other,-
+2015,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2015,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2015,3004.90.00.69,3004.90.00,Other,-
+2015,3004.90.00.71,3004.90.00,Haematological agents,-
+2015,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2015,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2015,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",-
+2015,3004.90.00.75,3004.90.00,Diuretics,-
+2015,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",-
+2015,3004.90.00.77,3004.90.00,Dermatological agents,-
+2015,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2015,3004.90.00.79,3004.90.00,Other,-
+2015,3004.90.00.90,3004.90.00,Other,-
+2015,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2015,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2015,3005.10.00.99,3005.10.00,Other,-
+2015,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2015,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2015,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2015,3005.90.00.90,3005.90.00,Other,-
+2015,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2015,3006.10.00.90,3006.10.00,Other,-
+2015,3006.20.00.20,3006.20.00,Of animal origin,-
+2015,3006.20.00.90,3006.20.00,Other,-
+2015,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2015,3006.30.00.90,3006.30.00,Other,-
+2015,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2015,3006.40.00.90,3006.40.00,Other,-
+2015,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2015,3006.60.00.10,3006.60.00,In measured doses,-
+2015,3006.60.00.90,3006.60.00,Other,-
+2015,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2015,3006.70.90.00,3006.70.90,Other,-
+2015,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2015,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2016,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2016,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2016,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2016,3001.90.00.90,3001.90.00,Other,KGM
+2016,3002.10.00.10,3002.10.00,"Human antisera and other human blood fractions, for diagnostic use",KGM
+2016,3002.10.00.21,3002.10.00,Blood plasma,KGM
+2016,3002.10.00.22,3002.10.00,Normal serum globulin,KGM
+2016,3002.10.00.23,3002.10.00,Immune serum globulin,KGM
+2016,3002.10.00.29,3002.10.00,Other,KGM
+2016,3002.10.00.30,3002.10.00,"Human antisera and other human blood fractions, for other uses",KGM
+2016,3002.10.00.41,3002.10.00,Bovine albumin,KGM
+2016,3002.10.00.42,3002.10.00,Sera and antisera,KGM
+2016,3002.10.00.49,3002.10.00,Other,KGM
+2016,3002.10.00.51,3002.10.00,For use in humans,KGM
+2016,3002.10.00.59,3002.10.00,Other,KGM
+2016,3002.10.00.90,3002.10.00,Other,-
+2016,3002.20.00.10,3002.20.00,Against influenza virus,-
+2016,3002.20.00.90,3002.20.00,Other,-
+2016,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2016,3002.30.00.90,3002.30.00,Other,-
+2016,3002.90.00.11,3002.90.00,Ricin,-
+2016,3002.90.00.12,3002.90.00,Saxitoxin,-
+2016,3002.90.00.19,3002.90.00,Other,-
+2016,3002.90.00.20,3002.90.00,Butter making ferment cultures,KGM
+2016,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2016,3002.90.00.91,3002.90.00,"Bacteria culture inoculants, for seeds",-
+2016,3002.90.00.92,3002.90.00,Whole human blood,-
+2016,3002.90.00.93,3002.90.00,"Antiallergenic preparations, of microbial origin",-
+2016,3002.90.00.99,3002.90.00,Other,-
+2016,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2016,3003.20.00.00,3003.20.00,Containing other antibiotics,KGM
+2016,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2016,3003.39.00.00,3003.39.00,Other,KGM
+2016,3003.40.00.00,3003.40.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,KGM
+2016,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2016,3003.90.00.90,3003.90.00,Other,KGM
+2016,3004.10.00.10,3004.10.00,For human use,-
+2016,3004.10.00.90,3004.10.00,Other,-
+2016,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2016,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2016,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2016,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2016,3004.20.00.19,3004.20.00,Other,-
+2016,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2016,3004.20.00.90,3004.20.00,Other,-
+2016,3004.31.00.00,3004.31.00,Containing insulin,-
+2016,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2016,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2016,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2016,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2016,3004.39.00.19,3004.39.00,Other,-
+2016,3004.39.00.90,3004.39.00,Other,-
+2016,3004.40.00.30,3004.40.00,Containing theophylline,-
+2016,3004.40.00.40,3004.40.00,Containing morphine or derivatives thereof,-
+2016,3004.40.00.90,3004.40.00,Other,-
+2016,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2016,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2016,3004.50.00.13,3004.50.00,"Containing multivitamins, not mixed with other supplements",-
+2016,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2016,3004.50.00.19,3004.50.00,Other,-
+2016,3004.50.00.90,3004.50.00,Other,-
+2016,3004.90.00.11,3004.90.00,Amino acids,-
+2016,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2016,3004.90.00.19,3004.90.00,Other,-
+2016,3004.90.00.31,3004.90.00,Analgesics,-
+2016,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,-
+2016,3004.90.00.33,3004.90.00,Antihypertensive agents,-
+2016,3004.90.00.34,3004.90.00,Antihistaminic agents,-
+2016,3004.90.00.35,3004.90.00,"Other agents, acting on the central nervous system",-
+2016,3004.90.00.36,3004.90.00,Local anaesthetics,-
+2016,3004.90.00.39,3004.90.00,Other,-
+2016,3004.90.00.42,3004.90.00,Laxatives,-
+2016,3004.90.00.43,3004.90.00,Antacids,-
+2016,3004.90.00.49,3004.90.00,Other,-
+2016,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",-
+2016,3004.90.00.61,3004.90.00,Containing sulfonamides,-
+2016,3004.90.00.69,3004.90.00,Other,-
+2016,3004.90.00.71,3004.90.00,Haematological agents,-
+2016,3004.90.00.72,3004.90.00,Antineoplastic agents,-
+2016,3004.90.00.73,3004.90.00,Cough or cold preparations,-
+2016,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",-
+2016,3004.90.00.75,3004.90.00,Diuretics,-
+2016,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",-
+2016,3004.90.00.77,3004.90.00,Dermatological agents,-
+2016,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,-
+2016,3004.90.00.79,3004.90.00,Other,-
+2016,3004.90.00.90,3004.90.00,Other,-
+2016,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2016,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2016,3005.10.00.99,3005.10.00,Other,-
+2016,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2016,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2016,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2016,3005.90.00.90,3005.90.00,Other,-
+2016,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2016,3006.10.00.90,3006.10.00,Other,-
+2016,3006.20.00.20,3006.20.00,Of animal origin,-
+2016,3006.20.00.90,3006.20.00,Other,-
+2016,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2016,3006.30.00.90,3006.30.00,Other,-
+2016,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2016,3006.40.00.90,3006.40.00,Other,-
+2016,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2016,3006.60.00.10,3006.60.00,In measured doses,-
+2016,3006.60.00.90,3006.60.00,Other,-
+2016,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2016,3006.70.90.00,3006.70.90,Other,-
+2016,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2016,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2017,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2017,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2017,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2017,3001.90.00.90,3001.90.00,Other,KGM
+2017,3002.11.00.00,3002.11.00,Malaria diagnostic test kits,NMB
+2017,3002.12.00.11,3002.12.00,For diagnostic use,KGM
+2017,3002.12.00.12,3002.12.00,"Other, blood plasma",KGM
+2017,3002.12.00.13,3002.12.00,"Other, immune globulin",KGM
+2017,3002.12.00.19,3002.12.00,Other,KGM
+2017,3002.12.00.21,3002.12.00,For use in humans,KGM
+2017,3002.12.00.29,3002.12.00,Other,KGM
+2017,3002.13.00.00,3002.13.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2017,3002.14.00.00,3002.14.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2017,3002.15.00.00,3002.15.00,"Immunological products, put up in measured doses or in forms or packings for retail sale",KGM
+2017,3002.19.00.00,3002.19.00,Other,KGM
+2017,3002.20.00.10,3002.20.00,Against influenza virus,-
+2017,3002.20.00.90,3002.20.00,Other,-
+2017,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2017,3002.30.00.90,3002.30.00,Other,-
+2017,3002.90.00.10,3002.90.00,"Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates",KGM
+2017,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2017,3002.90.00.40,3002.90.00,Whole human blood,KGM
+2017,3002.90.00.50,3002.90.00,Micro-organisms cultures,KGM
+2017,3002.90.00.90,3002.90.00,Other,KGM
+2017,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2017,3003.20.00.00,3003.20.00,"Other, containing antibiotics",KGM
+2017,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2017,3003.39.00.00,3003.39.00,Other,KGM
+2017,3003.41.00.00,3003.41.00,Containing ephedrine or its salts,KGM
+2017,3003.42.00.00,3003.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2017,3003.43.00.00,3003.43.00,Containing norephedrine or its salts,KGM
+2017,3003.49.00.00,3003.49.00,Other,KGM
+2017,3003.60.00.00,3003.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2017,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2017,3003.90.00.90,3003.90.00,Other,KGM
+2017,3004.10.00.10,3004.10.00,For human use,-
+2017,3004.10.00.90,3004.10.00,Other,-
+2017,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2017,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2017,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2017,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2017,3004.20.00.19,3004.20.00,Other,-
+2017,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2017,3004.20.00.90,3004.20.00,Other,-
+2017,3004.31.00.00,3004.31.00,Containing insulin,-
+2017,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2017,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2017,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2017,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2017,3004.39.00.19,3004.39.00,Other,-
+2017,3004.39.00.90,3004.39.00,Other,-
+2017,3004.41.00.00,3004.41.00,Containing ephedrine or its salts,KGM
+2017,3004.42.00.00,3004.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2017,3004.43.00.00,3004.43.00,Containing norephedrine or its salts,KGM
+2017,3004.49.00.10,3004.49.00,Containing morphine or derivatives thereof,KGM
+2017,3004.49.00.90,3004.49.00,Other,KGM
+2017,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2017,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2017,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2017,3004.50.00.19,3004.50.00,Other,-
+2017,3004.50.00.90,3004.50.00,Other,-
+2017,3004.60.00.00,3004.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2017,3004.90.00.11,3004.90.00,Amino acids,-
+2017,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2017,3004.90.00.19,3004.90.00,Other,-
+2017,3004.90.00.31,3004.90.00,Analgesics,KGM
+2017,3004.90.00.32,3004.90.00,Antidepressants and tranquilizers,KGM
+2017,3004.90.00.33,3004.90.00,Antihypertensive agents,KGM
+2017,3004.90.00.34,3004.90.00,Antihistaminic agents,KGM
+2017,3004.90.00.35,3004.90.00,"Other agents, acting on the central nervous system",KGM
+2017,3004.90.00.36,3004.90.00,Local anaesthetics,KGM
+2017,3004.90.00.39,3004.90.00,Other,KGM
+2017,3004.90.00.42,3004.90.00,Laxatives,KGM
+2017,3004.90.00.43,3004.90.00,Antacids,KGM
+2017,3004.90.00.49,3004.90.00,Other,KGM
+2017,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",KGM
+2017,3004.90.00.61,3004.90.00,Containing sulfonamides,KGM
+2017,3004.90.00.69,3004.90.00,Other,KGM
+2017,3004.90.00.71,3004.90.00,Haematological agents,KGM
+2017,3004.90.00.72,3004.90.00,Antineoplastic agents,KGM
+2017,3004.90.00.73,3004.90.00,Cough or cold preparations,KGM
+2017,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",KGM
+2017,3004.90.00.75,3004.90.00,Diuretics,KGM
+2017,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",KGM
+2017,3004.90.00.77,3004.90.00,Dermatological agents,KGM
+2017,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,KGM
+2017,3004.90.00.79,3004.90.00,Other,KGM
+2017,3004.90.00.90,3004.90.00,Other,KGM
+2017,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2017,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2017,3005.10.00.99,3005.10.00,Other,-
+2017,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2017,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2017,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2017,3005.90.00.90,3005.90.00,Other,-
+2017,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2017,3006.10.00.90,3006.10.00,Other,-
+2017,3006.20.00.20,3006.20.00,Of animal origin,-
+2017,3006.20.00.90,3006.20.00,Other,-
+2017,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2017,3006.30.00.90,3006.30.00,Other,-
+2017,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2017,3006.40.00.90,3006.40.00,Other,-
+2017,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2017,3006.60.00.00,3006.60.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides",KGM
+2017,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2017,3006.70.90.00,3006.70.90,Other,-
+2017,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2017,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2018-3,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2018-3,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2018-3,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2018-3,3001.90.00.90,3001.90.00,Other,KGM
+2018-3,3002.11.00.00,3002.11.00,Malaria diagnostic test kits,NMB
+2018-3,3002.12.00.11,3002.12.00,For diagnostic use,KGM
+2018-3,3002.12.00.12,3002.12.00,"Other, blood plasma",KGM
+2018-3,3002.12.00.13,3002.12.00,"Other, immune globulin",KGM
+2018-3,3002.12.00.19,3002.12.00,Other,KGM
+2018-3,3002.12.00.21,3002.12.00,For use in humans,KGM
+2018-3,3002.12.00.29,3002.12.00,Other,KGM
+2018-3,3002.13.00.00,3002.13.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2018-3,3002.14.00.00,3002.14.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2018-3,3002.15.00.00,3002.15.00,"Immunological products, put up in measured doses or in forms or packings for retail sale",KGM
+2018-3,3002.19.00.00,3002.19.00,Other,KGM
+2018-3,3002.20.00.10,3002.20.00,Against influenza virus,-
+2018-3,3002.20.00.90,3002.20.00,Other,-
+2018-3,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2018-3,3002.30.00.90,3002.30.00,Other,-
+2018-3,3002.90.00.10,3002.90.00,"Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates",KGM
+2018-3,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2018-3,3002.90.00.40,3002.90.00,Whole human blood,KGM
+2018-3,3002.90.00.50,3002.90.00,Micro-organisms cultures,KGM
+2018-3,3002.90.00.90,3002.90.00,Other,KGM
+2018-3,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2018-3,3003.20.00.00,3003.20.00,"Other, containing antibiotics",KGM
+2018-3,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2018-3,3003.39.00.00,3003.39.00,Other,KGM
+2018-3,3003.41.00.00,3003.41.00,Containing ephedrine or its salts,KGM
+2018-3,3003.42.00.00,3003.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2018-3,3003.43.00.00,3003.43.00,Containing norephedrine or its salts,KGM
+2018-3,3003.49.00.00,3003.49.00,Other,KGM
+2018-3,3003.60.00.00,3003.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2018-3,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2018-3,3003.90.00.90,3003.90.00,Other,KGM
+2018-3,3004.10.00.10,3004.10.00,For human use,-
+2018-3,3004.10.00.90,3004.10.00,Other,-
+2018-3,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2018-3,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2018-3,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2018-3,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2018-3,3004.20.00.19,3004.20.00,Other,-
+2018-3,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2018-3,3004.20.00.90,3004.20.00,Other,-
+2018-3,3004.31.00.00,3004.31.00,Containing insulin,-
+2018-3,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2018-3,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2018-3,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2018-3,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2018-3,3004.39.00.19,3004.39.00,Other,-
+2018-3,3004.39.00.90,3004.39.00,Other,-
+2018-3,3004.41.00.00,3004.41.00,Containing ephedrine or its salts,KGM
+2018-3,3004.42.00.00,3004.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2018-3,3004.43.00.00,3004.43.00,Containing norephedrine or its salts,KGM
+2018-3,3004.49.00.10,3004.49.00,Containing morphine or derivatives thereof,KGM
+2018-3,3004.49.00.90,3004.49.00,Other,KGM
+2018-3,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2018-3,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2018-3,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2018-3,3004.50.00.19,3004.50.00,Other,-
+2018-3,3004.50.00.90,3004.50.00,Other,-
+2018-3,3004.60.00.00,3004.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2018-3,3004.90.00.11,3004.90.00,Amino acids,-
+2018-3,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2018-3,3004.90.00.19,3004.90.00,Other,-
+2018-3,3004.90.00.21,3004.90.00,Containing cannabis or cannabinoids,KGM
+2018-3,3004.90.00.22,3004.90.00,Analgesics,KGM
+2018-3,3004.90.00.23,3004.90.00,Antidepressants and tranquilizers,KGM
+2018-3,3004.90.00.24,3004.90.00,Antihypertensive agents,KGM
+2018-3,3004.90.00.25,3004.90.00,Antihistaminic agents,KGM
+2018-3,3004.90.00.26,3004.90.00,"Other agents, acting on the central nervous system",KGM
+2018-3,3004.90.00.27,3004.90.00,Local anaesthetics,KGM
+2018-3,3004.90.00.29,3004.90.00,Other,KGM
+2018-3,3004.90.00.42,3004.90.00,Laxatives,KGM
+2018-3,3004.90.00.43,3004.90.00,Antacids,KGM
+2018-3,3004.90.00.49,3004.90.00,Other,KGM
+2018-3,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",KGM
+2018-3,3004.90.00.61,3004.90.00,Containing sulfonamides,KGM
+2018-3,3004.90.00.69,3004.90.00,Other,KGM
+2018-3,3004.90.00.71,3004.90.00,Haematological agents,KGM
+2018-3,3004.90.00.72,3004.90.00,Antineoplastic agents,KGM
+2018-3,3004.90.00.73,3004.90.00,Cough or cold preparations,KGM
+2018-3,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",KGM
+2018-3,3004.90.00.75,3004.90.00,Diuretics,KGM
+2018-3,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",KGM
+2018-3,3004.90.00.77,3004.90.00,Dermatological agents,KGM
+2018-3,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,KGM
+2018-3,3004.90.00.79,3004.90.00,Other,KGM
+2018-3,3004.90.00.90,3004.90.00,Other,KGM
+2018-3,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2018-3,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2018-3,3005.10.00.99,3005.10.00,Other,-
+2018-3,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2018-3,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2018-3,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2018-3,3005.90.00.90,3005.90.00,Other,-
+2018-3,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2018-3,3006.10.00.90,3006.10.00,Other,-
+2018-3,3006.20.00.20,3006.20.00,Of animal origin,-
+2018-3,3006.20.00.90,3006.20.00,Other,-
+2018-3,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2018-3,3006.30.00.90,3006.30.00,Other,-
+2018-3,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2018-3,3006.40.00.90,3006.40.00,Other,-
+2018-3,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2018-3,3006.60.00.00,3006.60.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides",KGM
+2018-3,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2018-3,3006.70.90.00,3006.70.90,Other,-
+2018-3,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2018-3,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2019-4,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2019-4,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2019-4,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2019-4,3001.90.00.90,3001.90.00,Other,KGM
+2019-4,3002.11.00.00,3002.11.00,Malaria diagnostic test kits,NMB
+2019-4,3002.12.00.11,3002.12.00,For diagnostic use,KGM
+2019-4,3002.12.00.12,3002.12.00,"Other, blood plasma",KGM
+2019-4,3002.12.00.13,3002.12.00,"Other, immune globulin",KGM
+2019-4,3002.12.00.19,3002.12.00,Other,KGM
+2019-4,3002.12.00.21,3002.12.00,For use in humans,KGM
+2019-4,3002.12.00.29,3002.12.00,Other,KGM
+2019-4,3002.13.00.00,3002.13.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2019-4,3002.14.00.00,3002.14.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2019-4,3002.15.00.00,3002.15.00,"Immunological products, put up in measured doses or in forms or packings for retail sale",KGM
+2019-4,3002.19.00.00,3002.19.00,Other,KGM
+2019-4,3002.20.00.10,3002.20.00,Against influenza virus,-
+2019-4,3002.20.00.90,3002.20.00,Other,-
+2019-4,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2019-4,3002.30.00.90,3002.30.00,Other,-
+2019-4,3002.90.00.10,3002.90.00,"Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates",KGM
+2019-4,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2019-4,3002.90.00.40,3002.90.00,Whole human blood,KGM
+2019-4,3002.90.00.50,3002.90.00,Micro-organisms cultures,KGM
+2019-4,3002.90.00.90,3002.90.00,Other,KGM
+2019-4,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2019-4,3003.20.00.00,3003.20.00,"Other, containing antibiotics",KGM
+2019-4,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2019-4,3003.39.00.00,3003.39.00,Other,KGM
+2019-4,3003.41.00.00,3003.41.00,Containing ephedrine or its salts,KGM
+2019-4,3003.42.00.00,3003.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2019-4,3003.43.00.00,3003.43.00,Containing norephedrine or its salts,KGM
+2019-4,3003.49.00.00,3003.49.00,Other,KGM
+2019-4,3003.60.00.00,3003.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2019-4,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2019-4,3003.90.00.90,3003.90.00,Other,KGM
+2019-4,3004.10.00.10,3004.10.00,For human use,-
+2019-4,3004.10.00.90,3004.10.00,Other,-
+2019-4,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2019-4,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2019-4,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2019-4,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2019-4,3004.20.00.19,3004.20.00,Other,-
+2019-4,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2019-4,3004.20.00.90,3004.20.00,Other,-
+2019-4,3004.31.00.00,3004.31.00,Containing insulin,-
+2019-4,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2019-4,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2019-4,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2019-4,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2019-4,3004.39.00.19,3004.39.00,Other,-
+2019-4,3004.39.00.90,3004.39.00,Other,-
+2019-4,3004.41.00.00,3004.41.00,Containing ephedrine or its salts,KGM
+2019-4,3004.42.00.00,3004.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2019-4,3004.43.00.00,3004.43.00,Containing norephedrine or its salts,KGM
+2019-4,3004.49.00.10,3004.49.00,Containing morphine or derivatives thereof,KGM
+2019-4,3004.49.00.90,3004.49.00,Other,KGM
+2019-4,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2019-4,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2019-4,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2019-4,3004.50.00.19,3004.50.00,Other,-
+2019-4,3004.50.00.90,3004.50.00,Other,-
+2019-4,3004.60.00.00,3004.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2019-4,3004.90.00.11,3004.90.00,Amino acids,-
+2019-4,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2019-4,3004.90.00.19,3004.90.00,Other,-
+2019-4,3004.90.00.21,3004.90.00,Containing cannabis or cannabinoids,KGM
+2019-4,3004.90.00.22,3004.90.00,Analgesics,KGM
+2019-4,3004.90.00.23,3004.90.00,Antidepressants and tranquilizers,KGM
+2019-4,3004.90.00.24,3004.90.00,Antihypertensive agents,KGM
+2019-4,3004.90.00.25,3004.90.00,Antihistaminic agents,KGM
+2019-4,3004.90.00.26,3004.90.00,"Other agents, acting on the central nervous system",KGM
+2019-4,3004.90.00.27,3004.90.00,Local anaesthetics,KGM
+2019-4,3004.90.00.29,3004.90.00,Other,KGM
+2019-4,3004.90.00.42,3004.90.00,Laxatives,KGM
+2019-4,3004.90.00.43,3004.90.00,Antacids,KGM
+2019-4,3004.90.00.49,3004.90.00,Other,KGM
+2019-4,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",KGM
+2019-4,3004.90.00.61,3004.90.00,Containing sulfonamides,KGM
+2019-4,3004.90.00.69,3004.90.00,Other,KGM
+2019-4,3004.90.00.71,3004.90.00,Haematological agents,KGM
+2019-4,3004.90.00.72,3004.90.00,Antineoplastic agents,KGM
+2019-4,3004.90.00.73,3004.90.00,Cough or cold preparations,KGM
+2019-4,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",KGM
+2019-4,3004.90.00.75,3004.90.00,Diuretics,KGM
+2019-4,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",KGM
+2019-4,3004.90.00.77,3004.90.00,Dermatological agents,KGM
+2019-4,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,KGM
+2019-4,3004.90.00.79,3004.90.00,Other,KGM
+2019-4,3004.90.00.90,3004.90.00,Other,KGM
+2019-4,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2019-4,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2019-4,3005.10.00.99,3005.10.00,Other,-
+2019-4,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2019-4,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2019-4,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2019-4,3005.90.00.90,3005.90.00,Other,-
+2019-4,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2019-4,3006.10.00.90,3006.10.00,Other,-
+2019-4,3006.20.00.20,3006.20.00,Of animal origin,-
+2019-4,3006.20.00.90,3006.20.00,Other,-
+2019-4,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2019-4,3006.30.00.90,3006.30.00,Other,-
+2019-4,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2019-4,3006.40.00.90,3006.40.00,Other,-
+2019-4,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2019-4,3006.60.00.00,3006.60.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides",KGM
+2019-4,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2019-4,3006.70.90.00,3006.70.90,Other,-
+2019-4,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2019-4,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2020-2,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2020-2,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2020-2,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2020-2,3001.90.00.90,3001.90.00,Other,KGM
+2020-2,3002.11.00.00,3002.11.00,Malaria diagnostic test kits,NMB
+2020-2,3002.12.00.11,3002.12.00,For diagnostic use,KGM
+2020-2,3002.12.00.12,3002.12.00,"Other, blood plasma",KGM
+2020-2,3002.12.00.13,3002.12.00,"Other, immune globulin",KGM
+2020-2,3002.12.00.19,3002.12.00,Other,KGM
+2020-2,3002.12.00.21,3002.12.00,For use in humans,KGM
+2020-2,3002.12.00.29,3002.12.00,Other,KGM
+2020-2,3002.13.00.00,3002.13.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2020-2,3002.14.00.00,3002.14.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2020-2,3002.15.00.00,3002.15.00,"Immunological products, put up in measured doses or in forms or packings for retail sale",KGM
+2020-2,3002.19.00.00,3002.19.00,Other,KGM
+2020-2,3002.20.00.10,3002.20.00,Against influenza virus,-
+2020-2,3002.20.00.90,3002.20.00,Other,-
+2020-2,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2020-2,3002.30.00.90,3002.30.00,Other,-
+2020-2,3002.90.00.10,3002.90.00,"Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates",KGM
+2020-2,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2020-2,3002.90.00.40,3002.90.00,Whole human blood,KGM
+2020-2,3002.90.00.50,3002.90.00,Micro-organisms cultures,KGM
+2020-2,3002.90.00.90,3002.90.00,Other,KGM
+2020-2,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2020-2,3003.20.00.00,3003.20.00,"Other, containing antibiotics",KGM
+2020-2,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2020-2,3003.39.00.00,3003.39.00,Other,KGM
+2020-2,3003.41.00.00,3003.41.00,Containing ephedrine or its salts,KGM
+2020-2,3003.42.00.00,3003.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2020-2,3003.43.00.00,3003.43.00,Containing norephedrine or its salts,KGM
+2020-2,3003.49.00.00,3003.49.00,Other,KGM
+2020-2,3003.60.00.00,3003.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2020-2,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2020-2,3003.90.00.90,3003.90.00,Other,KGM
+2020-2,3004.10.00.10,3004.10.00,For human use,-
+2020-2,3004.10.00.90,3004.10.00,Other,-
+2020-2,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2020-2,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2020-2,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2020-2,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2020-2,3004.20.00.19,3004.20.00,Other,-
+2020-2,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2020-2,3004.20.00.90,3004.20.00,Other,-
+2020-2,3004.31.00.00,3004.31.00,Containing insulin,-
+2020-2,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2020-2,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2020-2,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2020-2,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2020-2,3004.39.00.19,3004.39.00,Other,-
+2020-2,3004.39.00.90,3004.39.00,Other,-
+2020-2,3004.41.00.00,3004.41.00,Containing ephedrine or its salts,KGM
+2020-2,3004.42.00.00,3004.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2020-2,3004.43.00.00,3004.43.00,Containing norephedrine or its salts,KGM
+2020-2,3004.49.00.10,3004.49.00,Containing morphine or derivatives thereof,KGM
+2020-2,3004.49.00.90,3004.49.00,Other,KGM
+2020-2,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2020-2,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2020-2,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2020-2,3004.50.00.19,3004.50.00,Other,-
+2020-2,3004.50.00.90,3004.50.00,Other,-
+2020-2,3004.60.00.00,3004.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2020-2,3004.90.00.11,3004.90.00,Amino acids,-
+2020-2,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2020-2,3004.90.00.19,3004.90.00,Other,-
+2020-2,3004.90.00.21,3004.90.00,Containing cannabis or cannabinoids,KGM
+2020-2,3004.90.00.22,3004.90.00,Analgesics,KGM
+2020-2,3004.90.00.23,3004.90.00,Antidepressants and tranquilizers,KGM
+2020-2,3004.90.00.24,3004.90.00,Antihypertensive agents,KGM
+2020-2,3004.90.00.25,3004.90.00,Antihistaminic agents,KGM
+2020-2,3004.90.00.26,3004.90.00,"Other agents, acting on the central nervous system",KGM
+2020-2,3004.90.00.27,3004.90.00,Local anaesthetics,KGM
+2020-2,3004.90.00.29,3004.90.00,Other,KGM
+2020-2,3004.90.00.42,3004.90.00,Laxatives,KGM
+2020-2,3004.90.00.43,3004.90.00,Antacids,KGM
+2020-2,3004.90.00.49,3004.90.00,Other,KGM
+2020-2,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",KGM
+2020-2,3004.90.00.61,3004.90.00,Containing sulfonamides,KGM
+2020-2,3004.90.00.69,3004.90.00,Other,KGM
+2020-2,3004.90.00.71,3004.90.00,Haematological agents,KGM
+2020-2,3004.90.00.72,3004.90.00,Antineoplastic agents,KGM
+2020-2,3004.90.00.73,3004.90.00,Cough or cold preparations,KGM
+2020-2,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",KGM
+2020-2,3004.90.00.75,3004.90.00,Diuretics,KGM
+2020-2,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",KGM
+2020-2,3004.90.00.77,3004.90.00,Dermatological agents,KGM
+2020-2,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,KGM
+2020-2,3004.90.00.79,3004.90.00,Other,KGM
+2020-2,3004.90.00.90,3004.90.00,Other,KGM
+2020-2,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2020-2,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2020-2,3005.10.00.99,3005.10.00,Other,-
+2020-2,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2020-2,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2020-2,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2020-2,3005.90.00.90,3005.90.00,Other,-
+2020-2,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2020-2,3006.10.00.90,3006.10.00,Other,-
+2020-2,3006.20.00.20,3006.20.00,Of animal origin,-
+2020-2,3006.20.00.90,3006.20.00,Other,-
+2020-2,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2020-2,3006.30.00.90,3006.30.00,Other,-
+2020-2,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2020-2,3006.40.00.90,3006.40.00,Other,-
+2020-2,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2020-2,3006.60.00.00,3006.60.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides",KGM
+2020-2,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2020-2,3006.70.90.00,3006.70.90,Other,-
+2020-2,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2020-2,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2021-5,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2021-5,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2021-5,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2021-5,3001.90.00.90,3001.90.00,Other,KGM
+2021-5,3002.11.00.00,3002.11.00,Malaria diagnostic test kits,NMB
+2021-5,3002.12.00.11,3002.12.00,For diagnostic use,KGM
+2021-5,3002.12.00.12,3002.12.00,"Other, blood plasma",KGM
+2021-5,3002.12.00.13,3002.12.00,"Other, immune globulin",KGM
+2021-5,3002.12.00.19,3002.12.00,Other,KGM
+2021-5,3002.12.00.21,3002.12.00,For use in humans,KGM
+2021-5,3002.12.00.29,3002.12.00,Other,KGM
+2021-5,3002.13.00.00,3002.13.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2021-5,3002.14.00.00,3002.14.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2021-5,3002.15.00.00,3002.15.00,"Immunological products, put up in measured doses or in forms or packings for retail sale",KGM
+2021-5,3002.19.00.00,3002.19.00,Other,KGM
+2021-5,3002.20.00.10,3002.20.00,Against influenza virus,-
+2021-5,3002.20.00.90,3002.20.00,Other,-
+2021-5,3002.30.00.10,3002.30.00,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines,-
+2021-5,3002.30.00.90,3002.30.00,Other,-
+2021-5,3002.90.00.10,3002.90.00,"Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates",KGM
+2021-5,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2021-5,3002.90.00.40,3002.90.00,Whole human blood,KGM
+2021-5,3002.90.00.50,3002.90.00,Micro-organisms cultures,KGM
+2021-5,3002.90.00.90,3002.90.00,Other,KGM
+2021-5,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2021-5,3003.20.00.00,3003.20.00,"Other, containing antibiotics",KGM
+2021-5,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2021-5,3003.39.00.00,3003.39.00,Other,KGM
+2021-5,3003.41.00.00,3003.41.00,Containing ephedrine or its salts,KGM
+2021-5,3003.42.00.00,3003.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2021-5,3003.43.00.00,3003.43.00,Containing norephedrine or its salts,KGM
+2021-5,3003.49.00.00,3003.49.00,Other,KGM
+2021-5,3003.60.00.00,3003.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2021-5,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2021-5,3003.90.00.90,3003.90.00,Other,KGM
+2021-5,3004.10.00.10,3004.10.00,For human use,-
+2021-5,3004.10.00.90,3004.10.00,Other,-
+2021-5,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2021-5,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2021-5,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2021-5,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2021-5,3004.20.00.19,3004.20.00,Other,-
+2021-5,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2021-5,3004.20.00.90,3004.20.00,Other,-
+2021-5,3004.31.00.00,3004.31.00,Containing insulin,-
+2021-5,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2021-5,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2021-5,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2021-5,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2021-5,3004.39.00.19,3004.39.00,Other,-
+2021-5,3004.39.00.90,3004.39.00,Other,-
+2021-5,3004.41.00.00,3004.41.00,Containing ephedrine or its salts,KGM
+2021-5,3004.42.00.00,3004.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2021-5,3004.43.00.00,3004.43.00,Containing norephedrine or its salts,KGM
+2021-5,3004.49.00.10,3004.49.00,Containing morphine or derivatives thereof,KGM
+2021-5,3004.49.00.90,3004.49.00,Other,KGM
+2021-5,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2021-5,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2021-5,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2021-5,3004.50.00.19,3004.50.00,Other,-
+2021-5,3004.50.00.90,3004.50.00,Other,-
+2021-5,3004.60.00.00,3004.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2021-5,3004.90.00.11,3004.90.00,Amino acids,-
+2021-5,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2021-5,3004.90.00.19,3004.90.00,Other,-
+2021-5,3004.90.00.21,3004.90.00,Containing cannabis or cannabinoids,KGM
+2021-5,3004.90.00.22,3004.90.00,Analgesics,KGM
+2021-5,3004.90.00.23,3004.90.00,Antidepressants and tranquilizers,KGM
+2021-5,3004.90.00.24,3004.90.00,Antihypertensive agents,KGM
+2021-5,3004.90.00.25,3004.90.00,Antihistaminic agents,KGM
+2021-5,3004.90.00.26,3004.90.00,"Other agents, acting on the central nervous system",KGM
+2021-5,3004.90.00.27,3004.90.00,Local anaesthetics,KGM
+2021-5,3004.90.00.29,3004.90.00,Other,KGM
+2021-5,3004.90.00.42,3004.90.00,Laxatives,KGM
+2021-5,3004.90.00.43,3004.90.00,Antacids,KGM
+2021-5,3004.90.00.49,3004.90.00,Other,KGM
+2021-5,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",KGM
+2021-5,3004.90.00.61,3004.90.00,Containing sulfonamides,KGM
+2021-5,3004.90.00.69,3004.90.00,Other,KGM
+2021-5,3004.90.00.71,3004.90.00,Haematological agents,KGM
+2021-5,3004.90.00.72,3004.90.00,Antineoplastic agents,KGM
+2021-5,3004.90.00.73,3004.90.00,Cough or cold preparations,KGM
+2021-5,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",KGM
+2021-5,3004.90.00.75,3004.90.00,Diuretics,KGM
+2021-5,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",KGM
+2021-5,3004.90.00.77,3004.90.00,Dermatological agents,KGM
+2021-5,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,KGM
+2021-5,3004.90.00.79,3004.90.00,Other,KGM
+2021-5,3004.90.00.90,3004.90.00,Other,KGM
+2021-5,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2021-5,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2021-5,3005.10.00.99,3005.10.00,Other,-
+2021-5,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2021-5,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2021-5,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2021-5,3005.90.00.90,3005.90.00,Other,-
+2021-5,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2021-5,3006.10.00.90,3006.10.00,Other,-
+2021-5,3006.20.00.20,3006.20.00,Of animal origin,-
+2021-5,3006.20.00.90,3006.20.00,Other,-
+2021-5,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2021-5,3006.30.00.90,3006.30.00,Other,-
+2021-5,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2021-5,3006.40.00.90,3006.40.00,Other,-
+2021-5,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2021-5,3006.60.00.00,3006.60.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides",KGM
+2021-5,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2021-5,3006.70.90.00,3006.70.90,Other,-
+2021-5,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2021-5,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2022,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2022,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2022,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2022,3001.90.00.90,3001.90.00,Other,KGM
+2022,3002.12.00.11,3002.12.00,For diagnostic use,KGM
+2022,3002.12.00.12,3002.12.00,"Other, blood plasma",KGM
+2022,3002.12.00.13,3002.12.00,"Other, immune globulin",KGM
+2022,3002.12.00.19,3002.12.00,Other,KGM
+2022,3002.12.00.21,3002.12.00,For use in humans,KGM
+2022,3002.12.00.29,3002.12.00,Other,KGM
+2022,3002.13.00.00,3002.13.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2022,3002.14.00.00,3002.14.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2022,3002.15.00.00,3002.15.00,"Immunological products, put up in measured doses or in forms or packings for retail sale",KGM
+2022,3002.41.00.10,3002.41.00,Against influenza virus,-
+2022,3002.41.00.90,3002.41.00,Other,-
+2022,3002.42.00.10,3002.42.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccines,-
+2022,3002.42.00.90,3002.42.00,Other,-
+2022,3002.49.00.10,3002.49.00,Micro-organisms cultures,KGM
+2022,3002.49.00.20,3002.49.00,Toxins,KGM
+2022,3002.49.00.90,3002.49.00,Other,KGM
+2022,3002.51.00.00,3002.51.00,Cell therapy products,KGM
+2022,3002.59.00.00,3002.59.00,Other,KGM
+2022,3002.90.00.20,3002.90.00,"Toxoids, antitoxins, viruses, bacteriophage and bacterial lysates",KGM
+2022,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2022,3002.90.00.40,3002.90.00,Whole human blood,KGM
+2022,3002.90.00.90,3002.90.00,Other,KGM
+2022,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2022,3003.20.00.00,3003.20.00,"Other, containing antibiotics",KGM
+2022,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2022,3003.39.00.00,3003.39.00,Other,KGM
+2022,3003.41.00.00,3003.41.00,Containing ephedrine or its salts,KGM
+2022,3003.42.00.00,3003.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2022,3003.43.00.00,3003.43.00,Containing norephedrine or its salts,KGM
+2022,3003.49.00.00,3003.49.00,Other,KGM
+2022,3003.60.00.00,3003.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2022,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2022,3003.90.00.90,3003.90.00,Other,KGM
+2022,3004.10.00.10,3004.10.00,For human use,-
+2022,3004.10.00.90,3004.10.00,Other,-
+2022,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2022,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2022,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2022,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2022,3004.20.00.19,3004.20.00,Other,-
+2022,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2022,3004.20.00.90,3004.20.00,Other,-
+2022,3004.31.00.00,3004.31.00,Containing insulin,-
+2022,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2022,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2022,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2022,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2022,3004.39.00.19,3004.39.00,Other,-
+2022,3004.39.00.90,3004.39.00,Other,-
+2022,3004.41.00.00,3004.41.00,Containing ephedrine or its salts,KGM
+2022,3004.42.00.00,3004.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2022,3004.43.00.00,3004.43.00,Containing norephedrine or its salts,KGM
+2022,3004.49.00.10,3004.49.00,Containing morphine or derivatives thereof,KGM
+2022,3004.49.00.90,3004.49.00,Other,KGM
+2022,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2022,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2022,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2022,3004.50.00.19,3004.50.00,Other,-
+2022,3004.50.00.90,3004.50.00,Other,-
+2022,3004.60.00.00,3004.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2022,3004.90.00.11,3004.90.00,Amino acids,-
+2022,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2022,3004.90.00.19,3004.90.00,Other,-
+2022,3004.90.00.21,3004.90.00,Containing cannabis or cannabinoids,KGM
+2022,3004.90.00.22,3004.90.00,Analgesics,KGM
+2022,3004.90.00.23,3004.90.00,Antidepressants and tranquilizers,KGM
+2022,3004.90.00.24,3004.90.00,Antihypertensive agents,KGM
+2022,3004.90.00.25,3004.90.00,Antihistaminic agents,KGM
+2022,3004.90.00.26,3004.90.00,"Other agents, acting on the central nervous system",KGM
+2022,3004.90.00.27,3004.90.00,Local anaesthetics,KGM
+2022,3004.90.00.29,3004.90.00,Other,KGM
+2022,3004.90.00.42,3004.90.00,Laxatives,KGM
+2022,3004.90.00.43,3004.90.00,Antacids,KGM
+2022,3004.90.00.49,3004.90.00,Other,KGM
+2022,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",KGM
+2022,3004.90.00.61,3004.90.00,Containing sulfonamides,KGM
+2022,3004.90.00.69,3004.90.00,Other,KGM
+2022,3004.90.00.71,3004.90.00,Haematological agents,KGM
+2022,3004.90.00.72,3004.90.00,Antineoplastic agents,KGM
+2022,3004.90.00.73,3004.90.00,Cough or cold preparations,KGM
+2022,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",KGM
+2022,3004.90.00.75,3004.90.00,Diuretics,KGM
+2022,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",KGM
+2022,3004.90.00.77,3004.90.00,Dermatological agents,KGM
+2022,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,KGM
+2022,3004.90.00.79,3004.90.00,Other,KGM
+2022,3004.90.00.90,3004.90.00,Other,KGM
+2022,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2022,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2022,3005.10.00.99,3005.10.00,Other,-
+2022,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2022,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2022,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2022,3005.90.00.90,3005.90.00,Other,-
+2022,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2022,3006.10.00.90,3006.10.00,Other,-
+2022,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2022,3006.30.00.90,3006.30.00,Other,-
+2022,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2022,3006.40.00.90,3006.40.00,Other,-
+2022,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2022,3006.60.00.00,3006.60.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides",KGM
+2022,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2022,3006.70.90.00,3006.70.90,Other,-
+2022,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2022,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2022,3006.93.10.00,3006.93.10,Syrup based,KGM
+2022,3006.93.20.00,3006.93.20,Sugar based,KGM
+2022,3006.93.30.00,3006.93.30,Other food based,KGM
+2022,3006.93.40.00,3006.93.40,Non-alcoholic beverages based,-
+2022,3006.93.90.00,3006.93.90,Other,KGM
+2023-7,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2023-7,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2023-7,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2023-7,3001.90.00.90,3001.90.00,Other,KGM
+2023-7,3002.12.00.11,3002.12.00,For diagnostic use,KGM
+2023-7,3002.12.00.12,3002.12.00,"Other, blood plasma",KGM
+2023-7,3002.12.00.13,3002.12.00,"Other, immune globulin",KGM
+2023-7,3002.12.00.19,3002.12.00,Other,KGM
+2023-7,3002.12.00.21,3002.12.00,For use in humans,KGM
+2023-7,3002.12.00.29,3002.12.00,Other,KGM
+2023-7,3002.13.00.00,3002.13.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2023-7,3002.14.00.00,3002.14.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2023-7,3002.15.00.00,3002.15.00,"Immunological products, put up in measured doses or in forms or packings for retail sale",KGM
+2023-7,3002.41.00.10,3002.41.00,Against influenza virus,-
+2023-7,3002.41.00.90,3002.41.00,Other,-
+2023-7,3002.42.00.10,3002.42.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccines,-
+2023-7,3002.42.00.90,3002.42.00,Other,-
+2023-7,3002.49.00.10,3002.49.00,Micro-organisms cultures,KGM
+2023-7,3002.49.00.20,3002.49.00,Toxins,KGM
+2023-7,3002.49.00.90,3002.49.00,Other,KGM
+2023-7,3002.51.00.00,3002.51.00,Cell therapy products,KGM
+2023-7,3002.59.00.00,3002.59.00,Other,KGM
+2023-7,3002.90.00.20,3002.90.00,"Toxoids, antitoxins, viruses, bacteriophage and bacterial lysates",KGM
+2023-7,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2023-7,3002.90.00.40,3002.90.00,Whole human blood,KGM
+2023-7,3002.90.00.90,3002.90.00,Other,KGM
+2023-7,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2023-7,3003.20.00.00,3003.20.00,"Other, containing antibiotics",KGM
+2023-7,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2023-7,3003.39.00.00,3003.39.00,Other,KGM
+2023-7,3003.41.00.00,3003.41.00,Containing ephedrine or its salts,KGM
+2023-7,3003.42.00.00,3003.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2023-7,3003.43.00.00,3003.43.00,Containing norephedrine or its salts,KGM
+2023-7,3003.49.00.00,3003.49.00,Other,KGM
+2023-7,3003.60.00.00,3003.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2023-7,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2023-7,3003.90.00.90,3003.90.00,Other,KGM
+2023-7,3004.10.00.10,3004.10.00,For human use,-
+2023-7,3004.10.00.90,3004.10.00,Other,-
+2023-7,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2023-7,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2023-7,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2023-7,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2023-7,3004.20.00.19,3004.20.00,Other,-
+2023-7,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2023-7,3004.20.00.90,3004.20.00,Other,-
+2023-7,3004.31.00.00,3004.31.00,Containing insulin,-
+2023-7,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2023-7,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2023-7,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2023-7,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2023-7,3004.39.00.19,3004.39.00,Other,-
+2023-7,3004.39.00.90,3004.39.00,Other,-
+2023-7,3004.41.00.00,3004.41.00,Containing ephedrine or its salts,KGM
+2023-7,3004.42.00.00,3004.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2023-7,3004.43.00.00,3004.43.00,Containing norephedrine or its salts,KGM
+2023-7,3004.49.00.10,3004.49.00,Containing morphine or derivatives thereof,KGM
+2023-7,3004.49.00.90,3004.49.00,Other,KGM
+2023-7,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2023-7,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2023-7,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2023-7,3004.50.00.19,3004.50.00,Other,-
+2023-7,3004.50.00.90,3004.50.00,Other,-
+2023-7,3004.60.00.00,3004.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2023-7,3004.90.00.11,3004.90.00,Amino acids,-
+2023-7,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2023-7,3004.90.00.19,3004.90.00,Other,-
+2023-7,3004.90.00.21,3004.90.00,Containing cannabis or cannabinoids,KGM
+2023-7,3004.90.00.22,3004.90.00,Analgesics,KGM
+2023-7,3004.90.00.23,3004.90.00,Antidepressants and tranquilizers,KGM
+2023-7,3004.90.00.24,3004.90.00,Antihypertensive agents,KGM
+2023-7,3004.90.00.25,3004.90.00,Antihistaminic agents,KGM
+2023-7,3004.90.00.26,3004.90.00,"Other agents, acting on the central nervous system",KGM
+2023-7,3004.90.00.27,3004.90.00,Local anaesthetics,KGM
+2023-7,3004.90.00.29,3004.90.00,Other,KGM
+2023-7,3004.90.00.42,3004.90.00,Laxatives,KGM
+2023-7,3004.90.00.43,3004.90.00,Antacids,KGM
+2023-7,3004.90.00.49,3004.90.00,Other,KGM
+2023-7,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",KGM
+2023-7,3004.90.00.61,3004.90.00,Containing sulfonamides,KGM
+2023-7,3004.90.00.69,3004.90.00,Other,KGM
+2023-7,3004.90.00.71,3004.90.00,Haematological agents,KGM
+2023-7,3004.90.00.72,3004.90.00,Antineoplastic agents,KGM
+2023-7,3004.90.00.73,3004.90.00,Cough or cold preparations,KGM
+2023-7,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",KGM
+2023-7,3004.90.00.75,3004.90.00,Diuretics,KGM
+2023-7,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",KGM
+2023-7,3004.90.00.77,3004.90.00,Dermatological agents,KGM
+2023-7,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,KGM
+2023-7,3004.90.00.79,3004.90.00,Other,KGM
+2023-7,3004.90.00.90,3004.90.00,Other,KGM
+2023-7,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2023-7,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2023-7,3005.10.00.99,3005.10.00,Other,-
+2023-7,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2023-7,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2023-7,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2023-7,3005.90.00.90,3005.90.00,Other,-
+2023-7,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2023-7,3006.10.00.90,3006.10.00,Other,-
+2023-7,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2023-7,3006.30.00.90,3006.30.00,Other,-
+2023-7,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2023-7,3006.40.00.90,3006.40.00,Other,-
+2023-7,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2023-7,3006.60.00.00,3006.60.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides",KGM
+2023-7,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2023-7,3006.70.90.00,3006.70.90,Other,-
+2023-7,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2023-7,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2023-7,3006.93.10.00,3006.93.10,Syrup based,KGM
+2023-7,3006.93.20.00,3006.93.20,Sugar based,KGM
+2023-7,3006.93.30.00,3006.93.30,Other food based,KGM
+2023-7,3006.93.40.00,3006.93.40,Non-alcoholic beverages based,-
+2023-7,3006.93.90.00,3006.93.90,Other,KGM
+2024,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2024,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2024,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2024,3001.90.00.90,3001.90.00,Other,KGM
+2024,3002.12.00.11,3002.12.00,For diagnostic use,KGM
+2024,3002.12.00.12,3002.12.00,"Other, blood plasma",KGM
+2024,3002.12.00.13,3002.12.00,"Other, immune globulin",KGM
+2024,3002.12.00.19,3002.12.00,Other,KGM
+2024,3002.12.00.21,3002.12.00,For use in humans,KGM
+2024,3002.12.00.29,3002.12.00,Other,KGM
+2024,3002.13.00.00,3002.13.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2024,3002.14.00.00,3002.14.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2024,3002.15.00.00,3002.15.00,"Immunological products, put up in measured doses or in forms or packings for retail sale",KGM
+2024,3002.41.00.10,3002.41.00,Against influenza virus,-
+2024,3002.41.00.90,3002.41.00,Other,-
+2024,3002.42.00.10,3002.42.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccines,-
+2024,3002.42.00.90,3002.42.00,Other,-
+2024,3002.49.00.10,3002.49.00,Micro-organisms cultures,KGM
+2024,3002.49.00.20,3002.49.00,Toxins,KGM
+2024,3002.49.00.90,3002.49.00,Other,KGM
+2024,3002.51.00.00,3002.51.00,Cell therapy products,KGM
+2024,3002.59.00.00,3002.59.00,Other,KGM
+2024,3002.90.00.20,3002.90.00,"Toxoids, antitoxins, viruses, bacteriophage and bacterial lysates",KGM
+2024,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2024,3002.90.00.40,3002.90.00,Whole human blood,KGM
+2024,3002.90.00.90,3002.90.00,Other,KGM
+2024,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2024,3003.20.00.00,3003.20.00,"Other, containing antibiotics",KGM
+2024,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2024,3003.39.00.00,3003.39.00,Other,KGM
+2024,3003.41.00.00,3003.41.00,Containing ephedrine or its salts,KGM
+2024,3003.42.00.00,3003.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2024,3003.43.00.00,3003.43.00,Containing norephedrine or its salts,KGM
+2024,3003.49.00.00,3003.49.00,Other,KGM
+2024,3003.60.00.00,3003.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2024,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2024,3003.90.00.90,3003.90.00,Other,KGM
+2024,3004.10.00.10,3004.10.00,For human use,-
+2024,3004.10.00.90,3004.10.00,Other,-
+2024,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2024,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2024,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2024,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2024,3004.20.00.19,3004.20.00,Other,-
+2024,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2024,3004.20.00.90,3004.20.00,Other,-
+2024,3004.31.00.00,3004.31.00,Containing insulin,-
+2024,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2024,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2024,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2024,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2024,3004.39.00.19,3004.39.00,Other,-
+2024,3004.39.00.90,3004.39.00,Other,-
+2024,3004.41.00.00,3004.41.00,Containing ephedrine or its salts,KGM
+2024,3004.42.00.00,3004.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2024,3004.43.00.00,3004.43.00,Containing norephedrine or its salts,KGM
+2024,3004.49.00.10,3004.49.00,Containing morphine or derivatives thereof,KGM
+2024,3004.49.00.90,3004.49.00,Other,KGM
+2024,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2024,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2024,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2024,3004.50.00.19,3004.50.00,Other,-
+2024,3004.50.00.90,3004.50.00,Other,-
+2024,3004.60.00.00,3004.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2024,3004.90.00.11,3004.90.00,Amino acids,-
+2024,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2024,3004.90.00.19,3004.90.00,Other,-
+2024,3004.90.00.21,3004.90.00,Containing cannabis or cannabinoids,KGM
+2024,3004.90.00.22,3004.90.00,Analgesics,KGM
+2024,3004.90.00.23,3004.90.00,Antidepressants and tranquilizers,KGM
+2024,3004.90.00.24,3004.90.00,Antihypertensive agents,KGM
+2024,3004.90.00.25,3004.90.00,Antihistaminic agents,KGM
+2024,3004.90.00.26,3004.90.00,"Other agents, acting on the central nervous system",KGM
+2024,3004.90.00.27,3004.90.00,Local anaesthetics,KGM
+2024,3004.90.00.29,3004.90.00,Other,KGM
+2024,3004.90.00.42,3004.90.00,Laxatives,KGM
+2024,3004.90.00.43,3004.90.00,Antacids,KGM
+2024,3004.90.00.49,3004.90.00,Other,KGM
+2024,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",KGM
+2024,3004.90.00.61,3004.90.00,Containing sulfonamides,KGM
+2024,3004.90.00.69,3004.90.00,Other,KGM
+2024,3004.90.00.71,3004.90.00,Haematological agents,KGM
+2024,3004.90.00.72,3004.90.00,Antineoplastic agents,KGM
+2024,3004.90.00.73,3004.90.00,Cough or cold preparations,KGM
+2024,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",KGM
+2024,3004.90.00.75,3004.90.00,Diuretics,KGM
+2024,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",KGM
+2024,3004.90.00.77,3004.90.00,Dermatological agents,KGM
+2024,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,KGM
+2024,3004.90.00.79,3004.90.00,Other,KGM
+2024,3004.90.00.90,3004.90.00,Other,KGM
+2024,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2024,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2024,3005.10.00.99,3005.10.00,Other,-
+2024,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2024,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2024,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2024,3005.90.00.90,3005.90.00,Other,-
+2024,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2024,3006.10.00.90,3006.10.00,Other,-
+2024,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2024,3006.30.00.90,3006.30.00,Other,-
+2024,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2024,3006.40.00.90,3006.40.00,Other,-
+2024,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2024,3006.60.00.00,3006.60.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides",KGM
+2024,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2024,3006.70.90.00,3006.70.90,Other,-
+2024,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2024,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2024,3006.93.10.00,3006.93.10,Syrup based,KGM
+2024,3006.93.20.00,3006.93.20,Sugar based,KGM
+2024,3006.93.30.00,3006.93.30,Other food based,KGM
+2024,3006.93.40.00,3006.93.40,Non-alcoholic beverages based,-
+2024,3006.93.90.00,3006.93.90,Other,KGM
+2025,3001.20.00.00,3001.20.00,Extracts of glands or other organs or of their secretions,KGM
+2025,3001.90.00.10,3001.90.00,Heparin and its salts,KGM
+2025,3001.90.00.20,3001.90.00,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation",KGM
+2025,3001.90.00.90,3001.90.00,Other,KGM
+2025,3002.12.00.11,3002.12.00,For diagnostic use,KGM
+2025,3002.12.00.12,3002.12.00,"Other, blood plasma",KGM
+2025,3002.12.00.13,3002.12.00,"Other, immune globulin",KGM
+2025,3002.12.00.19,3002.12.00,Other,KGM
+2025,3002.12.00.21,3002.12.00,For use in humans,KGM
+2025,3002.12.00.29,3002.12.00,Other,KGM
+2025,3002.13.00.00,3002.13.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2025,3002.14.00.00,3002.14.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale",KGM
+2025,3002.15.00.00,3002.15.00,"Immunological products, put up in measured doses or in forms or packings for retail sale",KGM
+2025,3002.41.00.10,3002.41.00,Against influenza virus,-
+2025,3002.41.00.90,3002.41.00,Other,-
+2025,3002.42.00.10,3002.42.00,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccines,-
+2025,3002.42.00.90,3002.42.00,Other,-
+2025,3002.49.00.10,3002.49.00,Micro-organisms cultures,KGM
+2025,3002.49.00.20,3002.49.00,Toxins,KGM
+2025,3002.49.00.90,3002.49.00,Other,KGM
+2025,3002.51.00.00,3002.51.00,Cell therapy products,KGM
+2025,3002.59.00.00,3002.59.00,Other,KGM
+2025,3002.90.00.20,3002.90.00,"Toxoids, antitoxins, viruses, bacteriophage and bacterial lysates",KGM
+2025,3002.90.00.30,3002.90.00,"Dried blood, of animal origin, whether or not soluble",-
+2025,3002.90.00.40,3002.90.00,Whole human blood,KGM
+2025,3002.90.00.90,3002.90.00,Other,KGM
+2025,3003.10.00.00,3003.10.00,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives",KGM
+2025,3003.20.00.00,3003.20.00,"Other, containing antibiotics",KGM
+2025,3003.31.00.00,3003.31.00,Containing insulin,KGM
+2025,3003.39.00.00,3003.39.00,Other,KGM
+2025,3003.41.00.00,3003.41.00,Containing ephedrine or its salts,KGM
+2025,3003.42.00.00,3003.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2025,3003.43.00.00,3003.43.00,Containing norephedrine or its salts,KGM
+2025,3003.49.00.00,3003.49.00,Other,KGM
+2025,3003.60.00.00,3003.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2025,3003.90.00.30,3003.90.00,Containing acetaminophen,KGM
+2025,3003.90.00.90,3003.90.00,Other,KGM
+2025,3004.10.00.10,3004.10.00,For human use,-
+2025,3004.10.00.90,3004.10.00,Other,-
+2025,3004.20.00.11,3004.20.00,Containing cephalosporins,-
+2025,3004.20.00.12,3004.20.00,Containing vancomycin,-
+2025,3004.20.00.13,3004.20.00,Containing erythromycin,-
+2025,3004.20.00.18,3004.20.00,"Other, containing macrolides",-
+2025,3004.20.00.19,3004.20.00,Other,-
+2025,3004.20.00.80,3004.20.00,"Other, containing ivermectin",-
+2025,3004.20.00.90,3004.20.00,Other,-
+2025,3004.31.00.00,3004.31.00,Containing insulin,-
+2025,3004.32.00.00,3004.32.00,"Containing corticosteroid hormones, their derivatives or structural analogues",-
+2025,3004.39.00.11,3004.39.00,"Epinephrine, its solutions and pituitary extracts",-
+2025,3004.39.00.12,3004.39.00,Containing anterior pituitary hormones,-
+2025,3004.39.00.13,3004.39.00,Containing unmixed single estrogens,-
+2025,3004.39.00.19,3004.39.00,Other,-
+2025,3004.39.00.90,3004.39.00,Other,-
+2025,3004.41.00.00,3004.41.00,Containing ephedrine or its salts,KGM
+2025,3004.42.00.00,3004.42.00,Containing pseudoephedrine (INN) or its salts,KGM
+2025,3004.43.00.00,3004.43.00,Containing norephedrine or its salts,KGM
+2025,3004.49.00.10,3004.49.00,Containing morphine or derivatives thereof,KGM
+2025,3004.49.00.90,3004.49.00,Other,KGM
+2025,3004.50.00.11,3004.50.00,"Containing a single vitamin, not mixed with other supplements",-
+2025,3004.50.00.12,3004.50.00,"Containing a single vitamin, mixed with other supplements",-
+2025,3004.50.00.14,3004.50.00,"Containing multivitamins, mixed with other supplements",-
+2025,3004.50.00.19,3004.50.00,Other,-
+2025,3004.50.00.90,3004.50.00,Other,-
+2025,3004.60.00.00,3004.60.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter",KGM
+2025,3004.90.00.11,3004.90.00,Amino acids,-
+2025,3004.90.00.12,3004.90.00,Dextrose (glucose) and levulose (fructose) solutions,-
+2025,3004.90.00.19,3004.90.00,Other,-
+2025,3004.90.00.21,3004.90.00,Containing cannabis or cannabinoids,KGM
+2025,3004.90.00.22,3004.90.00,Analgesics,KGM
+2025,3004.90.00.23,3004.90.00,Antidepressants and tranquilizers,KGM
+2025,3004.90.00.24,3004.90.00,Antihypertensive agents,KGM
+2025,3004.90.00.25,3004.90.00,Antihistaminic agents,KGM
+2025,3004.90.00.26,3004.90.00,"Other agents, acting on the central nervous system",KGM
+2025,3004.90.00.27,3004.90.00,Local anaesthetics,KGM
+2025,3004.90.00.29,3004.90.00,Other,KGM
+2025,3004.90.00.42,3004.90.00,Laxatives,KGM
+2025,3004.90.00.43,3004.90.00,Antacids,KGM
+2025,3004.90.00.49,3004.90.00,Other,KGM
+2025,3004.90.00.50,3004.90.00,"Other, for human use, acting on the cardio-vascular system",KGM
+2025,3004.90.00.61,3004.90.00,Containing sulfonamides,KGM
+2025,3004.90.00.69,3004.90.00,Other,KGM
+2025,3004.90.00.71,3004.90.00,Haematological agents,KGM
+2025,3004.90.00.72,3004.90.00,Antineoplastic agents,KGM
+2025,3004.90.00.73,3004.90.00,Cough or cold preparations,KGM
+2025,3004.90.00.74,3004.90.00,"Primarily affecting the eyes, ears or respiratory system",KGM
+2025,3004.90.00.75,3004.90.00,Diuretics,KGM
+2025,3004.90.00.76,3004.90.00,"Primarily affecting electrolytic, caloric or water balance",KGM
+2025,3004.90.00.77,3004.90.00,Dermatological agents,KGM
+2025,3004.90.00.78,3004.90.00,Containing hyaluronic acid or its sodium salt,KGM
+2025,3004.90.00.79,3004.90.00,Other,KGM
+2025,3004.90.00.90,3004.90.00,Other,KGM
+2025,3005.10.00.10,3005.10.00,Coated or impregnated with pharmaceutical substances,-
+2025,3005.10.00.91,3005.10.00,Adhesive dressings,-
+2025,3005.10.00.99,3005.10.00,Other,-
+2025,3005.90.00.20,3005.90.00,Coated or impregnated with pharmaceutical substances,-
+2025,3005.90.00.30,3005.90.00,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances",-
+2025,3005.90.00.40,3005.90.00,"Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts",-
+2025,3005.90.00.90,3005.90.00,Other,-
+2025,3006.10.00.10,3006.10.00,Sterile surgical catgut and similar sterile suture materials for surgical wound closure,-
+2025,3006.10.00.90,3006.10.00,Other,-
+2025,3006.30.00.10,3006.30.00,Opacifying preparations for X-ray examinations,-
+2025,3006.30.00.90,3006.30.00,Other,-
+2025,3006.40.00.10,3006.40.00,Dental cements and bone reconstruction cements,-
+2025,3006.40.00.90,3006.40.00,Other,-
+2025,3006.50.00.00,3006.50.00,First-aid boxes and kits,-
+2025,3006.60.00.00,3006.60.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides",KGM
+2025,3006.70.10.00,3006.70.10,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen",-
+2025,3006.70.90.00,3006.70.90,Other,-
+2025,3006.91.00.00,3006.91.00,Appliances identifiable for ostomy use,-
+2025,3006.92.00.00,3006.92.00,Waste pharmaceuticals,-
+2025,3006.93.10.00,3006.93.10,Syrup based,KGM
+2025,3006.93.20.00,3006.93.20,Sugar based,KGM
+2025,3006.93.30.00,3006.93.30,Other food based,KGM
+2025,3006.93.40.00,3006.93.40,Non-alcoholic beverages based,-
+2025,3006.93.90.00,3006.93.90,Other,KGM

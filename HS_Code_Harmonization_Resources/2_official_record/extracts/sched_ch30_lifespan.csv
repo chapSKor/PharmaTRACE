@@ -1,0 +1,241 @@
+hs10,first_year,last_year,n_vintages_present,continuous,missing_years,description_first,description_last
+3001.10.00.10,2005,2006,2,YES,,Animal glands,Animal glands
+3001.10.00.90,2005,2006,2,YES,,Other,Other
+3001.20.00.00,2005,2025,21,YES,,Extracts of glands or other organs or of their secretions,Extracts of glands or other organs or of their secretions
+3001.90.00.10,2005,2025,21,YES,,Heparin and its salts,Heparin and its salts
+3001.90.00.20,2005,2025,21,YES,,"Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation","Bone, organs and other human or animal tissue, living or preserved, suitable for permanent grafting or implantation"
+3001.90.00.90,2005,2025,21,YES,,Other,Other
+3002.10.00.10,2005,2016,12,YES,,"Human antisera and other human blood fractions, for diagnostic use","Human antisera and other human blood fractions, for diagnostic use"
+3002.10.00.21,2005,2016,12,YES,,Blood plasma,Blood plasma
+3002.10.00.22,2005,2016,12,YES,,Normal serum globulin,Normal serum globulin
+3002.10.00.23,2005,2016,12,YES,,Immune serum globulin,Immune serum globulin
+3002.10.00.29,2005,2016,12,YES,,Other,Other
+3002.10.00.30,2005,2016,12,YES,,"Human antisera and other human blood fractions, for other uses","Human antisera and other human blood fractions, for other uses"
+3002.10.00.41,2005,2016,12,YES,,Bovine albumin,Bovine albumin
+3002.10.00.42,2005,2016,12,YES,,Sera and antisera,Sera and antisera
+3002.10.00.49,2005,2016,12,YES,,Other,Other
+3002.10.00.51,2005,2016,12,YES,,For use in humans,For use in humans
+3002.10.00.59,2005,2016,12,YES,,Other,Other
+3002.10.00.60,2005,2011,7,YES,,Modified immunological products,Modified immunological products
+3002.10.00.90,2012,2016,5,YES,,Other,Other
+3002.11.00.00,2017,2021-5,5,YES,,Malaria diagnostic test kits,Malaria diagnostic test kits
+3002.12.00.11,2017,2025,9,YES,,For diagnostic use,For diagnostic use
+3002.12.00.12,2017,2025,9,YES,,"Other, blood plasma","Other, blood plasma"
+3002.12.00.13,2017,2025,9,YES,,"Other, immune globulin","Other, immune globulin"
+3002.12.00.19,2017,2025,9,YES,,Other,Other
+3002.12.00.21,2017,2025,9,YES,,For use in humans,For use in humans
+3002.12.00.29,2017,2025,9,YES,,Other,Other
+3002.13.00.00,2017,2025,9,YES,,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale","Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
+3002.14.00.00,2017,2025,9,YES,,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale","Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
+3002.15.00.00,2017,2025,9,YES,,"Immunological products, put up in measured doses or in forms or packings for retail sale","Immunological products, put up in measured doses or in forms or packings for retail sale"
+3002.19.00.00,2017,2021-5,5,YES,,Other,Other
+3002.20.00.10,2005,2021-5,17,YES,,Against influenza virus,Against influenza virus
+3002.20.00.20,2005,2011,7,YES,,Against rubella (German measles),Against rubella (German measles)
+3002.20.00.30,2005,2011,7,YES,,Against rabies,Against rabies
+3002.20.00.90,2005,2021-5,17,YES,,Other,Other
+3002.30.00.10,2005,2021-5,17,YES,,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccine,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines
+3002.30.00.90,2005,2021-5,17,YES,,Other,Other
+3002.41.00.10,2022,2025,4,YES,,Against influenza virus,Against influenza virus
+3002.41.00.90,2022,2025,4,YES,,Other,Other
+3002.42.00.10,2022,2025,4,YES,,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccines,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccines
+3002.42.00.90,2022,2025,4,YES,,Other,Other
+3002.49.00.10,2022,2025,4,YES,,Micro-organisms cultures,Micro-organisms cultures
+3002.49.00.20,2022,2025,4,YES,,Toxins,Toxins
+3002.49.00.90,2022,2025,4,YES,,Other,Other
+3002.51.00.00,2022,2025,4,YES,,Cell therapy products,Cell therapy products
+3002.59.00.00,2022,2025,4,YES,,Other,Other
+3002.90.00.10,2017,2021-5,5,YES,,"Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates","Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates"
+3002.90.00.11,2005,2016,12,YES,,Ricin,Ricin
+3002.90.00.12,2005,2016,12,YES,,Saxitoxin,Saxitoxin
+3002.90.00.19,2005,2016,12,YES,,Other,Other
+3002.90.00.20,2005,2025,16,NO,2017|2018-3|2019-4|2020-2|2021-5,Butter-making ferment cultures,"Toxoids, antitoxins, viruses, bacteriophage and bacterial lysates"
+3002.90.00.30,2005,2025,21,YES,,"Dried blood of animal origin, whether or not soluble","Dried blood, of animal origin, whether or not soluble"
+3002.90.00.40,2017,2025,9,YES,,Whole human blood,Whole human blood
+3002.90.00.50,2017,2021-5,5,YES,,Micro-organisms cultures,Micro-organisms cultures
+3002.90.00.90,2017,2025,9,YES,,Other,Other
+3002.90.00.91,2005,2016,12,YES,,Bacteria culture inoculants for seeds,"Bacteria culture inoculants, for seeds"
+3002.90.00.92,2005,2016,12,YES,,Whole human blood,Whole human blood
+3002.90.00.93,2005,2016,12,YES,,Antiallergenic preparations of microbial origin,"Antiallergenic preparations, of microbial origin"
+3002.90.00.99,2005,2016,12,YES,,Other,Other
+3003.10.00.00,2005,2025,21,YES,,"Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives","Containing penicillins or derivatives thereof, with a penicillanic acid structure, or streptomycins or their derivatives"
+3003.20.00.00,2005,2025,21,YES,,Containing other antibiotics,"Other, containing antibiotics"
+3003.31.00.00,2012,2025,14,YES,,Containing insulin,Containing insulin
+3003.31.00.10,2005,2011,7,YES,,Prepared for parenteral administration in humans,Prepared for parenteral administration in humans
+3003.31.00.90,2005,2011,7,YES,,Other,Other
+3003.39.00.00,2012,2025,14,YES,,Other,Other
+3003.39.00.10,2005,2011,7,YES,,"Epinephrine and its solutions, prepared for parenteral administration in humans","Epinephrine and its solutions, prepared for parenteral administration in humans"
+3003.39.00.90,2005,2011,7,YES,,Other,Other
+3003.40.00.00,2005,2016,12,YES,,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics
+3003.41.00.00,2017,2025,9,YES,,Containing ephedrine or its salts,Containing ephedrine or its salts
+3003.42.00.00,2017,2025,9,YES,,Containing pseudoephedrine (INN) or its salts,Containing pseudoephedrine (INN) or its salts
+3003.43.00.00,2017,2025,9,YES,,Containing norephedrine or its salts,Containing norephedrine or its salts
+3003.49.00.00,2017,2025,9,YES,,Other,Other
+3003.60.00.00,2017,2025,9,YES,,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter","Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter"
+3003.90.00.10,2005,2011,7,YES,,"Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration","Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration"
+3003.90.00.20,2005,2011,7,YES,,Containing more than 23% of absolute ethyl alcohol by volume,Containing more than 23% of absolute ethyl alcohol by volume
+3003.90.00.30,2012,2025,14,YES,,Containing acetaminophen,Containing acetaminophen
+3003.90.00.90,2012,2025,14,YES,,Other,Other
+3003.90.00.91,2005,2011,7,YES,,Containing acetaminophen,Containing acetaminophen
+3003.90.00.99,2005,2011,7,YES,,Other,Other
+3004.10.00.10,2012,2025,14,YES,,For human use,For human use
+3004.10.00.11,2005,2011,7,YES,,Containing penicillin G sodium,Containing penicillin G sodium
+3004.10.00.12,2005,2011,7,YES,,Containing penicillin V,Containing penicillin V
+3004.10.00.13,2005,2011,7,YES,,Containing amoxacillin,Containing amoxacillin
+3004.10.00.19,2005,2011,7,YES,,Other,Other
+3004.10.00.20,2005,2011,7,YES,,"For human use, containing streptomycins or their derivatives","For human use, containing streptomycins or their derivatives"
+3004.10.00.31,2005,2011,7,YES,,Containing penicillins or derivatives thereof,Containing penicillins or derivatives thereof
+3004.10.00.32,2005,2011,7,YES,,Containing streptomycins or derivatives thereof,Containing streptomycins or derivatives thereof
+3004.10.00.90,2012,2025,14,YES,,Other,Other
+3004.20.00.10,2005,2011,7,YES,,"For human use, containing tetracyclines or their derivatives","For human use, containing tetracyclines or their derivatives"
+3004.20.00.11,2012,2025,14,YES,,Containing cephalosporins,Containing cephalosporins
+3004.20.00.12,2012,2025,14,YES,,Containing vancomycin,Containing vancomycin
+3004.20.00.13,2012,2025,14,YES,,Containing erythromycin,Containing erythromycin
+3004.20.00.18,2012,2025,14,YES,,"Other, containing macrolides","Other, containing macrolides"
+3004.20.00.19,2012,2025,14,YES,,Other,Other
+3004.20.00.20,2005,2011,7,YES,,"For human use, containing cephalosporins","For human use, containing cephalosporins"
+3004.20.00.31,2005,2011,7,YES,,Containing erythromycin,Containing erythromycin
+3004.20.00.39,2005,2011,7,YES,,Other,Other
+3004.20.00.41,2005,2011,7,YES,,Containing gentamycins,Containing gentamycins
+3004.20.00.49,2005,2011,7,YES,,Other,Other
+3004.20.00.51,2005,2011,7,YES,,Containing bacitracin,Containing bacitracin
+3004.20.00.59,2005,2011,7,YES,,Other,Other
+3004.20.00.61,2005,2011,7,YES,,Containing chloramphenicol,Containing chloramphenicol
+3004.20.00.62,2005,2011,7,YES,,Containing mitomycin C,Containing mitomycin C
+3004.20.00.63,2005,2011,7,YES,,Containing vancomycin,Containing vancomycin
+3004.20.00.69,2005,2011,7,YES,,Other,Other
+3004.20.00.71,2005,2011,7,YES,,Containing ivermectin,Containing ivermectin
+3004.20.00.79,2005,2011,7,YES,,Other,Other
+3004.20.00.80,2012,2025,14,YES,,"Other, containing ivermectin","Other, containing ivermectin"
+3004.20.00.90,2012,2025,14,YES,,Other,Other
+3004.31.00.00,2012,2025,14,YES,,Containing insulin,Containing insulin
+3004.31.00.10,2005,2011,7,YES,,"Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration","Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration"
+3004.31.00.90,2005,2011,7,YES,,Other,Other
+3004.32.00.00,2012,2025,14,YES,,"Containing corticosteroid hormones, their derivatives or structural analogues","Containing corticosteroid hormones, their derivatives or structural analogues"
+3004.32.00.11,2005,2011,7,YES,,Containing hydrocortisone,Containing hydrocortisone
+3004.32.00.19,2005,2011,7,YES,,Other,Other
+3004.32.00.20,2005,2011,7,YES,,For veterinary use,For veterinary use
+3004.39.00.10,2005,2011,7,YES,,"Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration","Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration"
+3004.39.00.11,2012,2025,14,YES,,"Epinephrine, its solutions and pituitary extracts","Epinephrine, its solutions and pituitary extracts"
+3004.39.00.12,2012,2025,14,YES,,Containing anterior pituitary hormones,Containing anterior pituitary hormones
+3004.39.00.13,2012,2025,14,YES,,Containing unmixed single estrogens,Containing unmixed single estrogens
+3004.39.00.19,2012,2025,14,YES,,Other,Other
+3004.39.00.81,2005,2011,7,YES,,Containing anterior pituitary hormones,Containing anterior pituitary hormones
+3004.39.00.82,2005,2011,7,YES,,Containing posterior pituitary hormones,Containing posterior pituitary hormones
+3004.39.00.83,2005,2011,7,YES,,Containing unmixed single estrogens,Containing unmixed single estrogens
+3004.39.00.84,2005,2011,7,YES,,Containing unmixed single progestational hormones,Containing unmixed single progestational hormones
+3004.39.00.85,2005,2011,7,YES,,Containing other hormones,Containing other hormones
+3004.39.00.90,2005,2025,21,YES,,"Other, for veterinary use",Other
+3004.40.00.10,2005,2011,7,YES,,Containing codeine or its derivatives,Containing codeine or its derivatives
+3004.40.00.20,2005,2011,7,YES,,Containing vincristine,Containing vincristine
+3004.40.00.30,2005,2016,12,YES,,Containing theophylline,Containing theophylline
+3004.40.00.40,2005,2016,12,YES,,Containing morphine or derivatives thereof,Containing morphine or derivatives thereof
+3004.40.00.50,2005,2011,7,YES,,Containing aminophylline,Containing aminophylline
+3004.40.00.80,2005,2011,7,YES,,Containing other narcotic vegetable alkaloids or their narcotic derivatives,Containing other narcotic vegetable alkaloids or their narcotic derivatives
+3004.40.00.90,2005,2016,12,YES,,Containing other non-narcotic vegetable alkaloids or their non-narcotic derivatives,Other
+3004.41.00.00,2017,2025,9,YES,,Containing ephedrine or its salts,Containing ephedrine or its salts
+3004.42.00.00,2017,2025,9,YES,,Containing pseudoephedrine (INN) or its salts,Containing pseudoephedrine (INN) or its salts
+3004.43.00.00,2017,2025,9,YES,,Containing norephedrine or its salts,Containing norephedrine or its salts
+3004.49.00.10,2017,2025,9,YES,,Containing morphine or derivatives thereof,Containing morphine or derivatives thereof
+3004.49.00.90,2017,2025,9,YES,,Other,Other
+3004.50.00.10,2005,2011,7,YES,,"Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders","Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders"
+3004.50.00.11,2012,2025,14,YES,,"Containing a single vitamin, not mixed with other supplements","Containing a single vitamin, not mixed with other supplements"
+3004.50.00.12,2012,2025,14,YES,,"Containing a single vitamin, mixed with other supplements","Containing a single vitamin, mixed with other supplements"
+3004.50.00.13,2012,2016,5,YES,,"Containing multivitamins, not mixed with other supplements","Containing multivitamins, not mixed with other supplements"
+3004.50.00.14,2012,2025,14,YES,,"Containing multivitamins, mixed with other supplements","Containing multivitamins, mixed with other supplements"
+3004.50.00.19,2012,2025,14,YES,,Other,Other
+3004.50.00.20,2005,2011,7,YES,,"Other, containing more than 23% of absolute ethyl alcohol by volume","Other, containing more than 23% of absolute ethyl alcohol by volume"
+3004.50.00.31,2005,2011,7,YES,,Containing vitamin C,Containing vitamin C
+3004.50.00.32,2005,2011,7,YES,,Containing vitamin E,Containing vitamin E
+3004.50.00.39,2005,2011,7,YES,,Other,Other
+3004.50.00.40,2005,2011,7,YES,,"Other, for human use, containing a single vitamin mixed with other supplements","Other, for human use, containing a single vitamin mixed with other supplements"
+3004.50.00.50,2005,2011,7,YES,,"Other, for human use, containing multivitamins not mixed with other supplements","Other, for human use, containing multivitamins not mixed with other supplements"
+3004.50.00.61,2005,2011,7,YES,,Vitamin-iron preparations,Vitamin-iron preparations
+3004.50.00.69,2005,2011,7,YES,,Other,Other
+3004.50.00.70,2005,2011,7,YES,,"Other, for veterinary use","Other, for veterinary use"
+3004.50.00.90,2012,2025,14,YES,,Other,Other
+3004.60.00.00,2017,2025,9,YES,,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter","Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter"
+3004.90.00.11,2005,2025,21,YES,,Amino acids,Amino acids
+3004.90.00.12,2005,2025,21,YES,,Dextrose (glucose) and levulose (fructose) solutions,Dextrose (glucose) and levulose (fructose) solutions
+3004.90.00.19,2005,2025,21,YES,,Other,Other
+3004.90.00.20,2005,2011,7,YES,,"Other, containing more than 23% of absolute ethyl alcohol by volume","Other, containing more than 23% of absolute ethyl alcohol by volume"
+3004.90.00.21,2018-3,2025,8,YES,,Containing cannabis or cannabinoids,Containing cannabis or cannabinoids
+3004.90.00.22,2018-3,2025,8,YES,,Analgesics,Analgesics
+3004.90.00.23,2018-3,2025,8,YES,,Antidepressants and tranquilizers,Antidepressants and tranquilizers
+3004.90.00.24,2018-3,2025,8,YES,,Antihypertensive agents,Antihypertensive agents
+3004.90.00.25,2018-3,2025,8,YES,,Antihistaminic agents,Antihistaminic agents
+3004.90.00.26,2018-3,2025,8,YES,,"Other agents, acting on the central nervous system","Other agents, acting on the central nervous system"
+3004.90.00.27,2018-3,2025,8,YES,,Local anaesthetics,Local anaesthetics
+3004.90.00.29,2018-3,2025,8,YES,,Other,Other
+3004.90.00.31,2005,2017,13,YES,,Analgesics,Analgesics
+3004.90.00.32,2005,2017,13,YES,,Antidepressants and tranquilizers,Antidepressants and tranquilizers
+3004.90.00.33,2005,2017,13,YES,,Antihypertensive agents,Antihypertensive agents
+3004.90.00.34,2005,2017,13,YES,,Antihistaminic agents,Antihistaminic agents
+3004.90.00.35,2005,2017,13,YES,,Other agents acting on the central nervous system,"Other agents, acting on the central nervous system"
+3004.90.00.36,2005,2017,13,YES,,Local anaesthetics,Local anaesthetics
+3004.90.00.39,2005,2017,13,YES,,Other,Other
+3004.90.00.41,2005,2011,7,YES,,Histamine H+2 receptor antagonist,Histamine H+2 receptor antagonist
+3004.90.00.42,2005,2025,21,YES,,Laxatives,Laxatives
+3004.90.00.43,2005,2025,21,YES,,Antacids,Antacids
+3004.90.00.49,2005,2025,21,YES,,Other,Other
+3004.90.00.50,2005,2025,21,YES,,"Other, for human use, acting on the cardio-vascular system","Other, for human use, acting on the cardio-vascular system"
+3004.90.00.61,2005,2025,21,YES,,Containing sulfonamides,Containing sulfonamides
+3004.90.00.69,2005,2025,21,YES,,Other,Other
+3004.90.00.71,2005,2025,21,YES,,Haematological agents,Haematological agents
+3004.90.00.72,2005,2025,21,YES,,Antineoplastic agents,Antineoplastic agents
+3004.90.00.73,2005,2025,21,YES,,Cough or cold preparations,Cough or cold preparations
+3004.90.00.74,2005,2025,21,YES,,"Other, primarily affecting the eyes, ears or respiratory system","Primarily affecting the eyes, ears or respiratory system"
+3004.90.00.75,2005,2025,21,YES,,Diuretics,Diuretics
+3004.90.00.76,2005,2025,21,YES,,"Other medicaments primarily affecting electrolytic, caloric or water balance","Primarily affecting electrolytic, caloric or water balance"
+3004.90.00.77,2005,2025,21,YES,,Dermatological agents,Dermatological agents
+3004.90.00.78,2005,2025,21,YES,,Containing hyaluronic acid or its sodium salt,Containing hyaluronic acid or its sodium salt
+3004.90.00.79,2005,2025,21,YES,,Other,Other
+3004.90.00.81,2005,2011,7,YES,,Anaesthetics,Anaesthetics
+3004.90.00.89,2005,2011,7,YES,,Other,Other
+3004.90.00.90,2012,2025,14,YES,,Other,Other
+3005.10.00.10,2005,2025,21,YES,,Coated or impregnated with pharmaceutical substances,Coated or impregnated with pharmaceutical substances
+3005.10.00.91,2005,2025,21,YES,,Adhesive dressings,Adhesive dressings
+3005.10.00.99,2005,2025,21,YES,,Other,Other
+3005.90.00.10,2005,2011,7,YES,,"Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts","Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts"
+3005.90.00.20,2005,2025,21,YES,,Coated or impregnated with pharmaceutical substances,Coated or impregnated with pharmaceutical substances
+3005.90.00.30,2005,2025,21,YES,,"Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances","Surgical dressings, not stitched or otherwise manufactured, not coated or impregnated with pharmaceutical substances"
+3005.90.00.40,2005,2025,21,YES,,"Other, of woven fabrics other than woven fabrics solely of cotton; of knitted fabrics, nonwovens or felts","Other, of woven fabrics, other than woven fabrics solely of cotton; Of knitted fabrics, nonwovens or felts"
+3005.90.00.50,2005,2011,7,YES,,"Other, of woven fabrics solely of cotton","Other, of woven fabrics solely of cotton"
+3005.90.00.60,2005,2011,7,YES,,"Other, of paper","Other, of paper"
+3005.90.00.90,2005,2025,21,YES,,Other,Other
+3006.10.00.10,2005,2025,21,YES,,Sterile surgical catgut and similar sterile suture materials for surgical woundclosure,Sterile surgical catgut and similar sterile suture materials for surgical wound closure
+3006.10.00.90,2005,2025,21,YES,,Other,Other
+3006.20.00.10,2005,2011,7,YES,,Of human origin,Of human origin
+3006.20.00.20,2005,2021-5,17,YES,,Of animal origin,Of animal origin
+3006.20.00.90,2005,2021-5,17,YES,,Of other origin,Other
+3006.30.00.10,2005,2025,21,YES,,Opacifying preparations for X-ray examinations,Opacifying preparations for X-ray examinations
+3006.30.00.20,2005,2011,7,YES,,Allergenics prepared for parenteral administration,Allergenics prepared for parenteral administration
+3006.30.00.90,2005,2025,21,YES,,Other,Other
+3006.40.00.10,2005,2025,21,YES,,Dental cements and bone reconstruction cements,Dental cements and bone reconstruction cements
+3006.40.00.20,2005,2011,7,YES,,Points for filling dental root canals,Points for filling dental root canals
+3006.40.00.30,2005,2011,7,YES,,"Dental fillings of composition metals, excluding those in powder or pellet form","Dental fillings of composition metals, excluding those in powder or pellet form"
+3006.40.00.90,2005,2025,21,YES,,Other dental fillings,Other
+3006.50.00.00,2005,2025,21,YES,,First-aid boxes and kits,First-aid boxes and kits
+3006.60.00.00,2017,2025,9,YES,,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides","Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides"
+3006.60.00.10,2012,2016,5,YES,,In measured doses,In measured doses
+3006.60.00.11,2005,2011,7,YES,,Containing norethesterone acetate and ethinylestradiol,Containing norethesterone acetate and ethinylestradiol
+3006.60.00.19,2005,2011,7,YES,,Other,Other
+3006.60.00.90,2005,2016,12,YES,,Other than in measured doses,Other
+3006.70.10.00,2005,2025,21,YES,,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen","Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen"
+3006.70.90.00,2005,2025,21,YES,,Other,Other
+3006.80.11.00,2005,2006,2,YES,,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen","Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen"
+3006.80.19.00,2005,2006,2,YES,,Other,Other
+3006.80.90.10,2005,2006,2,YES,,Of the goods of heading 30.01,Of the goods of heading 30.01
+3006.80.90.20,2005,2006,2,YES,,Of the goods of heading 30.02,Of the goods of heading 30.02
+3006.80.90.30,2005,2006,2,YES,,Of the goods of heading 30.03,Of the goods of heading 30.03
+3006.80.90.41,2005,2006,2,YES,,Of the goods of subheadings 3004.10 to 3004.39,Of the goods of subheadings 3004.10 to 3004.39
+3006.80.90.42,2005,2006,2,YES,,Of the goods of subheadings 3004.40 or 3004.50,Of the goods of subheadings 3004.40 or 3004.50
+3006.80.90.43,2005,2006,2,YES,,Of the goods of subheading 3004.90,Of the goods of subheading 3004.90
+3006.80.90.50,2005,2006,2,YES,,Of the goods of heading 30.05,Of the goods of heading 30.05
+3006.80.90.60,2005,2006,2,YES,,Of the goods of heading 30.06,Of the goods of heading 30.06
+3006.91.00.00,2007,2025,19,YES,,Appliances identifiable for ostomy use,Appliances identifiable for ostomy use
+3006.92.00.00,2007,2025,19,YES,,Waste pharmaceuticals,Waste pharmaceuticals
+3006.93.10.00,2022,2025,4,YES,,Syrup based,Syrup based
+3006.93.20.00,2022,2025,4,YES,,Sugar based,Sugar based
+3006.93.30.00,2022,2025,4,YES,,Other food based,Other food based
+3006.93.40.00,2022,2025,4,YES,,Non-alcoholic beverages based,Non-alcoholic beverages based
+3006.93.90.00,2022,2025,4,YES,,Other,Other

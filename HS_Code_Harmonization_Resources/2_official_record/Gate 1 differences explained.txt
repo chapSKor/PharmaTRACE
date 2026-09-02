@@ -1,0 +1,275 @@
+# Gate 1: every family difference from the v1 release, explained
+
+**CONFIRMED BY THE ANALYST ON 2026-08-18, all nine events.**
+
+Gate 1's criterion is that every difference from the v1 released CSVs is *either zero, or explained
+in writing as a deliberate improvement with the reason*. This is that writing, and every event in
+it has been reviewed and accepted.
+
+## What the differences are
+
+`gate1/family_differences_imports.csv` holds 20 rows and `_exports.csv` holds 4. Those 24 rows are
+not 24 independent differences. A family that v2 splits usually also appears in a row that v2
+merges, because the same records are involved in both. Reading them as connected components over
+shared membership gives **nine events, seven in imports and two in exports**.
+
+Every one of the nine is **count-preserving**: N v1 families become N v2 families. Nothing was
+created and nothing was destroyed. The same records were partitioned along different boundaries.
+
+**Read the fourth column, not the fifth.** A difference is the trade that actually changed family.
+The families involved are much larger than that, because most of their records sit in the same
+family before and after. An earlier draft of this document reported the fifth column as the amount
+at stake, which overstated every event and overstated some of them badly: event 6 reads
+CAD 3,788,437,903 by family size and CAD 217,467 by what moved.
+
+| event | what it decides | records moved | **trade that changed family** | families involved |
+|---|---|---|---|---|
+| 2 | human and animal blood fractions separate | 7 | **10,905,807,394** | 25,013,104,233 |
+| 3 | dried animal blood leaves the residual | 4 | **10,802,514,370** | 14,925,698,248 |
+| 4 | toxins follow the toxins | 4 | **1,685,442,474** | 2,580,168,517 |
+| 7 | mixed and unmixed multivitamins separate | 4 | **734,339,963** | 2,317,398,112 |
+| 9 | immunological chain reaches the residual | 2 | **17,555,107** | 1,684,227,350 |
+| 1 | glands separate from their extracts | 2 | **11,343,772** | 535,186,982 |
+| 8 | glands and extracts, export side | 1 | **4,227,953** | 1,977,299,233 |
+| 6 | morphine keeps its own line | 1 | **217,467** | 3,788,437,903 |
+| 5 | bulk follows substance, not alcohol | 2 | **140,027** | 10,387,172,706 |
+
+Total trade that changed family: **CAD 24,161,588,527** across 27 records.
+
+## The one reason, stated once
+
+**v1 partitioned by code-number lineage. v2 partitions by what the goods are.** Every one of the
+nine is that difference showing up in a particular block. v2 separates two commodities that v1 had
+welded together because they shared a code or a residual line, or it joins two lineages that v1 had
+kept apart because the code number changed underneath them.
+
+That is the change the rebuild exists to make, and it is why the differences are improvements
+rather than regressions. Each event below says which of the two it is and names the evidence.
+
+---
+
+### Event 1. Glands separate from their extracts (IM_0001 + IM_0006, 6 records)
+
+v1 held `3001.10.00.10`, `3001.10.00.90` and `3001.20.00.00` in one family and the heparin line in
+another. v2 puts the two `3001.10` glands lines with heparin, and gives `3001.20.00.00` a family of
+its own.
+
+**Why.** The `3001.10` lines retired at 2006-12 and their trade went to `3001.90.00.90`, "Heparin
+and its salts; human or animal substances for therapeutic or prophylactic uses, nes", which is the
+heading's residual. `3001.20.00.00`, extracts of glands, never retired: it trades continuously from
+1988-01 to 2026-06. A line that never stopped has no successor and belongs in no other family. v1
+grouped the two `3001.10` codes with `3001.20` because the numbers are adjacent. They are not the
+same goods and their lineages never meet.
+
+**CONFIRMED 2026-08-18. Two records move, carrying CAD 11,343,772.** Both are `3001.10.00.x` glands lines going to the heparin leftover, and the WCO correlation narrowed each to one subheading. Same class as event 8.
+
+### Event 2. Human and animal blood fractions stop sharing a family (21 records)
+
+The five v1 families are IM_0007, IM_0008, IM_0009, IM_0017 and IM_0020. They become five v2
+families over the same 21 records. The HS2017 revision replaced the
+`3002.10` block with `3002.12`, and v1 followed the code numbers across that boundary while v2
+follows the goods.
+
+**Why.** The clearest case is v1's IM_0017. It held `3002.10.29.90` "Blood fractions, nes", which in
+2017 becomes `3002.12.00.19` "Human antisera and other human blood fractions, nes". v2 sends that
+human line to `IM-3002101022-198801`, with the other human "other uses" lines, and keeps
+`3002.10.29.20` "Blood fractions, nes, for use in animals" together with `3002.12.00.29` "Animal
+antisera and other animal blood fractions, nes" in `IM-3002102920-198801`.
+
+The distinction being enforced is `origin`, which `decisions/decisive_distinctions.csv` declares as
+disqualifying. Human and animal blood fractions are not the same commodity. v1 put them in one
+family because the pre-2017 code numbers ran together.
+
+**CONFIRMED 2026-08-18. Seven records move, carrying CAD 10,905,807,394, the largest movement in Gate 1.** No analyst override and no weak accept anywhere in it. Every link is settled by the official record or belongs to a line that never retired.
+
+### Event 3. Dried animal blood leaves the microbial residual (IM_0018 + IM_0050 + IM_0051, 19 records)
+
+**Why.** `3002.90.10.40` "Dried blood of animal origin" becomes `3002.90.00.30` in 1998 and trades
+to 2026-06 without ever retiring. v1 held it with `3002.90.10.30` "Dried blood of human origin",
+which did retire and whose trade went into the `3002.90` residual. v2 keeps the animal line as its
+own family, `IM-3002901040-198801`, because it never stopped, and sends the human line into the
+residual family with the rest of the microbial preparations.
+
+`3002.49.00.90`, born 2022-01, is also its own family: it is a new HS2022 line and no retiring code
+was ruled into it.
+
+**CONFIRMED 2026-08-18. Four records move, carrying CAD 10,802,514,370, and the contested part is
+one link inside that, not the whole event.** The analyst decided CAD 1,634,256,687 of this event and
+almost all of it is a single link: `3002.19.00.00` to `3002.90.00.90`, CAD 1,629,159,701, queue row
+213. Its export twin is row 222 in event 9. The rest of the event is routine.
+
+The move those two rows make is not a one-off. A leftover line retires and its goods pass to a
+leftover in a different subheading **ten times** in the delivery, carrying CAD 17,745,790,534. The
+tariff schedules or the WCO correlation specify or constrain the destination in **six** of them,
+which is what makes it a rule rather than a preference. **Two** more carry identical wording and
+decide themselves. Rows 213 and 222 are the only two where the record excludes nothing and the
+wording is distant, at 0.25.
+
+The structural argument is stronger than the reason originally recorded. `3002.19` was the leftover
+for the whole `3002.1` group, not for the immunological sub-block: `3002.13`, `.14` and `.15`
+divide immunological products by retail presentation and mixing state and cover that space
+completely between them. Goods reached `3002.19` because they matched none of `3002.11` through
+`.15`. After 2022 the group keeps no leftover, so they pass to the heading's own leftover.
+
+The trade does not corroborate it and the reason says so. The receiving line gained CAD 268,255,809
+in 2022 and two other lines dying that month account for CAD 274,917,486 of it. The alternative,
+`3002.15.00.00`, gained CAD 743,047,528 in the same year and is large enough to hide the movement
+either way.
+
+*The citation inside row 213's reason was corrected on 2026-08-18. It had named rows 210, 177, 223
+and 225 as the same rule. Only 223 is, along with 229. Row 210 moves between two named vaccine
+lines, and 177 and 225 are the glands event 223 already covers.*
+
+### Event 4. Toxins follow the toxins (IM_0043 + IM_0047, 9 records)
+
+**Why.** This is the ruling of 2026-08-18, queue rows 66 and 68. `3002.90.00.10` reads "**Toxins**,
+toxoids, antitoxins, viruses, bacteriophage and bacterial lysates" and HS2022 split it:
+`3002.49.00.20` took "Toxins and similar products" and `3002.90.00.20` took the remaining five
+terms. v2 routes the toxin chain, including Ricin and Saxitoxin, to `3002.49.00.20`, and gives
+`3002.90.00.20` a family of its own because it names no toxins.
+
+The evidence is the trade series. `3002.90.00.10` ran at 159 to 175 million a year.
+`3002.49.00.20` runs at 189, 223 and 269 million in 2023, 2024 and 2025. `3002.90.00.20` runs at 9
+to 18 million, under a tenth of the flow. Text similarity favoured the toxoid line at 0.9466
+because it kept five of the six words. The trade and the leading term both say otherwise.
+
+**This event moved the crosswalk towards the v1 release rather than away from it.** v1 grouped
+Ricin, Saxitoxin and `3002.49.00.20` together, and applying the ruling restored that grouping. The
+ruling was argued from the HS2022 structure and the trade series with v1 not consulted.
+
+**CONFIRMED 2026-08-18. Four records move, carrying CAD 1,685,442,474.**
+
+### Event 5. Bulk preparations follow the substance, not the alcohol (IM_0061 + IM_0064 + IM_0065, 23 records)
+
+**Why.** v1's IM_0064 held four unrelated bulk lines together because each carried the phrase
+"containing more than 23% of absolute ethyl alcohol by volume". v2 sends each to the family of its
+substance: `3003.31.91.00` insulin joins the insulin family, `3003.39.91.00` hormones joins the
+hormones family, and the remainder stays with the general bulk residual.
+
+**This is not a judgement v2 makes. It is the tariff's own structure.** Statistics Canada placed
+insulin in `3003.31`, hormones in `3003.39` and general bulk medicaments in `3003.90`, three
+different subheadings, from 1988 onward. The candidate pool offered to `3003.31.91.00` contained
+five codes and every one is an insulin line; soya oil emulsions was never among them. The same
+holds for the hormone line. v2's partition follows Canada's classification.
+
+**It is v1's grouping that required a judgement, and it crossed the tariff to make it.** The only
+thing `3003.31.91.00` and `3003.90.10.00` share is a closing phrase about how much alcohol the
+preparation contains, which is a statement about presentation. Insulin and fractioned soya oil
+emulsions are not the same goods, and the delivery says so in the code structure itself.
+
+*Corrected 2026-08-18 after review. This section previously read "it is a judgement rather than a
+fact the delivery forces", which was wrong: the fact is in the subheadings and was checked against
+the candidate pool.*
+
+**CONFIRMED 2026-08-18. Two records move, carrying CAD 140,027**, the smallest movement of the
+nine. They are the insulin line and the hormone line that each carried the alcohol phrase, each
+returning to the family of its own substance.
+
+### Event 6. Morphine keeps its own line (IM_0137 + IM_0140, 22 records)
+
+**Why.** HS2017 gave morphine its own line, `3004.49.00.10`, separate from the general alkaloid
+residual `3004.49.00.90`. v2 follows that: the morphine chain is `IM-3004409050-198801`, and the
+rest of the alkaloid block, including cocaine, codeine, theophylline and vincristine, is
+`IM-3004409019-198801`. v1 had morphine's later lives in one family and its earlier ones in another.
+
+**CONFIRMED 2026-08-18. One record moves, carrying CAD 217,467.** That is the cocaine line, which
+leaves the morphine family for the general alkaloid family.
+
+A larger link inside this event was reviewed at the same time and is sound. `3004.40.00.90`
+"Non-narcotic vegetable alkaloids, nes" retires at 2016-12 to `3004.49.00.90` "Medicaments
+containing alkaloids or derivatives thereof, nes", carrying CAD 536,767,110 at a wording match of
+0.3924. The low score is a style artefact and not a weak link:
+
+  * Canada's own concordance names the destination, recorded as "named by Canada's concordance at
+    201701".
+  * At the same boundary the record alone sent a sibling, `3004.40.00.30` theophylline, to the very
+    same line.
+  * Only four candidates existed. Three are ephedrine, pseudoephedrine and norephedrine, named
+    substances that a line reading "nes" does not match by definition.
+  * Both lines are their block's leftover.
+
+The trade does not track the individual line. The retiring line ran at 31, 71 and 64 million in
+2014 to 2016; the receiving line starts at 8.3 million in 2017 and reaches 33.8 million by 2019,
+while the morphine line beside it starts at 72.9 million. The block conserves its total. The split
+between the two new lines differs from the split before, which is a reclassification inside the
+block rather than evidence against the link.
+
+### Event 7. Mixed and unmixed multivitamins separate (IM_0152 + IM_0156, 19 records)
+
+**Why.** "Multivitamins **not** mixed with other supplements" and "multivitamins **mixed** with
+other supplements" are different commodities, and Statistics Canada has given them separate codes
+throughout. The mixed line ends at `3004.50.00.14`, still trading in 2026-06; the unmixed at
+`3004.50.00.13` and `.19`. v2 keeps the two apart and puts the vitamins-iron preparation, which is a
+mixture, with the mixed family. The distinction is `mixing`, declared as disqualifying.
+
+**CONFIRMED 2026-08-18. Four records move, carrying CAD 734,339,963.** No analyst override. One accept at a wording match of 0.5200, `3004.50.00.20` to `3004.50.00.19`, carrying CAD 7,548,977 at the 2011-12 renumbering.
+
+### Event 8. Glands and extracts, export side (EX_0001 + EX_0003, 4 records)
+
+**Why.** The same fact as event 1, on the export universe. `3001.10.00` retires 2006-10 into
+`3001.90.00`. `3001.20.00` trades to 2026-05 without retiring and is its own family.
+
+**CONFIRMED 2026-08-18. One record moves, carrying CAD 4,227,953.** That is `3001.10.00`, glands
+and other organs, which stopped in October 2006. Its goods went to the heparin line, which is the
+leftover for this heading, and it is a member of the ten-link leftover class set out under event 3.
+The WCO correlation left one candidate for it. v1 had put glands with `3001.20.00`, extracts, on the
+strength of the code numbers being adjacent. Extracts never stopped and is now its own family.
+
+The other three records in this event did not move. Heparin carries CAD 1,898,786,034 between its
+two lives and sits in the same family before and after.
+
+**This one is not permanent and the import twin is.** `3001.20.00` stopped one month before the
+delivery ends and is resolved `not_a_retirement` on the absence of a termination notice, so it is
+one of the 15 rows in `gate1/gate2_tail_disclosure.csv`. If a later delivery declares that line
+withdrawn, it becomes a retirement needing a successor and this event changes. The import side,
+event 1, does not carry that exposure: `3001.20.00.00` traded in 2026-06, the delivery's own last
+month.
+
+### Event 9. The immunological chain reaches the heading residual (EX_0010 + EX_0020, 7 records)
+
+**Why.** This is queue row 222, decided 2026-08-15, and its import twin is row 213. Under HS2022 the
+`3002.1` group keeps no residual, so an immunological product that is not unmixed, not mixed and not
+in measured doses falls to `3002.90`, the heading's own leftover. `3002.49.00`, born 2022-01, is its
+own family. The written decision states outright that the export trade cannot corroborate this and
+is not claimed to, and that the import twin carries the evidence.
+
+**CONFIRMED 2026-08-18 together with event 3.** This row carries CAD 6,994,502 and its import twin
+carries CAD 1,629,159,701. Both are the same commodity at the same boundary and both are members of
+the ten-link class described under event 3, where the official record settles six and identical
+wording settles two. The account written for the paper and the reviewers
+is in the manuscript materials, not in this package.
+
+---
+
+## The 19 new export records
+
+`gate1/crosswalk_report.txt` reports 78 v1 export records matched and **19 new in v2**. These are
+not a difference to defend. They are the pre-2000 export block that v1's source did not contain: v1
+was built from an export extract starting 2000-01 while this delivery starts 1988-01. All 19 begin
+between 1988-01 and 1989-01 and every one dies before 2000-01, so none of them creates a family v1
+could have had. The plan records this at section 8.
+
+## What is not claimed
+
+No claim is made that v2's partition is right *because* it differs from v1. Each event above rests
+on the delivery's own evidence: a line that never retired, a distinction the rules file declares, or
+a trade series. Two of the nine, events 4 and 9, rest on analyst rulings whose full reasoning is in
+`decisions/stage2_decisions.xlsx` against queue rows 66, 68, 213 and 222.
+
+## For the analyst to confirm
+
+**All nine events were reviewed and confirmed by the analyst on 2026-08-18.** Gate 1's
+criterion is met.
+
+Two corrections were made during that review and both are recorded above rather than quietly
+applied. Event 5 had been drafted as the weakest of the nine and is not: the tariff separates
+insulin, hormones and general bulk into three subheadings and the candidate pool for the insulin
+line never contained a soya oil emulsion. Event 6's large link had been flagged as a weak accept on
+its wording score of 0.3924 and is not: Canada's concordance names the destination and the record
+sent a sibling to the same line.
+
+Event 5 was flagged here as the weakest of the nine, on the grounds that v1's grouping by alcohol
+content had a rationale of its own. Reviewed 2026-08-18 and that was wrong: the tariff separates
+insulin, hormones and general bulk into three subheadings, the candidate pool for the insulin line
+never contained a soya oil emulsion, and v1's grouping is the one that crossed the classification.
+Event 5 is now among the better-evidenced of the nine rather than the weakest.

@@ -1,0 +1,207 @@
+boundary,direction,hs10,description
+2006->2007,DIED,3001.10.00.10,Animal glands
+2006->2007,DIED,3001.10.00.90,Other
+2006->2007,DIED,3006.80.11.00,"Chemical or biological preparations, including kits containing ancillary articles or materials, for medical diagnosis; To be employed in the insemination of animal semen"
+2006->2007,DIED,3006.80.19.00,Other
+2006->2007,DIED,3006.80.90.10,Of the goods of heading 30.01
+2006->2007,DIED,3006.80.90.20,Of the goods of heading 30.02
+2006->2007,DIED,3006.80.90.30,Of the goods of heading 30.03
+2006->2007,DIED,3006.80.90.41,Of the goods of subheadings 3004.10 to 3004.39
+2006->2007,DIED,3006.80.90.42,Of the goods of subheadings 3004.40 or 3004.50
+2006->2007,DIED,3006.80.90.43,Of the goods of subheading 3004.90
+2006->2007,DIED,3006.80.90.50,Of the goods of heading 30.05
+2006->2007,DIED,3006.80.90.60,Of the goods of heading 30.06
+2006->2007,BORN,3006.91.00.00,Appliances identifiable for ostomy use
+2006->2007,BORN,3006.92.00.00,Waste pharmaceuticals
+2011->2012,DIED,3002.10.00.60,Modified immunological products
+2011->2012,DIED,3002.20.00.20,Against rubella (German measles)
+2011->2012,DIED,3002.20.00.30,Against rabies
+2011->2012,DIED,3003.31.00.10,Prepared for parenteral administration in humans
+2011->2012,DIED,3003.31.00.90,Other
+2011->2012,DIED,3003.39.00.10,"Epinephrine and its solutions, prepared for parenteral administration in humans"
+2011->2012,DIED,3003.39.00.90,Other
+2011->2012,DIED,3003.90.00.10,"Fractionated soya oil emulsions, prepared for parenteral administration; mixtures of amino acids and mixtures of amino acids and protein hydrolysates, whether or not containing added minerals, vitamins, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders; dextrose (glucose) solutions and levulose (fructose) solutions, prepared for parenteral administration"
+2011->2012,DIED,3003.90.00.20,Containing more than 23% of absolute ethyl alcohol by volume
+2011->2012,DIED,3003.90.00.91,Containing acetaminophen
+2011->2012,DIED,3003.90.00.99,Other
+2011->2012,DIED,3004.10.00.11,Containing penicillin G sodium
+2011->2012,DIED,3004.10.00.12,Containing penicillin V
+2011->2012,DIED,3004.10.00.13,Containing amoxacillin
+2011->2012,DIED,3004.10.00.19,Other
+2011->2012,DIED,3004.10.00.20,"For human use, containing streptomycins or their derivatives"
+2011->2012,DIED,3004.10.00.31,Containing penicillins or derivatives thereof
+2011->2012,DIED,3004.10.00.32,Containing streptomycins or derivatives thereof
+2011->2012,DIED,3004.20.00.10,"For human use, containing tetracyclines or their derivatives"
+2011->2012,DIED,3004.20.00.20,"For human use, containing cephalosporins"
+2011->2012,DIED,3004.20.00.31,Containing erythromycin
+2011->2012,DIED,3004.20.00.39,Other
+2011->2012,DIED,3004.20.00.41,Containing gentamycins
+2011->2012,DIED,3004.20.00.49,Other
+2011->2012,DIED,3004.20.00.51,Containing bacitracin
+2011->2012,DIED,3004.20.00.59,Other
+2011->2012,DIED,3004.20.00.61,Containing chloramphenicol
+2011->2012,DIED,3004.20.00.62,Containing mitomycin C
+2011->2012,DIED,3004.20.00.63,Containing vancomycin
+2011->2012,DIED,3004.20.00.69,Other
+2011->2012,DIED,3004.20.00.71,Containing ivermectin
+2011->2012,DIED,3004.20.00.79,Other
+2011->2012,DIED,3004.31.00.10,"Insulin, whether or not mixed with zinc, globin or protamine, prepared for parenteral administration"
+2011->2012,DIED,3004.31.00.90,Other
+2011->2012,DIED,3004.32.00.11,Containing hydrocortisone
+2011->2012,DIED,3004.32.00.19,Other
+2011->2012,DIED,3004.32.00.20,For veterinary use
+2011->2012,DIED,3004.39.00.10,"Epinephrine and its solutions and pituitary extracts, prepared for parenteral administration"
+2011->2012,DIED,3004.39.00.81,Containing anterior pituitary hormones
+2011->2012,DIED,3004.39.00.82,Containing posterior pituitary hormones
+2011->2012,DIED,3004.39.00.83,Containing unmixed single estrogens
+2011->2012,DIED,3004.39.00.84,Containing unmixed single progestational hormones
+2011->2012,DIED,3004.39.00.85,Containing other hormones
+2011->2012,DIED,3004.40.00.10,Containing codeine or its derivatives
+2011->2012,DIED,3004.40.00.20,Containing vincristine
+2011->2012,DIED,3004.40.00.50,Containing aminophylline
+2011->2012,DIED,3004.40.00.80,Containing other narcotic vegetable alkaloids or their narcotic derivatives
+2011->2012,DIED,3004.50.00.10,"Mixtures of amino acids and vitamins, and mixtures of amino acids, protein hydrolysates and vitamins, whether or not containing added minerals, fats or carbohydrates, specially compounded for persons afflicted with amino acid disorders"
+2011->2012,DIED,3004.50.00.20,"Other, containing more than 23% of absolute ethyl alcohol by volume"
+2011->2012,DIED,3004.50.00.31,Containing vitamin C
+2011->2012,DIED,3004.50.00.32,Containing vitamin E
+2011->2012,DIED,3004.50.00.39,Other
+2011->2012,DIED,3004.50.00.40,"Other, for human use, containing a single vitamin mixed with other supplements"
+2011->2012,DIED,3004.50.00.50,"Other, for human use, containing multivitamins not mixed with other supplements"
+2011->2012,DIED,3004.50.00.61,Vitamin-iron preparations
+2011->2012,DIED,3004.50.00.69,Other
+2011->2012,DIED,3004.50.00.70,"Other, for veterinary use"
+2011->2012,DIED,3004.90.00.20,"Other, containing more than 23% of absolute ethyl alcohol by volume"
+2011->2012,DIED,3004.90.00.41,Histamine H+2 receptor antagonist
+2011->2012,DIED,3004.90.00.81,Anaesthetics
+2011->2012,DIED,3004.90.00.89,Other
+2011->2012,DIED,3005.90.00.10,"Bandages and slabs of textile fabric specially coated with plaster of Paris compound; other articles specially designed for use as, or for use in the making of orthopaedic casts"
+2011->2012,DIED,3005.90.00.50,"Other, of woven fabrics solely of cotton"
+2011->2012,DIED,3005.90.00.60,"Other, of paper"
+2011->2012,DIED,3006.20.00.10,Of human origin
+2011->2012,DIED,3006.30.00.20,Allergenics prepared for parenteral administration
+2011->2012,DIED,3006.40.00.20,Points for filling dental root canals
+2011->2012,DIED,3006.40.00.30,"Dental fillings of composition metals, excluding those in powder or pellet form"
+2011->2012,DIED,3006.60.00.11,Containing norethesterone acetate and ethinylestradiol
+2011->2012,DIED,3006.60.00.19,Other
+2011->2012,BORN,3002.10.00.90,Other
+2011->2012,BORN,3003.31.00.00,Containing insulin
+2011->2012,BORN,3003.39.00.00,Other
+2011->2012,BORN,3003.90.00.30,Containing acetaminophen
+2011->2012,BORN,3003.90.00.90,Other
+2011->2012,BORN,3004.10.00.10,For human use
+2011->2012,BORN,3004.10.00.90,Other
+2011->2012,BORN,3004.20.00.11,Containing cephalosporins
+2011->2012,BORN,3004.20.00.12,Containing vancomycin
+2011->2012,BORN,3004.20.00.13,Containing erythromycin
+2011->2012,BORN,3004.20.00.18,"Other, containing macrolides"
+2011->2012,BORN,3004.20.00.19,Other
+2011->2012,BORN,3004.20.00.80,"Other, containing ivermectin"
+2011->2012,BORN,3004.20.00.90,Other
+2011->2012,BORN,3004.31.00.00,Containing insulin
+2011->2012,BORN,3004.32.00.00,"Containing corticosteroid hormones, their derivatives or structural analogues"
+2011->2012,BORN,3004.39.00.11,"Epinephrine, its solutions and pituitary extracts"
+2011->2012,BORN,3004.39.00.12,Containing anterior pituitary hormones
+2011->2012,BORN,3004.39.00.13,Containing unmixed single estrogens
+2011->2012,BORN,3004.39.00.19,Other
+2011->2012,BORN,3004.50.00.11,"Containing a single vitamin, not mixed with other supplements"
+2011->2012,BORN,3004.50.00.12,"Containing a single vitamin, mixed with other supplements"
+2011->2012,BORN,3004.50.00.13,"Containing multivitamins, not mixed with other supplements"
+2011->2012,BORN,3004.50.00.14,"Containing multivitamins, mixed with other supplements"
+2011->2012,BORN,3004.50.00.19,Other
+2011->2012,BORN,3004.50.00.90,Other
+2011->2012,BORN,3004.90.00.90,Other
+2011->2012,BORN,3006.60.00.10,In measured doses
+2016->2017,DIED,3002.10.00.10,"Human antisera and other human blood fractions, for diagnostic use"
+2016->2017,DIED,3002.10.00.21,Blood plasma
+2016->2017,DIED,3002.10.00.22,Normal serum globulin
+2016->2017,DIED,3002.10.00.23,Immune serum globulin
+2016->2017,DIED,3002.10.00.29,Other
+2016->2017,DIED,3002.10.00.30,"Human antisera and other human blood fractions, for other uses"
+2016->2017,DIED,3002.10.00.41,Bovine albumin
+2016->2017,DIED,3002.10.00.42,Sera and antisera
+2016->2017,DIED,3002.10.00.49,Other
+2016->2017,DIED,3002.10.00.51,For use in humans
+2016->2017,DIED,3002.10.00.59,Other
+2016->2017,DIED,3002.10.00.90,Other
+2016->2017,DIED,3002.90.00.11,Ricin
+2016->2017,DIED,3002.90.00.12,Saxitoxin
+2016->2017,DIED,3002.90.00.19,Other
+2016->2017,DIED,3002.90.00.20,Butter making ferment cultures
+2016->2017,DIED,3002.90.00.91,"Bacteria culture inoculants, for seeds"
+2016->2017,DIED,3002.90.00.92,Whole human blood
+2016->2017,DIED,3002.90.00.93,"Antiallergenic preparations, of microbial origin"
+2016->2017,DIED,3002.90.00.99,Other
+2016->2017,DIED,3003.40.00.00,Containing alkaloids or derivatives thereof but not containing hormones or other products of heading 29.37 or antibiotics
+2016->2017,DIED,3004.40.00.30,Containing theophylline
+2016->2017,DIED,3004.40.00.40,Containing morphine or derivatives thereof
+2016->2017,DIED,3004.40.00.90,Other
+2016->2017,DIED,3004.50.00.13,"Containing multivitamins, not mixed with other supplements"
+2016->2017,DIED,3006.60.00.10,In measured doses
+2016->2017,DIED,3006.60.00.90,Other
+2016->2017,BORN,3002.11.00.00,Malaria diagnostic test kits
+2016->2017,BORN,3002.12.00.11,For diagnostic use
+2016->2017,BORN,3002.12.00.12,"Other, blood plasma"
+2016->2017,BORN,3002.12.00.13,"Other, immune globulin"
+2016->2017,BORN,3002.12.00.19,Other
+2016->2017,BORN,3002.12.00.21,For use in humans
+2016->2017,BORN,3002.12.00.29,Other
+2016->2017,BORN,3002.13.00.00,"Immunological products, unmixed, not put up in measured doses or in forms or packings for retail sale"
+2016->2017,BORN,3002.14.00.00,"Immunological products, mixed, not put up in measured doses or in forms or packings for retail sale"
+2016->2017,BORN,3002.15.00.00,"Immunological products, put up in measured doses or in forms or packings for retail sale"
+2016->2017,BORN,3002.19.00.00,Other
+2016->2017,BORN,3002.90.00.10,"Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates"
+2016->2017,BORN,3002.90.00.40,Whole human blood
+2016->2017,BORN,3002.90.00.50,Micro-organisms cultures
+2016->2017,BORN,3002.90.00.90,Other
+2016->2017,BORN,3003.41.00.00,Containing ephedrine or its salts
+2016->2017,BORN,3003.42.00.00,Containing pseudoephedrine (INN) or its salts
+2016->2017,BORN,3003.43.00.00,Containing norephedrine or its salts
+2016->2017,BORN,3003.49.00.00,Other
+2016->2017,BORN,3003.60.00.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter"
+2016->2017,BORN,3004.41.00.00,Containing ephedrine or its salts
+2016->2017,BORN,3004.42.00.00,Containing pseudoephedrine (INN) or its salts
+2016->2017,BORN,3004.43.00.00,Containing norephedrine or its salts
+2016->2017,BORN,3004.49.00.10,Containing morphine or derivatives thereof
+2016->2017,BORN,3004.49.00.90,Other
+2016->2017,BORN,3004.60.00.00,"Other, containing antimalarial active principles described in Subheading Note 2 to this Chapter"
+2016->2017,BORN,3006.60.00.00,"Chemical contraceptive preparations based on hormones, on other products of heading 29.37 or on spermicides"
+2017->2018-3,DIED,3004.90.00.31,Analgesics
+2017->2018-3,DIED,3004.90.00.32,Antidepressants and tranquilizers
+2017->2018-3,DIED,3004.90.00.33,Antihypertensive agents
+2017->2018-3,DIED,3004.90.00.34,Antihistaminic agents
+2017->2018-3,DIED,3004.90.00.35,"Other agents, acting on the central nervous system"
+2017->2018-3,DIED,3004.90.00.36,Local anaesthetics
+2017->2018-3,DIED,3004.90.00.39,Other
+2017->2018-3,BORN,3004.90.00.21,Containing cannabis or cannabinoids
+2017->2018-3,BORN,3004.90.00.22,Analgesics
+2017->2018-3,BORN,3004.90.00.23,Antidepressants and tranquilizers
+2017->2018-3,BORN,3004.90.00.24,Antihypertensive agents
+2017->2018-3,BORN,3004.90.00.25,Antihistaminic agents
+2017->2018-3,BORN,3004.90.00.26,"Other agents, acting on the central nervous system"
+2017->2018-3,BORN,3004.90.00.27,Local anaesthetics
+2017->2018-3,BORN,3004.90.00.29,Other
+2021-5->2022,DIED,3002.11.00.00,Malaria diagnostic test kits
+2021-5->2022,DIED,3002.19.00.00,Other
+2021-5->2022,DIED,3002.20.00.10,Against influenza virus
+2021-5->2022,DIED,3002.20.00.90,Other
+2021-5->2022,DIED,3002.30.00.10,Vaccines against foot and mouth disease; Vaccines prepared for parenteral administration; Bovine intranasal vaccines
+2021-5->2022,DIED,3002.30.00.90,Other
+2021-5->2022,DIED,3002.90.00.10,"Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates"
+2021-5->2022,DIED,3002.90.00.50,Micro-organisms cultures
+2021-5->2022,DIED,3006.20.00.20,Of animal origin
+2021-5->2022,DIED,3006.20.00.90,Other
+2021-5->2022,BORN,3002.41.00.10,Against influenza virus
+2021-5->2022,BORN,3002.41.00.90,Other
+2021-5->2022,BORN,3002.42.00.10,Vaccines against foot and mouth disease; vaccines prepared for parenteral administration; bovine intranasal vaccines
+2021-5->2022,BORN,3002.42.00.90,Other
+2021-5->2022,BORN,3002.49.00.10,Micro-organisms cultures
+2021-5->2022,BORN,3002.49.00.20,Toxins
+2021-5->2022,BORN,3002.49.00.90,Other
+2021-5->2022,BORN,3002.51.00.00,Cell therapy products
+2021-5->2022,BORN,3002.59.00.00,Other
+2021-5->2022,BORN,3002.90.00.20,"Toxoids, antitoxins, viruses, bacteriophage and bacterial lysates"
+2021-5->2022,BORN,3006.93.10.00,Syrup based
+2021-5->2022,BORN,3006.93.20.00,Sugar based
+2021-5->2022,BORN,3006.93.30.00,Other food based
+2021-5->2022,BORN,3006.93.40.00,Non-alcoholic beverages based
+2021-5->2022,BORN,3006.93.90.00,Other

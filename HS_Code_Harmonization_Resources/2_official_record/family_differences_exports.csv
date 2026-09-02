@@ -1,0 +1,5 @@
+flow,kind,v1_family_id,v2_family_id,records,detail
+exports,v2 SPLIT this v1 family,EX_0001,EX-30011000-198801;EX-30012000-198801,2,one v1 family became 2 in v2
+exports,v2 SPLIT this v1 family,EX_0010,EX-30024900-202201;EX-30029010-198801,3,one v1 family became 2 in v2
+exports,v2 MERGED these v1 families,EX_0001;EX_0003,EX-30011000-198801,3,2 v1 families became one in v2
+exports,v2 MERGED these v1 families,EX_0010;EX_0020,EX-30029010-198801,6,2 v1 families became one in v2

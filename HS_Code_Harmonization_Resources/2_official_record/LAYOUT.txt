@@ -1,0 +1,67 @@
+SHIPPED NAME -> PATH IN THE REPOSITORY
+
+  extracts/concordance_2011_2012_ch30.csv             evidence/cbsa/concordance_2011_2012_ch30.csv
+  extracts/concordance_2016_2017_ch30.csv             evidence/cbsa/concordance_2016_2017_ch30.csv
+  extracts/concordance_2017_2017_1_ch30.csv           evidence/cbsa/concordance_2017_2017_1_ch30.csv
+  extracts/sched_ch30_2005.csv                        evidence/cbsa/sched_ch30_2005.csv
+  extracts/sched_ch30_2006.csv                        evidence/cbsa/sched_ch30_2006.csv
+  extracts/sched_ch30_2007.csv                        evidence/cbsa/sched_ch30_2007.csv
+  extracts/sched_ch30_2008.csv                        evidence/cbsa/sched_ch30_2008.csv
+  extracts/sched_ch30_2009.csv                        evidence/cbsa/sched_ch30_2009.csv
+  extracts/sched_ch30_2010.csv                        evidence/cbsa/sched_ch30_2010.csv
+  extracts/sched_ch30_2011.csv                        evidence/cbsa/sched_ch30_2011.csv
+  extracts/sched_ch30_2012.csv                        evidence/cbsa/sched_ch30_2012.csv
+  extracts/sched_ch30_2013-1.csv                      evidence/cbsa/sched_ch30_2013-1.csv
+  extracts/sched_ch30_2013.csv                        evidence/cbsa/sched_ch30_2013.csv
+  extracts/sched_ch30_2014-4.csv                      evidence/cbsa/sched_ch30_2014-4.csv
+  extracts/sched_ch30_2015.csv                        evidence/cbsa/sched_ch30_2015.csv
+  extracts/sched_ch30_2016.csv                        evidence/cbsa/sched_ch30_2016.csv
+  extracts/sched_ch30_2017.csv                        evidence/cbsa/sched_ch30_2017.csv
+  extracts/sched_ch30_2018-3.csv                      evidence/cbsa/sched_ch30_2018-3.csv
+  extracts/sched_ch30_2019-4.csv                      evidence/cbsa/sched_ch30_2019-4.csv
+  extracts/sched_ch30_2020-2.csv                      evidence/cbsa/sched_ch30_2020-2.csv
+  extracts/sched_ch30_2021-5.csv                      evidence/cbsa/sched_ch30_2021-5.csv
+  extracts/sched_ch30_2022.csv                        evidence/cbsa/sched_ch30_2022.csv
+  extracts/sched_ch30_2023-7.csv                      evidence/cbsa/sched_ch30_2023-7.csv
+  extracts/sched_ch30_2024.csv                        evidence/cbsa/sched_ch30_2024.csv
+  extracts/sched_ch30_2025.csv                        evidence/cbsa/sched_ch30_2025.csv
+  extracts/sched_ch30_boundaries.csv                  evidence/cbsa/sched_ch30_boundaries.csv
+  extracts/sched_ch30_census.csv                      evidence/cbsa/sched_ch30_census.csv
+  extracts/sched_ch30_lifespan.csv                    evidence/cbsa/sched_ch30_lifespan.csv
+  extracts/decision_dates.csv                         evidence/provenance/decision_dates.csv
+  source_documents/WTO_HSCodes_1996_to_2002.pdf       evidence/wto/WTO_HSCodes_1996_to_2002.pdf
+  source_documents/WTO_HSCodes_2002_to_2007.pdf       evidence/wto/WTO_HSCodes_2002_to_2007.pdf
+  source_documents/WTO_HSCodes_2007_to_2012.pdf       evidence/wto/WTO_HSCodes_2007_to_2012.pdf
+  source_documents/WTO_HSCodes_2012_to_2017.pdf       evidence/wto/WTO_HSCodes_2012_to_2017.pdf
+  source_documents/WTO_HSCodes_2017_to_2022.pdf       evidence/wto/WTO_HSCodes_2017_to_2022.pdf
+  extracts/wto_ch30_pairs.csv                         evidence/wto/wto_ch30_pairs.csv
+  extracts/wto_ch30_statements.csv                    evidence/wto/wto_ch30_statements.csv
+  source_documents/CBSA concordance 2011 to 2012.pdf  evidence/cbsa/concordance_11_12-eng.pdf
+  source_documents/CBSA concordance 2016 to 2017.pdf  evidence/cbsa/Customs Tariff - 2017 - Concordance (2016 tariff items to 2017 tariff items).pdf
+  source_documents/PS35-7-2015-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS35-7-2015-eng (Chapter 30).pdf
+  source_documents/PS35-7-2016-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS35-7-2016-eng (Chapter 30).pdf
+  source_documents/PS35-7-2017-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS35-7-2017-eng (Chapter 30).pdf
+  source_documents/PS35-7-2018-3-eng (Chapter 30).pdf  evidence/cbsa/chapter30_pages/PS35-7-2018-3-eng (Chapter 30).pdf
+  source_documents/PS35-7-2019-4-eng (Chapter 30).pdf  evidence/cbsa/chapter30_pages/PS35-7-2019-4-eng (Chapter 30).pdf
+  source_documents/PS35-7-2020-2-eng (Chapter 30).pdf  evidence/cbsa/chapter30_pages/PS35-7-2020-2-eng (Chapter 30).pdf
+  source_documents/PS35-7-2021-5-eng (Chapter 30).pdf  evidence/cbsa/chapter30_pages/PS35-7-2021-5-eng (Chapter 30).pdf
+  source_documents/PS35-7-2022-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS35-7-2022-eng (Chapter 30).pdf
+  source_documents/PS35-7-2023-7-eng (Chapter 30).pdf  evidence/cbsa/chapter30_pages/PS35-7-2023-7-eng (Chapter 30).pdf
+  source_documents/PS35-7-2024-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS35-7-2024-eng (Chapter 30).pdf
+  source_documents/PS35-7-2025-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS35-7-2025-eng (Chapter 30).pdf
+  source_documents/PS36-1-2005E (Chapter 30).pdf      evidence/cbsa/chapter30_pages/PS36-1-2005E (Chapter 30).pdf
+  source_documents/PS36-1-2006E (Chapter 30).pdf      evidence/cbsa/chapter30_pages/PS36-1-2006E (Chapter 30).pdf
+  source_documents/PS36-1-2007E (Chapter 30).pdf      evidence/cbsa/chapter30_pages/PS36-1-2007E (Chapter 30).pdf
+  source_documents/PS36-1-2008E (Chapter 30).pdf      evidence/cbsa/chapter30_pages/PS36-1-2008E (Chapter 30).pdf
+  source_documents/PS36-1-2009E (Chapter 30).pdf      evidence/cbsa/chapter30_pages/PS36-1-2009E (Chapter 30).pdf
+  source_documents/PS36-1-2010-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS36-1-2010-eng (Chapter 30).pdf
+  source_documents/PS36-1-2011-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS36-1-2011-eng (Chapter 30).pdf
+  source_documents/PS36-1-2012-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS36-1-2012-eng (Chapter 30).pdf
+  source_documents/PS36-1-2013-1-eng (Chapter 30).pdf  evidence/cbsa/chapter30_pages/PS36-1-2013-1-eng (Chapter 30).pdf
+  source_documents/PS36-1-2013-eng (Chapter 30).pdf   evidence/cbsa/chapter30_pages/PS36-1-2013-eng (Chapter 30).pdf
+  source_documents/PS36-1-2014-4-eng (Chapter 30).pdf  evidence/cbsa/chapter30_pages/PS36-1-2014-4-eng (Chapter 30).pdf
+  transcription/extract_wto_pairs.py                  evidence/wto/extract_wto_pairs.py
+  transcription/derive_decision_dates.py              evidence/provenance/derive_decision_dates.py
+  family_differences_imports.csv                      gate1/family_differences_imports.csv
+  family_differences_exports.csv                      gate1/family_differences_exports.csv
+  Gate 1 differences explained.txt           gate1/GATE1_DIFFERENCES_EXPLAINED.md
