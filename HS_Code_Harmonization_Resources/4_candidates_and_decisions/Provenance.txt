@@ -1,0 +1,64 @@
+# Where the source databases came from
+
+The three files here are extracts of Statistics Canada's Canadian International Merchandise
+Trade Web Application (CIMT), taken from the Government of Canada Open Government portal on
+2026-08-05. Each database carries its own `metadata` table with the same facts machine-readably:
+dataset identifier, title, source URL, extraction timestamp, and period range.
+
+## The files
+
+| file | flow | codes | rows | SUM(value), CAD |
+|---|---|---|---|---|
+| `imports.db` | imports | HS10 | 1,575,882 | 415,669,236,806 |
+| `domestic_exports.db` | domestic exports | HS8 | 275,546 | 190,906,721,014 |
+| `exports.db` | total exports | HS8 | 240,550 | 216,729,045,491 |
+
+All three cover January 1988 to June 2026, filtered to commodity codes beginning with 30,
+which is Chapter 30, pharmaceutical products. Each row is one month, commodity, province,
+country and, for the United States, state, with the value in dollars.
+
+**The build reads `imports.db` and `exports.db`.** The export series is TOTAL exports, so
+re-exports are counted: the analysis covers everything crossing the border under these codes,
+not only goods made in Canada. That was the analyst's instruction of 2026-08-31 and it
+replaced a domestic basis.
+
+Two consequences are recorded here because neither is visible from the data.
+`exports.db` carries NO provincial data: province is empty on all 240,550 rows, against 15
+provinces on every row of `domestic_exports.db`. No stage or check reads province, so the
+crosswalk is unaffected, but a province-level export view cannot be built from this extract.
+And the export total moves: CAD 190,906,721,014 domestic against CAD 216,729,045,491 total,
+a difference of CAD 25,822,324,477 which is the re-exports.
+
+`domestic_exports.db` is retained for reconciliation. A control totals the export inventory
+against the total-exports extract AND against the domestic one, failing in both directions,
+so a substitution fails on a number rather than on trust.
+
+## The upstream datasets
+
+The portal publishes CIMT in eight chunks by year range. All eight feed each database; the
+identifiers below locate them exactly, and each resolves at
+`https://open.canada.ca/data/en/dataset/<identifier>`.
+
+| years | dataset identifier |
+|---|---|
+| 1988-1991 | a2b38e8a-b0b0-4163-8426-c4729b0a9689 |
+| 1992-1995 | 6eacb78a-7fb1-49ce-b13c-2a7564092a55 |
+| 1996-2001 | ed551c1b-ba5d-4391-a08e-8c154fb2e629 |
+| 2002-2006 | 7b9ef472-e806-42f8-8e2a-c8d954e250e0 |
+| 2007-2011 | d0c43a70-3390-4879-8f1d-b602bb0eba3d |
+| 2012-2016 | 6f3fd3d9-5a35-47a8-a45a-4b2a8c957453 |
+| 2017-2022 | b1126a07-fd85-4d56-8395-143aba1747a4 |
+| 2023-2026 | 2909a648-5753-4924-878a-b069392d9cde |
+
+Extraction timestamps, from the metadata tables: imports 2026-08-05T12:57:35Z, total exports
+2026-08-05T12:58:08Z, domestic exports 2026-08-05T12:59:11Z. The data is published under the
+Statistics Canada Open Licence, which permits use and redistribution with attribution.
+
+## Integrity
+
+`MANIFEST.csv` at the project root records an MD5 for each file as copied. The imports
+database later gained a temporary index during query work, so its bytes no longer match that
+MD5; its row count and value total above are identical before and after, and both are asserted
+by `checks/check_stage0_source_inventory.py` on every run. The two figures the release rests
+on, the row counts and value totals of the two input databases, are also re-derived to the
+dollar by the faithfulness controls.

@@ -1,0 +1,141 @@
+record_id,family_id,flow,step_number,steps_in_journey,hs_code,description,step_first_period,step_last_period,rewordings_within_step,step_status,next_hs_code
+EXR-30011000-198801,EX-30011000-198801,exports,1,2,3001.10.00,"Glands and other organs, dried, powdered or not, for therapeutic uses",198801,200610,0,succeeded,3001.90.00
+EXR-30011000-198801,EX-30011000-198801,exports,2,2,3001.90.00,"Heparin & its salts;human or animal substances for therap or prophltc uses, nes",198801,202606,1,active,
+EXR-30012000-198801,EX-30012000-198801,exports,1,1,3001.20.00,"Extracts of glands/other organs or of their secretions, for therapeutic uses",198801,202605,0,not_a_retirement,
+EXR-30019000-198801,EX-30011000-198801,exports,1,1,3001.90.00,"Heparin & its salts;human or animal substances for therap or prophltc uses, nes",198801,202606,1,active,
+EXR-30019000-200701,EX-30011000-198801,exports,1,1,3001.90.00,"Heparin & its salts;human or animal substances for therap or prophltc uses, nes",200701,202606,0,active,
+EXR-30021000-198801,EX-30021000-198801,exports,1,2,3002.10.00,"Antisera, o blood fract, immunological prod,w/n mod/obt by biotechnological proc",198801,201612,1,succeeded,3002.12.00
+EXR-30021000-198801,EX-30021000-198801,exports,2,2,3002.12.00,"Antisera & other blood fractions, w/n modified/obtained by biotechnological proc",201701,202606,0,active,
+EXR-30021000-201201,EX-30021000-198801,exports,1,2,3002.10.00,"Antisera, o blood fract, immunological prod,w/n mod/obt by biotechnological proc",201201,201612,0,succeeded,3002.12.00
+EXR-30021000-201201,EX-30021000-198801,exports,2,2,3002.12.00,"Antisera & other blood fractions, w/n modified/obtained by biotechnological proc",201701,202606,0,active,
+EXR-30021100-201702,EX-30021100-201702,exports,1,1,3002.11.00,Malaria diagnostic test kits,201702,202111,0,left_chapter,
+EXR-30021200-201701,EX-30021000-198801,exports,1,1,3002.12.00,"Antisera & other blood fractions, w/n modified/obtained by biotechnological proc",201701,202606,0,active,
+EXR-30021300-201706,EX-30021300-201706,exports,1,1,3002.13.00,"Immunological products, unmixed, not put up in measured doses/forms/packings frs",201706,202606,0,active,
+EXR-30021400-201701,EX-30021400-201701,exports,1,1,3002.14.00,"Immunological products,mixed,not put in measured doses/forms/packings f ret sale",201701,202606,0,active,
+EXR-30021500-201701,EX-30021500-201701,exports,1,1,3002.15.00,"Immunological products, put up in measured doses/forms/packings, for retail sale",201701,202606,0,active,
+EXR-30021900-201701,EX-30029010-198801,exports,1,2,3002.19.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",201701,202112,0,succeeded,3002.90.90
+EXR-30021900-201701,EX-30029010-198801,exports,2,2,3002.90.90,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",202201,202606,0,active,
+EXR-30022000-198801,EX-30022000-198801,exports,1,2,3002.20.00,Vaccines for human medicine,198801,202112,1,succeeded,3002.41.00
+EXR-30022000-198801,EX-30022000-198801,exports,2,2,3002.41.00,"Vaccines, for human medicine",202201,202606,0,active,
+EXR-30022000-200201,EX-30022000-198801,exports,1,2,3002.20.00,Vaccines for human medicine,200201,202112,0,succeeded,3002.41.00
+EXR-30022000-200201,EX-30022000-198801,exports,2,2,3002.41.00,"Vaccines, for human medicine",202201,202606,0,active,
+EXR-30023000-201701,EX-30023100-198801,exports,1,2,3002.30.00,"Vaccines, for veterinary medecine",201701,202112,0,succeeded,3002.42.00
+EXR-30023000-201701,EX-30023100-198801,exports,2,2,3002.42.00,"Vaccines, for veterinary medecine",202201,202606,0,active,
+EXR-30023010-199602,EX-30023100-198801,exports,1,3,3002.30.10,"Vaccines against foot or mouth disease, veterinary use",199602,201606,0,succeeded,3002.30.00
+EXR-30023010-199602,EX-30023100-198801,exports,2,3,3002.30.00,"Vaccines, for veterinary medecine",201701,202112,0,succeeded,3002.42.00
+EXR-30023010-199602,EX-30023100-198801,exports,3,3,3002.42.00,"Vaccines, for veterinary medecine",202201,202606,0,active,
+EXR-30023090-199601,EX-30023100-198801,exports,1,3,3002.30.90,"Vaccines, veterinary use, nes",199601,201612,0,succeeded,3002.30.00
+EXR-30023090-199601,EX-30023100-198801,exports,2,3,3002.30.00,"Vaccines, for veterinary medecine",201701,202112,0,succeeded,3002.42.00
+EXR-30023090-199601,EX-30023100-198801,exports,3,3,3002.42.00,"Vaccines, for veterinary medecine",202201,202606,0,active,
+EXR-30023100-198801,EX-30023100-198801,exports,1,4,3002.31.00,"Vaccines against foot or mouth disease, veterinary use",198801,199512,0,succeeded,3002.30.10
+EXR-30023100-198801,EX-30023100-198801,exports,2,4,3002.30.10,"Vaccines against foot or mouth disease, veterinary use",199602,201606,0,succeeded,3002.30.00
+EXR-30023100-198801,EX-30023100-198801,exports,3,4,3002.30.00,"Vaccines, for veterinary medecine",201701,202112,0,succeeded,3002.42.00
+EXR-30023100-198801,EX-30023100-198801,exports,4,4,3002.42.00,"Vaccines, for veterinary medecine",202201,202606,0,active,
+EXR-30023900-198801,EX-30023100-198801,exports,1,4,3002.39.00,"Vaccines, veterinary use, nes",198801,199512,0,succeeded,3002.30.90
+EXR-30023900-198801,EX-30023100-198801,exports,2,4,3002.30.90,"Vaccines, veterinary use, nes",199601,201612,0,succeeded,3002.30.00
+EXR-30023900-198801,EX-30023100-198801,exports,3,4,3002.30.00,"Vaccines, for veterinary medecine",201701,202112,0,succeeded,3002.42.00
+EXR-30023900-198801,EX-30023100-198801,exports,4,4,3002.42.00,"Vaccines, for veterinary medecine",202201,202606,0,active,
+EXR-30024100-202201,EX-30022000-198801,exports,1,1,3002.41.00,"Vaccines, for human medicine",202201,202606,0,active,
+EXR-30024200-202201,EX-30023100-198801,exports,1,1,3002.42.00,"Vaccines, for veterinary medecine",202201,202606,0,active,
+EXR-30024900-202201,EX-30024900-202201,exports,1,1,3002.49.00,"Vaccines,toxins, cultures of micro-organisms (excl yeasts) and sim products, nes",202201,202606,0,active,
+EXR-30025100-202202,EX-30025100-202202,exports,1,1,3002.51.00,"Cell therapy products, whether or not modified",202202,202606,0,active,
+EXR-30025900-202202,EX-30025900-202202,exports,1,1,3002.59.00,"Cell cultures, whether or not modified, nes",202202,202606,0,active,
+EXR-30029000-198901,EX-30029010-198801,exports,1,2,3002.90.00,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",198901,199612,0,succeeded,3002.90.90
+EXR-30029000-198901,EX-30029010-198801,exports,2,2,3002.90.90,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",199701,202606,3,active,
+EXR-30029010-198801,EX-30029010-198801,exports,1,3,3002.90.10,"Human blood;animal blood for therap,prophtc/diag use; microbial prep,human use",198801,198812,0,succeeded,3002.90.00
+EXR-30029010-198801,EX-30029010-198801,exports,2,3,3002.90.00,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",198901,199612,0,succeeded,3002.90.90
+EXR-30029010-198801,EX-30029010-198801,exports,3,3,3002.90.90,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",199701,202606,3,active,
+EXR-30029010-199712,EX-30029010-199712,exports,1,1,3002.90.10,Ricin,199712,202606,0,active,
+EXR-30029020-198801,EX-30029010-198801,exports,1,3,3002.90.20,"Human blood;animal blood for therap,prophtc/diag use;microbial prep nes,vet use",198801,198812,0,succeeded,3002.90.00
+EXR-30029020-198801,EX-30029010-198801,exports,2,3,3002.90.00,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",198901,199612,0,succeeded,3002.90.90
+EXR-30029020-198801,EX-30029010-198801,exports,3,3,3002.90.90,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",199701,202606,3,active,
+EXR-30029020-199705,EX-30029010-198801,exports,1,2,3002.90.20,Saxitoxin,199705,201611,0,succeeded,3002.90.90
+EXR-30029020-199705,EX-30029010-198801,exports,2,2,3002.90.90,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",201201,202606,2,active,
+EXR-30029090-199701,EX-30029010-198801,exports,1,1,3002.90.90,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",199701,202606,3,active,
+EXR-30029090-201201,EX-30029010-198801,exports,1,1,3002.90.90,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",201201,202606,2,active,
+EXR-30029090-201701,EX-30029010-198801,exports,1,1,3002.90.90,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",201701,202606,1,active,
+EXR-30029090-202201,EX-30029010-198801,exports,1,1,3002.90.90,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",202201,202606,0,active,
+EXR-30031000-198801,EX-30031000-198801,exports,1,1,3003.10.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",198801,202605,1,not_a_retirement,
+EXR-30031000-200204,EX-30031000-198801,exports,1,1,3003.10.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",200204,202605,0,not_a_retirement,
+EXR-30032000-198801,EX-30032000-198801,exports,1,1,3003.20.00,"Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06",198801,202606,1,active,
+EXR-30032000-200201,EX-30032000-198801,exports,1,1,3003.20.00,"Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06",200201,202606,0,active,
+EXR-30033100-198801,EX-30033100-198801,exports,1,2,3003.31.00,"Insulin, formulated, in bulk",198801,199304,0,succeeded,3003.90.00
+EXR-30033100-198801,EX-30033100-198801,exports,2,2,3003.90.00,"Medicaments, nes,mix,therap/prophltc uses,not for retail sale,o/t No 30.02/05/06",198801,202606,1,active,
+EXR-30033100-200203,EX-30033100-200203,exports,1,1,3003.31.00,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",200203,202505,0,not_a_retirement,
+EXR-30033900-198801,EX-30033900-198801,exports,1,1,3003.39.00,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,nfrs",198801,202606,1,active,
+EXR-30033900-200201,EX-30033900-198801,exports,1,1,3003.39.00,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,nfrs",200201,202606,0,active,
+EXR-30034000-198804,EX-30034000-198804,exports,1,2,3003.40.00,"Alkaloids or their derivs, formltd, not cntg antibiotics or hormones, in bulk",198804,201611,0,succeeded,3003.49.00
+EXR-30034000-198804,EX-30034000-198804,exports,2,2,3003.49.00,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",201805,202606,0,active,
+EXR-30034100-202009,EX-30034100-202009,exports,1,1,3003.41.00,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",202009,202009,0,not_a_retirement,
+EXR-30034200-201905,EX-30034200-201905,exports,1,1,3003.42.00,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",201905,202409,0,not_a_retirement,
+EXR-30034900-201805,EX-30034000-198804,exports,1,1,3003.49.00,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",201805,202606,0,active,
+EXR-30036000-201812,EX-30036000-201812,exports,1,1,3003.60.00,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",201812,202308,0,not_a_retirement,
+EXR-30039000-198801,EX-30033100-198801,exports,1,1,3003.90.00,"Medicaments, nes,mix,therap/prophltc uses,not for retail sale,o/t No 30.02/05/06",198801,202606,1,active,
+EXR-30039000-201701,EX-30033100-198801,exports,1,1,3003.90.00,"Medicaments, nes,mix,therap/prophltc uses,not for retail sale,o/t No 30.02/05/06",201701,202606,0,active,
+EXR-30041000-198901,EX-30041010-198801,exports,1,1,3004.10.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,frs",198901,202606,1,active,
+EXR-30041000-200201,EX-30041010-198801,exports,1,1,3004.10.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,frs",200201,202606,0,active,
+EXR-30041010-198801,EX-30041010-198801,exports,1,2,3004.10.10,"Penicillins or streptomycins and their derivatives,in dosage,for human use",198801,198812,0,succeeded,3004.10.00
+EXR-30041010-198801,EX-30041010-198801,exports,2,2,3004.10.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,frs",198901,202606,1,active,
+EXR-30041020-198801,EX-30041010-198801,exports,1,2,3004.10.20,"Penicillins or streptomycins and their derivatives,in dosage,for vet use",198801,198812,0,succeeded,3004.10.00
+EXR-30041020-198801,EX-30041010-198801,exports,2,2,3004.10.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,frs",198901,202606,1,active,
+EXR-30042000-198901,EX-30042010-198801,exports,1,1,3004.20.00,"Medicaments,cont antibiotics,f therap/prophltc,in doses/frs,o/t No 30.02/05/06",198901,202606,1,active,
+EXR-30042000-200201,EX-30042010-198801,exports,1,1,3004.20.00,"Medicaments,cont antibiotics,f therap/prophltc,in doses/frs,o/t No 30.02/05/06",200201,202606,0,active,
+EXR-30042010-198801,EX-30042010-198801,exports,1,2,3004.20.10,"Antibiotics nes, in dosage, for human use",198801,198812,0,succeeded,3004.20.00
+EXR-30042010-198801,EX-30042010-198801,exports,2,2,3004.20.00,"Medicaments,cont antibiotics,f therap/prophltc,in doses/frs,o/t No 30.02/05/06",198901,202606,1,active,
+EXR-30042020-198801,EX-30042010-198801,exports,1,2,3004.20.20,"Antibiotics nes, in dosage, for veterinary use",198801,198812,0,succeeded,3004.20.00
+EXR-30042020-198801,EX-30042010-198801,exports,2,2,3004.20.00,"Medicaments,cont antibiotics,f therap/prophltc,in doses/frs,o/t No 30.02/05/06",198901,202606,1,active,
+EXR-30043100-198803,EX-30043100-198803,exports,1,1,3004.31.00,"Medicaments,cont insulin,in doses/forms/pack f retail sale,o/t No 30.02/05/06",198803,202606,1,active,
+EXR-30043100-200207,EX-30043100-198803,exports,1,1,3004.31.00,"Medicaments,cont insulin,in doses/forms/pack f retail sale,o/t No 30.02/05/06",200207,202606,0,active,
+EXR-30043200-198901,EX-30043210-198801,exports,1,1,3004.32.00,"Medi,cont corticosteroid horm/deriv/struct ana,in doses/frs,o/t No 30.02/05/06",198901,202606,1,active,
+EXR-30043200-200201,EX-30043210-198801,exports,1,1,3004.32.00,"Medi,cont corticosteroid horm/deriv/struct ana,in doses/frs,o/t No 30.02/05/06",200201,202606,0,active,
+EXR-30043210-198801,EX-30043210-198801,exports,1,2,3004.32.10,"Adrenal cortical hormones, in dosage, for human use",198801,198812,0,succeeded,3004.32.00
+EXR-30043210-198801,EX-30043210-198801,exports,2,2,3004.32.00,"Medi,cont corticosteroid horm/deriv/struct ana,in doses/frs,o/t No 30.02/05/06",198901,202606,1,active,
+EXR-30043220-198802,EX-30043210-198801,exports,1,2,3004.32.20,"Adrenal cortical hormones, in dosage, for veterinary use",198802,198811,0,succeeded,3004.32.00
+EXR-30043220-198802,EX-30043210-198801,exports,2,2,3004.32.00,"Medi,cont corticosteroid horm/deriv/struct ana,in doses/frs,o/t No 30.02/05/06",198901,202606,1,active,
+EXR-30043900-198901,EX-30043910-198801,exports,1,1,3004.39.00,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,frs",198901,202606,1,active,
+EXR-30043900-200201,EX-30043910-198801,exports,1,1,3004.39.00,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,frs",200201,202606,0,active,
+EXR-30043910-198801,EX-30043910-198801,exports,1,2,3004.39.10,"Hormones nes, not containing antibiotics, in dosage,o/t contraceptive,human use",198801,198812,0,succeeded,3004.39.00
+EXR-30043910-198801,EX-30043910-198801,exports,2,2,3004.39.00,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,frs",198901,202606,1,active,
+EXR-30043920-198801,EX-30043910-198801,exports,1,2,3004.39.20,"Hormones nes, not containing antibiotics, in dosage,o/t contraceptive,vet use",198801,198812,0,succeeded,3004.39.00
+EXR-30043920-198801,EX-30043910-198801,exports,2,2,3004.39.00,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,frs",198901,202606,1,active,
+EXR-30044000-198801,EX-30044000-198801,exports,1,2,3004.40.00,"Alkaloids or their derivs, not cntg antibiotics or hormones, in dosage",198801,201612,0,succeeded,3004.49.00
+EXR-30044000-198801,EX-30044000-198801,exports,2,2,3004.49.00,"Medi,cont alkaloids/deriv t/o,nes,therap/prophltc,doses/frs,o/t No 30.02/05/06",201701,202606,0,active,
+EXR-30044100-201701,EX-30044100-201701,exports,1,1,3004.41.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",201701,202605,0,not_a_retirement,
+EXR-30044200-201701,EX-30044200-201701,exports,1,1,3004.42.00,"Medi,cont pseudoephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",201701,202606,0,active,
+EXR-30044300-201703,EX-30044300-201703,exports,1,1,3004.43.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",201703,202203,0,not_a_retirement,
+EXR-30044900-201701,EX-30044000-198801,exports,1,1,3004.49.00,"Medi,cont alkaloids/deriv t/o,nes,therap/prophltc,doses/frs,o/t No 30.02/05/06",201701,202606,0,active,
+EXR-30045000-198901,EX-30045010-198801,exports,1,1,3004.50.00,"Medicaments,cont vitamins/provitamins/deriv,in doses/pack/frs,o/t No 30.02/05/06",198901,202606,1,active,
+EXR-30045000-200201,EX-30045010-198801,exports,1,1,3004.50.00,"Medicaments,cont vitamins/provitamins/deriv,in doses/pack/frs,o/t No 30.02/05/06",200201,202606,0,active,
+EXR-30045010-198801,EX-30045010-198801,exports,1,2,3004.50.10,"Vitamins and their derivatives,in dosage for human use",198801,198812,0,succeeded,3004.50.00
+EXR-30045010-198801,EX-30045010-198801,exports,2,2,3004.50.00,"Medicaments,cont vitamins/provitamins/deriv,in doses/pack/frs,o/t No 30.02/05/06",198901,202606,1,active,
+EXR-30045020-198801,EX-30045010-198801,exports,1,2,3004.50.20,"Vitamins and their derivatives,in dosage for veterinary use",198801,198812,0,succeeded,3004.50.00
+EXR-30045020-198801,EX-30045010-198801,exports,2,2,3004.50.00,"Medicaments,cont vitamins/provitamins/deriv,in doses/pack/frs,o/t No 30.02/05/06",198901,202606,1,active,
+EXR-30046000-201701,EX-30046000-201701,exports,1,1,3004.60.00,"Medicaments,cont antimalarial active principles,in doses/frs,o/t No 30.02/05/06",201701,202606,0,active,
+EXR-30049000-198901,EX-30049010-198801,exports,1,2,3004.90.00,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",198901,201712,1,succeeded,3004.90.90
+EXR-30049000-198901,EX-30049010-198801,exports,2,2,3004.90.90,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",201801,202606,0,active,
+EXR-30049000-201701,EX-30049010-198801,exports,1,2,3004.90.00,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",201701,201712,0,succeeded,3004.90.90
+EXR-30049000-201701,EX-30049010-198801,exports,2,2,3004.90.90,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",201801,202606,0,active,
+EXR-30049010-198801,EX-30049010-198801,exports,1,3,3004.90.10,"Medicaments nes, in dosage, for human use",198801,198812,0,succeeded,3004.90.00
+EXR-30049010-198801,EX-30049010-198801,exports,2,3,3004.90.00,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",198901,201712,1,succeeded,3004.90.90
+EXR-30049010-198801,EX-30049010-198801,exports,3,3,3004.90.90,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",201801,202606,0,active,
+EXR-30049010-201802,EX-30049010-201802,exports,1,1,3004.90.10,"Medi cont cannabis/cannabinoids, therap/prophltc uses, doses/pack f retail sale",201802,202606,0,active,
+EXR-30049020-198801,EX-30049010-198801,exports,1,3,3004.90.20,"Medicaments nes, in dosage, for veterinary use",198801,198812,0,succeeded,3004.90.00
+EXR-30049020-198801,EX-30049010-198801,exports,2,3,3004.90.00,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",198901,201712,1,succeeded,3004.90.90
+EXR-30049020-198801,EX-30049010-198801,exports,3,3,3004.90.90,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",201801,202606,0,active,
+EXR-30049090-201801,EX-30049010-198801,exports,1,1,3004.90.90,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",201801,202606,0,active,
+EXR-30051000-198801,EX-30051000-198801,exports,1,1,3005.10.00,Dressings and other articles having an adhesive layer,198801,202606,0,active,
+EXR-30059000-198801,EX-30059000-198801,exports,1,1,3005.90.00,"Dressings & similar articles,impreg or coated or packaged for med use, nes",198801,202606,0,active,
+EXR-30061000-198801,EX-30061000-198801,exports,1,1,3006.10.00,"Sterile suture mat;sterile laminaria;sterile absorb haemostatics;surg/dental,etc",198801,202606,1,active,
+EXR-30061000-200201,EX-30061000-198801,exports,1,1,3006.10.00,"Sterile suture mat;sterile laminaria;sterile absorb haemostatics;surg/dental,etc",200201,202606,0,active,
+EXR-30062000-198801,EX-30062000-198801,exports,1,1,3006.20.00,Blood-grouping reagents,198801,202112,0,left_chapter,
+EXR-30063000-198801,EX-30063000-198801,exports,1,1,3006.30.00,"Opacifying prep, x-ray; diagnostic reagents, designed for admin to patients",198801,202606,0,active,
+EXR-30064000-198801,EX-30064000-198801,exports,1,1,3006.40.00,Dental cements & other dental fillings; bone reconstruction cements,198801,202606,0,active,
+EXR-30065000-198801,EX-30065000-198801,exports,1,1,3006.50.00,First-aid boxes and kits,198801,202606,0,active,
+EXR-30066000-198801,EX-30066000-198801,exports,1,1,3006.60.00,"Chem contraceptive preparations,based on hormones/o prod of No 29.37/spermicides",198801,202606,1,active,
+EXR-30066000-200201,EX-30066000-198801,exports,1,1,3006.60.00,"Chem contraceptive preparations,based on hormones/o prod of No 29.37/spermicides",200201,202606,0,active,
+EXR-30067000-200205,EX-30067000-200205,exports,1,1,3006.70.00,"Gel prep f human/vet medicine as lub f parts of body f oper/examination,etc",200205,202606,0,active,
+EXR-30068000-200209,EX-30068000-200209,exports,1,2,3006.80.00,Waste pharmaceuticals,200209,200612,0,succeeded,3006.92.00
+EXR-30068000-200209,EX-30068000-200209,exports,2,2,3006.92.00,"Waste pharmaceuticals, nes",200703,202606,0,active,
+EXR-30069100-200702,EX-30069100-200702,exports,1,1,3006.91.00,Appliances identifiable for ostomy use,200702,202606,0,active,
+EXR-30069200-200703,EX-30068000-200209,exports,1,1,3006.92.00,"Waste pharmaceuticals, nes",200703,202606,0,active,
+EXR-30069300-202201,EX-30069300-202201,exports,1,1,3006.93.00,"Placebos,blinded or double blinded clinical trial kits, put up in measured doses",202201,202606,0,active,

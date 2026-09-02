@@ -1,0 +1,21 @@
+MANIFEST: every file in this folder, with its size and md5 checksum
+
+  LAYOUT.txt                                               1,418   5aed9b623dec60dbd5749bc309ebe933
+  README.txt                                               1,381   e469188771d31c43dcc77aa1e0015a24
+  check_adjudication_queue.py                            102,084   d9dd0cc22d0aa3aa329fb0decc208a5e
+  check_decisive_distinctions.py                          23,207   f55a4ea4bf3db1e3eaef69be07c32079
+  check_medicine_families.py                              38,811   06100dd7ca40304b2da5c6442f5e73a5
+  check_official_constraint_sets.py                       15,112   76f6d1bfc8d34a4d026c483ccf3dd8e4
+  check_published_figures.py                              19,982   62daa190fd52e2e9a8dd194e1fb56948
+  check_rule_application.py                               23,360   f920a575f75a0791cd92463f6fb963c7
+  check_stage0_source_inventory.py                        27,900   a5699afe162f6f29744758fb25e531cb
+  check_stage1_candidates.py                              51,719   bf8c613078e61f276ee422c2d06a4776
+  check_stage1b_official_record.py                        36,751   8a7683cd3320ce4b9b1adbed51251107
+  check_stage1c_rank.py                                   54,130   8020176df421708c2de8770e586978e3
+  check_stage2_apply_decisions.py                         44,163   5a04cfd5ccb7ab23693eef0b856bafb0
+  check_stage3_route.py                                   23,094   e2b1cb320d026e67da06023d058cbc8e
+  check_stage4_build_families.py                          26,386   36c4dd90feb0b1d3fbbe97c17c473ecc
+  check_stage5_lineage.py                                 16,457   e45ed04a7053115a7fefdc2a6cdd633c
+  check_stage6_outputs.py                                 36,068   37c5b307de8f2a7323a1b594d27b203c
+  run_pipeline_end_to_end.py                              32,585   0636ca9df1f24bf9ffada1398f2c94af
+  sweep_published_columns.py                               4,636   121f67e45aa3fea514e716e60a0a2c3e

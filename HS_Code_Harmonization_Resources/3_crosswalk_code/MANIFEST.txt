@@ -1,0 +1,18 @@
+MANIFEST: every file in this folder, with its size and md5 checksum
+
+  LAYOUT.txt                                               1,080   ebd47468e7e861d8eabe9ba069cdac06
+  README.txt                                               2,011   f4e9aafcc9d3bfbece2933dc03bdda59
+  _shorthand.py                                            6,969   78777c41ccef31c6b0c5ef51970d2a24
+  _xlsx.py                                                11,505   afe14542caf4af90f6362529aaa0c131
+  families.py                                             18,548   a73aa17aa70c97de7dce7976a1df2a19
+  meaning_gates.py                                        18,067   1f81b8d3cece142001cc8ac9d49ebc25
+  s01_stage0_read_source.py                               29,530   1bfc426a21722b8abfdfbec1566f10e4
+  s02_stage1_candidates.py                                51,581   acb51aed659e0431c527c9fc7f9b5c7e
+  s03_stage1b_official_record.py                          32,057   0e8c8b88d7d4b40af333c59077e37865
+  s04_stage1c_rank.py                                     38,318   de012c3e92d1946646baf4c38ac3a6bf
+  s05_make_adjudication_queue.py                         156,992   d966973b83be87007eaa600cfb57d7c4
+  s06_stage2_apply_decisions.py                           23,109   01f34316d692d4fea5e87cafb99082f8
+  s07_stage3_route.py                                     14,850   a3d111ae79fa5b70c3465dc42cde8115
+  s08_stage4_build_families.py                            17,559   26f30e677e5417000c15e086874f89f8
+  s09_stage5_lineage.py                                   11,409   e5dfdda64a962198562d8ac4a7e0a059
+  s10_stage6_outputs.py                                   21,778   e6aa6248a1685c1840593b0116154509

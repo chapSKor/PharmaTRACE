@@ -1,0 +1,98 @@
+hs_code,description,heading,subheading,first_period,last_period,months_with_trade,longest_quiet_months,source_rows,total_value_cad,stated_termination,stated_introduction,stated_termination_matches_data,stated_termination_is_this_life
+30011000,"Glands and other organs, dried, powdered or not, for therapeutic uses",3001,300110,198801,200610,111,16,160,5567265,200612,,no,yes
+30012000,"Extracts of glands/other organs or of their secretions, for therapeutic uses",3001,300120,198801,202605,371,7,785,77599600,,,,
+30019000,"Heparin & its salts;human or animal substnces for therap or prophltc uses, nes",3001,300190,198801,200612,228,0,1443,1272402095,,,,
+30019000,"Heparin & its salts;human or animal substances for therap or prophltc uses, nes",3001,300190,200701,202606,234,0,2992,655557587,,,,
+30021000,"Antisera and other bld fract and mod immn prod, w/n obtained b/m of btech proc",3002,300210,198801,201112,288,0,9814,1854440060,201612,,no,no
+30021000,"Antisera, o blood fract, immunological prod,w/n mod/obt by biotechnological proc",3002,300210,201201,201612,60,0,2643,450834420,201612,,yes,yes
+30021100,Malaria diagnostic test kits,3002,300211,201702,202111,34,5,51,450273,202112,,no,yes
+30021200,"Antisera & other blood fractions, w/n modified/obtained by biotechnological proc",3002,300212,201701,202606,114,0,5249,2129339097,,,,
+30021300,"Immunological products, unmixed, not put up in measured doses/forms/packings frs",3002,300213,201706,202606,93,3,173,7212680,,,,
+30021400,"Immunological products,mixed,not put in measured doses/forms/packings f ret sale",3002,300214,201701,202606,82,8,178,10864290,,,,
+30021500,"Immunological products, put up in measured doses/forms/packings, for retail sale",3002,300215,201701,202606,114,0,1951,697199737,,,,
+30021900,"Immunological products, nes, w/n modified/obtained by biotechnological processes",3002,300219,201701,202112,60,0,336,7464863,202112,,yes,yes
+30022000,"Vaccines, human use",3002,300220,198801,200112,168,0,3437,596972799,202112,,no,no
+30022000,Vaccines for human medicine,3002,300220,200201,202112,240,0,4135,10515505175,202112,,yes,yes
+30023000,"Vaccines, for veterinary medecine",3002,300230,201701,202112,60,0,319,90821585,202112,,yes,yes
+30023010,"Vaccines against foot or mouth disease, veterinary use",3002,300230,199602,201606,45,48,56,9430362,201612,,no,yes
+30023090,"Vaccines, veterinary use, nes",3002,300230,199601,201612,252,0,2709,230488314,201612,,yes,yes
+30023100,"Vaccines against foot or mouth disease, veterinary use",3002,300231,198801,199512,18,45,47,962870,199512,,yes,yes
+30023900,"Vaccines, veterinary use, nes",3002,300239,198801,199512,96,0,929,40239940,199512,,yes,yes
+30024100,"Vaccines, for human medicine",3002,300241,202201,202606,54,0,885,3107598283,,,,
+30024200,"Vaccines, for veterinary medecine",3002,300242,202201,202606,54,0,376,219097026,,,,
+30024900,"Vaccines,toxins, cultures of micro-organisms (excl yeasts) and sim products, nes",3002,300249,202201,202606,54,0,1201,276193421,,,,
+30025100,"Cell therapy products, whether or not modified",3002,300251,202202,202606,36,5,73,7985851,,,,
+30025900,"Cell cultures, whether or not modified, nes",3002,300259,202202,202606,52,1,243,8567292,,,,
+30029000,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",3002,300290,198901,199612,96,0,2082,87070203,199612,,yes,yes
+30029010,"Human blood;animal blood for therap,prophtc/diag use; microbial prep,human use",3002,300290,198801,198812,12,0,160,7990944,,,,
+30029010,Ricin,3002,300290,199712,202606,291,25,2952,176854182,,,,
+30029020,"Human blood;animal blood for therap,prophtc/diag use;microbial prep nes,vet use",3002,300290,198801,198812,5,7,12,331522,201612,,no,no
+30029020,Saxitoxin,3002,300290,199705,201611,139,40,586,10613008,201612,,no,yes
+30029090,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep, nes",3002,300290,199701,201112,180,0,5387,466598868,,,,
+30029090,"Human blood; animal blood for therap/prophltc/diag uses;micro-organisms cult,nes",3002,300290,201201,201612,60,0,2727,354952944,,,,
+30029090,"Human blood;anml blood therap/prophltc/diag uses;toxins,micro-orga cult,sim,nes",3002,300290,201701,202112,60,0,2829,401587968,,,,
+30029090,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",3002,300290,202201,202606,54,0,1548,218528697,,,,
+30031000,"Penicillins or streptomycins and their derivatives, formulated, in bulk",3003,300310,198801,200012,31,17,37,748385,,,,
+30031000,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",3003,300310,200204,202605,38,50,39,1435943,,,,
+30032000,"Antibiotics nes, formulated, in bulk",3003,300320,198801,200112,86,6,125,7676418,,,,
+30032000,"Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06",3003,300320,200201,202606,286,4,1501,831236406,,,,
+30033100,"Insulin, formulated, in bulk",3003,300331,198801,199304,15,24,18,745761,,,,
+30033100,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",3003,300331,200203,202505,40,73,56,1208878,,,,
+30033900,"Hormones nes, formulated, not cntg antibiotics, in bulk, o/t contraceptives",3003,300339,198801,200111,160,1,1091,205319941,,,,
+30033900,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,nfrs",3003,300339,200201,202606,250,4,803,465281939,,,,
+30034000,"Alkaloids or their derivs, formltd, not cntg antibiotics or hormones, in bulk",3003,300340,198804,201611,68,68,79,2243690,201612,,no,yes
+30034100,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",3003,300341,202009,202009,1,0,1,16605,,,,
+30034200,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",3003,300342,201905,202409,4,49,5,594838,,,,
+30034900,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",3003,300349,201805,202606,57,22,82,803089,,,,
+30036000,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",3003,300360,201812,202308,15,18,15,7735481,,,,
+30039000,"Medicaments nes, formulated, in bulk",3003,300390,198801,201612,348,0,4574,934665379,,,,
+30039000,"Medicaments, nes,mix,therap/prophltc uses,not for retail sale,o/t No 30.02/05/06",3003,300390,201701,202606,114,0,2169,895500457,,,,
+30041000,"Penicillins or streptomycins and their derivatives, in dosage",3004,300410,198901,200112,156,0,1855,292912539,,,,
+30041000,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,frs",3004,300410,200201,202606,294,0,9931,3763788689,,,,
+30041010,"Penicillins or streptomycins and their derivatives,in dosage,for human use",3004,300410,198801,198812,12,0,170,3401123,198812,,yes,yes
+30041020,"Penicillins or streptomycins and their derivatives,in dosage,for vet use",3004,300410,198801,198812,10,1,20,992811,198812,,yes,yes
+30042000,"Antibiotics nes, in dosage",3004,300420,198901,200112,156,0,2275,393606946,,,,
+30042000,"Medicaments,cont antibiotics,f therap/prophltc,in doses/frs,o/t No 30.02/05/06",3004,300420,200201,202606,294,0,9776,17228758909,,,,
+30042010,"Antibiotics nes, in dosage, for human use",3004,300420,198801,198812,12,0,183,7651667,198812,,yes,yes
+30042020,"Antibiotics nes, in dosage, for veterinary use",3004,300420,198801,198812,12,0,48,718992,198812,,yes,yes
+30043100,"Insulin, in dosage",3004,300431,198803,199909,53,12,65,1752462,,,,
+30043100,"Medicaments,cont insulin,in doses/forms/pack f retail sale,o/t No 30.02/05/06",3004,300431,200207,202606,251,9,580,217431074,,,,
+30043200,"Adrenal cortical hormones, not containing antibiotics, in dosage",3004,300432,198901,200112,156,0,1172,398967731,,,,
+30043200,"Medi,cont corticosteroid horm/deriv/struct ana,in doses/frs,o/t No 30.02/05/06",3004,300432,200201,202606,294,0,3317,4416759120,,,,
+30043210,"Adrenal cortical hormones, in dosage, for human use",3004,300432,198801,198812,12,0,106,3924008,198812,,yes,yes
+30043220,"Adrenal cortical hormones, in dosage, for veterinary use",3004,300432,198802,198811,4,3,6,47163,198812,,no,yes
+30043900,"Hormones nes, not containing antibiotics, in dosage,o/t contraceptive",3004,300439,198901,200112,156,0,3025,633301759,,,,
+30043900,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,frs",3004,300439,200201,202606,294,0,9637,17458512244,,,,
+30043910,"Hormones nes, not containing antibiotics, in dosage,o/t contraceptive,human use",3004,300439,198801,198812,12,0,196,6819167,198812,,yes,yes
+30043920,"Hormones nes, not containing antibiotics, in dosage,o/t contraceptive,vet use",3004,300439,198801,198812,9,2,16,304529,198812,,yes,yes
+30044000,"Alkaloids or their derivs, not cntg antibiotics or hormones, in dosage",3004,300440,198801,201612,348,0,2865,1560656123,201612,,yes,yes
+30044100,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",3004,300441,201701,202605,56,14,74,104471710,,,,
+30044200,"Medi,cont pseudoephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",3004,300442,201701,202606,107,2,385,43140759,,,,
+30044300,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",3004,300443,201703,202203,9,25,10,497680,,,,
+30044900,"Medi,cont alkaloids/deriv t/o,nes,therap/prophltc,doses/frs,o/t No 30.02/05/06",3004,300449,201701,202606,114,0,1713,1158394031,,,,
+30045000,"Vitamins and their derivatives,in dosage",3004,300450,198901,200112,156,0,4347,450642793,,,,
+30045000,"Medicaments,cont vitamins/provitamins/deriv,in doses/pack/frs,o/t No 30.02/05/06",3004,300450,200201,202606,294,0,12991,3654760823,,,,
+30045010,"Vitamins and their derivatives,in dosage for human use",3004,300450,198801,198812,12,0,175,5171012,198812,,yes,yes
+30045020,"Vitamins and their derivatives,in dosage for veterinary use",3004,300450,198801,198812,11,1,37,1105557,198812,,yes,yes
+30046000,"Medicaments,cont antimalarial active principles,in doses/frs,o/t No 30.02/05/06",3004,300460,201701,202606,64,8,134,40290657,,,,
+30049000,"Medicaments nes, in dosage",3004,300490,198901,201612,336,0,35426,62584070826,201712,,no,no
+30049000,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",3004,300490,201701,201712,12,0,1366,4449244871,201712,,yes,yes
+30049010,"Medicaments nes, in dosage, for human use",3004,300490,198801,198812,12,0,716,52047406,,,,
+30049010,"Medi cont cannabis/cannabinoids, therap/prophltc uses, doses/pack f retail sale",3004,300490,201802,202606,93,5,1346,230767263,,,,
+30049020,"Medicaments nes, in dosage, for veterinary use",3004,300490,198801,198812,12,0,160,5163106,198812,,yes,yes
+30049090,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",3004,300490,201801,202606,102,0,10598,60805636213,,,,
+30051000,Dressings and other articles having an adhesive layer,3005,300510,198801,202606,462,0,10662,592045943,,,,
+30059000,"Dressings & similar articles,impreg or coated or packaged for med use, nes",3005,300590,198801,202606,462,0,14741,1040018101,,,,
+30061000,"Suture materials,sterile;laminaria, sterie;haemostatics,sterile,surg or dental",3006,300610,198801,200106,135,4,667,52713717,,,,
+30061000,"Sterile suture mat;sterile laminaria;sterile absorb haemostatics;surg/dental,etc",3006,300610,200201,202606,280,6,1327,28342079,,,,
+30062000,Blood-grouping reagents,3006,300620,198801,202112,352,9,2171,72350467,202112,,yes,yes
+30063000,"Opacifying prep, x-ray; diagnostic reagents, designed for admin to patients",3006,300630,198801,202606,462,0,10459,5171928861,,,,
+30064000,Dental cements & other dental fillings; bone reconstruction cements,3006,300640,198801,202606,445,5,5662,708003729,,,,
+30065000,First-aid boxes and kits,3006,300650,198801,202606,441,2,4717,55762354,,,,
+30066000,"Contraceptive prep based on hormones, on other prod of No 29.37 or spermicides",3006,300660,198801,200112,162,2,692,83095477,,,,
+30066000,"Chem contraceptive preparations,based on hormones/o prod of No 29.37/spermicides",3006,300660,200201,202606,282,3,1223,1271478326,,,,
+30067000,"Gel prep f human/vet medicine as lub f parts of body f oper/examination,etc",3006,300670,200205,202606,288,1,2827,74625926,,,,
+30068000,Waste pharmaceuticals,3006,300680,200209,200612,16,12,18,4595187,200612,,yes,yes
+30069100,Appliances identifiable for ostomy use,3006,300691,200702,202606,200,6,682,10551487,,,,
+30069200,"Waste pharmaceuticals, nes",3006,300692,200703,202606,219,2,602,20697596,,,,
+30069300,"Placebos,blinded or double blinded clinical trial kits, put up in measured doses",3006,300693,202201,202606,54,0,316,214588047,,,,

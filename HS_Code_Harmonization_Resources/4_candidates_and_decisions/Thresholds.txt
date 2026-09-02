@@ -1,0 +1,262 @@
+# How commodity descriptions are compared, and every threshold that decides an outcome
+
+**Scope corrected 2026-08-18, finding 140. Sections 1 onward describe v1's linking behaviour and
+are kept as the answer they were written to give.** They cite `simple/build_simple_crosswalk.py`
+and `simple/build_review_worklist.py`, which are v1's builder and its worklist generator, and they
+name `CLUSTER_THRESHOLD`, `MIN_ALT_SIM` and `WINDOW_MONTHS`, none of which v2 has ever had.
+**Neither script is in this package, and the line numbers cited against them cannot be opened
+here.** They are citations into the released v1 repository at
+github.com/tdimatul/pharma-hs-crosswalk, given so a reader can check the v1 statements against
+v1's own source. Everything describing the build that produced `output/` is in section 0, and its
+constants are cited against `pipeline/`, which is shipped in `3_crosswalk_code/`. Only two of the values they document, `HIGH_THRESHOLD` and
+`LOW_THRESHOLD`, are used by the build that produced `output/`.
+
+That left nine of the eleven numeric constants v2 actually uses undocumented, including
+`REUSE_GAP_MONTHS`, which decides whether a recycled number is one commodity or two. The project's
+own rule is *"Every threshold is declared in one place with a written rationale, and the rationale
+is part of the released documentation"* (the project's own plan, section 5, which is not
+shipped with this package), so the omission was a
+breach of a stated principle rather than an oversight about a detail. Section 0 below is the
+declaration that rule asks for. `check_stage1c_rank.py` asserts that every numeric constant
+defined in `pipeline/` appears here, so this cannot fall behind again.
+
+---
+
+## 0. Every threshold the v2 build uses
+
+Read from the source on 2026-08-18. The rationale for each lives beside its definition; what is
+here is the summary and the pointer. Four cut-offs that were bare literals in the code were
+named and added on 2026-08-26, so the guard in `check_stage1c_rank.py`, which reads only named
+constants, now covers them.
+
+| constant | value | defined in | what it decides |
+|---|---|---|---|
+| `REUSE_GAP_MONTHS` | 60 | `stage1_candidates.py` | A RELABELLED resumption after a gap longer than this splits one span from the next, so a recycled number is two commodities rather than one with a quiet patch. The gap is tested between records, one per code and wording, so a silence under one unchanged wording never splits a span, whatever its length. Eight such silences past the threshold exist, 61 to 121 months, and are disclosed with their evidence in `gate1/reuse_silence_disclosure.csv`; a control holds the file equal to the delivery. Follows the review workbook's precedent on 3002900020, whose gap was 61. Among relabelled resumptions the five splitting gaps are 61, 108, 132, 142 and 350 months and the largest kept is 34, so the line could sit anywhere between 34 and 61 and split the same resumptions. *Corrected 2026-08-19, finding 143: this cell said the largest gap kept inside a span was 34, which is true only of relabelled gaps and false of the delivery.* |
+| `TAIL_MONTHS_NOT_YET_DECIDABLE` | 12 | `stage1_candidates.py` | A span stopping within this of the delivery's last month is not called a retirement, because absence of trade at the end of the data cannot be told from a quiet spell. At twelve months a silence occurs in 2.1 per cent of import gaps and 2.7 per cent of export gaps among codes demonstrably alive. This window is ONE OF TWO hold clauses, and both fire only where silence is the only evidence, meaning a trade_ceased_only span: the second holds a sparse code whose current silence has not yet exceeded the longest quiet it has come back from, unless it stopped at a revision December. Measured 2026-08-19 on the shipped build: eleven spans held, nine by this window worth CAD 381,020,499 and two by the sparsity clause worth CAD 1,803,716. *Recorded 2026-08-19, finding 147: the second clause was previously documented nowhere outside code comments, and a declared termination could be held on silence.* |
+| `CONTINUITY_GRACE_MONTHS` | 12 | `stage1_candidates.py` | How long after a boundary a candidate may begin trading and still be treated as having received the trade. A code does not record a shipment the instant it comes into force. |
+| `CO_CASUALTY_MONTHS` | 24 | `make_adjudication_queue.py` | How soon a proposal must itself stop trading before it is read as a co-casualty rather than a step in a chain. Of 62 proposals that themselves retire, 12 fall within two years and 50 range from 28 to 348 months, so the line falls in a gap rather than through a cluster. |
+| `REVIEW_THRESHOLD` | 0.50 | `make_adjudication_queue.py` | Below this wording match a link is put to an analyst rather than recommended. Binds what the queue recommends, not only how Stage 1c labels it. |
+| `LEFT_CHAPTER_MEANING` | 0.40 | `make_adjudication_queue.py` | With the subheading gone, a proposal whose meaning words overlap the retiring description's by less than this, on the same share, has the shape of a departure from the chapter, and the suggested decision is "none" with the chapter-exit note. On this delivery the shape fires on 10 rows by wording, the record names five departures outright, and every known departure is among them; `check_adjudication_queue.py` pins those counts. A hypothesis for a person, not a finding. Set by judgement. |
+| `STRONG_PROPOSAL` | 0.85 | `make_adjudication_queue.py` | A proposal whose wording match reaches this is not offered a leftover line beside it unless a term was swapped, because clutter in an artefact meant for reading is a cost. The same line as `HIGH_THRESHOLD`, reproduced, not chosen afresh. |
+| `HIGH_THRESHOLD` | 0.85 | `stage1c_rank.py` | Above this a lone surviving candidate is classed `text_high`. Reproduced from section 3 below, not chosen afresh. |
+| `LOW_THRESHOLD` | 0.50 | `stage1c_rank.py` | Below this a lone survivor is classed `text_low`. Reproduced from section 3 below. |
+| `FULL_MEANING_OVERLAP` | 1.0 | `stage1c_rank.py` | A top candidate at or above `HIGH_THRESHOLD` is trusted only when its meaning words are the retiring description's exactly. Overlap is the words the two descriptions share as a share of the words either carries, so 1.0 means identical sets and one extra or missing word scores below it; any difference sends the row to review (tier 2), identity to spot checking (tier 6). Identity is the only overlap that leaves nothing to judge, so this is not a chosen value. |
+| `NEAR_TIE_MARGIN` | 0.05 | `stage1c_rank.py` | Two candidates whose scores sit within this of each other are a near tie that text cannot settle, and the row goes to a person (tier 4). Set by judgement; no calibration exercise produced it. |
+| `SCHEDULE_FIRST_YEAR` | 2005 | `stage1b_official_record.py` | The first year for which a tariff schedule is held, so the first boundary at which the record can speak by schedule rather than by correlation. |
+| `SWAP_FRAME_WORDS` | 3 | `meaning_gates.py` | How much of two descriptions must coincide before the remainder counts as one term swapped for another. |
+| `SWAP_UNIQUE_WORDS` | 4 | `meaning_gates.py` | The companion bound on how many words may differ while still reading as a single swap. |
+| `TOO_COMMON_SHARE` | 0.10 | `meaning_gates.py` | A rule firing on more than this share of steps is reported as too common to be a decisive distinction. It warns; it does not disable the rule. |
+
+**One non-numeric constant joins the table above: the 67-entry customs-abbreviation table in
+`pipeline/_shorthand.py`.** Since 2026-08-20 (finding 153) the v2 build applies it in
+`stage6_outputs.py` when writing the released description columns, which section 2.3 below
+records as its one purpose and which v1's release did. It also prepares text for the internal
+meaning comparisons. It never feeds a similarity score.
+
+**Five of these are similarity thresholds: `HIGH_THRESHOLD`, `LOW_THRESHOLD`,
+`REVIEW_THRESHOLD`, `STRONG_PROPOSAL` and `NEAR_TIE_MARGIN`. Two, `FULL_MEANING_OVERLAP` and
+`LEFT_CHAPTER_MEANING`, are about the share of meaning words two descriptions have in common.**
+The other eight are about time and structure. That distinction matters for
+the manuscript: Reviewer 2 asked which similarity threshold was chosen and why, and the honest
+answer for v2 is that text only ranks, so the thresholds that decide the most are the temporal
+ones.
+
+---
+
+## 1. What the similarity score is
+
+Two commodity descriptions are compared with **`difflib.SequenceMatcher`** from the Python standard
+library (`simple/build_simple_crosswalk.py` line 53, used at line 100). It returns a number between
+0 and 1:
+
+> ratio = 2 × (matching characters) ÷ (total characters in both descriptions)
+
+1.0 means the two descriptions are identical. 0.0 means they share nothing.
+
+**This measures text, not meaning.** The score has no knowledge of pharmaceutical products. It does
+not know that "Vaccines, human use" and "Vaccines, for human medicine" name the same thing. It
+counts shared runs of characters.
+
+That single fact explains where the method is strong and where it is weak:
+
+- **Strong on renamings.** When the World Customs Organization renumbered veterinary vaccines from
+  `3002.30` to `3002.42` in the 2022 revision, the description did not change. The score was high
+  and the link was made automatically with no human involvement.
+- **Weak on rewordings.** Statistics Canada also rewrites descriptions without any change to the
+  product. Those score low despite naming the same commodity, and they are exactly the cases sent to
+  a person.
+
+## 2. The score is computed on processed text, and there are two different preparations
+
+This distinction matters and is easy to get wrong. **Two similarity functions exist, they prepare
+text differently, and they serve different thresholds.**
+
+### 2.1 The main comparison, used for linking
+
+`sim()` at `simple/build_simple_crosswalk.py` lines 97 to 100 prepares each description by:
+
+1. lowercasing it;
+2. replacing every character other than a letter, a digit or a space with a space;
+3. collapsing repeated spaces.
+
+That is all. **No abbreviation is expanded.** The score that decides an automatic link at 0.85, or a
+referral to review at 0.50, is computed on the raw Statistics Canada wording with punctuation
+removed. Shorthand such as "w/n", "nes" and "therap" is compared exactly as written.
+
+This is a real limitation and it should be stated. Two descriptions naming the same product in
+different shorthand score lower than their meaning deserves.
+
+### 2.2 The heavier comparison, used only inside reused codes
+
+`sim_ext()` at lines 129 to 132 prepares text differently. It lowercases, removes the characters
+`; / & ,`, applies **19 abbreviation rules** (`_ABBREV_NORM`, lines 106 to 116, expanding "nes" to
+"not elsewhere specified", "vet" to "veterinary", "medi" to "medicament" and so on), then removes
+digits and any remaining non-letters.
+
+It is used for **one purpose only**: deciding whether two description variants inside a single
+reused HS code are the same commodity, against the 0.95 clustering threshold. It plays no part in
+Stage-1 linking.
+
+**Both preparations are part of the method.** Changing either changes the text being scored, which
+changes the score, which can change which commodities are grouped.
+
+### 2.3 A third expansion exists, and it affects nothing
+
+`simple/_shorthand.py` holds a larger 64-entry table and an `expand_shorthand()` function. It is
+applied **only when writing the released description columns**
+(`apply_stage3_decisions.py` lines 528 and 534, `build_lineage_timeline.py` line 550), so that the
+published CSVs read in plain English. **It never feeds a similarity score.**
+
+This is why the analyst worklists show raw Statistics Canada shorthand while the released lookup
+tables show expanded English: they are produced at different points in the pipeline.
+
+> **Correction, 2026-08-05.** An earlier draft of this document stated that the 64-entry table fed
+> the main similarity score, and that expanding "Medi" to "Medicaments" broke a tie at 0.615
+> between two candidate successors. Both statements were wrong. The 0.615 tie occurred in the raw
+> score, which sees no expansion. What the expansion did was let a human reading the *output*
+> descriptions see that one candidate matched the source almost word for word while the other read
+> "Agents". That is an argument about which answer is correct, not about how the score was
+> computed.
+
+---
+
+## 3. Every threshold, and what it decides
+
+| Value | Name | Where | What it decides |
+|---|---|---|---|
+| **0.85** | `HIGH_THRESHOLD` | `build_simple_crosswalk.py:67` | At or above this, two descriptions are linked **automatically**, with no human review |
+| **0.50** | `LOW_THRESHOLD` | `build_simple_crosswalk.py:68` | Between 0.50 and 0.85 the pair is sent to an **analyst** instead of being decided by the software |
+| **12 months** | `WINDOW_MONTHS` | `build_simple_crosswalk.py:69` | A successor only counts if it starts trading within 12 months of the predecessor ending |
+| **0.95** | `CLUSTER_THRESHOLD` | `build_simple_crosswalk.py:70` | Inside a reused code, two descriptions must agree this closely before being treated as the same commodity |
+| **0.30** | `MIN_ALT_SIM` | `build_review_worklist.py:42` | Below this, an alternative successor is **never shown** to the analyst |
+
+Seven further cut-points sort review rows into priority tiers A to D, four on similarity
+(0.75, 0.60, 0.50, 0.65) and three on the month gap (1, 3, 6)
+(`build_review_worklist.py:125-140`). They change what an analyst sees first, not what is linked:
+
+| Tier | Condition |
+|---|---|
+| A | score ≥ 0.75 and gap ≤ 1 month and same heading or same suffix |
+| B | score ≥ 0.60 and gap ≤ 3 months and same heading or same suffix |
+| C | score ≥ 0.50 and gap ≤ 6 months and (same heading, or same suffix, or score ≥ 0.65) |
+| D | everything else |
+
+---
+
+## 4. How to read the thresholds
+
+The thresholds encode **how much the method trusts text**:
+
+| Range | What the method does | Why |
+|---|---|---|
+| **0.85 and above** | Link automatically | The descriptions are near-identical. Text alone is sufficient evidence |
+| **0.50 to 0.85** | Ask a person | The text is suggestive but not conclusive. Software should not decide |
+| **0.30 to 0.50** | Show as an alternative | Too weak to propose, strong enough to be worth a human glance |
+| **below 0.30** | Do not show | Not worth the analyst's attention |
+
+Put this way, 0.85 is not an arbitrary constant. It is the answer to a stated question: **how similar
+must two descriptions be before software may decide without a person?** The three lower values
+answer the companion question of what a person should be shown.
+
+The ladder runs in the defensible direction. The floor for *showing* a candidate (0.30) sits well
+below the floor for *sending one to review* (0.50), which sits well below the floor for *deciding
+automatically* (0.85). The method is generous about what a human may see and strict about what it
+concludes alone.
+
+### Worked examples, from the released data
+
+| Score | Pair | Outcome |
+|---|---|---|
+| 0.732 | `3002.10.00.10` "Antisera & o blood fractions, human origin, for diagnostic use" → `3002.12.00.11` "Human antisera and other human blood fractions, for diagnostic use" | Sent to review, approved |
+| 0.825 | `3002.20.00.10` "Vaccines against influenza virus, for human use" → `3002.41.00.10` "Vaccines, for against influenza virus, human medicine" | Sent to review, approved |
+| 0.646 | A veterinary penicillin preparation → the human-use code | Sent to review, **rejected** |
+| 0.615 | Two candidates tied at the same score | The score could not separate them; decided by a person reading the expanded output descriptions |
+| 0.187 | The residual `3002.10.00.90` "Antisera, o blood fract, immunological prod…" → `3002.11.00.00` "Malaria diagnostic test kits" | **Below 0.30, never shown** |
+
+---
+
+## 5. What the analyst could and could not see
+
+Two limits govern the review step, and both bound the human judgement rather than the software:
+
+1. **The 0.30 floor.** A candidate scoring below 0.30 is removed from the candidate list entirely
+   (`build_review_worklist.py:118`). It cannot appear at any position.
+2. **Only two candidates are shown.** Each review row carries the suggested successor and exactly
+   one alternative. A candidate ranked third is invisible even if it scores well.
+
+**A decision recorded on a review row was therefore made from two options, not from the full field.**
+
+This is not a theoretical concern. In the hardest single case in the crosswalk, `3002.10.00.90`
+carrying $7,588,057,599 of lifetime value, the record states that one branch *"scored below the 0.30
+shortlist floor, so it could not appear on the Stage-2 shortlist at any rank"*, and that another
+*"a worklist row carries only the auto-suggested successor and one alternative, ranks 1 and 2 here,
+so the analyst never saw it."*
+
+Both limits were disclosed in the first release's own documentation. Those documents are
+no part of this package and are not reproduced here; they remain in the released v1 repository
+at github.com/tdimatul/pharma-hs-crosswalk.
+
+---
+
+## 6. What is not established, stated plainly
+
+**No document records why these particular numbers were chosen, and no threshold sensitivity
+analysis has been run.** This was searched on 2026-08-05 across every markdown, Python and text file
+in the project. The only stated justification anywhere is a comment beside the 0.30 floor reading
+*"don't bother listing alternatives below this"*, which is a convenience, not evidence.
+
+The values are therefore best described as **judgement, applied consistently and disclosed in full**,
+rather than as calibrated parameters. Saying so plainly is a stronger position than implying a
+calibration that was never performed.
+
+### What would convert judgement into evidence
+
+The pipeline is deterministic and inexpensive to re-run. A sweep at 0.80, 0.85 and 0.90 reporting
+the resulting family counts and the agreement rate against the official CBSA concordances would
+answer "why 0.85" with measurement. The same approach applies to the 0.30 floor: report how many
+candidates fall in each band, and how many recorded decisions had an alternative available that was
+never displayed.
+
+Two conditions on any such sweep:
+
+- It runs the writing scripts, so it needs its own snapshot of the released files first.
+- **A sweep is measurement, not a licence to change the value.** If 0.85 proves well chosen, that is
+  reported with numbers. If it does not, changing it is a separate decision, taken deliberately and
+  disclosed, because it would alter published results and invalidate the analyst decisions already
+  recorded at the current setting.
+
+---
+
+## 7. Summary for the manuscript
+
+> Descriptions are compared with `difflib.SequenceMatcher` from the Python standard library, applied
+> to lowercased text with punctuation removed. A retired code is linked to a successor
+> automatically when the successor begins trading within 12 months of the predecessor ending and the
+> descriptions agree at 0.85 or above. Pairs scoring between 0.50 and 0.85 are referred to an
+> analyst rather than resolved automatically, and each referral displays the suggested successor
+> together with the next best alternative scoring at least 0.30. Within a single reused code, where
+> one code has carried unrelated products in different periods, description variants are treated as
+> the same commodity only when they agree at 0.95 or above on a more heavily normalised comparison
+> that also expands nineteen customs abbreviations. These values were set by judgement and applied
+> consistently throughout. They were not derived from a calibration exercise, and the analyst review
+> is bounded by the two display limits described above.

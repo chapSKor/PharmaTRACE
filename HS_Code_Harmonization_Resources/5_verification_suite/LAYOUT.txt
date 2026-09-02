@@ -1,0 +1,19 @@
+SHIPPED NAME -> PATH IN THE REPOSITORY
+
+  run_pipeline_end_to_end.py                 checks/run_pipeline_end_to_end.py
+  check_stage0_source_inventory.py           checks/check_stage0_source_inventory.py
+  check_stage1_candidates.py                 checks/check_stage1_candidates.py
+  check_stage1b_official_record.py           checks/check_stage1b_official_record.py
+  check_stage1c_rank.py                      checks/check_stage1c_rank.py
+  check_official_constraint_sets.py          checks/check_official_constraint_sets.py
+  check_adjudication_queue.py                checks/check_adjudication_queue.py
+  check_stage2_apply_decisions.py            checks/check_stage2_apply_decisions.py
+  check_stage3_route.py                      checks/check_stage3_route.py
+  check_stage4_build_families.py             checks/check_stage4_build_families.py
+  check_stage5_lineage.py                    checks/check_stage5_lineage.py
+  check_stage6_outputs.py                    checks/check_stage6_outputs.py
+  check_rule_application.py                  checks/check_rule_application.py
+  check_published_figures.py                 checks/check_published_figures.py
+  check_medicine_families.py                 checks/check_medicine_families.py
+  check_decisive_distinctions.py             checks/check_decisive_distinctions.py
+  sweep_published_columns.py                 checks/sweep_published_columns.py

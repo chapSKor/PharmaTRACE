@@ -1,0 +1,41 @@
+SHIPPED NAME -> PATH IN THE REPOSITORY
+
+  commodity_inventory_imports.csv            work/commodity_inventory_imports.csv
+  commodity_inventory_exports.csv            work/commodity_inventory_exports.csv
+  stage1_candidates_imports.csv              work/stage1_candidates_imports.csv
+  stage1_candidates_exports.csv              work/stage1_candidates_exports.csv
+  stage1_official_imports.csv                work/stage1_official_imports.csv
+  stage1_official_exports.csv                work/stage1_official_exports.csv
+  stage1_ranked_imports.csv                  work/stage1_ranked_imports.csv
+  stage1_ranked_exports.csv                  work/stage1_ranked_exports.csv
+  stage1_review_imports.csv                  work/stage1_review_imports.csv
+  stage1_review_exports.csv                  work/stage1_review_exports.csv
+  stage2_resolved_imports.csv                work/stage2_resolved_imports.csv
+  stage2_resolved_exports.csv                work/stage2_resolved_exports.csv
+  stage3_routed_imports.csv                  work/stage3_routed_imports.csv
+  stage3_routed_exports.csv                  work/stage3_routed_exports.csv
+  stage4_families_imports.csv                work/stage4_families_imports.csv
+  stage4_families_exports.csv                work/stage4_families_exports.csv
+  stage5_lineage_imports.csv                 work/stage5_lineage_imports.csv
+  stage5_lineage_exports.csv                 work/stage5_lineage_exports.csv
+  _decisions_seen.json                       work/_decisions_seen.json
+  _queue_previous.json                       work/_queue_previous.json
+  _row_numbers.json                          work/_row_numbers.json
+  Decisions.txt                              decisions/DECISIONS.md
+  Readme adjudication queue.txt              decisions/README_adjudication_queue.md
+  stage2_decisions.csv                       decisions/stage2_decisions.csv
+  stage2_decisions.xlsx                      decisions/stage2_decisions.xlsx
+  stage2_adjudication_queue.csv              decisions/stage2_adjudication_queue.csv
+  decisive_distinctions.csv                  decisions/decisive_distinctions.csv
+  official_constraint_sets.csv               decisions/official_constraint_sets.csv
+  medicine_families.csv                      decisions/medicine_families.csv
+  cbsa_override_table.csv                    decisions/cbsa_override_table.csv
+  cbsa_override_exclusions.csv               decisions/cbsa_override_exclusions.csv
+  cbsa_partial_transfers.csv                 decisions/cbsa_partial_transfers.csv
+  cbsa_override_ambiguous_imports.csv        decisions/cbsa_override_ambiguous_imports.csv
+  five_way_split_receipts.csv                decisions/five_way_split_receipts.csv
+  leftover_line_gaps.csv                     decisions/leftover_line_gaps.csv
+  imports_review_worklist_assess.xlsx        decisions/imports_review_worklist_assess.xlsx
+  ADJUDICATION_FINDINGS.csv                  decisions/ADJUDICATION_FINDINGS.csv
+  Thresholds.txt                             THRESHOLDS.md
+  Provenance.txt                             source/PROVENANCE.md

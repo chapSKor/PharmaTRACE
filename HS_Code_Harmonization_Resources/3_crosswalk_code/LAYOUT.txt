@@ -1,0 +1,16 @@
+SHIPPED NAME -> PATH IN THE REPOSITORY
+
+  s01_stage0_read_source.py                  pipeline/stage0_read_source.py
+  s02_stage1_candidates.py                   pipeline/stage1_candidates.py
+  s03_stage1b_official_record.py             pipeline/stage1b_official_record.py
+  s04_stage1c_rank.py                        pipeline/stage1c_rank.py
+  s05_make_adjudication_queue.py             pipeline/make_adjudication_queue.py
+  s06_stage2_apply_decisions.py              pipeline/stage2_apply_decisions.py
+  s07_stage3_route.py                        pipeline/stage3_route.py
+  s08_stage4_build_families.py               pipeline/stage4_build_families.py
+  s09_stage5_lineage.py                      pipeline/stage5_lineage.py
+  s10_stage6_outputs.py                      pipeline/stage6_outputs.py
+  _shorthand.py                              pipeline/_shorthand.py
+  _xlsx.py                                   pipeline/_xlsx.py
+  families.py                                pipeline/families.py
+  meaning_gates.py                           pipeline/meaning_gates.py

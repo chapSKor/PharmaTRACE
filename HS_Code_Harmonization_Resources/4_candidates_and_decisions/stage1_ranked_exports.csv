@@ -1,0 +1,187 @@
+retiring_code,span_index,flow,last_period,total_value_cad,retiring_description,rank,candidate,candidate_description,similarity_score,vetoed_by,record_overruled_gate,review_flag,same_content_words
+30011000,1,exports,200610,5567265.00,"Glands and other organs, dried, powdered or not, for therapeutic uses",1,30019000,"Heparin & its salts;human or animal substances for therap or prophltc uses, nes",0.3803,,,,no
+30012000,1,exports,202605,77599600.00,"Extracts of glands/other organs or of their secretions, for therapeutic uses",1,30019000,"Heparin & its salts;human or animal substances for therap or prophltc uses, nes",0.4636,,,,no
+30021000,1,exports,201612,2305274480.00,"Antisera, o blood fract, immunological prod,w/n mod/obt by biotechnological proc",1,30021200,"Antisera & other blood fractions, w/n modified/obtained by biotechnological proc",0.7871,,,swapped term,no
+30021000,1,exports,201612,2305274480.00,"Antisera, o blood fract, immunological prod,w/n mod/obt by biotechnological proc",2,30021900,"Immunological products, nes, w/n modified/obtained by biotechnological processes",0.7051,,,,no
+30021000,1,exports,201612,2305274480.00,"Antisera, o blood fract, immunological prod,w/n mod/obt by biotechnological proc",3,30021300,"Immunological products, unmixed, not put up in measured doses/forms/packings frs",0.3974,,,,no
+30021000,1,exports,201612,2305274480.00,"Antisera, o blood fract, immunological prod,w/n mod/obt by biotechnological proc",4,30021500,"Immunological products, put up in measured doses/forms/packings, for retail sale",0.3846,,,,no
+30021000,1,exports,201612,2305274480.00,"Antisera, o blood fract, immunological prod,w/n mod/obt by biotechnological proc",5,30021400,"Immunological products,mixed,not put in measured doses/forms/packings f ret sale",0.3797,,,,no
+30021000,1,exports,201612,2305274480.00,"Antisera, o blood fract, immunological prod,w/n mod/obt by biotechnological proc",6,30021100,Malaria diagnostic test kits,0.1698,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,1,30029090,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",0.3519,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,2,30021500,"Immunological products, put up in measured doses/forms/packings, for retail sale",0.3019,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,3,30021900,"Immunological products, nes, w/n modified/obtained by biotechnological processes",0.3019,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,4,30021300,"Immunological products, unmixed, not put up in measured doses/forms/packings frs",0.2830,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,5,30021400,"Immunological products,mixed,not put in measured doses/forms/packings f ret sale",0.2593,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,6,30022000,Vaccines for human medicine,0.2545,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,7,30024100,"Vaccines, for human medicine",0.2545,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,8,30029010,Ricin,0.2424,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,9,30024900,"Vaccines,toxins, cultures of micro-organisms (excl yeasts) and sim products, nes",0.2115,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,10,30023000,"Vaccines, for veterinary medecine",0.2000,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,11,30024200,"Vaccines, for veterinary medecine",0.2000,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,12,30025900,"Cell cultures, whether or not modified, nes",0.1739,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,13,30025100,"Cell therapy products, whether or not modified",0.1370,,,,no
+30021100,1,exports,202111,450273.00,Malaria diagnostic test kits,14,30021200,"Antisera & other blood fractions, w/n modified/obtained by biotechnological proc",0.1143,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",1,30021200,"Antisera & other blood fractions, w/n modified/obtained by biotechnological proc",0.7355,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",2,30021500,"Immunological products, put up in measured doses/forms/packings, for retail sale",0.5000,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",3,30021400,"Immunological products,mixed,not put in measured doses/forms/packings f ret sale",0.4557,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",4,30021300,"Immunological products, unmixed, not put up in measured doses/forms/packings frs",0.4359,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",5,30025100,"Cell therapy products, whether or not modified",0.4065,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",6,30025900,"Cell cultures, whether or not modified, nes",0.3866,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",7,30024100,"Vaccines, for human medicine",0.2667,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",8,30024200,"Vaccines, for veterinary medecine",0.2545,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",9,30024900,"Vaccines,toxins, cultures of micro-organisms (excl yeasts) and sim products, nes",0.1948,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",10,30029090,"Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes",0.1646,,,,no
+30021900,1,exports,202112,7464863.00,"Immunological products, nes, w/n modified/obtained by biotechnological processes",11,30029010,Ricin,0.0964,,,,no
+30022000,1,exports,202112,11112477974.00,Vaccines for human medicine,1,30024100,"Vaccines, for human medicine",1.0000,,,,yes
+30023000,1,exports,202112,90821585.00,"Vaccines, for veterinary medecine",1,30024200,"Vaccines, for veterinary medecine",1.0000,,,,yes
+30023010,1,exports,201606,9430362.00,"Vaccines against foot or mouth disease, veterinary use",1,30023000,"Vaccines, for veterinary medecine",0.5882,,,,no
+30023010,1,exports,201606,9430362.00,"Vaccines against foot or mouth disease, veterinary use",2,30023090,"Vaccines, veterinary use, nes",0.5750,,,,no
+30023090,1,exports,201612,230488314.00,"Vaccines, veterinary use, nes",1,30023000,"Vaccines, for veterinary medecine",0.7797,,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",1,30023010,"Vaccines against foot or mouth disease, veterinary use",1.0000,,,,yes
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",2,30023000,"Vaccines, for veterinary medecine",0.5882,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",3,30024200,"Vaccines, for veterinary medecine",0.5882,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",4,30023090,"Vaccines, veterinary use, nes",0.5750,,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",5,30024100,"Vaccines, for human medicine",0.5000,continuity;use,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",6,30022000,"Vaccines, human use",0.4225,use,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",7,30024900,"Vaccines,toxins, cultures of micro-organisms (excl yeasts) and sim products, nes",0.4031,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",8,30029000,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",0.3281,,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",9,30029090,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep, nes",0.3281,,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",10,30025900,"Cell cultures, whether or not modified, nes",0.3191,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",11,30021500,"Immunological products, put up in measured doses/forms/packings, for retail sale",0.2901,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",12,30025100,"Cell therapy products, whether or not modified",0.2857,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",13,30021100,Malaria diagnostic test kits,0.2716,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",14,30021900,"Immunological products, nes, w/n modified/obtained by biotechnological processes",0.2595,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",15,30021300,"Immunological products, unmixed, not put up in measured doses/forms/packings frs",0.2290,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",16,30021400,"Immunological products,mixed,not put in measured doses/forms/packings f ret sale",0.2256,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",17,30021000,"Antisera and other bld fract and mod immn prod, w/n obtained b/m of btech proc",0.2154,,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",18,30021200,"Antisera & other blood fractions, w/n modified/obtained by biotechnological proc",0.1692,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",19,30029010,Ricin,0.1034,continuity,,,no
+30023100,1,exports,199512,962870.00,"Vaccines against foot or mouth disease, veterinary use",20,30029020,Saxitoxin,0.0968,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",1,30023090,"Vaccines, veterinary use, nes",1.0000,,,,yes
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",2,30023000,"Vaccines, for veterinary medecine",0.7797,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",3,30024200,"Vaccines, for veterinary medecine",0.7797,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",4,30022000,"Vaccines, human use",0.6222,use,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",5,30023010,"Vaccines against foot or mouth disease, veterinary use",0.5750,,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",6,30024100,"Vaccines, for human medicine",0.4815,continuity;use,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",7,30025900,"Cell cultures, whether or not modified, nes",0.4412,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",8,30024900,"Vaccines,toxins, cultures of micro-organisms (excl yeasts) and sim products, nes",0.3883,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",9,30025100,"Cell therapy products, whether or not modified",0.3333,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",10,30029000,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",0.3137,,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",11,30029090,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep, nes",0.3137,,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",12,30021100,Malaria diagnostic test kits,0.2545,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",13,30021900,"Immunological products, nes, w/n modified/obtained by biotechnological processes",0.2476,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",14,30021300,"Immunological products, unmixed, not put up in measured doses/forms/packings frs",0.2286,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",15,30021500,"Immunological products, put up in measured doses/forms/packings, for retail sale",0.1905,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",16,30029010,Ricin,0.1875,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",17,30021400,"Immunological products,mixed,not put in measured doses/forms/packings f ret sale",0.1869,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",18,30021000,"Antisera and other bld fract and mod immn prod, w/n obtained b/m of btech proc",0.1731,,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",19,30021200,"Antisera & other blood fractions, w/n modified/obtained by biotechnological proc",0.1731,continuity,,,no
+30023900,1,exports,199512,40239940.00,"Vaccines, veterinary use, nes",20,30029020,Saxitoxin,0.1667,continuity,,,no
+30029000,1,exports,199612,87070203.00,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",1,30029090,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep, nes",1.0000,,,,yes
+30029000,1,exports,199612,87070203.00,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",2,30029010,Ricin,0.1250,,,,no
+30029000,1,exports,199612,87070203.00,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",3,30029020,Saxitoxin,0.0476,,,,no
+30029010,1,exports,198812,7990944.00,"Human blood;animal blood for therap,prophtc/diag use; microbial prep,human use",1,30029000,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",0.9211,,,,no
+30029010,1,exports,198812,7990944.00,"Human blood;animal blood for therap,prophtc/diag use; microbial prep,human use",2,30029090,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep, nes",0.9211,continuity,,,no
+30029010,1,exports,198812,7990944.00,"Human blood;animal blood for therap,prophtc/diag use; microbial prep,human use",3,30029020,Saxitoxin,0.0465,continuity,,,no
+30029020,1,exports,198812,331522.00,"Human blood;animal blood for therap,prophtc/diag use;microbial prep nes,vet use",1,30029000,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes",0.9221,,,,no
+30029020,1,exports,198812,331522.00,"Human blood;animal blood for therap,prophtc/diag use;microbial prep nes,vet use",2,30029090,"Human blood;animal blood for therap,prophtc or diag uses; microbial prep, nes",0.9221,continuity,,,no
+30029020,1,exports,198812,331522.00,"Human blood;animal blood for therap,prophtc/diag use;microbial prep nes,vet use",3,30029010,Ricin,0.1190,continuity,,,no
+30029020,2,exports,201611,10613008.00,Saxitoxin,1,30029010,Ricin,0.4286,,,,no
+30029020,2,exports,201611,10613008.00,Saxitoxin,2,30029090,"Human blood;anml blood therap/prophltc/diag uses;toxins,micro-orga cult,sim,nes",0.1364,,,,no
+30031000,1,exports,202605,2184328.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",1,30033900,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,nfrs",0.4277,,,,no
+30031000,1,exports,202605,2184328.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",2,30034900,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",0.3418,,,,no
+30031000,1,exports,202605,2184328.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",3,30032000,"Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06",0.3145,,,,no
+30031000,1,exports,202605,2184328.00,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",4,30039000,"Medicaments, nes,mix,therap/prophltc uses,not for retail sale,o/t No 30.02/05/06",0.2532,,,,no
+30033100,1,exports,199304,745761.00,"Insulin, formulated, in bulk",1,30039000,"Medicaments nes, formulated, in bulk",0.7667,,,,no
+30033100,1,exports,199304,745761.00,"Insulin, formulated, in bulk",2,30032000,"Antibiotics nes, formulated, in bulk",0.7333,,,,no
+30033100,1,exports,199304,745761.00,"Insulin, formulated, in bulk",3,30031000,"Penicillins or streptomycins and their derivatives, formulated, in bulk",0.5053,,,,no
+30033100,1,exports,199304,745761.00,"Insulin, formulated, in bulk",4,30033900,"Hormones nes, formulated, not cntg antibiotics, in bulk, o/t contraceptives",0.4536,,,,no
+30033100,1,exports,199304,745761.00,"Insulin, formulated, in bulk",5,30034000,"Alkaloids or their derivs, formltd, not cntg antibiotics or hormones, in bulk",0.4000,,,,no
+30033100,1,exports,199304,745761.00,"Insulin, formulated, in bulk",6,30034900,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",0.2476,continuity,,,no
+30033100,1,exports,199304,745761.00,"Insulin, formulated, in bulk",7,30034100,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",0.2264,continuity,,,no
+30033100,1,exports,199304,745761.00,"Insulin, formulated, in bulk",8,30034200,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",0.2095,continuity,,,no
+30033100,1,exports,199304,745761.00,"Insulin, formulated, in bulk",9,30036000,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",0.1748,continuity,,,no
+30033100,2,exports,202505,1208878.00,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",1,30032000,"Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06",0.6879,,,,no
+30033100,2,exports,202505,1208878.00,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",2,30039000,"Medicaments, nes,mix,therap/prophltc uses,not for retail sale,o/t No 30.02/05/06",0.6154,,,,no
+30033100,2,exports,202505,1208878.00,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",3,30034900,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",0.5385,,,,no
+30033100,2,exports,202505,1208878.00,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",4,30033900,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,nfrs",0.3312,,,,no
+30033100,2,exports,202505,1208878.00,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",5,30031000,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",0.2949,,,,no
+30034000,1,exports,201611,2243690.00,"Alkaloids or their derivs, formltd, not cntg antibiotics or hormones, in bulk",1,30034900,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",0.3399,,,,no
+30034000,1,exports,201611,2243690.00,"Alkaloids or their derivs, formltd, not cntg antibiotics or hormones, in bulk",2,30034200,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",0.3007,,,,no
+30034000,1,exports,201611,2243690.00,"Alkaloids or their derivs, formltd, not cntg antibiotics or hormones, in bulk",3,30034100,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",0.2987,,,,no
+30034000,1,exports,201611,2243690.00,"Alkaloids or their derivs, formltd, not cntg antibiotics or hormones, in bulk",4,30034300,,0.0000,,,,no
+30034100,1,exports,202009,16605.00,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",1,30034200,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",0.9057,,,,no
+30034100,1,exports,202009,16605.00,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",2,30039000,"Medicaments, nes,mix,therap/prophltc uses,not for retail sale,o/t No 30.02/05/06",0.8050,,,,no
+30034100,1,exports,202009,16605.00,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",3,30032000,"Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06",0.7875,,,swapped term,no
+30034100,1,exports,202009,16605.00,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",4,30034900,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",0.7421,,,,no
+30034100,1,exports,202009,16605.00,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",5,30033100,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",0.7006,,,,no
+30034100,1,exports,202009,16605.00,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",6,30036000,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",0.6752,,,,no
+30034100,1,exports,202009,16605.00,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",7,30033900,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,nfrs",0.3750,,,,no
+30034100,1,exports,202009,16605.00,"Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06",8,30031000,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",0.2516,,,,no
+30034200,1,exports,202409,594838.00,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",1,30032000,"Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06",0.8176,,,swapped term,no
+30034200,1,exports,202409,594838.00,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",2,30034900,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",0.7722,,,,no
+30034200,1,exports,202409,594838.00,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",3,30039000,"Medicaments, nes,mix,therap/prophltc uses,not for retail sale,o/t No 30.02/05/06",0.7468,,,swapped term,no
+30034200,1,exports,202409,594838.00,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",4,30033100,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",0.6923,,,,no
+30034200,1,exports,202409,594838.00,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",5,30033900,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,nfrs",0.3145,,,,no
+30034200,1,exports,202409,594838.00,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",6,30031000,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",0.3038,,,,no
+30036000,1,exports,202308,7735481.00,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",1,30032000,"Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06",0.7261,,,,no
+30036000,1,exports,202308,7735481.00,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",2,30034200,"Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06",0.6795,,,,no
+30036000,1,exports,202308,7735481.00,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",3,30033100,"Medicaments,cont insulin,mixed,not in doses/forms/pack/frs,o/t No 30.02/05/06",0.6494,,,,no
+30036000,1,exports,202308,7735481.00,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",4,30034900,"Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06",0.6410,,,,no
+30036000,1,exports,202308,7735481.00,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",5,30039000,"Medicaments, nes,mix,therap/prophltc uses,not for retail sale,o/t No 30.02/05/06",0.5641,,,,no
+30036000,1,exports,202308,7735481.00,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",6,30033900,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,nfrs",0.3439,,,,no
+30036000,1,exports,202308,7735481.00,"Medicaments,cont antimalarial active principles,mixed,nfrs,o/t No 30.02/05/06",7,30031000,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,nfrs",0.3077,,,,no
+30041010,1,exports,198812,3401123.00,"Penicillins or streptomycins and their derivatives,in dosage,for human use",1,30041000,"Penicillins or streptomycins and their derivatives, in dosage",0.8955,,,basket contents,no
+30041020,1,exports,198812,992811.00,"Penicillins or streptomycins and their derivatives,in dosage,for vet use",1,30041000,"Penicillins or streptomycins and their derivatives, in dosage",0.9091,,,basket contents,no
+30042010,1,exports,198812,7651667.00,"Antibiotics nes, in dosage, for human use",1,30042000,"Antibiotics nes, in dosage",0.7812,,,basket contents,no
+30042020,1,exports,198812,718992.00,"Antibiotics nes, in dosage, for veterinary use",1,30042000,"Antibiotics nes, in dosage",0.7246,,,basket contents,no
+30043210,1,exports,198812,3924008.00,"Adrenal cortical hormones, in dosage, for human use",1,30043200,"Adrenal cortical hormones, not containing antibiotics, in dosage",0.6306,,,,no
+30043220,1,exports,198811,47163.00,"Adrenal cortical hormones, in dosage, for veterinary use",1,30043210,"Adrenal cortical hormones, in dosage, for human use",0.8738,use,,swapped term,no
+30043220,1,exports,198811,47163.00,"Adrenal cortical hormones, in dosage, for veterinary use",2,30043200,"Adrenal cortical hormones, not containing antibiotics, in dosage",0.6034,,,,no
+30043910,1,exports,198812,6819167.00,"Hormones nes, not containing antibiotics, in dosage,o/t contraceptive,human use",1,30043900,"Hormones nes, not containing antibiotics, in dosage,o/t contraceptive",0.9306,,,basket contents,no
+30043920,1,exports,198812,304529.00,"Hormones nes, not containing antibiotics, in dosage,o/t contraceptive,vet use",1,30043900,"Hormones nes, not containing antibiotics, in dosage,o/t contraceptive",0.9437,,,basket contents,no
+30044000,1,exports,201612,1560656123.00,"Alkaloids or their derivs, not cntg antibiotics or hormones, in dosage",1,30044900,"Medi,cont alkaloids/deriv t/o,nes,therap/prophltc,doses/frs,o/t No 30.02/05/06",0.3836,,,,no
+30044000,1,exports,201612,1560656123.00,"Alkaloids or their derivs, not cntg antibiotics or hormones, in dosage",2,30044300,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",0.2917,,,,no
+30044000,1,exports,201612,1560656123.00,"Alkaloids or their derivs, not cntg antibiotics or hormones, in dosage",3,30044100,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",0.2857,,,,no
+30044000,1,exports,201612,1560656123.00,"Alkaloids or their derivs, not cntg antibiotics or hormones, in dosage",4,30044200,"Medi,cont pseudoephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",0.2857,,,,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",1,30044200,"Medi,cont pseudoephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",0.9114,,,swapped term,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",2,30042000,"Medicaments,cont antibiotics,f therap/prophltc,in doses/frs,o/t No 30.02/05/06",0.8535,,,swapped term,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",3,30049090,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",0.7673,,,,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",4,30044900,"Medi,cont alkaloids/deriv t/o,nes,therap/prophltc,doses/frs,o/t No 30.02/05/06",0.7643,,,,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",5,30045000,"Medicaments,cont vitamins/provitamins/deriv,in doses/pack/frs,o/t No 30.02/05/06",0.7170,,,,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",6,30046000,"Medicaments,cont antimalarial active principles,in doses/frs,o/t No 30.02/05/06",0.6962,,,,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",7,30043100,"Medicaments,cont insulin,in doses/forms/pack f retail sale,o/t No 30.02/05/06",0.6795,,,,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",8,30043200,"Medi,cont corticosteroid horm/deriv/struct ana,in doses/frs,o/t No 30.02/05/06",0.6497,,,,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",9,30049010,"Medi cont cannabis/cannabinoids, therap/prophltc uses, doses/pack f retail sale",0.5128,,,,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",10,30043900,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,frs",0.3671,,,,no
+30044100,1,exports,202605,104471710.00,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",11,30041000,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,frs",0.2420,,,,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",1,30044200,"Medi,cont pseudoephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",0.9548,stimulant,,swapped term,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",2,30044100,"Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",0.9290,,,swapped term,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",3,30042000,"Medicaments,cont antibiotics,f therap/prophltc,in doses/frs,o/t No 30.02/05/06",0.8052,,,swapped term,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",4,30044900,"Medi,cont alkaloids/deriv t/o,nes,therap/prophltc,doses/frs,o/t No 30.02/05/06",0.8052,,,,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",5,30049090,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",0.7308,,,,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",6,30043200,"Medi,cont corticosteroid horm/deriv/struct ana,in doses/frs,o/t No 30.02/05/06",0.6883,,,,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",7,30046000,"Medicaments,cont antimalarial active principles,in doses/frs,o/t No 30.02/05/06",0.6581,,,,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",8,30045000,"Medicaments,cont vitamins/provitamins/deriv,in doses/pack/frs,o/t No 30.02/05/06",0.6410,,,,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",9,30043100,"Medicaments,cont insulin,in doses/forms/pack f retail sale,o/t No 30.02/05/06",0.6013,,,,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",10,30049010,"Medi cont cannabis/cannabinoids, therap/prophltc uses, doses/pack f retail sale",0.5359,,,,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",11,30043900,"Medi,cont horm/prostaglandins/thromboxanes/leukotrienes/deriv/analogues,nes,frs",0.4000,,,,no
+30044300,1,exports,202203,497680.00,"Medi,cont norephedrine/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06",12,30041000,"Medi,cont penicillins/deriv w penicillanic acid struct, streptomycins/deriv,frs",0.2727,,,,no
+30045010,1,exports,198812,5171012.00,"Vitamins and their derivatives,in dosage for human use",1,30045000,"Vitamins and their derivatives,in dosage",0.8511,,,,no
+30045020,1,exports,198812,1105557.00,"Vitamins and their derivatives,in dosage for veterinary use",1,30045000,"Vitamins and their derivatives,in dosage",0.8081,,,,no
+30049000,1,exports,201712,67033315697.00,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",1,30046000,"Medicaments,cont antimalarial active principles,in doses/frs,o/t No 30.02/05/06",0.5660,,,,no
+30049010,1,exports,198812,52047406.00,"Medicaments nes, in dosage, for human use",1,30049000,"Medicaments nes, in dosage",0.7812,,,basket contents,no
+30049010,1,exports,198812,52047406.00,"Medicaments nes, in dosage, for human use",2,30049090,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",0.4538,continuity,,,no
+30049020,1,exports,198812,5163106.00,"Medicaments nes, in dosage, for veterinary use",1,30049000,"Medicaments nes, in dosage",0.7246,,,basket contents,no
+30049020,1,exports,198812,5163106.00,"Medicaments nes, in dosage, for veterinary use",2,30049090,"Medicaments,nes,therap/prophltc uses,doses/pack f retail sale,o/t No 30.02/05/06",0.4516,continuity,,,no
+30049020,1,exports,198812,5163106.00,"Medicaments nes, in dosage, for veterinary use",3,30049010,"Medi cont cannabis/cannabinoids, therap/prophltc uses, doses/pack f retail sale",0.3802,continuity,,,no
+30062000,1,exports,202112,72350467.00,Blood-grouping reagents,1,30063000,"Opacifying prep, x-ray; diagnostic reagents, designed for admin to patients",0.2947,,,,no
+30062000,1,exports,202112,72350467.00,Blood-grouping reagents,2,30069300,"Placebos,blinded or double blinded clinical trial kits, put up in measured doses",0.2745,,,,no
+30062000,1,exports,202112,72350467.00,Blood-grouping reagents,3,30065000,First-aid boxes and kits,0.2553,,,,no
+30062000,1,exports,202112,72350467.00,Blood-grouping reagents,4,30067000,"Gel prep f human/vet medicine as lub f parts of body f oper/examination,etc",0.2245,,,,no
+30062000,1,exports,202112,72350467.00,Blood-grouping reagents,5,30069200,"Waste pharmaceuticals, nes",0.2083,,,,no
+30062000,1,exports,202112,72350467.00,Blood-grouping reagents,6,30069100,Appliances identifiable for ostomy use,0.1967,,,,no
+30062000,1,exports,202112,72350467.00,Blood-grouping reagents,7,30061000,"Sterile suture mat;sterile laminaria;sterile absorb haemostatics;surg/dental,etc",0.1942,,,,no
+30062000,1,exports,202112,72350467.00,Blood-grouping reagents,8,30066000,"Chem contraceptive preparations,based on hormones/o prod of No 29.37/spermicides",0.1748,,,,no
+30062000,1,exports,202112,72350467.00,Blood-grouping reagents,9,30064000,Dental cements & other dental fillings; bone reconstruction cements,0.1609,,,,no
+30068000,1,exports,200612,4595187.00,Waste pharmaceuticals,1,30069200,"Waste pharmaceuticals, nes",0.9130,,,,no

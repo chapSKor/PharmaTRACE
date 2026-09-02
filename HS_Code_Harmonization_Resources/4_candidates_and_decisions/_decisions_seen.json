@@ -1,0 +1,1112 @@
+{
+"exports:3001.10.00:2006-10": {
+"decision": "accept",
+"proposed_successor": "3001.90.00",
+"proposed_successor_description": "Heparin & its salts;human or animal substnces for therap or prophltc uses, nes"
+},
+"exports:3002.10.00:2016-12": {
+"decision": "accept",
+"proposed_successor": "3002.12.00",
+"proposed_successor_description": "Antisera & other blood fractions, w/n modified/obtained by biotechnological proc"
+},
+"exports:3002.11.00:2021-11": {
+"decision": "reject",
+"proposed_successor": "3002.90.90",
+"proposed_successor_description": "Human blood;anml blood therap/prophltc/diag uses;toxins,micro-orga cult,sim,nes"
+},
+"exports:3002.19.00:2021-12": {
+"decision": "reject",
+"proposed_successor": "3002.12.00",
+"proposed_successor_description": "Antisera & other blood fractions, w/n modified/obtained by biotechnological proc"
+},
+"exports:3002.20.00:2021-12": {
+"decision": "accept",
+"proposed_successor": "3002.41.00",
+"proposed_successor_description": "Vaccines, for human medicine"
+},
+"exports:3002.30.00:2021-12": {
+"decision": "accept",
+"proposed_successor": "3002.42.00",
+"proposed_successor_description": "Vaccines, for veterinary medecine"
+},
+"exports:3002.30.10:2016-06": {
+"decision": "accept",
+"proposed_successor": "3002.30.00",
+"proposed_successor_description": "Vaccines, for veterinary medecine"
+},
+"exports:3002.30.90:2016-12": {
+"decision": "accept",
+"proposed_successor": "3002.30.00",
+"proposed_successor_description": "Vaccines, for veterinary medecine"
+},
+"exports:3002.31.00:1995-12": {
+"decision": "accept",
+"proposed_successor": "3002.30.10",
+"proposed_successor_description": "Vaccines against foot or mouth disease, veterinary use"
+},
+"exports:3002.39.00:1995-12": {
+"decision": "accept",
+"proposed_successor": "3002.30.90",
+"proposed_successor_description": "Vaccines, veterinary use, nes"
+},
+"exports:3002.90.00:1996-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.90",
+"proposed_successor_description": "Human blood;animal blood for therap,prophtc or diag uses; microbial prep, nes"
+},
+"exports:3002.90.10:1988-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00",
+"proposed_successor_description": "Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes"
+},
+"exports:3002.90.20:1988-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00",
+"proposed_successor_description": "Human blood;animal blood for therap,prophtc or diag uses; microbial prep nes"
+},
+"exports:3002.90.20:2016-11": {
+"decision": "reject",
+"proposed_successor": "3002.90.90",
+"proposed_successor_description": "Human blood; animal blood for therap/prophltc/diag uses;micro-organisms cult,nes"
+},
+"exports:3003.31.00:1991-03": {
+"decision": "accept",
+"proposed_successor": "3003.90.00",
+"proposed_successor_description": "Medicaments nes, formulated, in bulk"
+},
+"exports:3003.31.00:1993-04": {
+"decision": "accept",
+"proposed_successor": "3003.90.00",
+"proposed_successor_description": "Medicaments nes, formulated, in bulk"
+},
+"exports:3003.40.00:2016-11": {
+"decision": "accept",
+"proposed_successor": "3003.49.00",
+"proposed_successor_description": "Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06"
+},
+"exports:3003.41.00:2020-09": {
+"decision": "reject",
+"proposed_successor": "3003.42.00",
+"proposed_successor_description": "Medicaments,cont pseudoephedrine/sa,mix,therap/prophltc,nfrs,o/t No 30.02/05/06"
+},
+"exports:3003.42.00:2024-09": {
+"decision": "reject",
+"proposed_successor": "3003.20.00",
+"proposed_successor_description": "Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06"
+},
+"exports:3003.60.00:2023-08": {
+"decision": "reject",
+"proposed_successor": "3003.20.00",
+"proposed_successor_description": "Medicaments,cont antibiotics,nes,mix,for therap/prophltc,nfrs,o/t No 30.02/05/06"
+},
+"exports:3004.10.10:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.10.00",
+"proposed_successor_description": "Penicillins or streptomycins and their derivatives, in dosage"
+},
+"exports:3004.10.20:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.10.00",
+"proposed_successor_description": "Penicillins or streptomycins and their derivatives, in dosage"
+},
+"exports:3004.20.10:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.20.00",
+"proposed_successor_description": "Antibiotics nes, in dosage"
+},
+"exports:3004.20.20:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.20.00",
+"proposed_successor_description": "Antibiotics nes, in dosage"
+},
+"exports:3004.32.10:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.32.00",
+"proposed_successor_description": "Adrenal cortical hormones, not containing antibiotics, in dosage"
+},
+"exports:3004.32.20:1988-11": {
+"decision": "accept",
+"proposed_successor": "3004.32.00",
+"proposed_successor_description": "Adrenal cortical hormones, not containing antibiotics, in dosage"
+},
+"exports:3004.39.10:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.39.00",
+"proposed_successor_description": "Hormones nes, not containing antibiotics, in dosage,o/t contraceptive"
+},
+"exports:3004.39.20:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.39.00",
+"proposed_successor_description": "Hormones nes, not containing antibiotics, in dosage,o/t contraceptive"
+},
+"exports:3004.40.00:2016-12": {
+"decision": "accept",
+"proposed_successor": "3004.49.00",
+"proposed_successor_description": "Medi,cont alkaloids/deriv t/o,nes,therap/prophltc,doses/frs,o/t No 30.02/05/06"
+},
+"exports:3004.43.00:2022-03": {
+"decision": "reject",
+"proposed_successor": "3004.41.00",
+"proposed_successor_description": "Medicaments,cont ephedrin/salts,therap/prophltc,in doses/frs,o/t No 30.02/05/06"
+},
+"exports:3004.50.10:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00",
+"proposed_successor_description": "Vitamins and their derivatives,in dosage"
+},
+"exports:3004.50.20:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00",
+"proposed_successor_description": "Vitamins and their derivatives,in dosage"
+},
+"exports:3004.90.00:2017-12": {
+"decision": "second",
+"proposed_successor": "3004.60.00",
+"proposed_successor_description": "Medicaments,cont antimalarial active principles,in doses/frs,o/t No 30.02/05/06"
+},
+"exports:3004.90.10:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00",
+"proposed_successor_description": "Medicaments nes, in dosage"
+},
+"exports:3004.90.20:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00",
+"proposed_successor_description": "Medicaments nes, in dosage"
+},
+"exports:3006.20.00:2021-12": {
+"decision": "reject",
+"proposed_successor": "3006.30.00",
+"proposed_successor_description": "Opacifying prep, x-ray; diagnostic reagents, designed for admin to patients"
+},
+"exports:3006.80.00:2006-12": {
+"decision": "accept",
+"proposed_successor": "3006.92.00",
+"proposed_successor_description": "Waste pharmaceuticals, nes"
+},
+"imports:3001.10.00.10:2006-12": {
+"decision": "accept",
+"proposed_successor": "3001.90.00.90",
+"proposed_successor_description": "Heparin & its salts; human or animal substances for therap or prophltc uses, nes"
+},
+"imports:3001.10.00.90:2006-12": {
+"decision": "accept",
+"proposed_successor": "3001.90.00.90",
+"proposed_successor_description": "Heparin & its salts; human or animal substances for therap or prophltc uses, nes"
+},
+"imports:3001.90.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3001.90.00.10",
+"proposed_successor_description": "Heparin and its salts"
+},
+"imports:3001.90.20.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3001.90.00.20",
+"proposed_successor_description": "Bone, organs & o human/animal tissue, living/preserved,for grafting/implantation"
+},
+"imports:3001.90.90.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3001.90.00.90",
+"proposed_successor_description": "Other human or animal subs prepared for therapeutic or prophylactic uses, nes"
+},
+"imports:3002.10.00.30:2016-12": {
+"decision": "accept",
+"proposed_successor": "3002.12.00.19",
+"proposed_successor_description": "Human antisera and other human blood fractions, nes"
+},
+"imports:3002.10.00.90:2016-12": {
+"decision": "accept",
+"proposed_successor": "3002.19.00.00",
+"proposed_successor_description": "Immunological products, nes, w/n modified/obtained by biotechnological processes"
+},
+"imports:3002.10.10.10:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.10",
+"proposed_successor_description": "Antisera & o blood fractions, human origin, for diagnostic use"
+},
+"imports:3002.10.10.21:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.21",
+"proposed_successor_description": "Blood plasma, for therapeutic or prophylactic use in humans"
+},
+"imports:3002.10.10.22:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.22",
+"proposed_successor_description": "Normal serum globulin, for therapeutic or prophylactic use in humans"
+},
+"imports:3002.10.10.23:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.23",
+"proposed_successor_description": "Immune serum globulin, for therapeutic or prophylactic use in humans"
+},
+"imports:3002.10.10.29:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.29",
+"proposed_successor_description": "Antisera & o blood fract, human orig, therapeutic/prophylactic use in humans,nes"
+},
+"imports:3002.10.10.90:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.30",
+"proposed_successor_description": "Antisera & o blood fractions, of human origin, for other uses"
+},
+"imports:3002.10.21.10:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.41",
+"proposed_successor_description": "Bovine albumin, for parenteral administration in humans"
+},
+"imports:3002.10.21.20:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.42",
+"proposed_successor_description": "Sera and antisera, of animal origin, for parenteral administration in humans"
+},
+"imports:3002.10.21.90:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.49",
+"proposed_successor_description": "Blood albumin nes, of animal origin, for parenteral administration in humans"
+},
+"imports:3002.10.29.10:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.51",
+"proposed_successor_description": "Blood fractions, nes, for use in humans"
+},
+"imports:3002.10.29.20:1991-04": {
+"decision": "accept",
+"proposed_successor": "3002.10.29.90",
+"proposed_successor_description": "Blood fractions, nes"
+},
+"imports:3002.10.29.90:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.10.00.59",
+"proposed_successor_description": "Blood fractions, nes"
+},
+"imports:3002.11.00.00:2021-12": {
+"decision": "reject",
+"proposed_successor": "3002.12.00.29",
+"proposed_successor_description": "Animal antisera and other animal blood fractions, nes"
+},
+"imports:3002.19.00.00:2021-12": {
+"decision": "reject",
+"proposed_successor": "3002.15.00.00",
+"proposed_successor_description": "Immunological products, put up in measured doses/forms/packings, for retail sale"
+},
+"imports:3002.20.00.10:2021-12": {
+"decision": "accept",
+"proposed_successor": "3002.41.00.10",
+"proposed_successor_description": "Vaccines, for against influenza virus, human medicine"
+},
+"imports:3002.20.00.90:2021-12": {
+"decision": "reject",
+"proposed_successor": "3002.41.00.10",
+"proposed_successor_description": "Vaccines, for against influenza virus, human medicine"
+},
+"imports:3002.30.00.10:2021-12": {
+"decision": "accept",
+"proposed_successor": "3002.42.00.10",
+"proposed_successor_description": "Vaccines agnst foot and mth disse;vacc prepr for parentl admin;bovi intrnsl vacc"
+},
+"imports:3002.30.00.90:2021-12": {
+"decision": "accept",
+"proposed_successor": "3002.42.00.90",
+"proposed_successor_description": "Vaccines, veterinary use, nes"
+},
+"imports:3002.30.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.30.00.10",
+"proposed_successor_description": "Vacc agnst foot and mth disse; vacc prepr for parentl admin; bovi intrnsl vacc"
+},
+"imports:3002.30.90.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.30.00.90",
+"proposed_successor_description": "Vaccines, veterinary use, nes"
+},
+"imports:3002.31.00.00:1995-07": {
+"decision": "accept",
+"proposed_successor": "3002.30.90.00",
+"proposed_successor_description": "Vaccines, veterinary use, nes"
+},
+"imports:3002.39.10.00:1995-12": {
+"decision": "accept",
+"proposed_successor": "3002.30.10.00",
+"proposed_successor_description": "Vacc agnst foot and mth disse; vacc prepr for parentl admin; bovi intrnsl vacc"
+},
+"imports:3002.39.90.00:1995-12": {
+"decision": "accept",
+"proposed_successor": "3002.30.90.00",
+"proposed_successor_description": "Vaccines, veterinary use, nes"
+},
+"imports:3002.90.00.10:2021-12": {
+"decision": "reject",
+"proposed_successor": "3002.90.00.20",
+"proposed_successor_description": "Toxoids, antitoxins, viruses, bacteriophage and bacterial lysates"
+},
+"imports:3002.90.00.50:2021-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.90",
+"proposed_successor_description": "Human blood;animal blood therap/diag,etc;antisera,etc;vaccines,etc;cell cult,nes"
+},
+"imports:3002.90.00.99:2016-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.90",
+"proposed_successor_description": "Human blood;animal blood for therap/prophltc/diagnostic uses;toxins,sim prod,nes"
+},
+"imports:3002.90.10.10:1996-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.19",
+"proposed_successor_description": "Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates, nes"
+},
+"imports:3002.90.10.11:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.11",
+"proposed_successor_description": "Ricin"
+},
+"imports:3002.90.10.19:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.19",
+"proposed_successor_description": "Toxins, toxoids, antitoxins, viruses, bacteriophage and bacterial lysates, nes"
+},
+"imports:3002.90.10.20:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.20",
+"proposed_successor_description": "Butter-making ferment cultures"
+},
+"imports:3002.90.10.30:1997-12": {
+"decision": "reject",
+"proposed_successor": "3002.90.00.93",
+"proposed_successor_description": "Antiallergenic preparations of microbial origin"
+},
+"imports:3002.90.10.40:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.30",
+"proposed_successor_description": "Dried blood of animal origin"
+},
+"imports:3002.90.90.10:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.91",
+"proposed_successor_description": "Bacteria culture inoculants for seeds"
+},
+"imports:3002.90.90.20:1997-06": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.92",
+"proposed_successor_description": "Whole human blood"
+},
+"imports:3002.90.90.30:1997-09": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.93",
+"proposed_successor_description": "Antiallergenic preparations of microbial origin"
+},
+"imports:3002.90.90.90:1997-12": {
+"decision": "accept",
+"proposed_successor": "3002.90.00.99",
+"proposed_successor_description": "Human blood, animal blood for therap, prophltc or diag uses, microbial prep, nes"
+},
+"imports:3003.31.10.00:1997-10": {
+"decision": "accept",
+"proposed_successor": "3003.31.00.10",
+"proposed_successor_description": "Insulin, prepared for parenteral administration in humans, in bulk"
+},
+"imports:3003.31.91.00:1990-05": {
+"decision": "accept",
+"proposed_successor": "3003.31.99.00",
+"proposed_successor_description": "Insulin, formulated, in bulk, nes"
+},
+"imports:3003.31.99.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3003.31.00.90",
+"proposed_successor_description": "Insulin, formulated, in bulk, nes"
+},
+"imports:3003.39.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3003.39.00.10",
+"proposed_successor_description": "Epinephrine & its solutions, prepared for parenteral admin in humans, in bulk"
+},
+"imports:3003.39.91.00:1997-07": {
+"decision": "accept",
+"proposed_successor": "3003.39.00.90",
+"proposed_successor_description": "Hormones, nes, not containing antibiotics, in bulk, o/t contraceptives"
+},
+"imports:3003.39.99.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3003.39.00.90",
+"proposed_successor_description": "Hormones, nes, not containing antibiotics, in bulk, o/t contraceptives"
+},
+"imports:3003.40.00.00:2016-12": {
+"decision": "accept",
+"proposed_successor": "3003.49.00.00",
+"proposed_successor_description": "Medi,cont alkaloids/deriv t/o,nes,mix,f therap/prophltc,nfrs,o/t No 30.02/05/06"
+},
+"imports:3003.40.10.00:1993-08": {
+"decision": "accept",
+"proposed_successor": "3003.40.90.00",
+"proposed_successor_description": "Alkaloids or their derivs, formltd, not cont antibiotics or horm, in bulk, nes"
+},
+"imports:3003.40.90.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3003.40.00.00",
+"proposed_successor_description": "Alkaloids or their derivs, formulated, not cont antibiotics/hormones, in bulk"
+},
+"imports:3003.42.00.00:2024-01": {
+"decision": "reject",
+"proposed_successor": "3003.41.00.00",
+"proposed_successor_description": "Medicaments,cont ephedrin/salts,mix,therap/prophltc uses,nfrs,o/t No 30.02/05/06"
+},
+"imports:3003.90.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3003.90.00.10",
+"proposed_successor_description": "Fractioned soya oil emulsions, prepr for parenteral admin; mx of amino acids,etc"
+},
+"imports:3003.90.91.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3003.90.00.20",
+"proposed_successor_description": "Medicaments, nes, cont more than 23% of absolute ethyl alcohol by volume,in bulk"
+},
+"imports:3003.90.99.00:1994-12": {
+"decision": "accept",
+"proposed_successor": "3003.90.99.90",
+"proposed_successor_description": "Medicaments nes, formulated, in bulk"
+},
+"imports:3003.90.99.10:1997-12": {
+"decision": "accept",
+"proposed_successor": "3003.90.00.91",
+"proposed_successor_description": "Medicaments containing acetaminophen, in bulk"
+},
+"imports:3003.90.99.90:1997-12": {
+"decision": "accept",
+"proposed_successor": "3003.90.00.99",
+"proposed_successor_description": "Medicaments nes, formulated, in bulk"
+},
+"imports:3004.10.00.14:1991-12": {
+"decision": "accept",
+"proposed_successor": "3004.10.00.13",
+"proposed_successor_description": "Amoxycillin for human use, in dosage"
+},
+"imports:3004.20.00.42:1990-07": {
+"decision": "second",
+"proposed_successor": "3004.20.00.41",
+"proposed_successor_description": "Gentamycins, for human use, in dosage"
+},
+"imports:3004.20.00.52:1996-11": {
+"decision": "second",
+"proposed_successor": "3004.20.00.63",
+"proposed_successor_description": "Vancomycin, for human use, in dosage"
+},
+"imports:3004.20.00.64:1991-12": {
+"decision": "second",
+"proposed_successor": "3004.20.00.63",
+"proposed_successor_description": "Vancomycin, for human use, in dosage"
+},
+"imports:3004.20.00.65:1989-04": {
+"decision": "accept",
+"proposed_successor": "3004.20.00.64",
+"proposed_successor_description": "Lincomycin, for human use, in dosage"
+},
+"imports:3004.20.00.66:1991-01": {
+"decision": "second",
+"proposed_successor": "3004.20.00.31",
+"proposed_successor_description": "Erythromycin, for human use, in dosage"
+},
+"imports:3004.20.00.70:1988-12": {
+"decision": "accept",
+"proposed_successor": "3004.20.00.79",
+"proposed_successor_description": "Antibiotics, nes, for vet use, in dosage"
+},
+"imports:3004.31.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.31.00.10",
+"proposed_successor_description": "Insulin, w/n mixed w zinc, globin or protamine, prepr for parentl admin, in dos"
+},
+"imports:3004.31.99.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.31.00.90",
+"proposed_successor_description": "Insulin, nes, for human use, in dosage"
+},
+"imports:3004.32.00.10:2001-12": {
+"decision": "second",
+"proposed_successor": "3004.32.00.20",
+"proposed_successor_description": "Corticosteriod hormones, for veterinary use, in dosage"
+},
+"imports:3004.32.00.81:2001-12": {
+"decision": "accept",
+"proposed_successor": "3004.32.00.11",
+"proposed_successor_description": "Hydrocortisone, for human use, in dosage"
+},
+"imports:3004.32.00.82:2001-11": {
+"decision": "accept",
+"proposed_successor": "3004.32.00.11",
+"proposed_successor_description": "Hydrocortisone, for human use, in dosage"
+},
+"imports:3004.32.00.89:2001-12": {
+"decision": "reject",
+"proposed_successor": "3004.32.00.11",
+"proposed_successor_description": "Hydrocortisone, for human use, in dosage"
+},
+"imports:3004.32.00.90:2001-12": {
+"decision": "accept",
+"proposed_successor": "3004.32.00.20",
+"proposed_successor_description": "Corticosteriod hormones, for veterinary use, in dosage"
+},
+"imports:3004.32.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.32.00.10",
+"proposed_successor_description": "Adrenal cortical horm, cont more than 23% of abs ethyl alc by vol, in dosage"
+},
+"imports:3004.32.90.11:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.32.00.81",
+"proposed_successor_description": "Hydrocortisone, for human use, in dosage"
+},
+"imports:3004.32.90.12:1997-06": {
+"decision": "second",
+"proposed_successor": "3004.32.00.81",
+"proposed_successor_description": "Hydrocortisone, for human use, in dosage"
+},
+"imports:3004.32.90.19:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.32.00.89",
+"proposed_successor_description": "Adrenal cortical hormones, nes, for human use, in dosage"
+},
+"imports:3004.32.90.20:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.32.00.90",
+"proposed_successor_description": "Adrenal cortical hormones, for vet use, in dosage"
+},
+"imports:3004.39.00.10:2011-12": {
+"decision": "accept",
+"proposed_successor": "3004.39.00.11",
+"proposed_successor_description": "Medi,cont epinephrine/solutions/pituitary extracts,doses/frs,o/t No 30.02/05/06"
+},
+"imports:3004.39.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.39.00.10",
+"proposed_successor_description": "Epinephrine & its sol & pituitary extrc, prepr for parentl admin in hum, in dos"
+},
+"imports:3004.39.91.00:1997-09": {
+"decision": "accept",
+"proposed_successor": "3004.39.00.85",
+"proposed_successor_description": "Hormones, nes, for human use, in dosage"
+},
+"imports:3004.39.99.10:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.39.00.81",
+"proposed_successor_description": "Anterior pituitary hormones, for human use, in dosage"
+},
+"imports:3004.39.99.20:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.39.00.82",
+"proposed_successor_description": "Posterior pituitary hormones, for human use, in dosage"
+},
+"imports:3004.39.99.30:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.39.00.83",
+"proposed_successor_description": "Unmixed single estrogens, for human use, in dosage"
+},
+"imports:3004.39.99.40:1997-11": {
+"decision": "accept",
+"proposed_successor": "3004.39.00.84",
+"proposed_successor_description": "Unmixed single progestational hormones, for human use, in dosage"
+},
+"imports:3004.39.99.50:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.39.00.85",
+"proposed_successor_description": "Hormones, nes, for human use, in dosage"
+},
+"imports:3004.39.99.60:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.39.00.90",
+"proposed_successor_description": "Hormones, nes, for vet use, in dosage"
+},
+"imports:3004.40.00.90:2016-12": {
+"decision": "accept",
+"proposed_successor": "3004.49.00.90",
+"proposed_successor_description": "Medi,cont alkaloids/deriv t/o,nes,therap/prophltc,doses/frs,o/t No 30.02/05/06"
+},
+"imports:3004.40.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.40.00.80",
+"proposed_successor_description": "Narcotic veg alkaloids or their narc derivs, nes, for human use, in dosage"
+},
+"imports:3004.40.90.11:1996-12": {
+"decision": "second",
+"proposed_successor": "3004.40.90.20",
+"proposed_successor_description": "Quinidine sulphate, for human use, in dosage"
+},
+"imports:3004.40.90.19:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.40.00.10",
+"proposed_successor_description": "Codeine or its derivatives, for human use, in dosage"
+},
+"imports:3004.40.90.20:1997-07": {
+"decision": "reject",
+"proposed_successor": "3004.40.00.20",
+"proposed_successor_description": "Vincristine, for human use, in dosage"
+},
+"imports:3004.40.90.30:1997-11": {
+"decision": "accept",
+"proposed_successor": "3004.40.00.20",
+"proposed_successor_description": "Vincristine, for human use, in dosage"
+},
+"imports:3004.40.90.40:1997-11": {
+"decision": "accept",
+"proposed_successor": "3004.40.00.30",
+"proposed_successor_description": "Theophylline, for human use, in dosage"
+},
+"imports:3004.40.90.50:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.40.00.40",
+"proposed_successor_description": "Morphine or its derivs, for human use, in dosage"
+},
+"imports:3004.40.90.60:1994-03": {
+"decision": "reject",
+"proposed_successor": "3004.40.90.50",
+"proposed_successor_description": "Morphine or its derivs, for human use, in dosage"
+},
+"imports:3004.40.90.70:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.40.00.50",
+"proposed_successor_description": "Aminophylline, for human use, in dosage"
+},
+"imports:3004.40.90.80:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.40.00.80",
+"proposed_successor_description": "Narcotic veg alkaloids or their narc derivs, nes, for human use, in dosage"
+},
+"imports:3004.40.90.90:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.40.00.90",
+"proposed_successor_description": "Non-narc veg alkaloids or their non-narc derivs, nes, for human use, in dosage"
+},
+"imports:3004.50.00.20:2011-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.19",
+"proposed_successor_description": "Other medicaments cont vitamins and their derivs, for human use, in dosage,nes"
+},
+"imports:3004.50.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.10",
+"proposed_successor_description": "Mx of amino acids & vitamins,& mx of amino acids, protein hydrolysates & vit,etc"
+},
+"imports:3004.50.91.00:1997-06": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.20",
+"proposed_successor_description": "Vitamins, cont more than 23% of abs ethyl alc by vol, for human use, in dosage"
+},
+"imports:3004.50.99.11:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.31",
+"proposed_successor_description": "Vitamin C only, for human use, in dosage"
+},
+"imports:3004.50.99.12:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.32",
+"proposed_successor_description": "Vitamin E only, for human use, in dosage"
+},
+"imports:3004.50.99.19:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.39",
+"proposed_successor_description": "Single vitamin only, nes, for human use, in dosage"
+},
+"imports:3004.50.99.20:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.40",
+"proposed_successor_description": "Single vitamin mixed w o supplements, for human use, in dosage"
+},
+"imports:3004.50.99.21:1989-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.99.41",
+"proposed_successor_description": "Vitamins-iron preparation, for human use, in dosage"
+},
+"imports:3004.50.99.22:1989-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.99.30",
+"proposed_successor_description": "Multivitamins not mixed with o supplements, for human use, in dosage"
+},
+"imports:3004.50.99.29:1989-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.99.49",
+"proposed_successor_description": "Multivitamins mixed with other supplements, nes, for human use, in dosage,"
+},
+"imports:3004.50.99.30:1989-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.99.50",
+"proposed_successor_description": "Vitamins & their derivs, nes, for vet use, in dosage"
+},
+"imports:3004.50.99.30:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.50",
+"proposed_successor_description": "Multivitamins not mixed with o supplements, for human use, in dosage"
+},
+"imports:3004.50.99.41:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.61",
+"proposed_successor_description": "Vitamins-iron preparation, for human use, in dosage"
+},
+"imports:3004.50.99.49:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.69",
+"proposed_successor_description": "Multivitamins mixed with other supplements, nes, for human use, in dosage,"
+},
+"imports:3004.50.99.50:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.50.00.70",
+"proposed_successor_description": "Vitamins & their derivs, nes, for vet use, in dosage"
+},
+"imports:3004.90.00.20:2011-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.79",
+"proposed_successor_description": "Other medicaments, for human use, in dosage, nes"
+},
+"imports:3004.90.00.31:2017-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.22",
+"proposed_successor_description": "Analgesics, for human use, in doses/packings for retail sale, o/t No 30.02/05/06"
+},
+"imports:3004.90.00.32:2017-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.23",
+"proposed_successor_description": "Antidepressants & tranquilizers,f human use,in doses/pack frs,o/t No 30.02/05/06"
+},
+"imports:3004.90.00.33:2017-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.24",
+"proposed_successor_description": "Antihypertensive agents, for human use, in doses/packings frs,o/t No 30.02/05/06"
+},
+"imports:3004.90.00.34:2017-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.25",
+"proposed_successor_description": "Antihistaminic agents, for human use, in doses/packings frs, o/t No 30.02/05/06"
+},
+"imports:3004.90.00.35:2017-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.26",
+"proposed_successor_description": "Agents,acting on central nervous system,hum use,doses/frs,o/t No 30.02/05/06,nes"
+},
+"imports:3004.90.00.36:2017-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.27",
+"proposed_successor_description": "Local anaesthetics, for human use,in doses/pack f retail sale,o/t No 30.02/05/06"
+},
+"imports:3004.90.00.39:2017-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.29",
+"proposed_successor_description": "Medi,acting on central nervous system,human use,doses/frs,o/t No 30.02/05/06,nes"
+},
+"imports:3004.90.10.10:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.11",
+"proposed_successor_description": "Mixtures of amino acids, nes, in dosage"
+},
+"imports:3004.90.10.20:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.12",
+"proposed_successor_description": "Dextrose (glucose) solutions, in dosage"
+},
+"imports:3004.90.10.90:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.19",
+"proposed_successor_description": "Mx of amino acids & protein hydrolysates, etc, in dosage, nes"
+},
+"imports:3004.90.91.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.20",
+"proposed_successor_description": "Medicaments cont more than 23% of abs ethyl alc by vol, nes, in dosage"
+},
+"imports:3004.90.99.11:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.31",
+"proposed_successor_description": "Analgesics, for human use, in dosage"
+},
+"imports:3004.90.99.12:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.32",
+"proposed_successor_description": "Antidepressants & tranquilizers, for human use, in dosage"
+},
+"imports:3004.90.99.13:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.33",
+"proposed_successor_description": "Antihypertensive agents, for human use, in dosage"
+},
+"imports:3004.90.99.14:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.34",
+"proposed_successor_description": "Antihistamines agents, for human use, in dosage"
+},
+"imports:3004.90.99.15:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.35",
+"proposed_successor_description": "Medicaments, for human use, acting on the nervous system, in dosage, nes"
+},
+"imports:3004.90.99.16:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.36",
+"proposed_successor_description": "Local anaesthetics, for human use, in dosage"
+},
+"imports:3004.90.99.19:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.39",
+"proposed_successor_description": "Medicaments, for human use, acting on the central nervous system, in dosage, nes"
+},
+"imports:3004.90.99.21:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.41",
+"proposed_successor_description": "Histamine H2 receptor antagonist, for human use, in dosage"
+},
+"imports:3004.90.99.22:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.42",
+"proposed_successor_description": "Laxatives, for human use, in dosage"
+},
+"imports:3004.90.99.23:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.43",
+"proposed_successor_description": "Antacids, for human use, in dosage"
+},
+"imports:3004.90.99.29:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.49",
+"proposed_successor_description": "Gastro-intestinal agents, for human use, in dosage, nes"
+},
+"imports:3004.90.99.30:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.50",
+"proposed_successor_description": "Medicaments, for human use, acting on the cardio-vascular system, in dosage"
+},
+"imports:3004.90.99.40:1989-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.99.49",
+"proposed_successor_description": "Anti-infective agents, for human use, in dosage, nes"
+},
+"imports:3004.90.99.41:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.61",
+"proposed_successor_description": "Anti-infective agents, cont sulfonamides, for human use, in dosage"
+},
+"imports:3004.90.99.49:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.69",
+"proposed_successor_description": "Anti-infective agents, for human use, in dosage, nes"
+},
+"imports:3004.90.99.50:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.71",
+"proposed_successor_description": "Haematological agents, for human use, in dosage"
+},
+"imports:3004.90.99.60:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.72",
+"proposed_successor_description": "Antineoplastic agents, for human use, in dosage"
+},
+"imports:3004.90.99.71:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.73",
+"proposed_successor_description": "Cough or cold preparations, for human use, in dosage"
+},
+"imports:3004.90.99.79:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.74",
+"proposed_successor_description": "Medicaments, prim affecting eyes,ears & respiratory system,human use, in dos,nes"
+},
+"imports:3004.90.99.81:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.75",
+"proposed_successor_description": "Diuretics, for human use, in dosage"
+},
+"imports:3004.90.99.82:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.76",
+"proposed_successor_description": "Medicaments affecting electrolytic, caloric/water balance, for human use, in dos"
+},
+"imports:3004.90.99.83:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.77",
+"proposed_successor_description": "Dermatological agents, for human use, in dosage"
+},
+"imports:3004.90.99.84:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.78",
+"proposed_successor_description": "Medicaments cont hyaluronic acid or its sodium salt, for human use, in dosage"
+},
+"imports:3004.90.99.89:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.79",
+"proposed_successor_description": "Medicaments nes, for human use, in dosage"
+},
+"imports:3004.90.99.91:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.81",
+"proposed_successor_description": "Anaesthetic, for veterinary use, in dosage"
+},
+"imports:3004.90.99.92:1991-06": {
+"decision": "second",
+"proposed_successor": "3004.90.99.23",
+"proposed_successor_description": "Antacids, for human use, in dosage"
+},
+"imports:3004.90.99.93:1991-06": {
+"decision": "second",
+"proposed_successor": "3004.90.99.91",
+"proposed_successor_description": "Anaesthetic, for veterinary use, in dosage"
+},
+"imports:3004.90.99.99:1997-12": {
+"decision": "accept",
+"proposed_successor": "3004.90.00.89",
+"proposed_successor_description": "Medicaments nes, for veterinary use, in dosage"
+},
+"imports:3005.10.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.10.00.10",
+"proposed_successor_description": "Dressings & sim articles having an adhesive layer, coated/impreg w pharm subs"
+},
+"imports:3005.10.91.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.10.00.91",
+"proposed_successor_description": "Adhesive dressings, nes, packaged for retail sale"
+},
+"imports:3005.10.99.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.10.00.99",
+"proposed_successor_description": "Wadding, gauze, bandages & sim articles, nes, with adhesive layer, pack ret sale"
+},
+"imports:3005.90.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.90.00.10",
+"proposed_successor_description": "Bandages & slabs of tex fab coated w plaster;o art used for orthopaedic casts"
+},
+"imports:3005.90.20.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.90.00.20",
+"proposed_successor_description": "Dressings & sim articles coated or impreg w pharm substances, nes"
+},
+"imports:3005.90.30.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.90.00.30",
+"proposed_successor_description": "Surgical dressings, not stitched or o/w mfd, not coated/impreg w pharm subs, nes"
+},
+"imports:3005.90.91.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.90.00.40",
+"proposed_successor_description": "Dressings/sim art of woven fab o/t of cotton; of knit fab, n-wov or felts, nes"
+},
+"imports:3005.90.92.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.90.00.50",
+"proposed_successor_description": "Dressings and sim articles of woven fabric solely of cotton, nes"
+},
+"imports:3005.90.93.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.90.00.60",
+"proposed_successor_description": "Dressings and similar articles of paper, nes"
+},
+"imports:3005.90.99.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3005.90.00.90",
+"proposed_successor_description": "Dressings and similar articles packaged for medical use, nes"
+},
+"imports:3006.20.00.20:2021-12": {
+"decision": "reject",
+"proposed_successor": "3006.30.00.10",
+"proposed_successor_description": "Opacifying, preparations for X-ray examinations"
+},
+"imports:3006.20.00.90:2021-12": {
+"decision": "reject",
+"proposed_successor": "3006.30.00.10",
+"proposed_successor_description": "Opacifying, preparations for X-ray examinations"
+},
+"imports:3006.20.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.20.00.10",
+"proposed_successor_description": "Blood-grouping reagents, of human origin"
+},
+"imports:3006.20.20.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.20.00.20",
+"proposed_successor_description": "Blood-grouping reagents, of animal origin"
+},
+"imports:3006.20.90.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.20.00.90",
+"proposed_successor_description": "Blood-grouping reagents, except of human or animal origin"
+},
+"imports:3006.30.10.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.30.00.10",
+"proposed_successor_description": "Opacifying preparations for X-ray examinations"
+},
+"imports:3006.30.91.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.30.00.20",
+"proposed_successor_description": "Allergenics prepared for parenteral administration"
+},
+"imports:3006.30.99.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.30.00.90",
+"proposed_successor_description": "Diagnostic reagents designed to be administered to the patient, nes"
+},
+"imports:3006.40.10.10:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.40.00.10",
+"proposed_successor_description": "Dental cements and bone reconstruction cements"
+},
+"imports:3006.40.10.20:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.40.00.20",
+"proposed_successor_description": "Points for filling dental root canals"
+},
+"imports:3006.40.20.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.40.00.30",
+"proposed_successor_description": "Dental fillings of composition metals, except those in powder or pellet form"
+},
+"imports:3006.40.90.00:1997-12": {
+"decision": "accept",
+"proposed_successor": "3006.40.00.90",
+"proposed_successor_description": "Dental fillings, nes"
+},
+"imports:3006.80.11.00:2006-12": {
+"decision": "reject",
+"proposed_successor": "3006.70.10.00",
+"proposed_successor_description": "Chem/biolog prep,incl kits cont ancill mat f med diag;f insemination anml semen"
+},
+"imports:3006.80.19.00:2006-12": {
+"decision": "reject",
+"proposed_successor": "3006.70.90.00",
+"proposed_successor_description": "Gel prep f human/vet medicine as lub f parts of body f oper/examination,etc,nes"
+},
+"imports:3006.80.90.10:2005-10": {
+"decision": "reject",
+"proposed_successor": "3006.80.90.20",
+"proposed_successor_description": "Waste pharmaceuticals of the goods of heading 30.02"
+},
+"imports:3006.80.90.20:2005-11": {
+"decision": "reject",
+"proposed_successor": "3006.80.90.50",
+"proposed_successor_description": "Waste pharmaceuticals of the goods of heading 30.05"
+},
+"imports:3006.80.90.30:2005-01": {
+"decision": "reject",
+"proposed_successor": "3006.80.90.10",
+"proposed_successor_description": "Waste pharmaceuticals of the goods of heading 30.01"
+},
+"imports:3006.80.90.41:2006-10": {
+"decision": "second",
+"proposed_successor": "3006.80.90.50",
+"proposed_successor_description": "Waste pharmaceuticals of the goods of heading 30.05"
+},
+"imports:3006.80.90.42:2006-04": {
+"decision": "second",
+"proposed_successor": "3006.80.90.41",
+"proposed_successor_description": "Waste pharmaceuticals of the goods of subheadings 3004.10 to 3004.39"
+},
+"imports:3006.80.90.43:2005-08": {
+"decision": "reject",
+"proposed_successor": "3006.80.90.10",
+"proposed_successor_description": "Waste pharmaceuticals of the goods of heading 30.01"
+},
+"imports:3006.80.90.50:2006-12": {
+"decision": "accept",
+"proposed_successor": "3006.92.00.00",
+"proposed_successor_description": "Waste pharmaceuticals, nes"
+},
+"imports:3006.80.90.60:2006-12": {
+"decision": "accept",
+"proposed_successor": "3006.92.00.00",
+"proposed_successor_description": "Waste pharmaceuticals, nes"
+}
+}
